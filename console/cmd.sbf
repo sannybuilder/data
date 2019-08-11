@@ -1,0 +1,14 @@
+0=debug_mode
+1=code_offsets
+2=ignore_unknown
+3=var_counter
+4=constant_indexes
+5=skip_scm_header
+
+110=HELP
+120=LIST
+121=OPTIONS
+130=CLEAR
+140=TOGGLE
+
+

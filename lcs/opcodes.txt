@@ -1,0 +1,1115 @@
+0001: wait 0 ms 
+0002: jump @MAIN_101 
+0003: shake_camera 600 ms 
+0004: $3 = 1 
+0005: $1098 = 100.0 
+0006: 10@ = 0 
+0007: 13@ = 0 
+0008: $1393 += 1 
+0009: $546 += 10.0 
+000A: 5@ += 1 
+000B: 3@ += 2.0 
+000C: $1394 -= 1 
+000D: $543 -= 10.0 
+000E: 6@ -= 1 
+000F: 4@ -= 1.0 
+0010: $2222 *= 60000 
+0011: $3984 *= 1000.0 
+0012: 1@ *= 2 
+0013: 1@ *= 255.0 
+0014: $2216 /= 60000 
+0015: $4010 /= 2.0 
+0016: 1@ /= 2 
+0017: 1@ /= 1000.0 
+0018:   $2013 > 0 
+0019:   10@ > 8000 
+001A:   2 > $4 
+001B:   10000 > 10@ 
+001C:   $1442(1@,4) > $1442(0@,4) // $ > $ (int) 
+001D:   4@ > 5@ // @ > @ (int) 
+001E:   $1515 > 6@ // $ > @ (int) 
+001F:   21@ > $1474(0@,4) // @ > $ (int) 
+0020:   $1454(0@,4) > 0 
+0021:   10@ > -190.0 
+0022:   1.5 > $549 
+0023:   -170.0 > 10@ 
+0024:   $551 > $550 // $ > $ (float) 
+0025:   11@ > 12@ // @ > @ (float) 
+0026:   $1502(5@,4) > 2@ // $ > @ (float) 
+0027:   2@ > $1506(5@,4) // @ > $ (float) 
+0028:   $299 >= 4 
+0029:   0@ >= 0 
+002A:   -1 >= $1514 
+002B:   5 >= 0@ 
+002C:   $1393 >= $1392 // $ >= $ (int) 
+002D:   1@ >= 0@ // @ >= @ (int) 
+002E:   $2292 >= 1@ // $ >= @ (int) 
+002F:   7@ >= $1798 // @ >= $ (int) 
+0030:   $1088 >= 100.0 
+0031:   16@ >= 360.0 
+0032:   0 >= $2028 
+0033:   -100.0 >= 5@ 
+0038:   $2 == 0 
+0039:   0@ == 0 
+003A:   $1392 == $1393 // $ == $ (int) 
+003B:   0@ == 1@ // @ == @ (int) 
+003C:   $1400(2@,2) == 0@ // $ == @ (int) 
+0042:   $1880 == 1250.4 
+0043:   3@ == -100.0 
+0044:   $4036(10@,9) == $3982(10@,9) // $ == $ (float) 
+004C: (unknown) @RAC1_430 
+004D: jump_if_false @MAIN_1531 
+004E: end_thread 
+004F: create_thread @NONAME_1 
+0050: gosub @NONAME_1_1163 
+0051: return 
+0052: (unknown) 13@ 14@ 15@ $2031 $2032 $2033 
+0053: $PLAYER_CHAR = create_player 0 at $537 $538 $539 
+0054: store_player $PLAYER_CHAR position_to 2@ 3@ 4@ 
+0055: put_player $PLAYER_CHAR at 1030.63 -650.2 15.1 
+0056:   player $PLAYER_CHAR in_rectangle 1250.178 -1054.237 1258.307 -1045.706 sphere 0 
+0057:   player $PLAYER_CHAR in_cube 266.83 -610.93 25.0 306.31 -479.92 30.0 sphere 0 
+0058: $534 += $2729 // $ += $ (int) 
+0059: $2747 += $2750 // $ += $ (float) 
+005A: 0@ += 3@ // @ += @ (int) 
+005B: 6@ += 3@ // @ += @ (float) 
+005C: 0@ += $1395 // @ += $ (int) 
+005D: 11@ += $2916 // @ += $ (float) 
+005E: $1394 += 0@ // $ += @ (int) 
+005F: $4080 += 20@ // $ += @ (float) 
+0060: $1395 -= $1394 // $ -= $ (int) 
+0061: $552 -= $551 // $ -= $ (float) 
+0062: 0@ -= 3@ // @ -= @ (int) 
+0063: 6@ -= 3@ // @ -= @ (float) 
+0064: 0@ -= $1394 // @ -= $ (int) 
+0065: 3@ -= $1454(0@,4) // @ -= $ (float) 
+0066: $1394 -= 0@ // $ -= @ (int) 
+0067: $4080 -= 20@ // $ -= @ (float) 
+0069: $4077 *= $4074 // $ *= $ (float) 
+006A: 3@ *= 1@ // @ *= @ (int) 
+006B: 6@ *= 3@ // @ *= @ (float) 
+006D: $4077 *= 43@ // $ *= @ (float) 
+006E: 75@ *= $3980 // @ *= $ (int) 
+006F: 3@ *= $1498(5@,4) // @ *= $ (float) 
+0071: $1972 /= $1098 // $ /= $ (float) 
+0072: 17@ /= 4@ // @ /= @ (int) 
+0073: 6@ /= 3@ // @ /= @ (float) 
+0074: $3934 /= 4@ // $ /= @ (int) 
+0077: 31@ /= $3986 // @ /= $ (float) 
+0078: $544 += unknown_inaccurate_float_timer -0.1 
+0079: 52@ += unknown_inaccurate_float_timer -4.5 
+007A: $3946 += unknown_inaccurate_float_timer $3949 
+0084: $1392 = $1393 // $ = $ (int) 
+0085: 1@ = 0@ // @ = @ (int) 
+0086: $537 = $7 // $ = $ (float) 
+0087: 6@ = 0@ // @ = @ (float) 
+0088: $1806 = 0@ // $ = @ (float) 
+0089: 3@ = $1490(5@,4) // @ = $ (float) 
+008A: $1395 = 1@ // $ = @ (int) 
+008B: 2@ = $1097 // @ = $ (int) 
+008C: $4036 = float_to_integer $543 
+008D: $1972 = integer_to_float $1971 
+008E: 2@ = float_to_integer $3984 
+008F: 0@ = integer_to_float $1397 
+0090: $2293 = float_to_integer 60@ 
+0091: $549 = integer_to_float 31@ 
+0092: 2@ = float_to_integer 1@ 
+0093: 1@ = integer_to_float 0@ 
+0099: $3965 = random_integer_0-to-65535 
+009A: $1524 = create_actor pedtype 5 model $1810 at 2@ 3@ 4@ 
+009B: (unknown) $1418(1@,4) 
+009C: unknown_actor 1@ set_flag -1 
+009E: unknown_actor 11@ 19@ 20@ 21@ 15.0 1 
+009F: (unknown) 3@ 
+00A0: (unknown) 1@ 3@ 4@ 5@ 
+00A1: (unknown) $PLAYER_ACTOR 1120.69 -1107.34 10.9 
+00A2:   unknown_check $1400 
+00A3:   unknown_check 0@ $4056(1@,8) $4064(1@,8) $4080(1@,8) $4088(1@,8) 0 
+00A4:   unknown_check $3940 105.0 -1394.0 10.0 108.9 -1400.3 60.0 0 
+00A5: $1414(0@,4) = create_car 1@ at $1422(0@,4) $1426(0@,4) $1430(0@,4) 
+00A6: (unknown) $1414(1@,4) 
+00A7: (unknown) $1414(0@,4) $1654(7@,35) $1689(7@,35) $1724(7@,35) 
+00A8: (unknown) $3937(6@,3) 
+00A9: (unknown) 2@ 
+00AA: (unknown) 0@ 4@ 5@ 6@ 
+00AB: put_car $1414(0@,4) at 12@ 13@ 14@ 
+00AC:   car $1414(0@,4) on_land 
+00AD: set_car $1414(0@,4) max_speed_to 0 
+00AE: set_car $1414(0@,4) to_ignore_traffic_lights 2 
+00AF: set_car $1414(0@,4) driver_behaviour_to 0 
+00B0:   car $3938 1147.4 -266.62 1163.63 -258.63 0 
+00B1:   car 1@ 28@ 29@ 30@ 31@ 32@ 33@ 1 
+00BA: text_styled 'VIC1' 1000 ms 2  // Home Sweet Home
+00BB: text 'RACE_X0' 5000 ms 1  // ~w~Get a car and head for the ~y~start line!
+00BC: text_highpriority 'RACE_X2' 5000 ms 1  // ~w~You need a car to be in this race!
+00BD: text_mediumpriority 'BENZ_GO' 3000 ms 1  // ~w~Get a change of outfit!
+00BE: text_clear_all 
+00BF: $1876 = current_time_hours, $1875 = current_time_minutes 
+00C0: set_current_time 5 30 
+00C1: 30@ = minutes_to_current_time 27@ 28@ 
+00C2:   sphere_onscreen 1065.47 -397.85 13.93 2.0 
+00C5: (unknown) 
+00C6: (unknown) 
+00DB: if and
+00DC: create_thread @MPSVCS // without extra params 
+00DD: mission_cleanup 
+00DE: get_actor $542 car_to 0@ 
+00DF: get_player $PLAYER_CHAR car_to $1414(0@,4) 
+00E0:   actor $1418(0@,4) in_car $1414(0@,4) 
+00E1:   player $PLAYER_CHAR driving $1414(0@,4) 
+00E3:   player $PLAYER_CHAR driving_vehicle_type 197 
+00E4:   actor $PLAYER_ACTOR driving 
+00E5:   player $PLAYER_CHAR driving 
+00E6:   pad 0 key_pressed 16 
+00E8:   player $PLAYER_CHAR near_point $2456(32@,15) $2471(32@,15) radius 79.0 79.0 0 
+00E9:   player $PLAYER_CHAR near_point 0@ 1@ radius 2.5 2.5 on_foot 0 
+00EA:   player $PLAYER_CHAR near_point 921.95 -339.93 radius 20.0 20.0 in_car 0 
+00EB:   player $PLAYER_CHAR stopped 22@ 23@ radius 8.0 8.0 0 
+00ED:   player $PLAYER_CHAR stopped 45@ 46@ radius 7.0 7.0 in_car 0 
+00EE:   player $PLAYER_CHAR near_actor $3940(38@,12) radius 45.0 45.0 0 
+00EF:   player $PLAYER_CHAR near_actor 0@ radius 21@ 21@ on_foot 0 
+00F0:   player $PLAYER_CHAR near_actor 45@ radius 10.0 10.0 in_car 0 
+00F1:   actor $1418(0@,4) near_point $1654(7@,35) $1689(7@,35) radius 7.0 7.0 0 
+00F2:   actor 0@(8@,5) near_point 9@ 10@ radius 20.0 on_foot 20.0 0 
+00F3:   actor $3935(1@,1) near_point 12@ 13@ radius 11@ in_car 11@ 0 
+00F7:   actor 21@ near_actor $1418(7@,4) radius 3.0 3.0 0 
+00F8:   actor 40@ near_actor 61@ radius 70.0 70.0 on_foot 0 
+00FA:   player $PLAYER_CHAR near_point $1422(3@,4) $1426(3@,4) $1430(3@,4) radius 3.5 3.5 10.0 1 
+00FB:   player $PLAYER_CHAR near_point_on_foot $1107 $1108 $1109 radius 2.0 2.0 5.0 0 
+00FC:   player $PLAYER_CHAR near_point_in_car $662 $688 $714 radius $740 $766 $792 9@ 
+00FE:   player $PLAYER_CHAR stopped_on_foot 1069.11 -398.86 14.21 radius 1.0 1.0 5.0 1 
+00FF:   player $PLAYER_CHAR stopped_in_car 11@ 12@ 13@ radius 7.0 7.0 2.0 0 
+0100:   player $PLAYER_CHAR near_actor $3934 radius 15.0 15.0 15.0 0 
+0102:   player $PLAYER_CHAR near_actor_in_car $3936(46@,12) radius 10.0 10.0 2.0 0 
+0103:   actor 9@ near_point 36@ 37@ 19.81 radius 4.0 4.0 4.0 1 
+0104:   actor 13@ near_point_on_foot $3969 $3970 $3971 radius 3.0 3.0 2.0 0 
+0105:   actor $542 near_point_in_car 72.8 -1394.3 25.2 radius 4.0 4.0 4.0 sphere 1 
+0109:   actor $542 near_actor 4@ radius 10.0 10.0 5.0 sphere 0 
+010A: (unknown) $4020(73@,20) $542 12.0 12.0 12.0 0 
+010C: $1130 = create_object #LEARJET_SPECIAL at -1387.26 -625.24 10.0766 
+010D: destroy_object $1238 
+010E: player $PLAYER_CHAR money += 250 
+010F:   player $PLAYER_CHAR money > 239 
+0110: get_player $PLAYER_CHAR money_to $161 
+0111: put_player_into_rc_buggy $PLAYER_CHAR at 1026.3 -782.1 14.0 0 0@ 
+0112: set_player $PLAYER_CHAR wanted_level_to 0 
+0113: set_player $PLAYER_CHAR minimum_wanted_level_to 1 
+0114:   player $PLAYER_CHAR wanted_level > 0 
+0115: clear_player $PLAYER_CHAR wanted_level 
+0116: toggle_wasted_busted_check 0 
+0117:   wasted_or_busted 
+011B:   unknown_player_check $PLAYER_CHAR 
+011C:   player $PLAYER_CHAR wasted 
+011D:   actor $1400(0@,2) dead 
+011E:   car $1414(4@,4) wrecked 
+011F: set_actor 0@ unknown_flag 1 
+0121: actor $PLAYER_ACTOR clear_objective 
+0126:   player $PLAYER_CHAR in_zone 'COM_EAS'  // Newport
+0127:   player $PLAYER_CHAR pressing_horn 
+0128:   actor $2971(46@,10) spotted_player $PLAYER_CHAR 
+012B:   actor $3940 walking 
+012E: $1418(0@,4) = create_driver pedtype 4 model 2@ in_car $1414(0@,4) 
+012F: put_player $PLAYER_CHAR at $1422(3@,4) $1426(3@,4) $1430(3@,4) and_remove_from_car 
+013C:   car 0@ model == 202 
+014C: (unknown) 0@ 
+014E:   unknown_car $3943 crushed_by_car_crusher 
+0150: $3627 = init_parked_car_generator 189 -1 -1 0 alarm 0 door_lock 0 0 10000 at 999.11 -861.0 14.66 angle 90.0 
+0151: set_parked_car_generator $3700 cars_to_generate_to 101 
+0153: set_timer $3966 type 1 
+0154: stop_timer $1532 
+0156: remove_status_text $1530 
+0157: set_zone_car_info 'LITTLEI' day/night 1 30 100 0 0 0 0 0 0 0 0 20  // Saint Mark's
+0159:   actor $3940 in_zone 'PORT_W'  // Callahan Point
+015C: camera_on_player $PLAYER_CHAR 15 2 
+015D: camera_on_vehicle $1879 14 2 
+015E: camera_on_ped 3@ 15 4@ 
+015F: restore_camera 
+0161: set_zone_gang_info 'LITTLEI' day/night 1 17 100 0 0 0 0 0 0 0 0 20  // Saint Mark's
+0162: set_gamespeed 0.3 
+0164: set_camera_position 0@ 1@ 2@ 0 0 0 
+0165: point_camera 3@ 4@ 5@ 6@ 
+0169: disable_marker $1466(0@,4) 
+016A: set_marker 0@ color_to 2 
+016B: set_marker $1526 brightness_to 1 
+016C: $2113 = create_marker_at $2049 $2050 $2051 4 2 
+016D: show_on_radar $3948(46@,12) 3 
+016E: set_fade_color 0 0 1 
+016F: fade 0 1 ms 
+0170:   fading 
+0171: restart_if_wasted at 1144.3 -588.74 13.9 90.0 
+0172: restart_if_busted at 1143.9 -675.2 -100.0 90.0 
+0175: get_player $PLAYER_CHAR z_angle_to 21@ 
+0176: set_player $PLAYER_CHAR z_angle_to 90.0 
+0177: get_actor 4@ z_angle_to 22@ 
+0178: set_actor $PLAYER_ACTOR z_angle_to 180.0 
+0179: get_car 0@ z_angle_to 9@ 
+017A: set_car $1414(0@,4) z_angle_to $1805 
+017C: set_object $1238 z_angle_to 90.0 
+017D:   player $PLAYER_CHAR picked_up_object $3948(84@,12) 
+017F: set_player $PLAYER_CHAR weapon 36 ammo_to 0 
+0180: set_actor $3934 weapon 17 ammo_to 15 
+0185: set_on_mission_flag_to $ONMISSION 
+0189:   actor $3937(0@,3) health >= $3952(0@,3) 
+018A:   car $3934(0@,3) health >= $3949(0@,3) 
+018B: 0@ = create_marker_above_car $3015 
+018C: $1466(0@,4) = create_marker_above_actor $1418(0@,4) 
+018D: $3936(84@,12) = create_marker_above_object $3948(84@,12) 
+018F: $1525 = create_checkpoint_at 2@ 3@ 4@ 
+0190: show_on_radar $1466(0@,4) 1 
+0191: play_sound 10 at $1422 $1426 $1430 
+0192: $3939 = create_sound 67 at 1161.725 -1028.087 13.8436 
+0193: stop_sound $3939 
+0194:   car 0@ flipped_for_2_seconds 
+0195: add_car 0@ to_flipped_check 
+0196: remove_car 0@ from_flipped_check 
+0197: set_actor $1934 objective_to_stand_still 
+0198: set_actor 1@ objective_to_act_like_ped 
+0199: set_actor $3934(18@,8) objective_to_go_to_point 59@ 60@ 61@ 
+019B: unknown_actor 2@ 
+01B0:   car 0@ stopped 1 1133.19 46.8978 1149.19 55.8978 
+01B2:   car 0@ 0 3@ 4@ 2@ 2@ 
+01B3:   car 1@ stopped 0 31@ 32@ 15.0 15.0 
+01B4:   car 11@ 0 $3966 $3967 $3968 radius 4.0 4.0 4.0 
+01B5:   car 11@ stopped 1 1020.5 -340.0 14.1 radius 4.5 4.5 10.0 
+01B6: give_player $PLAYER_CHAR weapon 17 ammo 68 
+01B7: give_actor $1934 weapon 19 ammo 32 
+01B9: set_player $PLAYER_CHAR frozen_state 0 
+01BA: force_weather 4 
+01BB: set_weather 0 
+01BC: release_weather 
+01BD: set_player $PLAYER_CHAR armed_weapon_to 0 
+01BE: set_actor $PLAYER_ACTOR armed_weapon_to $1083 
+01C0: store_object $1234 position_to $1880 $1881 $1882 
+01C1: put_object $1254 at 1130.4 -1110.8 15.5 
+01C2: 3@ = current_time_in_ms 
+01C3: set_actor 1@ to_look_at_point 85@ 86@ 87@ 
+01C4: unknown_player $PLAYER_CHAR 11@ 12@ 13@ 
+01C5: $159 = player $PLAYER_CHAR wanted_level 
+01C6:   car $2725 stopped 
+01C7: remove_references_to_actor 2@ 
+01C8: remove_references_to_car $1878 
+01C9: remove_references_to_object $1910 
+01CA: remove_actor_from_mission_cleanup_list $1934 
+01CB: remove_car_from_mission_cleanup_list 0@ 
+01CC: remove_object_from_mission_cleanup_list $1238 
+01CD: 2@ = create_actor 18 112 in_car 1@ passenger_seat 6@ 
+01CE: set_actor $1934 kill_actor $1935 
+01CF: actor $1418(0@,4) kill_player $PLAYER_CHAR 
+01D0: set_actor $4006 kill_actor $3936 
+01D1: actor 0@(8@,5) kill_player $PLAYER_CHAR 
+01D4: unknown_actor 4@ actor $542 
+01D5: actor 0@ avoid_player $PLAYER_CHAR 
+01D6: actor $3937(2@,20) follow_actor $3935 
+01D7: actor $2782(0@,6) follow_player $PLAYER_CHAR 
+01D8: actor 11@ leave_car $2725 
+01D9: actor 11@ go_to_car $2725 and_enter_it_as_a_passenger 
+01DA: actor $1418(0@,4) go_to_and_drive_car $1414(0@,4) 
+01DE: actor 45@ run_away_from_car 1@ 
+01E3: tie_actor $3940(40@,12) to_actor $3940(38@,12) 
+01E4: tie_actor $2954(32@,3) to_player $PLAYER_CHAR 
+01E5: clear_leader $2954(46@,3) 
+01E6: set_actor $3934 follow_route 1 1 
+01E7: add_route_point 1 at 887.63 -417.2 14.09 
+01E8: text_1number_styled 'REWARD' $209 2000 ms 6  // ~w~Reward: $~1~
+01E9: text_1number_lowpriority 'PAGE_01' $2645 5000 ms 2  // Gun down ~1~ Triads in 2 minutes!
+01EA: text_1number_highpriority 'RACE_X4' 5@ 200 ms 1  // ~w~You have ~1~ seconds to find a car.
+01EB: text_1number_lowpriority 'A_TIME' 19@ 5000 ms 6  // ~w~Pickup! +~1~ seconds
+01EC: remove_forbidden_for_cars_cube -46.8 -648.0 39.0 -69.1 -614.0 50.0 
+01ED: create_forbidden_for_cars_cube -46.8 -648.0 39.0 -69.1 -614.0 50.0 
+01EE: 10@ = car 0@ num_passengers 
+01EF: 4@ = car 0@ max_passengers 
+01F0: set_car_density_to 1.0 
+01F1: make_car 1@ very_heavy 1 
+01F2: reset_actor 1@ flags 
+01F5: set_max_wanted_level_to 4 
+01F8:   car 0@ airborne 
+01F9:   car $1414(0@,4) flipped 
+01FA: $PLAYER_ACTOR = create_emulated_actor_from_player $PLAYER_CHAR 
+01FC: set_player $PLAYER_CHAR ignored_by_cops_state_to 1 
+01FE: init_rampage 'PAGE_00' weapon 27 time 120000 $2645 81 82 -1 -1 0  // .
+01FF: $1949 = rampage_status 
+0200: $4076 = square_root $4076 
+0201:   player $PLAYER_CHAR near_car 11@ radius 90.0 90.0 0 
+0203:   player $PLAYER_CHAR near_car_in_car 1@ radius 13.0 13.0 0 
+0204:   player $PLAYER_CHAR near_car $4186(73@,12) radius 25.0 25.0 25.0 unknown 0 
+0207:   actor $3940(38@,12) near_car $3937(6@,3) radius 40.0 40.0 unknown 0 
+0209:   actor 24@ near_car_in_car 1@ radius 12.0 12.0 unknown 0 
+020A:   actor $3955 near_car $3986 radius 6.0 6.0 6.0 unknown 0 
+020B:   actor $542 near_car_on_foot $4052 radius 15.0 15.0 15.0 unknown 0 
+020D: $2395 = random_float -6.0 6.0 
+020E: 24@ = random_int 0 3 
+020F: set_car $1414(0@,4) door_status_to 1 
+0210: explode_car $3943(9@,3) 
+0211: create_explosion_with_radius 3 at 12@ 13@ 14@ 
+0212:   car 0@ flipped 
+0213: actor 16@ look_at_actor 2@ 
+0214: actor $1934 look_at_player $PLAYER_CHAR 
+0215: set_player $PLAYER_CHAR look_at_actor $1934 
+0216: actor $PLAYER_ACTOR walk_to 1120.69 -1110.34 
+0218: $2257 = create_pickup #BODYARMOUR type 15 at 1148.87 -243.01 16.96 
+0219:   pickup $562(1@,100) picked_up 
+021A: destroy_pickup 0@ 
+021B: set_garage $2725 to_accept_car 1 
+021C: text_styled_highpriority 'USJ_FAL' 2000 ms 6  // ~w~UNIQUE STUNT FAILED!
+021E: $1274 = create_garage_type 19 door 1160.7 -267.5 16.25 to 1160.7 -273.7 19.25 depth 1156.0 -267.5 
+0220: (unknown) $1266 0 
+0221:   unknown_check $1266 
+0222: set_free_bomb_shop_to 1 
+0226: set_player $PLAYER_CHAR trapped_in_car 0 
+0227: set_player $PLAYER_CHAR health_to 100 
+0228: set_actor $1418(0@,4) health_to 500 
+0229: set_car $1414(0@,4) health_to 1000 
+022A: 15@ = player $PLAYER_CHAR health 
+022B: $3935 = actor $3934 health 
+022C: 19@ = car 0@ health 
+022D:   car 10@ bomb_status == 3 
+022E: set_car $1414(0@,4) color_to 0@ 0@ 
+022F: remove_forbidden_for_peds_cube 1092.05 -1110.25 10.0 1182.05 -1090.25 30.0 
+0230: create_forbidden_for_peds_cube 1092.05 -1110.25 10.0 1182.05 -1090.25 30.0 
+0231: set_actor $3937 to_look_at_actor $PLAYER_ACTOR 
+0232: set_actor $1934 to_look_at_player $PLAYER_CHAR 
+0233: set_player $PLAYER_CHAR look_at_actor 2@ 
+0234: set_actor 7@ stop_looking 
+0235: set_player $PLAYER_CHAR stop_looking 
+023A: set_gang 0 models_to 79 80 
+023B: set_gang 0 car_to 172 
+023C: set_gang 0 primary_weapon_to 17 secondary_weapon_to 17 
+023E: actor $3940(38@,12) run_to $3969 $3970 
+0241: load_special_actor 9 'GUN_ASS' 
+0242:   special_actor 9 loaded 
+0247: set_car 11@ bomb_status_to 3 
+0248: set_actor 0@ ped_stats_to 18 
+024A: set_actor $3934(10@,9) walk_style_to 38 
+024C: request_model 0@ 
+024D:   model 277 available 
+024E: release_model $1810 
+024F: $1255 = create_phone_at 1224.46 -839.78 
+0253: disable_phone $1255 
+0254: create_corona 0.5 6 0 with_color 0 80 80 at_point 13@ 14@ 15@ 
+0256: (unknown) 
+025A: set_critical_mission_restart_at 1453.05 -194.17 55.57 angle 0 
+025B:   player $PLAYER_CHAR defined 
+025E: (unknown) 10@ 
+0266: (unknown) 1@ 2@ 
+0268: (unknown) 51@ 27@ 
+027C: (unknown) 980.0 -388.0 50.0 1@ 
+027E: (unknown) 1@ 
+0296: set_actor 0@ shooting_fear_behavior_flag 1 
+0298: $10 = current_controls 
+0299: unknown_car 58@ flag 0 
+029B: unload_special_actor 9 
+029C: clear_rampage_kills 
+029D: 4@ = rampage_kills 81 
+02A0: $1238 = init_object #SUBWAYGATE at 988.963 -471.778 5.2 
+02A1:   0@ stopped 
+02A4:   player $PLAYER_CHAR stopped 
+02A5:   actor 8@ stopped 
+02A6: (unknown) 500 1 
+02A8: toggle_widescreen 1 
+02AC: $2303 = create_icon_marker_and_sphere 40 at 0@ 1@ 2@ 
+02AD: $1149 = create_marker 16 at 1070.074 -399.483 14.205 
+02AE: set_actor $1418(0@,4) immune_to_nonplayer 1 
+02AF: set_car $1414(0@,4) immune_to_nonplayer 1 
+02B0: set_actor 4@ immunities 0 1 1 1 1 
+02B1: set_car $1414(0@,4) immunities 0 1 0 0 0 
+02B2:   player $PLAYER_CHAR in_area -0.58 -1093.49 -5.13 -1102.33 radius 17.0 sphere 0 
+02B8:   player $PLAYER_CHAR in_cube 975.51 -326.9 4.0 975.51 -317.7 10.0 radius -12.0 sphere 0 
+02C4:   car $1414(0@,4) sunk 
+02C5: set 4@ 5@ 6@ to_ped_path_coords_closest_to 4@ 5@ 6@ 
+02C6: set 12@ 13@ 14@ to_car_path_coords_closest_to 12@ 13@ 14@ 
+02C7: car $1414(0@,4) drive_to_point $1794 $1795 $1796 
+02CF:   car $1414(0@,4) bounding_sphere_visible 
+02D0:   actor $1418(0@,4) bounding_sphere_visible 
+02D1:   unknown_object $4233(8@,6) bounding_sphere_visible 
+02D2: gosub @MAIN_1531 unknown @MAIN_1531 
+02D3: 3@ = ground_z 1@ 2@ 3@ 
+02D4: $4268(8@,15) = create_fire_at $4302(8@,15) $4317(8@,15) $4332(8@,15) 
+02D5:   fire $3967(9@,3) extinguished 
+02D6: unknown_remove_fire 4@ 
+02D8: boat 5@ drive_to 404.13 295.03 0 
+02D9: turn_off_car 5@ engine 
+02DA:   player $PLAYER_CHAR shooting_in_rectangle 1136.774 -98.29 1184.63 -59.81 0 
+02DC:   player $PLAYER_CHAR currentweapon == 13 
+02DD:   actor $542 currentweapon == 0 
+02E0: set_car 5@ speed_to 15.0 
+02E1: (unknown) 1067.0 -403.5 1072.8 -394.0 1 1 1 $1935 
+02E2: set_actor 0@ creation_zone 'IND_ZON' 1 0 0  // Portland
+02E3:   player $PLAYER_CHAR driving_taxi_vehicle 
+02E4:   player $PLAYER_CHAR shooting 
+02E5:   actor 0@ shooting 
+02E7: set_actor 3@ weapon_accuracy_to 40 
+02E8: 4@ = car 2@ speed 
+02E9: load_cutscene_data 'INTRO' 
+02EC: start_cutscene 
+02EF: end_cutscene 
+02F0: restore_camera_with_jumpcut 
+02F7: unknown_actor 0@ flag 22 
+02F8: load_skin 0 'PLR3' 
+02FB: 31@ = cosine 30@ 
+02FC: 32@ = sinus 30@ 
+02FD: car 0@ heading_cosine 7@ 
+02FE: car 0@ handling_sinus 8@ 
+02FF: garage $1290 change_to_type 0 
+0300: create_crusher_crane 1119.8 51.8 1135.8 56.1 1149.8 46.3 1143.0 59.9 5.0 180.0 
+0301: text_2numbers 'DONS218' $4034 $4035 8000 ms 1  // ~w~Get at least 5 of the ~y~voting areas~w~ before ~1~:~1~ hours.
+0302: text_2numbers_lowpriority 'AREWARD' $3935 12@ 5000 ms 6  // ~w~Level ~1~ completed! Reward: $~1~
+0303: text_2numbers_highpriority 'BIFP_1' 8@ 9@ 5000 ms 5  // ~w~Ouch! Face plant distance: ~1~.~1~m
+0304: text_3numbers 'WHEEL02' 6@ 45@ 42@ time 3000 ms 1  // ~w~TWO WHEELS BONUS: $~1~ Distance: ~1~ feet Time: ~1~ seconds
+0305: text_3numbers_highpriority 'RACE_R0' 15@ 16@ 17@ time 4500 ms 1  // ~w~PREVIOUS RECORD: ~1~:~1~~1~
+0307: text_4numbers 'WHEEL01' 6@ 43@ 44@ 42@ 3000 ms 1  // ~w~TWO WHEELS BONUS: $~1~ Distance: ~1~.~1~m Time: ~1~ seconds
+030D: text_6numbers 'HJSTATW' 10@ 11@ 8@ 9@ 13@ 17@ 5000 ms 5  // ~w~Distance: ~1~.~1~m Height: ~1~.~1~m Flips: ~1~ Rotation: ~1~U And what a great landing!
+0310: (unknown) 4@ 6@ 0 
+0311: progress_made += 1 
+0312: set_max_proggress 171 
+0313: save_jump_distance 22@ 
+0314: save_jump_height 21@ 
+0315: save_jump_flips 13@ 
+0316: save_jump_rotation 17@ 
+0317: save_jump_type 1 
+0318: increment_unique_jumps_found 
+0319: set_total_unique_jumps_to 26 
+031A: increment_taxi_dropoffs 
+031B: save_taxi_earnings_from 38@ 
+031C: increment_mission_attempts 
+031D: set_latest_mission_passed 'VIC1'  // Home Sweet Home
+031E: set_actor $PLAYER_ACTOR wander_state_to 0 
+031F: remove_all_fires 
+0322:   actor 16@(1@,12) hit_by_weapon 39 
+0323:   vehicle 23@ hit_by_weapon 22 
+0324:   unknown_actor $3942 hit_by_actor $3936 
+0325:   actor 0@ in_range_of_player $PLAYER_CHAR 
+0326: kill_actor $3936(46@,12) 
+0328: unknown_car 66@ flag 1 
+0329: set_zone_pedgroup_info 'LITTLEI' 1 3  // Saint Mark's
+032A: 24@ = create_car $3015 fire 
+032B: $3958(10@,9) = create_actor $3934(10@,9) fire 
+032C: $1879 = create_random_car_with_actors -1 in_area 1003.0 -531.0 1400.0 130.0 
+032E:   garage $1265 respray_done 
+032F: unknown 2 
+0330: $2255 = create_weapon_pickup 274 15 ammo 24 at 1148.87 -247.01 16.96 
+0331: car $3950 ram $3986 
+0335: set_player $PLAYER_CHAR infinite_run_to 1 
+0337: set_actor $3936(46@,12) bleeding_to 1 
+033A: set_free_paynspray_to 1 
+033B: (unknown) $PLAYER_CHAR 0 
+033C: unknown_actor $3945 flag 0 
+033D: (unknown) $1879 0 
+033E:   objects_in_cube 15@ 16@ 17@ 18@ 19@ 20@ 1 1 1 0 0 
+0344: set_text_draw_letter_width_height 0.8 1.0 
+0345: set_text_draw_color 255 255 255 255 
+0347: set_text_draw_centered 1 
+034A: set_text_draw_in_box 0 
+034D: set_text_draw_proportional 1 
+034F: (unknown) 1 
+0350: (unknown) 1 
+0351: (unknown) 1 
+0352: rotate_object $1243 angle 90.0 $4054 0 
+0353: move_object $1282 to 358.158 -1128.422 21.941 speed_in_coord_difference 0.1 0 0 0 
+0354: destroy_actor_with_fade 1@ 
+0355: unknown_actor $1934 not_scared_flag 1 
+0357: set_actor $PLAYER_ACTOR skin_to 'PLR3' 
+0358: refresh_actor_skin $PLAYER_ACTOR 
+035B:   explosion_type 2 in_cube 796.847 -1088.15 5.0 849.145 -1030.2 18.0 
+0361: place_object 5@ relative_to_car 6@ offset 0.5 0.7 -1.5 
+0362: make_object $3985 targetable 
+0363: set_player $PLAYER_CHAR armour_to 200 
+0364: set_actor 1@ armour_to 100 
+0365: open_garage $1274 
+0366: close_garage $1274 
+0367: remove_actor $PLAYER_ACTOR from_car_and_place_at 6@ 7@ 8@ 
+0368: toggle_model_render_at 284.6 -425.463 45.11 radius 20.0 object #LODKB_BUILDS11 0 
+0369: (unknown) $2971(46@,10) $2961(46@,10) 
+036A: set_actor 0@ objective_to-29 
+036B:   object 40@ blown_up 
+036E: put_player $PLAYER_CHAR in_car $1414(0@,4) 
+036F: put_actor $1418(0@,4) in_car $1414(0@,4) 
+0370: toggle_unknown 0 
+0372: text_2numbers_styled 'CO_ONE' $561 100 5000 ms 6  // ~w~Hidden Package ~1~ of ~1~ collected!
+0373: text_3numbers_styled 'RACE_S0' 12@ 13@ 14@ 4500 ms 5  // ~w~TIME: ~1~:~1~~1~
+0377: set_actor $PLAYER_ACTOR anim 0 wait_state_time -1 ms 
+0378: set_camera_directly_behind_player 
+037B: $3936(46@,12) = create_random_actor 39@ 40@ 41@ 
+0383:   unknown_cube_checking 796.847 -1088.15 5.0 849.145 -1030.2 18.0 
+0386: throw_object $4237 distance 4.0 4.0 30.0 
+0387: set_object 1@ collision_detection 0 
+0389: text_1string_highpriority 'LS2_VIC' 'VIC1' 120000 ms 1  // ~y~Vincenzo Cilli -~g~ ~a~ // Home Sweet Home
+038F:   car_in_cube 12@ 13@ 14@ 8.0 8.0 8.0 
+0390: load_requested_models 
+0391: object 42@ scatter 77@ 78@ 5.0 
+0397: object $1910 toggle_in_moving_list 0 
+0399: play_music 1 
+039A: clear_area 1 at 1137.19 -497.1 range 19.3 1.0 
+039B: 1 useless_flag 
+039C: car 2@ siren = 1 
+039E: (unknown) 1222.9 -838.4 13.5 1256.3 -804.9 16.0 58.0 
+03A1: (unknown) $1414(0@,4) 0 
+03A2: scatter_particles 10 2.5 9 9 9 2000 at 1153.62 -77.41 7.4 0 0 0 
+03A3: (unknown) $1418(0@,4) 1 
+03A4: car $1414(0@,4) race_to $1654(7@,35) $1689(7@,35) 
+03A5:   car 0@ picked_up_by_crane 20@ 21@ 
+03A6: unknown_clear_point 7@ 8@ 9@ radius 1.0 
+03A7: (unknown) $1879 3 
+03A8: (unknown) $3936(46@,12) 
+03A9: name_thread 'MAIN' 
+03AC: (unknown) 0@ 
+03AD: (unknown) 0@ 
+03AE: (unknown) 
+03AF: play_suspect_last_seen_at $4009 $4012 $4015 
+03B0: (unknown) $1414(0@,4) 1 
+03B1: clear_route 1 
+03B2: set_rubbish 0 
+03B3: remove_objects_from_cube 1048.3 -1103.4 5.0 1040.0 -1074.4 30.0 
+03B4: set_streaming 1 
+03B5:   garage $1288 door_open 
+03B6:   garage $1288 door_closed 
+03BB: replace_model_at 674.0 -929.0 113.0 radius 20.0 from #IN_PMBRIDG2_UPGS to #IN_PMBRIDRAMP3 
+03BC: set_process_cut_scene_only 1 
+03BD: clear_weapons_from_player $PLAYER_CHAR 
+03BF: clear_cars_from_cube 1206.43 -320.23 20.0 1223.26 -307.91 35.0 
+03C0: (unknown) $1274 
+03C1: $1833 = create_sphere $1107 $1108 $1109 2.0 
+03C2: destroy_sphere $1833 
+03C4: set_player $PLAYER_CHAR ignored_by_everyone_to 1 
+03C5: 0@ = actor 1@ car 
+03C6: 0@ = player $PLAYER_CHAR car 
+03C8: set_timer_with_text_to $1532 type 0 text 'RACE_2'  // Time
+03C9: show_status_text $3033 0 'LEVEL'  // Level
+03CA: create_random_car_for_carpark 330.5469 -574.2604 28.11 271.0159 
+03CB:   current_island == 1 
+03CC: unknown_maby_cops_density 0 
+03CD: rotate_player-180-degrees 
+03CE:   car $1414(4@,4) damaged 
+03CF:   object $1241 exists 
+03D0: set_camera 1071.592 -439.308 26.933 
+03D1: car 0@ add_to_stuck_car_check 2.0 = 4000 
+03D2: car 0@ remove_from_stuck_car_check 
+03D3:   car 0@ stuck 
+03D4: load_wav 'MOBRING' as 0@ 
+03D5:   wav $1097 loaded 
+03D6: play_wav $1097 
+03D7:   wav 2@ ended 
+03D8: point 13@ 14@ 15@ get_nearby_vector 13@ 14@ 15@ 16@ 
+03D9:   garage $1290 contains_needed_car 59@ 
+03DA: remove_text 'RAMPKA'  // ~w~You need a vehicle for this rampage.
+03DB: remove_big_text 'USJ'  // ~w~UNIQUE STUNT BONUS!
+03DC: set_wav $1411 location 1@ 2@ 3@ 
+03DD: show_save_screen 
+03DF: set_garage $1286 camera_follows_player 
+03E1: 33@ = create_marker_above_pickup 73@ 
+03E3: set_pedestrians_density_multiplier_to 1.0 
+03E7: actor 0@ exit_car 
+03EA: text_box 'BENZ_H1'  // ~w~Follow the ~h~Shirt blip~w~ on the radar to find ~h~Mr. Benz clothes shop.
+03EB: remove_text_box 
+03EC: flash_hud 8 
+03EE: (unknown) $PLAYER_ACTOR 
+03EF: generate_cars_around_camera 1 
+03F0: clear_small_messages_only 
+03F2: (unknown) $1414(0@,4) 1 
+03F3:   player $PLAYER_CHAR controllable 
+03F5: text_draw_toggle 0 
+03F6: pedtype 15 add_threat 1 
+03F7: pedgroup $1834(0@,18) remove_threat $1852(1@,17) 
+03F8: get_car $3964 color 1@ 2@ 
+03F9: 1 cars_can_be_damaged 
+03FA: unknown_prepare_car $2154 for_explosion flag 0 
+03FE: make_actors 21@ $1418(7@,4) converse_in 1 ms 
+0402: set_player $PLAYER_CHAR handling_responsiveness 4 
+0403: set_actor 0@ money $2243 
+0405: create_coordinate $543 $544 $545 from_object 16@(84@,8) offset 0 0 0.4 
+0406: increment_people_saved_in_ambulance 
+0407: increment_criminals_stopped 
+0408: save_highest_ambulance_level $3935 
+0409: increment_fires_extinguished 
+040A: enable_phone $1255 
+040C: create_coordinate 3@ 4@ 5@ from_car 0@ offset 0 1@ 0 
+040D: set_total_rampages_to 12@ 
+040E: blow_up_rc_buggy 
+0411:   is_german_game 
+0412: unload_wav 1 
+0416: (unknown) 11@ 1 
+0418: (unknown) $PLAYER_CHAR 1 
+041C: start_mission 0  // initial: objects
+041E: get_player $PLAYER_CHAR weapon 36 ammo_to $124 
+0422: set_camera_near_clip 1.3 
+0423: set_radio_station 1 -1 
+0427:   garage_contain_car $1265 18@ 
+0428: car $1414(0@,4) improve_handling $1806 
+0429:   metric 
+042A: meters 48@ to_feet 46@ 
+042B: create_save_cars_between_levels_cube 619.6 -911.5 45.0 834.3 -954.5 32.0 
+042D: unknown_car $2725 flag 1 
+0430: clear_peds_from_cube 917.0 -246.0 -90.0 967.0 -216.0 90.0 
+0431: set_total_missions 111 
+0432: 10@ = metric_to_imperial 10@ 
+0435: (unknown) $2926 4@ 0 
+0436:   car 1@ car_passenger_seat_free 6@ 
+0437: unknown_car 0@ 5@ 3@ 
+0438: unknown_actor 1@ 1 
+0439: (unknown) 0 
+043C: scatter_particle 7 0.01 at 1122.88 -1018.26 13.8438 6@ 7@ 8@ 
+0441: toggle_fade_sensitive_game_sounds 0 
+0444: play_cutscene_music 
+0445: stop_cutscene_music 
+0446: 3@ = car $2289 model 
+0447:   player $PLAYER_CHAR in_car $3979 
+0448:   player $PLAYER_CHAR in_a_car 
+044A:   improved_handling_cheat_used 
+044B: (unknown) $1418(0@,4) 1 
+044D:   actor 1@ in_car 0@ 
+044E:   actor $3940(38@,12) in_a_car 
+044F: unknown_player $PLAYER_CHAR 
+0450: unknown_actor 11@ 
+0456: load_end_of_game_audio 
+0457: (unknown) 
+0458: object $1910 set_rotation 0 11.0 90.0 
+0459: (unknown) 7@ 8@ 9@ 
+045C:   player $PLAYER_CHAR aiming_at_actor $1934 
+0464: (unknown) $2725 
+0465: set_camera_pointing_time 0 7@ 
+0468: (unknown) 11@ 12@ 13@ 
+0469: attach_actor $PLAYER_ACTOR as_turret_to_car $1879 at_car_offset 0 0 20.0 unknown 0 angle 0 with_weapon 0 
+046A: remove_actor $PLAYER_ACTOR from_turret_mode 
+046B: unknown_car $1414(0@,4) flag 0 
+046C: unknown_actor 50@(83@,8) 
+046D: (unknown) $3941 
+046E: create_actor 45@ in area 28@ 29@ 37@ 38@ unknown 1 1 1 1 1 
+0470: unknown_actor 11@ car $2725 
+0471: 2@ = car $1879 driver 
+0472: 23@ = unknown_actor_car_seats $3940(38@,12) 
+0474: store_player $PLAYER_CHAR currently_armed_weapon_to $1083 
+0475: $1083 = actor $PLAYER_ACTOR armed_weapon 
+0477:   unknown_actor 45@ near_pizza 11@ radius 2.0 2.0 unknown 0 
+047C: set_car $1414(0@,4) animation 3 3500 ms 
+047F: (unknown) $PLAYER_ACTOR 
+0483:   player $PLAYER_CHAR driving_a_motorbike 
+0485:   unknown_actor $3934 pedgroup 15 
+0486: (unknown) 6.0 
+0487: (unknown) 1.5 
+048E: unknown_actor $1400 flag 0 
+048F: enable_rc_car_detonation 0 
+0490: unknown_car $3937 timer $3965 
+0494: (unknown) 3@ 
+0495:   player $PLAYER_CHAR has_weapon 18 
+0496:   unknown_check 0@ 15 
+0498: unknown_car $3937 0 
+0499: unknown 0 10@ 11@ 12@ 13@ 
+049A:   unknown_car_check $1414(4@,4) 
+049B:   unknown_car_check $1414(4@,4) 0 
+04A7: heli 0@ fly_to 1@ 2@ 4@ speed 1 
+04A9: (unknown) 6@ 1 
+04AA: store_dead_actor 1@ position_to 17@ 18@ 19@ 
+04AB: $1104 = create_asset_money_pickup_at 1037.62 -653.23 15.02 money 2000 500 
+04AD:   unknown_player_driving_boat $PLAYER_CHAR 
+04B2:   actor $3934(10@,9) sunk 
+04B3: $1834 = 4 
+04B4: 9@ = 11 
+04BD: get_weapon_info player 2@ weapon_group 6 weapon 75@ ammo 76@ model 77@ 
+04BE: unknown_stuff $4009 $4012 $4015 8.0 500.0 $4009 $4012 $4015 $4010 $4013 $4016 42@ 
+04BF: set_car $1414(0@,4) speed_instantly 25.0 
+04C0: select_interiour 1 
+04C2: unknown_car $3937 1 
+04C3: reset_player $541 chaos_level 
+04C4: 3@ = player $541 chaos_level 
+04C7: unknown_actors 21@ $1418(7@,4) 
+04C9: create_coordinate 0@ 1@ 2@ from_actor $PLAYER_ACTOR offset 0 4.0 0 
+04CA:   actor 0@ photographed 
+04CB: actor 0@ do_kung_fu_stance_towards_actor 1@ 
+04CC: toggle_camera_green_scanlines 1 
+04CE:   unknown_player_driving_plane $PLAYER_CHAR 
+04D3: $1149 = create_icon_marker_without_sphere_at 1070.074 -399.483 14.205 16 
+04D5: heli 4@ turn_to_angle 180.0 
+04D8: unknown_race_stuff 20@ 21@ 22@ 4 13@ 14@ 15@ 
+04DB: (unknown) 0 
+04DC: lock_actor $PLAYER_ACTOR in_current_position 1 
+04DD: (unknown) $1418(0@,4) 0 
+04E0: unknown_exit_rc_mode 
+04E1: (unknown) 
+04E2: get_actor $PLAYER_ACTOR armour_to $160 
+04E4: (unknown) 43@ 1 
+04E5: car $1414(0@,4) abandon_path_radius 255 
+04E6: open_trunk_of_car_fully 3@ 
+04E9: refresh_game_renderer_at 270.0 -423.7 
+04F0: actor 45@ crouch 1 300000 ms 
+04F1: set_zone_car_class_info 'LITTLEI' 1 100 250 50 0 200 50 150 50 150 500 500  // Saint Mark's
+04F2: load_animation 'RIOT' 
+04F9: align_actor $4009 with_scripted_file_path_object $4008 offset 0 0 0 0 0 0 
+04FA: (unknown) $2954(32@,3) $PLAYER_CHAR 1 
+04FC: status_text $3940 1 line 2 'TIP'  // Tip
+04FE: set_interiour_colors 1 0 
+04FF: reset_interior_colors 0 
+0501: store_stunt_data $PLAYER_CHAR two_wheels: 42@ 46@ wheelie: 49@ 53@ stoppie: 56@ 60@ 
+0503: unknown_car 11@ flag 2 
+0504: unknown_actor $3956 
+0505:   player $PLAYER_CHAR skin == 'PLR3' 
+0506: unknown_pizza_mission_command player $PLAYER_CHAR flag 0 
+0507: unknown_actor $3934(10@,9) sprint_to $4036(10@,9) $4045(10@,9) 
+050B: vehicle_model 133 set_variation -1 -1 
+050D: unknown_car $3942 
+050E: 22@ = distance between point 36@ 37@ and_point 33@ 34@ 
+050F: (unknown) 43@ 44@ 45@ 24@ 25@ 26@ 23@ 
+0510: open_trunk_of_car 23@ 
+0512:   unknown_actor 24@ dead 
+0513: (unknown) 22@ 17@ 
+0515:   unknown_actor 0@ on_path $3975(4@,26) $4001(4@,26) $4027(4@,26) radius 20.0 
+0517: permanent_text_box 'BENZ_TR'  // ~w~Your ~h~Casual clothes~w~ are now available at the safehouse.
+0519: unknown_actor 14@ 1 0 
+051E: lock_vehicle 1@ in_current_position 1 
+051F:   actor $1934 hit_by_actor $PLAYER_ACTOR 
+0520: (unknown) $3935(7@,14) $3979 
+0521: (unknown) $3934(0@,3) $PLAYER_ACTOR 
+0522:   unknown_check 23@ 7@ 
+0523: (unknown) 0@ 
+0526: unknown_actor 4@ 
+052B: (unknown) $1418(0@,4) 1 
+052D: add 240 to_money_spent_on_weapons_stats 
+0530: (unknown) $PLAYER_ACTOR 1 
+0539: (unknown) 51@ 
+0541: (unknown) $2954(32@,3) 1 
+0542: (unknown) 0@ 
+0544: set_car $1414(0@,4) tires_vulnerable 0 
+054B:   unknown_player_check $PLAYER_CHAR $3015 
+054F: unknown_actor $1418(0@,4) flag 1 
+0551: use_GXT_table 'TT1'  // 'Bumps & Grinds'
+0553: (unknown) $2971(46@,10) 
+0554: (unknown) $3934(0@,3) 
+0555: unknown_keep_object $1910 in_memory 1 
+0562: make_player $PLAYER_CHAR burnproof 1 
+0563: set_player $PLAYER_CHAR max_health += 25 
+0564: set_player $PLAYER_CHAR max_armour += 50 
+0565: (unknown) $1879 2@ 
+0566: unknown_create_actor 2@ from car 0@ passenger 1@ 
+0567: unknown_actor 8@ 1 
+056D: (unknown) $1418(0@,4) 1 
+0570: unknown_actor $3934 1 
+0572:   unknown_actor $1934 dead_but_valid 
+0573:   unknown_check 0@ 
+0576:   unknown_check $2954(46@,3) 
+0578: (unknown) $1934 1 
+0579: (unknown) $3938 1 
+057D: (unknown) $4019 
+057E: (unknown) $PLAYER_ACTOR 
+057F: (unknown) $1274 1 
+0582: (unknown) 0 
+0586: (unknown) 1 
+058C: (unknown) 12@(85@,3) 0 
+058D: (unknown) 15@(85@,3) 0 
+0591: $1088 = percentage_completed 
+0592: (unknown) 1129.02 -585.07 14.77 0 
+0593: (unknown) 1142.0 -1103.0 10.7 90.0 
+0597: (unknown) 5 1 
+0598: (unknown) 11@ 1 
+059A: (unknown) 
+059E: (unknown) $4072 
+05A0: (unknown) 11@ 
+05A4: (unknown) 2@ 3@ 7@ 8@ 13@ 
+05A5: (unknown) 0 0 87@ 0 0 65@ 88@ 
+05A6: (unknown) 1@ 2@ 4@ 5@ 9@ 
+05A7: (unknown) 2@ 3@ 4@ 9@ 10@ 11@ 12@ 
+05A8: (unknown) 50 200 1@ 
+05A9: (unknown) 10 10 16@ 30@ 
+05AA: (unknown) 50 50 0@ 1@ 2@ 
+05AB: (unknown) 44 $2013 
+05AD: (unknown) 
+05AE: constant_params 0 variable_params 0 unknown 0 call_with_params @MDLMAC_47 
+05AF: constant_params 2 variable_params 0 unknown 25 call_with_params @MDLMAC_14939 0@ 23@ 
+05B1:   unknown_check $1879 
+05C4: (unknown) 
+05C7: (unknown) 11@ 0 
+05C9: (unknown) $3935(53@,25) $3960(53@,25) $3985(53@,25) $2085 6 0 100 100 0 26@(53@,25) 
+05CA: (unknown) 26@(53@,25) 
+05CB:   unknown_check 0@ 
+05CC: (unknown) $3015 
+05CD: (unknown) $3934 1 
+05CE: (unknown) $3981(8@,1) $3964(8@,1) 
+05CF: (unknown) 4@ 5@ 6@ 2.0 33@ 
+05D0: (unknown) $PLAYER_CHAR 
+05D3: (unknown) 1 
+05D4: (unknown) 1 
+05D5: (unknown) 0 
+05D6: (unknown) 3@ 4@ 6@ 7@ 2@ 
+05D7: (unknown) 7@ 8@ 10@ 11@ 5@ 
+05D8: (unknown) 1@ 2@ 
+05DA: (unknown) 0 
+05DB: (unknown) 0@ 1@ $2878 
+05E0: (unknown) $2878 
+05E1: (unknown) 45@ 0 
+05E2:   unknown_check $4013 
+05E3: (unknown) $2878 1 $2917 1 2@ 3@ 
+05E4: (unknown) $2878 11@ 
+05E5: (unknown) $2878 1 
+05E7: (unknown) $3934 0 
+05E8: (unknown) 
+05E9: (unknown) 
+05EA: (unknown) $3970 
+05EB: (unknown) 2 
+05EC: (unknown) 42@ 0 0 10.0 
+05ED: (unknown) $1293 50.0 50.0 0.99 
+05EF: (unknown) $1078 
+05F0: (unknown) $561 
+05F1: (unknown) 
+05F2: (unknown) $3972 
+05F6: (unknown) 4@ 3@ 
+05F7: (unknown) $3015 
+05F9: (unknown) 11@ 
+05FA: (unknown) 
+05FB: (unknown) 
+05FC: (unknown) 39@ 
+05FD: (unknown) 0 62@ 
+05FE: (unknown) 0 62@ 
+05FF: (unknown) $3934 
+0603: (unknown) 
+0604: (unknown) 0 $1516 
+0605: (unknown) 0 $1515 
+0606: (unknown) 0 $1511 
+0607: (unknown) 16@(83@,8) 31 
+0608: (unknown) 16@(83@,8) 
+0609: (unknown) 0@ 0 0 -2.0 
+060A: (unknown) $4223 44@ 45@ 46@ 
+060B: (unknown) $4233(8@,6) 1 1 1 1 1 
+060C: (unknown) $516 
+060D: (unknown) 1 
+060E: (unknown) $3953 71@ 72@ 73@ 
+060F: (unknown) 5@ $546 $547 $548 
+0612: (unknown) $3953(15@,10) 16@ 
+0613: (unknown) 1 
+0614: (unknown) 16@(83@,8) 
+0615: (unknown) -839.63 291.0 -827.92 303.0 -1 $2579 
+0616:   unknown_check 
+0618:   unknown_check 
+0619: (unknown) $1128 
+061A: (unknown) 
+061B: (unknown) 271.913 -75.395 16.146 458.258 -389.775 47.444 
+061C: (unknown) 36 
+061D: (unknown) 36 
+061F: (unknown) 0 
+0620: (unknown) 1 0 1 0 
+0621:   unknown_check 
+0622: get_unknown $2 
+0623: (unknown) 
+0624: (unknown) 
+0625:   unknown_check 
+0626: (unknown) 1@ 
+0627: (unknown) 
+0628: unknown_RGBA 171 72 72 255 
+0629: unknown_RGBA 91 11 11 255 
+062A: (unknown) 17@ 
+062B: (unknown) 2@ 3@ 4@ 12.0 255 0 0 
+062D: (unknown) 'HELPB'  // ~w~While not on a mission you can save your progress by collecting the ~h~Save Icon~w~ - time will advance by 6 hours.
+062E: (unknown) 'VIC3_H1'  // ~w~Hold~h~ ~k~ ~PDLT~ ~w~to ~h~lock on to a target~w~, and press~h~ ~k~ ~PDFW~ ~w~to attack!
+062F: (unknown) 0 
+0630: (unknown) $1418(0@,4) 500 
+0631: (unknown) 1@ 5000 
+0632: (unknown) 1@ 2000 
+0633: (unknown) 48@ 
+0634: (unknown) 4 
+0635: (unknown) 1 1@ 
+0638: (unknown) 
+0639: (unknown) $3955 1 
+063A: (unknown) 7@ 
+063B: (unknown) $4020 
+063C: (unknown) $3935 
+063D: (unknown) 18@ 
+063E: (unknown) 25@ 
+063F: (unknown) 1 
+0640: (unknown) 51@ 
+0641: (unknown) $3941 
+0642: (unknown) $3935 
+0643: (unknown) $3935 
+0644: (unknown) 27@ 
+0645: (unknown) 1 
+0646: (unknown) 1 
+0647: (unknown) 16 
+0648: (unknown) 0 10@ 
+0649: (unknown) 0 $3965 
+064A: (unknown) 5@ 
+064B: (unknown) 2@ 3@ 4@ 10@ 11@ 12@ 255 255 0 -2.25 
+064D: (unknown) $1100 $290 
+064E: (unknown) $1104 $292 
+064F:   unknown_check 
+0650: (unknown) 1 
+0651: (unknown) $3935 
+0652: $3951(61@,9) 17@ at $3960(61@,9) $3969(61@,9) $3978(61@,9) 
+0653: (unknown) $3945(0@,3) 
+0654: (unknown) 1.2 0.5 
+0655: (unknown) 'PO_MOB3' 5000 1  // ~w~Hey Toni! It's JD.
+0657: (unknown) 'A_VIC4' 1000 1  // ~w~A pistol usually costs $240, but this one's on Vincenzo.
+0658: (unknown) 'A_COST4' 240 1000 1  // ~w~Cost: ~h~$~1~ ~n~ ~r~You cannot afford this.
+0659: (unknown) 6@ 7@ 3@ 4@ 10@ 
+065A: (unknown) 0@ 
+065B: (unknown) 1 
+065C: (unknown) 1 
+065D: (unknown) 0 
+065E: (unknown) 
+065F: (unknown) 'TT1_B1' $2216 $2217 1 1  // ~w~Course Target: ~1~:~1~
+0660: (unknown) $4008 49@ 50@ 51@ 
+0661: (unknown) $4008 49@ 50@ 51@ 
+0662: (unknown) $4198 1 
+0663: unknown_player_skin 'PLR3' 
+0664: (unknown) $3968 $2223 0 'RACELAP'  // Lap
+0665: (unknown) 100 
+0666: (unknown) $3934(74@,4) 16 500 
+0667: (unknown) 58@ 
+0668: (unknown) $1273 0 
+0669:   unknown_check 
+066A: (unknown) 3 2 
+066B: (unknown) $3033 0 0 
+066C: (unknown) $1530 $1800 0 3 'RACE_P1' 'RACELAP'  // ~w~1st // Lap
+066D: (unknown) $PLAYER_CHAR $1083 
+066E: (unknown) 1 
+0670: (unknown) 0 0 0 
+0671: (unknown) -0.896 0.0123 0.445 
+0674: unknown_text 'CLOTHA'  // ~h~~k~ ~VESTR~ ~w~to view outfits. ~h~~k~ ~AMBUY~ ~w~to change into outfit. ~h~~k~ ~AMEXI~ ~w~to cancel.
+0676: (unknown) 'TT1_A0'  // ~w~~k~ ~AMBUY~ ~w~to race. ~n~~k~ ~AMEXI~ ~w~to exit.
+0677: (unknown) 58@ 1 
+0678: (unknown) $PLAYER_CHAR 1 
+8018:   not  $2013 > 0 
+8019:   not  11@ > 2000 
+801A:   not  16 > $PLAYER_SKIN 
+801B:   not  0 > 2@ 
+801C:   not  $367 > $3965 // $ > $ (int) 
+801D:   not  23@ > 17@ // @ > @ (int) 
+801E:   not  $1939 > 10@ // $ > @ (int) 
+8020:   not  $4009 > 778.0 
+8021:   not  11@ > 20.0 
+8022:   not  4.0 > $2795 
+8023:   not  1540.0 > 39@ 
+8038:   not  $6 == 1 
+8039:   not  0@ == 2 
+803A:   not  $PLAYER_ACTOR == $1418(0@,4) // $ == $ (int) 
+803B:   not  0@ == 23@ // @ == @ (int) 
+803C:   not  $1458(0@,4) == 22@ // $ == @ (int) 
+8042:   not  $3935(53@,25) == 0 
+8043:   not  75@ == -1.0 
+8044:   not  $4116 == $3939 // $ == $ (float) 
+8056:   not player $PLAYER_CHAR in_rectangle 748.88 -65.33 995.01 140.53 sphere 0 
+8057:   not player $PLAYER_CHAR in_cube 266.83 -610.93 25.0 346.81 -479.92 40.0 sphere 0 
+80A2:   not unknown_check $3941(0@,4) 
+80A3:   not unknown_check $1935 1065.6 -403.5 1072.8 -394.0 0 
+80A4:   not unknown_check $542 7.27 -911.32 0 106.69 -551.41 35.0 0 
+80B0:   not car 0@ 1100.19 -8.1 1224.19 100.9 0 
+80B1:   not car 33@ 396.6 -748.73 14.0 505.9 -611.5 20.12 0 
+80C2:   not sphere_onscreen 12@ 13@ 14@ 6.0 
+80E0:   not actor $1418(0@,4) in_car $1414(0@,4) 
+80E1:   not player $PLAYER_CHAR driving $1414(1@,4) 
+80E3:   not player $PLAYER_CHAR driving_vehicle_type 147 
+80E4:   not actor $1418(4@,4) driving 
+80E5:   not player $PLAYER_CHAR driving 
+80E6:   not pad 0 key_pressed 16 
+80E8:   not player $PLAYER_CHAR near_point 12@ 13@ radius 30.0 30.0 0 
+80E9:   not player $PLAYER_CHAR near_point $2520 $2521 radius 1.0 1.0 on_foot 0 
+80EA:   not player $PLAYER_CHAR near_point 27@ 28@ radius 25.0 25.0 in_car 0 
+80EE:   not player $PLAYER_CHAR near_actor 1@ radius 300.0 300.0 0 
+80F0:   not player $PLAYER_CHAR near_actor $3936(46@,12) radius 20.0 20.0 in_car 0 
+80F1:   not actor $2971 near_point 4@ 5@ radius 20.0 20.0 0 
+80F2:   not actor $2733(35@,6) near_point $2752(35@,6) $2758(35@,6) radius 0.5 on_foot 0.5 0 
+80F7:   not actor $542 near_actor 16@(13@,11) radius 50.0 50.0 0 
+80FA:   not player $PLAYER_CHAR near_point $1422(3@,4) $1426(3@,4) $1430(3@,4) radius 4.5 4.5 10.0 1 
+80FB:   not player $PLAYER_CHAR near_point_on_foot 1069.11 -398.86 14.21 radius 1.0 1.0 5.0 0 
+80FC:   not player $PLAYER_CHAR near_point_in_car 11@ 12@ 13@ radius 7.0 7.0 2.0 0 
+8100:   not player $PLAYER_CHAR near_actor 61@ radius 15.0 15.0 10.0 0 
+8101:   not player $PLAYER_CHAR near_actor_on_foot 0@ radius 15.0 15.0 15.0 7@ 
+8102:   not player $PLAYER_CHAR near_actor_in_car 0@ radius 70.0 70.0 20.0 0 
+8103:   not actor 9@ near_point 32@ 33@ 14.96 radius 4.0 4.0 4.0 1 
+8104:   not actor 11@ near_point_on_foot 19@ 20@ 21@ radius 7.0 7.0 5.0 0 
+8105:   not actor 4@ near_point_in_car 364.9079 -118.0489 20.2104 radius 3.0 3.0 3.0 sphere 0 
+8109:   not actor $542 near_actor 4@ radius 140.0 140.0 100.0 sphere 0 
+810A:   not (unknown) $4210(73@,12) $542 200.0 200.0 20.0 0 
+810F:   not player $PLAYER_CHAR money > 239 
+8114:   not player $PLAYER_CHAR wanted_level > 2 
+8117:   not wasted_or_busted 
+811C:   not player $PLAYER_CHAR wasted 
+811D:   not actor 1@ dead 
+811E:   not car 0@ wrecked 
+8126:   not player $PLAYER_CHAR in_zone 'PORT_W'  // Callahan Point
+8128:   not actor $2954(46@,3) spotted_player $PLAYER_CHAR 
+812B:   not actor 0@ walking 
+813C:   not car 3@ model == 190 
+814E:   not unknown_car 0@ crushed_by_car_crusher 
+8170:   not fading 
+8188:   not player $PLAYER_CHAR health > 70 
+8189:   not actor $1418(4@,4) health >= 499 
+818A:   not car $1414(4@,4) health >= 990 
+8194:   not car 0@ flipped_for_2_seconds 
+81B2:   not car $2725 0 22@ 23@ 9@ 9@ 
+81B4:   not car $1414(0@,4) 0 $1478(0@,4) $1482(0@,4) $1486(0@,4) radius $1797 $1797 $1797 
+81B5:   not car 6@ stopped $1342 48@ 49@ 50@ radius 5.0 5.0 5.0 
+81C6:   not car $2118 stopped 
+81F8:   not car 0@ airborne 
+81F9:   not car $3938 flipped 
+8201:   not player $PLAYER_CHAR near_car $1414(0@,4) radius 30.0 30.0 0 
+8204:   not player $541 near_car $3934(2@,4) radius 10.0 10.0 10.0 unknown 0 
+8207:   not actor $3937(0@,3) near_car $3934(0@,3) radius 20.0 20.0 unknown 0 
+8208:   not actor $3935(7@,14) near_car_on_foot $3979 radius 2.5 2.5 unknown 0 
+8209:   not actor 24@ near_car_in_car 1@ radius 30.0 30.0 unknown 0 
+820A:   not actor $3955 near_car $3986 radius 10.0 10.0 10.0 unknown 0 
+8212:   not car $1878 flipped 
+8219:   not pickup 0@ picked_up 
+8221:   not unknown_check $1287 
+8242:   not special_actor 9 loaded 
+8246:   not player $PLAYER_CHAR in_rc_mode 
+824D:   not model 0@ available 
+825B:   not player $PLAYER_CHAR defined 
+82A4:   not player $PLAYER_CHAR stopped 
+82C4:   not car 1@ sunk 
+82CF:   not car $1414(0@,4) bounding_sphere_visible 
+82D0:   not actor $1524 bounding_sphere_visible 
+82DC:   not player $PLAYER_CHAR currentweapon == 34 
+82DD:   not actor $542 currentweapon == 0 
+82EE:   not cutscene_reached_end 
+82F7:   not unknown_actor $4075(0@,12) flag 59 
+8324:   not unknown_actor $3940(40@,12) hit_by_actor $3940(38@,12) 
+8325:   not actor $2954(32@,3) in_range_of_player $PLAYER_CHAR 
+833E:   not objects_in_cube 1007.0 -1099.23 11.0 1009.0 -1097.23 13.0 0 1 1 0 0 
+8352:   not rotate_object 0@ angle 1@ 2@ 0 
+8353:   not move_object $1234 to 979.3 -328.1 9.0 speed_in_coord_difference 0.1 0.1 0 0 
+8369:   not (unknown) $2954(46@,3) $2971(32@,10) 
+838F:   not car_in_cube $3969 $3970 $3971 3.0 3.0 2.0 
+83A5:   not car $3934(2@,4) picked_up_by_crane 1141.42 50.9275 
+83B5:   not garage $1267 door_open 
+83CB:   not current_island == 1 
+83CE:   not car $3953 damaged 
+83CF:   not object 5@ exists 
+83D3:   not car 5@ stuck 
+83D5:   not wav 2@ loaded 
+83D7:   not wav 2@ ended 
+83DE:   not save_done 
+83EE:   not (unknown) $PLAYER_ACTOR 
+8411:   not is_german_game 
+8427:   not garage_contain_car $1266 $3943 
+8436:   not car 0@ car_passenger_seat_free 5@ 
+843B:   not reached_end_of_credits 
+8447:   not player $PLAYER_CHAR in_car 1@ 
+844D:   not actor 7@ in_car $3949 
+844E:   not actor 1@ in_a_car 
+844F:   not unknown_player $PLAYER_CHAR 
+8450:   not unknown_actor $PLAYER_ACTOR 
+8483:   not player $PLAYER_CHAR driving_a_motorbike 
+8495:   not player $PLAYER_CHAR has_weapon 23 
+8496:   not unknown_check $2733(35@,6) 6 
+849A:   not unknown_car_check 23@ 
+849B:   not unknown_car_check $2289 1 
+84AD:   not unknown_player_driving_boat $PLAYER_CHAR 
+84B2:   not actor $PLAYER_ACTOR sunk 
+84CA:   not actor 3@ photographed 
+84CE:   not unknown_player_driving_plane $541 
+84F3:   not animation 'RIOT' loaded 
+8515:   not unknown_actor $PLAYER_ACTOR on_path $3975(4@,26) $4001(4@,26) $4027(4@,26) radius 100.0 
+8522:   not unknown_check $3986 $3950 
+854B:   not unknown_player_check $PLAYER_CHAR $3988 
+8572:   not unknown_actor $1934 dead_but_valid 
+8573:   not unknown_check $2289 
+8576:   not unknown_check $3935(7@,14) 
+859C:   not unknown_check $4055 
+85B1:   not unknown_check 47@ 
+85CB:   not unknown_check 0@ 
+85E2:   not unknown_check $4012(2@,3) 
+85EE:   not unknown_check 
+8610:   not 
+8616:   not unknown_check 
+8618:   not unknown_check 
+8621:   not unknown_check 
+8636:   not unknown_check 
+8637:   not unknown_check 
+864F:   not unknown_check 
+8669:   not unknown_check 
+866F:   not unknown_check 64 

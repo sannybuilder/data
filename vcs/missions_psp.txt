@@ -1,0 +1,99 @@
+Initial: Pickups
+Initial: Unique Stunt Jumps
+Initial: Car Generators
+Initial: Garages
+Initial: Objects
+Initial: Player
+Initial: Generic
+[no idea]
+Soldier
+Empire Buildings parked car spawn
+Empire Buildings debug
+Empire Buildings development menu
+In The Air Tonight
+Clymenus Suite TV [watching cutscenes after 100%]
+Phil's Shooting Range
+Paramedic Sub-Mission
+Vigilante Sub-Mission
+Firefighter Sub-Mission
+Air Rescue Sub-Mission
+Swinger's Club
+Taxi Driver - Sub-Mission
+Empire Buildings mission: Extortion
+Empire Buildings mission: Loan Shark
+Empire Buildings mission: Pimping
+Empire Buildings mission: Drug Running
+Empire Buildings mission: Smuggling
+Empire Buildings mission: Robbery
+Watersports
+Crash!
+Quad Bike Time Trials
+BMX Time Trials
+Sanchez Time Trials
+Mashin' up the Mall
+Beach Patrol
+Vice Sights
+Fire Copter
+Turismo
+Skywolf
+Crims On Wings
+Land, Sea And Air Ace
+Playground On The Town/Playground On The Point
+Haiti Hover Race/Harbor Hover Race
+Cleaning House
+Conduct Unbecoming
+Cholo Victory
+Boomshine Blowout
+Truck Stop
+Marked Men
+Shakedown
+Fear the Repo
+Waking Up the Neighbors
+O, Brothel, Where Art Thou?
+Got Protection?
+When Funday Comes
+Takin' Out the White-Trash
+D.I.V.O.R.C.E.
+To Victor, the Spoils
+Hose the Hoes
+Robbing the Cradle
+Jive Drive
+The Audition
+Caught as an Act
+Snitch Hitch
+From Zero to Hero
+Nice Package
+Balls
+Papi Don't Screech
+Havana Good Time
+Money for Nothing
+Leap and Bound
+The Bum Deal
+The Mugshot Longshot
+Hostile Takeover
+Unfriendly Competition
+High Wire
+Burning Bridges
+Accidents Will Happen
+The Colonel's Coke
+Kill Phil
+Say Cheese
+Kill Phil: Part 2
+So Long Schlong
+Brawn of the Dead
+Blitzkrieg
+Turn on, Tune in, Bug out
+Taking the Fall
+White Lies
+Where it Hurts Most
+Blitzkrieg Strikes Again
+Lost and Found
+Light My Pyre
+Home's on the Range
+Purple Haze
+Farewell To Arms
+Steal the Deal
+The Exchange
+Domo Arigato Domestoboto
+Over the Top
+Last Stand

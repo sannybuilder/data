@@ -1,0 +1,13 @@
+Sanny Builder Console Commands
+================================
+
+HELP - Shows help information about how to use the console
+HELP <command name> - Shows help information about a command.
+
+LIST - Shows the list of the commands that are used in the console
+LIST OPTIONS - Shows the list of the options that are used as TOGGLE command parameter
+
+CLEAR - Clears console text
+
+TOGGLE <option name> [ON]/OFF (by default it is ON)\nExample: to turn on the decompiler option 'code_offsets' type "TOGGLE debug_mode" and then "TOGGLE code_offsets"
+
