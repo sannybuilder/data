@@ -1,3 +1,4 @@
 !.gitignore
 *.dll
 *.gxt
+settings.ini
