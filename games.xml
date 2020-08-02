@@ -1,88 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     if the "type" parameter is set to the "default" value,
-    this entry is used when decompiling a script file for the given game.
+    this entry is used to decompile a script file for the given game.
     only one entry for each game may have the type parameter set to "default".
 
     @sb: - path to Sanny Builder
+    @game: - path to the game directory
+
+    <text> formats:
+      gta3: single table, ANSI
+      vc: multitable, ANSI
+      sa: multitable, hashed keys, ANSI
+      sa_mobile: multitable, hashed keys, UTF-16
  -->
 <games>
-       <game shortcut="GTA3" title="GTA III" mode="gta3" type="default">
-             <data>@sb:\data\gta3\</data>
-             <opcodes>@sb:\data\gta3\SCM.ini</opcodes>
-             <classes>@sb:\data\gta3\classes.db</classes>
-             <variables>@sb:\data\gta3\CustomVariables.ini</variables>
-             <keywords>@sb:\data\gta3\keywords.txt</keywords>
-             <missions>@sb:\data\gta3\missions.txt</missions>
-             <constants>@sb:\data\gta3\constants.txt</constants>
-       </game>
-       <game shortcut="VC" title="GTA VC" mode="vc" type="default">
-             <data>@sb:\data\vc\</data>
-             <opcodes>@sb:\data\vc\VCSCM.ini</opcodes>
-             <classes>@sb:\data\vc\classes.db</classes>
-             <variables>@sb:\data\vc\CustomVariables.ini</variables>
-             <keywords>@sb:\data\vc\keywords.txt</keywords>
-             <missions>@sb:\data\vc\missions.txt</missions>
-             <constants>@sb:\data\vc\constants.txt</constants>
-       </game>
-       <game shortcut="SA" title="GTA SA" mode="sa" type="default">
-             <data>@sb:\data\sa\</data>
-             <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
-             <classes>@sb:\data\sa\classes.db</classes>
-             <variables>@sb:\data\sa\CustomVariables.ini</variables>
-             <keywords>@sb:\data\sa\keywords.txt</keywords>
-             <labels>@sb:\data\sa\CustomLabels.ini</labels>
-             <arrays>@sb:\data\sa\CustomArrays.ini</arrays>
-             <missions>@sb:\data\sa\missions.txt</missions>
-             <constants>@sb:\data\sa\constants.txt</constants>
-       </game>
-       <game shortcut="LCS" title="GTA LCS" mode="lcs" type="default">
-             <data>@sb:\data\lcs\</data>
-             <opcodes>@sb:\data\lcs\LCSSCM.ini</opcodes>
-             <classes>@sb:\data\lcs\classes.db</classes>
-             <variables>@sb:\data\lcs\CustomVariables.ini</variables>
-             <missions>@sb:\data\lcs\missions.txt</missions>
-             <constants>@sb:\data\lcs\constants.txt</constants>
-       </game>
-       <game shortcut="VCS" title="GTA VCS" mode="vcs" type="default">
-             <data>@sb:\data\vcs\</data>
-             <opcodes>@sb:\data\vcs\VCSSCM.ini</opcodes>
-             <classes>@sb:\data\vcs\classes.db</classes>
-             <variables>@sb:\data\vcs\CustomVariables.ini</variables>
-             <missions num="99">@sb:\data\vcs\missions_psp.txt</missions>
-             <missions num="101">@sb:\data\vcs\missions_ps2.txt</missions>
-             <constants>@sb:\data\vcs\constants.txt</constants>
-       </game>
-       <game shortcut="SA Mobile" title="SA Mobile" mode="sa_mobile" type="default">
-             <data>@sb:\data\sa_mobile\</data>
-             <opcodes>@sb:\data\sa_mobile\SASCM.ini</opcodes>
-             <classes>@sb:\data\sa_mobile\classes.db</classes>
-             <variables>@sb:\data\sa_mobile\CustomVariables.ini</variables>
-             <keywords>@sb:\data\sa_mobile\keywords.txt</keywords>
-             <labels>@sb:\data\sa_mobile\CustomLabels.ini</labels>
-             <arrays>@sb:\data\sa_mobile\CustomArrays.ini</arrays>
-             <missions>@sb:\data\sa_mobile\missions.txt</missions>
-             <constants>@sb:\data\sa_mobile\constants.txt</constants>
-       </game>
-       <game shortcut="GTA SA SCR" title="GTA SA SCR" mode="sa" type="">
-             <data>@sb:\data\sa_scr\</data>
-             <opcodes>@sb:\data\sa_scr\SASCM.ini</opcodes>
-             <classes>@sb:\data\sa_scr\classes.db</classes>
-             <variables>@sb:\data\sa_scr\CustomVariables.ini</variables>
-             <keywords>@sb:\data\sa_scr\keywords.txt</keywords>
-             <labels>@sb:\data\sa_scr\CustomLabels.ini</labels>
-             <arrays>@sb:\data\sa_scr\CustomArrays.ini</arrays>
-             <missions>@sb:\data\sa_scr\missions.txt</missions>
-             <constants>@sb:\data\sa_scr\constants.txt</constants>
-       </game>
- </games>
-
-
-
-
-
-
-
-
-
-
+    <game shortcut="GTA3" title="GTA III" mode="gta3" type="default">
+        <data>@sb:\data\gta3\</data>
+        <opcodes>@sb:\data\gta3\SCM.ini</opcodes>
+        <classes>@sb:\data\gta3\classes.db</classes>
+        <variables>@sb:\data\gta3\CustomVariables.ini</variables>
+        <keywords>@sb:\data\gta3\keywords.txt</keywords>
+        <missions>@sb:\data\gta3\missions.txt</missions>
+        <constants>@sb:\data\gta3\constants.txt</constants>
+        <text format="gta3">@game:\text\american.gxt</text>
+        <ide>@game:\data\default.ide</ide>
+    </game>
+    <game shortcut="VC" title="GTA VC" mode="vc" type="default">
+        <data>@sb:\data\vc\</data>
+        <opcodes>@sb:\data\vc\VCSCM.ini</opcodes>
+        <classes>@sb:\data\vc\classes.db</classes>
+        <variables>@sb:\data\vc\CustomVariables.ini</variables>
+        <keywords>@sb:\data\vc\keywords.txt</keywords>
+        <missions>@sb:\data\vc\missions.txt</missions>
+        <constants>@sb:\data\vc\constants.txt</constants>
+        <text format="vc">@game:\text\american.gxt</text>
+        <ide>@game:\data\default.ide</ide>
+    </game>
+    <game shortcut="SA" title="GTA SA" mode="sa" type="default">
+        <data>@sb:\data\sa\</data>
+        <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
+        <classes>@sb:\data\sa\classes.db</classes>
+        <variables>@sb:\data\sa\CustomVariables.ini</variables>
+        <keywords>@sb:\data\sa\keywords.txt</keywords>
+        <labels>@sb:\data\sa\CustomLabels.ini</labels>
+        <arrays>@sb:\data\sa\CustomArrays.ini</arrays>
+        <missions>@sb:\data\sa\missions.txt</missions>
+        <constants>@sb:\data\sa\constants.txt</constants>
+        <examples>@sb:\data\sa\opcodes.txt</examples>
+        <text format="sa">@game:\text\american.gxt</text>
+        <ide>@game:\data\default.dat</ide>
+        <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
+    </game>
+    <game shortcut="LCS" title="GTA LCS" mode="lcs" type="default">
+        <data>@sb:\data\lcs\</data>
+        <opcodes>@sb:\data\lcs\LCSSCM.ini</opcodes>
+        <classes>@sb:\data\lcs\classes.db</classes>
+        <variables>@sb:\data\lcs\CustomVariables.ini</variables>
+        <missions>@sb:\data\lcs\missions.txt</missions>
+        <constants>@sb:\data\lcs\constants.txt</constants>
+        <text format="vc">@sb:\data\lcs\english.gxt</text>
+        <ide>@sb:\data\lcs\models.ide</ide>
+    </game>
+    <game shortcut="VCS" title="GTA VCS" mode="vcs" type="default">
+        <data>@sb:\data\vcs\</data>
+        <opcodes>@sb:\data\vcs\VCSSCM.ini</opcodes>
+        <classes>@sb:\data\vcs\classes.db</classes>
+        <variables>@sb:\data\vcs\CustomVariables.ini</variables>
+        <missions num="99">@sb:\data\vcs\missions_psp.txt</missions>
+        <missions num="101">@sb:\data\vcs\missions_ps2.txt</missions>
+        <constants>@sb:\data\vcs\constants.txt</constants>
+        <text format="vc">@sb:\data\vcs\english.gxt</text>
+        <ide>@sb:\data\vcs\models.ide</ide>
+    </game>
+    <game shortcut="SA Mobile" title="SA Mobile" mode="sa_mobile" type="default">
+        <data>@sb:\data\sa_mobile\</data>
+        <opcodes>@sb:\data\sa_mobile\SASCM.ini</opcodes>
+        <classes>@sb:\data\sa_mobile\classes.db</classes>
+        <variables>@sb:\data\sa_mobile\CustomVariables.ini</variables>
+        <keywords>@sb:\data\sa_mobile\keywords.txt</keywords>
+        <labels>@sb:\data\sa_mobile\CustomLabels.ini</labels>
+        <arrays>@sb:\data\sa_mobile\CustomArrays.ini</arrays>
+        <missions>@sb:\data\sa_mobile\missions.txt</missions>
+        <constants>@sb:\data\sa_mobile\constants.txt</constants>
+        <text format="sa_mobile">@sb:\data\sa_mobile\american.gxt</text>
+        <ide>@sb:\data\sa_mobile\custom.dat</ide>
+    </game>
+    <game shortcut="GTA SA SCR" title="GTA SA SCR" mode="sa" type="">
+        <data>@sb:\data\sa_scr\</data>
+        <opcodes>@sb:\data\sa_scr\SASCM.ini</opcodes>
+        <classes>@sb:\data\sa_scr\classes.db</classes>
+        <variables>@sb:\data\sa_scr\CustomVariables.ini</variables>
+        <keywords>@sb:\data\sa_scr\keywords.txt</keywords>
+        <labels>@sb:\data\sa_scr\CustomLabels.ini</labels>
+        <arrays>@sb:\data\sa_scr\CustomArrays.ini</arrays>
+        <missions>@sb:\data\sa_scr\missions.txt</missions>
+        <constants>@sb:\data\sa_scr\constants.txt</constants>
+        <text format="sa">@game:\text\american.gxt</text>
+    </game>
+</games>
