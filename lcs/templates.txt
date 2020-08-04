@@ -1,0 +1,23 @@
+load=model request and load
+=024C: request_model #| 
+=
+=while 024D:   not model # available
+= wait 0
+=end
+
+def=Check if player is defined
+=if 
+=  025B:   player $PLAYER_CHAR defined
+=then
+=  
+=end
+
+scm=Multifile template (LCS)
+=DEFINE MISSIONS 0
+=//DEFINE MISSION {ID} 0 AT {LABEL} @
+=
+=|
+=
+=while true
+=  0001: wait 250 
+=end

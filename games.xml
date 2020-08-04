@@ -22,6 +22,7 @@
         <keywords>@sb:\data\gta3\keywords.txt</keywords>
         <missions>@sb:\data\gta3\missions.txt</missions>
         <constants>@sb:\data\gta3\constants.txt</constants>
+        <templates>@sb:\data\gta3\templates.txt</templates>
         <text format="gta3">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
     </game>
@@ -33,6 +34,7 @@
         <keywords>@sb:\data\vc\keywords.txt</keywords>
         <missions>@sb:\data\vc\missions.txt</missions>
         <constants>@sb:\data\vc\constants.txt</constants>
+        <templates>@sb:\data\vc\templates.txt</templates>
         <text format="vc">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
     </game>
@@ -47,6 +49,7 @@
         <missions>@sb:\data\sa\missions.txt</missions>
         <constants>@sb:\data\sa\constants.txt</constants>
         <examples>@sb:\data\sa\opcodes.txt</examples>
+        <templates>@sb:\data\sa\templates.txt</templates>
         <text format="sa">@game:\text\american.gxt</text>
         <ide>@game:\data\default.dat</ide>
         <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
@@ -58,6 +61,7 @@
         <variables>@sb:\data\lcs\CustomVariables.ini</variables>
         <missions>@sb:\data\lcs\missions.txt</missions>
         <constants>@sb:\data\lcs\constants.txt</constants>
+        <templates>@sb:\data\lcs\templates.txt</templates>
         <text format="vc">@sb:\data\lcs\english.gxt</text>
         <ide>@sb:\data\lcs\models.ide</ide>
     </game>
@@ -69,6 +73,7 @@
         <missions num="99">@sb:\data\vcs\missions_psp.txt</missions>
         <missions num="101">@sb:\data\vcs\missions_ps2.txt</missions>
         <constants>@sb:\data\vcs\constants.txt</constants>
+        <templates>@sb:\data\vcs\templates.txt</templates>
         <text format="vc">@sb:\data\vcs\english.gxt</text>
         <ide>@sb:\data\vcs\models.ide</ide>
     </game>
@@ -82,6 +87,7 @@
         <arrays>@sb:\data\sa_mobile\CustomArrays.ini</arrays>
         <missions>@sb:\data\sa_mobile\missions.txt</missions>
         <constants>@sb:\data\sa_mobile\constants.txt</constants>
+        <templates>@sb:\data\sa_mobile\templates.txt</templates>
         <text format="sa_mobile">@sb:\data\sa_mobile\american.gxt</text>
         <ide>@sb:\data\sa_mobile\custom.dat</ide>
     </game>
@@ -95,6 +101,7 @@
         <arrays>@sb:\data\sa_scr\CustomArrays.ini</arrays>
         <missions>@sb:\data\sa_scr\missions.txt</missions>
         <constants>@sb:\data\sa_scr\constants.txt</constants>
+        <templates>@sb:\data\sa_scr\templates.txt</templates>
         <text format="sa">@game:\text\american.gxt</text>
     </game>
 </games>
