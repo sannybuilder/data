@@ -1,0 +1,31 @@
+cleo=CLEO script
+={$CLEO .cs}
+=0000:
+=
+=|
+=
+=0A93: end_custom_thread
+
+load=model request and load
+=0247: load_model #| 
+=
+=while 8248:   not model # available
+= wait 0
+=end
+
+def=Check if player is defined
+=if 
+=  0256:   player $PLAYER_CHAR defined
+=then
+=  
+=end
+
+scm=Multifile template (GTA3)
+=DEFINE MISSIONS 0
+=//DEFINE MISSION {ID} 0 AT {LABEL} @
+=
+=|
+=
+=while true
+=  wait 250
+=end

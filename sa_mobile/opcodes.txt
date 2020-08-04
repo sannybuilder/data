@@ -183,7 +183,7 @@
 0106:   actor $PLAYER_ACTOR near_actor 79@ radius 15.0 15.0 15.0 0 in_car 
 0107: $4093 = create_object #AD_FLATDOOR at 1833.36 -1995.45 12.5 
 0108: destroy_object $1173 
-0109: player $PLAYER_CHAR money = 1000000 
+0109: player $PLAYER_CHAR money += 1000000 
 010A:   player $PLAYER_CHAR money > 46@ 
 010B: 5@ = player $PLAYER_CHAR money 
 010D: set_player $PLAYER_CHAR wanted_level_to 0 

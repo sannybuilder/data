@@ -6,8 +6,6 @@ DEFINE OBJECT LOD_LAND014              // Object number -2
 
 DEFINE MISSIONS 0
 
-{$VERSION 1.1.0000}
-
 //-------------MAIN---------------
 03A4: name_thread 'MAIN' 
 01F0: set_max_wanted_level_to 6 

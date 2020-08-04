@@ -1,0 +1,46 @@
+ifthen=IF..THEN statement
+=if
+=  |
+=then
+=
+=end // if
+
+ifelse=IF..THEN..ELSE statement
+=if
+=  |
+=then
+=
+=else
+=
+=end // if
+
+for=FOR statement
+=for | =  to  // step 1
+=
+=end // for
+
+while=WHILE statement
+=while |
+=
+=end // while
+
+repeat=REPEAT statement
+=repeat
+=
+=until | // repeat
+
+const=Constants declaration
+=const
+= |
+=end // const
+
+var=Variables declaration
+=var
+= |
+=end // var
+
+hex=HEX..END construct
+=hex
+= |
+=end // hex
+
