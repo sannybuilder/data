@@ -1,0 +1,1097 @@
+0001: wait 0 ms 
+0002: jump @MAIN_613 
+0003: shake_camera 60 
+0006: $664 = 'CH_JERR' // (string)  // Jerry Martinez
+0011:   0@ > 4@ // (int) var > var 
+0014:   1@ > 0@ // (float) var > var 
+0017:   1@ >= 2@ // (int) var >= var 
+001A:   1@ >= 2@ // (float) var >= var 
+001C:   $_262 == 0@ // (int) num == var 
+001E:   0@ == 3@ // (float) var == num 
+001F:   8@ == 'AU_ST2' // (float) num == var  // LOADING
+0020:   $1547(2@,5) == 0@ // (float) var == var 
+0021: jump_if_true @NONAME_14_4835 
+0022: jump_if_false @MAIN_608 
+0023: end_thread 
+0024: create_thread @AUDIMON 
+0026: return 
+0027: (unknown) 4@ 5@ 6@ 1@ 2@ 3@ 
+0028: $PLAYER_CHAR = create_player 0 at -1709.469 -306.7176 14.8654 
+0029: 0@ += 4@ // (int vars) 
+002A: 6@ += 3@ // (float vars) 
+002B: 1@ -= 0@ // (int vars) 
+002C: 6@ -= 3@ // (float vars) 
+002D: 1@ *= 2@ // (int vars) 
+002E: 6@ *= 3@ // (float vars) 
+002F: 4@ /= 2@ // (int vars) 
+0030: 6@ /= 3@ // (float vars) 
+0031: (unknown) $3409 10.0 
+0032: (unknown) 7@ 10@ 
+0033: (unknown) $3409 10.0 
+0034: (unknown) 2@ 3@ 
+0035: $_262 = 0@ // (int vars) 
+0036: $678 = $_174 // (float vars) 
+0037: $1450(0@,14) = 1@ // (string vars) 
+0038: 2@ = float 5@ to_integer 
+0039: 3@ = integer 0@ to_float 
+003E: 6@ = create_actor_pedtype 0@ model 1@ at 2@ 3@ 4@ 
+003F: destroy_actor $2232(0@,10) 
+0040: (unknown) $5013 -1 
+0041: (unknown) 0@ $4078(1@,20) $4098(1@,20) $4118(1@,20) 5.0 1 
+0042: (unknown) 3@ 
+0043: store_actor $PLAYER_CHAR position_to 1@ 2@ 3@ 
+0044: put_actor $PLAYER_CHAR at 7@ 8@ 9@ 
+0045:   actor $PLAYER_CHAR defined 
+0046: $PLAYER_CHAR -1780.627 -304.4774 -1588.454 -86.188 0   unknown_check 
+0047: $PLAYER_CHAR -1723.2 -320.5 10.0 -1699.2 -270.8 20.0 0   unknown_check 
+0048: 13@ = create_car 1@ at 3@ 4@ 5@ 
+0049: destroy_car 0@ 
+004A: car $4196(45@,20) drive_to $681 $682 $683 
+004B: set_car $5483 to_psycho_driver 
+004C: set_car $5487 to_normal_driver 
+004D: store_car $2514 position_to $2516 $2517 $2518 
+004E: put_car $2514 at $2516 $2517 $2518 
+004F: $2506   unknown_check 
+0050: set_car 2@ max_speed_to 19@ 
+0051: set_car 2@ traffic_behavior_to 2 
+0052: set_car 0@ driver_behaviour_to 0 
+0053: (unknown) $5477 -974.19 203.78 -956.39 180.35 0 
+0054: (unknown) $5503 $5416(23@,2) $5418(23@,2) $5420(23@,2) $5422(23@,2) $5424(23@,2) $5426(23@,2) 0 
+0055: show_text_styled GXT 0@ time 5000 style 8 
+0056: show_text_lowpriority GXT 'TAXI_B2' time 1 flag 1  // ~w~There aren't any fares around here. Look elsewhere.
+0057: show_text_highpriority GXT $1464(13@,14) time 1 flag 1 
+0058: (unknown) 'RAMP_CA' 5000 1  // You need a vehicle for this rampage.
+0059: text_clear_all 
+005A: $1582 = current_time_hours, $1581 = current_time_minutes 
+005B: set_current_time_hours_to 21 minutes_to 0 
+005C: 4@ = get_minutes_left_to_time_hours $5551 time_minutes $5552 
+005D:   sphere_onscreen 30@ 31@ 32@ radius 3.0 
+005E: (unknown) 
+005F: (unknown) 
+0078: if and
+0079: create_thread @JANDW // without extra params 
+007A: mission_cleanup 
+007B: $5444 = actor $PLAYER_CHAR car 
+007C:   actor $PLAYER_CHAR driving $2506 
+007D:   actor $PLAYER_CHAR driving_car_with_model #HUNTER 
+007E:   actor $PLAYER_CHAR driving 
+007F:   player 0 pressed_key 16 
+0080:   actor $PLAYER_CHAR near_point $2311 $2312 radius 1.0 1.0 sphere 0 
+0081:   actor $PLAYER_CHAR near_point_on_foot 5@ 6@ radius 5.0 5.0 sphere 0 
+0082:   actor $PLAYER_CHAR near_point_in_car 4@ 5@ radius 5.0 5.0 sphere 0 
+0084:   actor 0@ stopped_near_point_on_foot $5403 $5413 radius 1.0 1.0 sphere 0 
+0085:   actor $PLAYER_CHAR stopped_near_point_in_car 5@ 6@ radius 6.0 6.0 sphere 0 
+0086:   actor $PLAYER_CHAR near_actor 0@(39@,20) radius 2.0 2.0 sphere 0 
+0087:   actor $PLAYER_CHAR near_actor_on_foot $5348(0@,3) radius 15.0 15.0 sphere 0 
+0088:   actor $PLAYER_CHAR near_actor_in_car $5386(0@,15) radius 30.0 30.0 sphere 0 
+0089:   actor $PLAYER_CHAR in_sphere $2298 $2299 $2300 radius 1.0 1.0 1.0 sphere 0 
+008A:   actor $PLAYER_CHAR in_sphere_on_foot 1@ 2@ 3@ radius 1.0 1.0 3.0 sphere 0 
+008B:   actor $PLAYER_CHAR in_sphere_in_car -978.6422 -1251.019 11.0 radius 5.0 5.0 5.0 sphere 0 
+008D:   actor $PLAYER_CHAR stopped_in_sphere_on_foot $3462 $3463 $3464 radius 1.0 1.0 5.0 sphere 0 
+008E:   actor $PLAYER_CHAR stopped_in_sphere_in_car 1@ 2@ 3@ radius 10.0 10.0 10.0 sphere 0 
+008F:   actor $PLAYER_CHAR near_actor $2232(0@,10) radius 2.5 2.5 2.5 sphere 0 
+0090:   actor $PLAYER_CHAR near_actor_on_foot $5430(0@,3) radius 1.0 1.0 1.0 sphere 0 
+0091:   actor $PLAYER_CHAR near_actor_in_car $5361 radius 18.0 18.0 18.0 sphere 0 
+0092: $926 = init_object #JM_UMB4_SHUT at -990.07 63.7 9.57 
+0093: destroy_object $2013(0@,70) 
+0094: player $PLAYER_CHAR money += 4@ 
+0095:   player $PLAYER_CHAR money > 4@ 
+0096: $_166 = player $PLAYER_CHAR money 
+0098: set_player $PLAYER_CHAR wanted_level_to 0 
+0099: set_player $PLAYER_CHAR minimum_wanted_level_to 1 
+009A:   player $PLAYER_CHAR wanted_level > 0 
+009B: clear_player $PLAYER_CHAR wanted_level 
+009C: toggle_wasted_busted_check 0 
+009D:   wasted_or_busted // mission only 
+009E: set_actor $5383(0@,20) weapon $5528 ammo_to 9999 while_in_car 
+009F:   actor $PLAYER_CHAR dead 
+00A0:   car 0@ wrecked 
+00A1: (unknown) 2@ 1 
+00A2: (unknown) $PLAYER_CHAR 
+00A3: (unknown) $5566(0@,6) 
+00A4: $4156(14@,20) = create_actor_pedtype 43@ model 0@(52@,4) in_car $4196(45@,20) driverseat 
+00A5: $PLAYER_CHAR   unknown_check 
+00A6: (unknown) $5481 226 
+00A7: (unknown) $5533(7@,7) 
+00A9: $956 = init_parked_car_generator #HUEYHOSP color -1 -1 1 alarm 0 door_lock 0 0 10000 at -832.3 1105.9 25.7 angle 270.0 
+00AA: set_parked_car_generator $980 cars_to_generate_to 0 
+00AC: stop_timer $5545 
+00AE: remove_status_text $2512 
+00AF: set_zone_car_info 'AIRPORT' 1 12 0 0 0 0 0 0 0 0 0 70 
+00B0:   actor $PLAYER_CHAR in_zone 'BEACH3'  // Vice Point
+00B3: camera_on_ped $PLAYER_CHAR 15 2 
+00B4: camera_on_car $2513 15 2 
+00B5: (unknown) 3@ 15 4@ 
+00B6: restore_camera 
+00B7: set_zone_gang_info 'AIRPORT' 1 50 0 0 0 0 50 0 0 0 0 30 
+00B8: set_gamespeed 0.3 
+00B9: set_camera_position 4@ 5@ 6@ rotations 0 0 0 
+00BA: set_camera_point_at -871.2 -681.66 14.93 mode 2 
+00BB: (unknown) 0@ 
+00BC: (unknown) 1@ 2 
+00BD: (unknown) $5383 1 
+00BE: (unknown) $5551(0@,50) $5601(0@,50) $5651(0@,50) 0 
+00BF: (unknown) $5401(0@,15) 3 
+00C0: (unknown) $2506 $2507 
+00C1: (unknown) 0@ 1@ 
+00C2: (unknown) $2013(0@,70) $2153(0@,70) 
+00C3: (unknown) 0@ 1@ 2@ 3@ 
+00C4: (unknown) 1@ 1 
+00C5: (unknown) 1@ 2@ 3@ 43 5@ 
+00C6: (unknown) $845(0@,4) $849(0@,4) $853(0@,4) 8 $857(0@,4) 
+00C7: (unknown) $845(0@,4) $849(0@,4) $853(0@,4) 8 $857(0@,4) 
+00C8: 0 0 0 set_fade_color_RGB 
+00C9: fade 0 1 ms 
+00CA:   fading 
+00CB: restart_if_wasted_at 493.5 703.1 11.1 angle 90.0 
+00CC: restart_if_busted_at 508.9 506.8 10.3 angle 174.0 
+00CE: 14@ = actor $PLAYER_CHAR Z_angle 
+00CF: set_actor $PLAYER_CHAR Z_angle_to 3@ 
+00D0: $2519 = car $2514 Z_angle 
+00D1: set_car 13@ Z_angle_to 6@ 
+00D2: 24@ = object 7@ z_angle 
+00D3: set_object 8@ z_angle_to 5@ 
+00D4: (unknown) $PLAYER_CHAR $5467(0@,30) 
+00D5: (unknown) 0@ 1@ 20 
+00D6: set_on_mission_flag_to $ONMISSION // Note: your missions have to use the variable defined here 
+00D8:   car $5354 health >= 400 
+00D9: (unknown) 1@ 2@ 3@ 68 
+00DA: (unknown) 0@ 1@ 2@ 43 $5864 
+00DB: (unknown) $5864 
+00DC: (unknown) $5682 
+00DD: (unknown) $5354(0@,3) 
+00DE: (unknown) $5354(0@,3) 
+00DF: (unknown) $3406 
+00E0: (unknown) $4141(56@,15) 
+00E2: (unknown) $5382 $5411 $5412 $5414 $5415 
+00E3: (unknown) 0@ 
+00E4: (unknown) $3392 $PLAYER_CHAR 
+00E5: (unknown) $3595(0@,2) $PLAYER_CHAR 
+00E6: (unknown) $2252(0@,10) $PLAYER_CHAR 
+00E7: (unknown) $5430(1@,2) $5433(1@,2) 
+00E8: (unknown) $5013 $5011 
+00E9: (unknown) $5013 $5011 
+00EA: (unknown) $5348(0@,3) $5354(0@,3) 
+00EB: (unknown) $3406 $3408 
+00EC: (unknown) 0@ 11@ 
+00EE: (unknown) $PLAYER_CHAR 7@ 8@ 
+00F1: (unknown) 1@ 
+00F2: (unknown) $5013 $5011 
+00F3: (unknown) $5681 $5565 
+00F4: (unknown) $5503(15@,2) $PLAYER_CHAR 
+00F5: (unknown) $5430(0@,3) 2@ 3@ 
+0102:   car $4196(56@,20) near_point 22@ 23@ radius 10.0 10.0 sphere 0 
+0104:   car $2513 in_sphere 82@ 83@ 84@ radius 2.0 2.0 2.0 sphere 0 
+0106: give_actor $PLAYER_CHAR weapon $134(0@,10) ammo $144(0@,10) // Load the weapon model before using this 
+0107: toggle_player $PLAYER_CHAR can_move 0 
+0108: force_weather 0 
+0109: set_weather 1 
+010A: release_weather 
+010B: set_actor $PLAYER_CHAR armed_weapon_to $_164 
+010C: store_object 0@ position_to 4@ 5@ 6@ 
+010D: put_object 0@ at 4@ 5@ 6@ 
+010E: 4@ = current_time_in_ms 
+010F: (unknown) $PLAYER_CHAR 1@ 2@ 3@ 
+0110: 14@ = player $PLAYER_CHAR wanted_level 
+0111: $5644(1@,4)   unknown_check 
+0112: remove_references_to_actor $1572(0@,3) // Like turning an actor into a random pedestrian 
+0113: remove_references_to_car 0@ // Like turning a car into any random car 
+0114: remove_references_to_object $954 // This object will now disappear when the player looks away 
+0115: remove_actor 0@ from_mission_cleanup_list 
+0116: remove_car $2514 from_mission_cleanup_list 
+0117: remove_object 2@ from_mission_cleanup_list 
+0118: $4156(14@,20) = create_actor_pedtype 43@ model 0@(52@,4) in_car $4196(45@,20) passenger_seat -1 
+0119: actor 0@ kill_actor $PLAYER_CHAR 
+011A: (unknown) 1@ 
+011D: show_text_1number_styled GXT 'BAL_WIN' number 99 time 5000 style 6  // ~w~All ~1~ red balloons burst!
+011E: show_text_1number_lowpriority GXT 'PR_RET' number $4140 time 2 flag 1  // ~w~You have ~1~ second to return to the site!
+011F: show_text_1number_highpriority GXT 'TEMP1' number 0@ time 10 flag 1  // Number: ~1~
+0120: (unknown) 'PAR_RE1' 2@ 5000 6  // Pick up bonus. +~1~ seconds
+0121: remove_forbidden_for_cars_cube_cornerA 86.0 250.0 15.0 cornerB -100.0 281.0 30.0 
+0122: create_forbidden_for_cars_cube_cornerA -583.92 1371.84 8.0 cornerB -383.4 1531.17 25.0 
+0123: 9@ = car 1@ num_passengers 
+0124: 8@ = car 1@ max_passengers 
+0125: set_traffic_density_multiplier_to 0 
+0126: make_car $5394 very_heavy 1 
+0127: reset_actor 2@ flags 
+0128: set_max_wanted_level_to 6 
+012C:   car $2513 in_air 
+012D:   car $5354(0@,3) flipped 
+012E: toggle_player $PLAYER_CHAR ignored_by_cops 1 
+012F: init_rampage 'BLANK' 19@ time 120000 20@ 14@ 15@ 16@ 17@ 0 
+0130: 2@ = rampage_status 
+0132:   actor $PLAYER_CHAR near_car $5870(0@,2) radius 75.0 75.0 sphere 0 
+0133:   actor $PLAYER_CHAR near_car_on_foot $6068 radius 8.0 8.0 sphere 0 
+0134:   actor $PLAYER_CHAR near_car_in_car $5354(2@,3) radius 10.0 10.0 sphere 0 
+0135:   actor $PLAYER_CHAR near_car $5360 radius 30.0 30.0 30.0 sphere 30.0 
+0136:   actor $5403(0@,12) near_car_on_foot $5399 radius 0.9 0.9 1.5 sphere 1.5 
+0137:   actor $PLAYER_CHAR near_car_in_car $5358 radius 8.0 8.0 8.0 sphere 8.0 
+0138: 19@ = random_float_in_ranges 15.0 20.0 
+0139: 2@ = random_int_in_ranges 0 20 
+013A: set_car $2506 door_status_to 3 
+013B: explode_car $5394 
+013C: create_explosion_at 0@ 1@ 2@ radius 4 
+013D:   car 2@ flipped 
+013E: actor 0@ look_at_actor $PLAYER_CHAR 
+013F: $2297 = create_pickup #PICKUPSAVE type 3 at $2293 $2294 $2295 
+0140:   pickup $2297 picked_up 
+0141: destroy_pickup $2297 
+0142: (unknown) $5011 0 
+0143: show_text_styled GXT 'USJ_P' time 2000 style 8 // versionB  // ~w~UNIQUE STUNT BONUS!
+0145: $_913 = create_garage_type 1 door -838.687 -1201.066 10.515 to -840.584 -1195.191 14.947 depth -830.975 -1198.333 
+0146: (unknown) $_923 $5502 
+0147: (unknown) $_923 
+0149:   car $2513 inside_garage 
+014A: (unknown) $PLAYER_CHAR 1 
+014B: set_actor $PLAYER_CHAR health_to 100 
+014C: set_car $5448(0@,2) health_to 100 
+014D: 0@ = actor $PLAYER_CHAR health 
+014E: 22@ = car 0@ health 
+0150: set_car $5354(0@,3) color_to 0 0 
+0151: remove_forbidden_for_peds_cube_cornerA -230.0 -464.5 10.0 cornerB 56.85 -459.8 20.0 
+0152: create_forbidden_for_peds_cube_cornerA -956.0 -355.0 5.0 cornerB -898.0 -328.0 25.0 
+0153: (unknown) $2227 $PLAYER_CHAR 
+0154: (unknown) 20@(39@,5) 
+0155: set_gang 0 models_to #GANG1A #GANG1B 
+0156: set_gang 0 car_to #CUBAN 
+0157: set_gang 0 primary_weapon_to 19 secondary_weapon_to 0 
+0158: actor 0@ run_to $4078(1@,20) $4098(1@,20) 
+015D: (unknown) $2252(9@,10) 41 
+015F: (unknown) $5507 $5565 
+0160: load_model 0@ 
+0161:   model #GANG5A available 
+0162: release_model 1@ 
+0165: (unknown) $5551(0@,50) $5601(0@,50) $5651(0@,50) $5751 5 0 $5803 $5804 $5805 
+017A: (unknown) 1 $2513 
+0189: (unknown) 0 $5463(2@,2) 
+018E: (unknown) 0 
+01A4: (unknown) 0@ 1 
+01A8: (unknown) 
+01A9: (unknown) 93 0@ 
+01AA: 8@ = create_object 0@ at 2@ 3@ 4@ 
+01AB: $2513   unknown_check 
+01AC: $2232(1@,10)   unknown_check 
+01AD: (unknown) 6000 1 
+01AE: (unknown) 1 
+01AF: (unknown) $3480 1 
+01B0: (unknown) $2506 1 
+01B1: (unknown) $PLAYER_CHAR 1 0 0 0 0 
+01B2: (unknown) $2506 1 0 0 0 1 
+01B3: 0@   unknown_check 
+01B4: (unknown) 30@ 31@ 32@ 30@ 31@ 32@ 
+01B5: (unknown) 30@ 31@ 32@ 30@ 31@ 32@ 
+01B6: (unknown) $4196(45@,20) 22@ 23@ 24@ 
+01B7: 6@   unknown_check 
+01B8: 0@(39@,20)   unknown_check 
+01BA: gosub @MAIN_917 unknown @MAIN_917 
+01BB: (unknown) 7@ 8@ 9@ 9@ 
+01BC: (unknown) $5353(0@,80) $5433(0@,80) $5513(0@,80) $5782(0@,80) 
+01BD: 0@   unknown_check 
+01BE: (unknown) $5393 
+01BF: (unknown) $5394 $5396 $5398 $5400 
+01C0: (unknown) $5459 
+01C1: (unknown) $PLAYER_CHAR $5622 $5623 $5625 $5626 0 
+01C2: $PLAYER_CHAR 0   unknown_check 
+01C3: (unknown) $5448(0@,2) 0 
+01C4: (unknown) 316.8525 -215.2524 346.5 -268.58 1 1 1 26@ 
+01C7: 1@   unknown_check 
+01C8: (unknown) 5@ 6@ 7@ 20 13@ 
+01C9: (unknown) $3406 70 
+01CA: (unknown) $2513 39@ 
+01CB: (unknown) 6@ 
+01CC: (unknown) 
+01CE: (unknown) 
+01CF: (unknown) 
+01D0: 0@ 89   unknown_check 
+01D2: (unknown) 3@ 8@ 
+01D3: (unknown) 3@ 7@ 
+01D4: (unknown) 0@ 7@ 
+01D5: (unknown) 0@ 8@ 
+01D6: (unknown) $_913 14 
+01D8: (unknown) 'REPO_37' 19@ $5664 5000 1  // ~w~Merchandise repossessed: $~1~ reward + ~1~ in-a-row bonus: $250.
+01D9: (unknown) 'EXP_R02' 1@ 3@ 9000 1  // ~w~Your collector's fee is $~1~, plus a $~1~ bonus for seizing the whole list.
+01DA: show_text_2numbers GXT 'FPLANT' numbers 8@ 9@ time 5000 flag 5  // Ouch! Face plant distance: ~1~.~1~m
+01DB: show_text_3numbers GXT 'WHEEL02' numbers 8@ 50@ 47@ time 3000 flag 1  // TWO WHEELS BONUS: $ ~1~ Distance: ~1~ feet Time: ~1~ seconds.
+01DC: show_text_3numbers GXT 'SRNG_T4' numbers $5543 $5542 $5545 time 20000 flag 2  // ~w~Qualifying score: ~1~ ~n~Your score: ~1~ ~n~Accuracy: ~1~%
+01DD: show_text_4numbers GXT 'WHEEL01' numbers 8@ 48@ 49@ 47@ time 3000 flag 1  // TWO WHEELS BONUS: $ ~1~ Distance: ~1~.~1~m Time: ~1~ seconds.
+01DE: show_text_6numbers GXT 'SJSTAT' numbers 12@ 13@ 10@ 11@ 15@ 20@ time 1 flag 5  // Distance: ~1~.~1~m Height: ~1~.~1~m Flips: ~1~ Rotation: ~1~°
+01DF: progress_made += 1 
+01E0: set_max_progress 240 
+01E1: (unknown) 26@ 
+01E2: (unknown) 24@ 
+01E3: (unknown) 15@ 
+01E4: (unknown) 20@ 
+01E5: (unknown) 3 
+01E6: (unknown) 
+01E7: (unknown) 36 
+01E9: (unknown) 17@ 
+01EA: increment_mission_attempts 
+01EB: set_latest_mission_passed 0@ 
+01EC: (unknown) 0@ 1 
+01ED: (unknown) 
+01EE: (unknown) 0@ 50 
+01EF: (unknown) $5819 33 
+01F0:   actor 0@ in_range_of_player $PLAYER_CHAR 
+01F1: kill_actor $5386(0@,15) 
+01F2: (unknown) $5448(0@,2) 1 
+01F3: (unknown) 'AIRPORT' 1 51 
+01F4: (unknown) $5615 $5393 
+01F5: (unknown) $5498(0@,16) $5514(0@,16) 
+01F6: 1@ = create_random_car_with_actors -1 in_area 2@ 3@ 5@ 6@ 
+01F7:   garage $_916 respray_done 
+01F9: $3381(1@,10) = create_weapon_pickup #BERETTA type 11 ammo 28 at -1640.113 -264.2402 14.7102 
+01FA: (unknown) $5414(0@,1) $5356 
+01FB: (unknown) $PLAYER_CHAR 1 
+01FD: (unknown) $5386(2@,15) 1 
+01FF: 1   unknown_check 
+0200: (unknown) $1576 0 
+0201: (unknown) $2514 1 
+0202: 0@ 1@ 2@ 3@ 4@ 5@ 0 1 0 0 0   unknown_check 
+0203: set_draw_text_position 1@ 225.0 GXT 2@ 
+0204: set_text_draw_letter_size 0.8 0.8 
+0205: set_text_draw_RGBA 200 0 0 255 
+0206: (unknown) 0 
+0207: (unknown) 1 
+0208: set_text_draw_linewidth 0@ 
+0209: (unknown) 1 
+020A: (unknown) 0 
+020B: (unknown) $5394 0 10.0 0 
+020C: 0@ 1@ 2@ 3@ 0 0 2.1 0   unknown_check 
+020D: (unknown) 0@(39@,20) 
+020E: (unknown) $3480 1 
+020F: (unknown) $PLAYER_CHAR $1450(0@,14) 
+0210: (unknown) 3 -958.22 180.59 8.0 -968.64 188.53 10.6 
+0212: (unknown) $2013 
+0213: (unknown) $PLAYER_CHAR 200 
+0214: (unknown) $_913 
+0215: (unknown) $_913 
+0216: (unknown) $PLAYER_CHAR $681 $682 $683 
+0217: (unknown) -78.48 -1224.62 22.88 10.0 -79 1 
+0218: 0@ $PLAYER_CHAR   unknown_check 
+0219: (unknown) $5484 
+021A: $3407   unknown_check 
+021C: (unknown) $PLAYER_CHAR 20@ 
+021D: (unknown) 0 
+021E: show_text_2numbers_styled GXT 'BAL_COL' numbers $_1398 99 time 5000 flag 6  // ~w~Red balloon ~1~ / ~1~ burst!
+0220: (unknown) $PLAYER_CHAR 0 -1 
+0221: (unknown) 
+0222: (unknown) 337.69 -243.22 100.0 2@ 
+0224: (unknown) $5626(3@,20) 9@ 10@ 11@ 
+0225: (unknown) $3407 1 
+0226: show_text_1string GXT 'PR_ATTA' string 58@ time 5000 1  // Your ~r~business~w~ is under attack in ~a~!
+0227: (unknown) 0@ 1@ 2@ 7.0 7.0 10.0 
+0228: (unknown) 
+0229: (unknown) $5348(2@,27) 12@ 13@ 14@ 
+022A: (unknown) $3485(0@,6) 0 
+022B: (unknown) 1 
+022C: (unknown) 3@ 4@ 5@ 5.0 1 
+022D: (unknown) 1 
+022E: (unknown) $6122(8@,10) 1 
+0230: (unknown) 0@ 0 
+0231: (unknown) 18 0@ 1@ 2@ 0 0 5@ 4@ 0 0 0 1 
+0232: (unknown) 0@ 0 
+0233: (unknown) $4196(45@,20) $681 $682 
+0235: (unknown) 9@ 10@ 11@ 1.0 
+0236: (unknown) 6@ 3 
+0238: name_thread 'MAIN' 
+0239: (unknown) 5991 
+023A: (unknown) 7@ 
+023B: (unknown) 
+023D: (unknown) $5578 1 
+023F: (unknown) 1 
+0240: (unknown) -1233.97 -246.92 0 -1185.04 -288.26 30.0 
+0241: (unknown) 1 
+0242: (unknown) $_922 
+0243: (unknown) $_922 
+0245: (unknown) 1 
+0246: (unknown) 5@ 6@ 7@ 8@ 9@ 10@ 
+0247: (unknown) $_914 
+0248: (unknown) $2298 $2299 $2300 1.0 $2292 
+0249: (unknown) $2292 
+024A: (unknown) $PLAYER_CHAR 1 
+024B: (unknown) $PLAYER_CHAR $2513 
+024C: set_timer_with_text_to $5545 type 1 GXT 'TIME'  // Time
+024D: (unknown) $5544 1 'REN7_B1'  // Light rig stress
+024E: (unknown) 109.8 -1151.2 16.5 1.6 
+024F: (unknown) 1.0 
+0250: (unknown) 
+0251: (unknown) $5644(1@,4) 
+0252:   object $2013(0@,70) exists 
+0253: (unknown) $678 $679 $680 
+0254: enable_car $4196(45@,20) stuck_check_distance_to 2.0 time_to 5000 
+0255: (unknown) $4196(56@,20) 
+0256: $4196(56@,20)   unknown_check 
+0257: (unknown) 4@ 0@ 
+0258: (unknown) 0@ 
+0259: (unknown) 1@ 0 
+025A: 1@   unknown_check 
+025B: (unknown) 30@ 31@ 32@ 30@ 31@ 32@ 41@ 
+025D: remove_text 'SJSTAT'  // Distance: ~1~.~1~m Height: ~1~.~1~m Flips: ~1~ Rotation: ~1~°
+025E: remove_styled_text 'NUMBER'  // ~1~
+025F: (unknown) $3435 1@ 2@ 3@ 
+0260: (unknown) 
+0263: (unknown) $5541 $5600 
+0264: (unknown) 1.0 
+0265: (unknown) 18@ 
+0266: (unknown) 1 
+0267: (unknown) 'SAVE_02'  // You cannot save while on a mission.
+0268: (unknown) 
+0269: (unknown) 8 
+026A: $PLAYER_CHAR   unknown_check 
+026C: (unknown) 
+026D: (unknown) 7@ 1 
+026E: $PLAYER_CHAR   unknown_check 
+0270: (unknown) 1 
+0271: (unknown) 13 0@ 
+0272: (unknown) 8 1 
+0273: (unknown) $5354(0@,3) $5552 $5553 
+0275: (unknown) $5395 1 
+0276: (unknown) $5426 $5427 999000 
+0277: (unknown) $PLAYER_CHAR $5554 
+0278: (unknown) $3406 0 
+0279: (unknown) 2@ 8.6 0 0 6@ 7@ 8@ 
+027C: (unknown) $5350 
+027F: store_coords_to 1@ 2@ 3@ from_actor $5487 with_offset 0 -5.2 -0.6 
+0280: set_total_rampages_to 35 
+0284: (unknown) 0@ 
+0285: (unknown) $5013 1 
+0289: start_mission 0  // Initial: Pickups
+028B: (unknown) 1@ $5551 0@ 
+028D: (unknown) 0.5 
+028E: (unknown) 8 68929323 
+028F: (unknown) $_922 $5395 
+0290: (unknown) 0@ 1.0 
+0291:   is_system_metric 
+0292: (unknown) 51@ 53@ 
+0293: (unknown) 86.0 250.0 15.0 -100.0 281.0 30.0 
+0294: (unknown) 2@ 1 
+0295: (unknown) 340.0 970.0 -205.0 490.0 1290.0 -165.0 
+0296: (unknown) 35 
+0297: 12@ = meters 12@ to_feet 
+0298: (unknown) $PLAYER_CHAR 2@ -1 
+0299: 0@ 0   unknown_check 
+029A: (unknown) 0@ 3@ 1@ 
+029C: (unknown) 0 
+029F: (unknown) 13 1@ 2@ 3@ 0 0 0 1.5 
+02A0: (unknown) 1 
+02A1: (unknown) 51@(2@,1) 
+02A2: (unknown) 
+02A3: (unknown) $2513 2@ 
+02A4:   unknown_check 
+02A5: (unknown) $5392 0 
+02A6: (unknown) $5348(0@,3) $5354(0@,3) 
+02A7: $PLAYER_CHAR   unknown_check 
+02A8: $PLAYER_CHAR   unknown_check 
+02AA: (unknown) 
+02AC: (unknown) $3407 270.0 0 0 
+02AD: (unknown) 9@ 10@ 11@ 
+02AE: (unknown) $PLAYER_CHAR $3480 
+02B1: draw_text_1number 30.0 210.0 GXT 'AMM_COS' number 3@  // Cost: $~1~
+02B2: (unknown) 4@ 5@ 1@ 2@ 3@ 
+02B3: (unknown) $5770(0@,16) 
+02B4: set_camera_transverse_delay 0 time 20000 
+02B5: (unknown) 9@ 10@ 11@ 
+02B6: (unknown) $PLAYER_CHAR $5487 0 0 0 0 360.0 0 
+02B7: (unknown) 5@ 
+02B9: (unknown) 0@ 0 
+02BB: (unknown) $5819 
+02BD: (unknown) 1@ 10@ 
+02C0: (unknown) $PLAYER_CHAR $814 
+02C1: $5364 0@ 30.0 30.0 0   unknown_check 
+02C4: $PLAYER_CHAR $5591 1.0 1.0 1.0 0   unknown_check 
+02C5: $5385(0@,4) $5407 2.5 2.5 3.0 0   unknown_check 
+02C7: (unknown) $5487 0 2500 
+02C8: $PLAYER_CHAR   unknown_check 
+02C9: (unknown) 0@ $5426 
+02CA: (unknown) 50.0 
+02CB: (unknown) 1.0 
+02CC: (unknown) $5372 10000 
+02CF: 97   unknown_check 
+02D0: (unknown) $5393(0@,6) 1 
+02D3: $3613 $3614 $3615 0.5   unknown_check 
+02D4: (unknown) $PLAYER_CHAR 
+02D5: (unknown) $PLAYER_CHAR $_164 
+02D7: (unknown) 0 11@ 12@ 13@ 14@ 
+02D8: 2@   unknown_check 
+02D9: $5373(0@,5) 6@   unknown_check 
+02DA: (unknown) $5870(1@,2) 4@ 5@ 6@ 10 
+02DB: 0@ 1   unknown_check 
+02DC: (unknown) $5356(4@,10) 1@ 2@ 3@ 
+02E1:   actor $PLAYER_CHAR in_water 
+02E2: 12@ = 11 // (any) 
+02E7: get_weapon_data_from_actor $PLAYER_CHAR weapon_group 1@ weapon $134(0@,10) ammo $144(0@,10) model $154(0@,10) 
+02E8: unknown_get_at 5@ 6@ 10.0 height 1@ radius 4@ store_to $5348 $5350 $5352 $5349 $5351 $5353 $5355 
+02E9: set_car $5487 speed_to 5.0 
+02EA: select_interior 0 
+02EE: get_actor $PLAYER_CHAR coords_to 4@ 5@ 6@ with_offset 0 2.8 -0.6 
+02F0:   actor 1 photographed 
+02F1:   actor $PLAYER_CHAR driving_flying_vehicle 
+02F2: (unknown) 0@ 7@ 
+02F3: (unknown) $5578 
+02F5: (unknown) 30@ 31@ 32@ 20 30@ 31@ 32@ 
+02F6: (unknown) 30@ 31@ 32@ 25 30@ 31@ 32@ 
+02F8: (unknown) $PLAYER_CHAR 1 
+02F9: (unknown) $5424 1 
+02FA: (unknown) $5379 1 
+02FB: $5379   unknown_check 
+02FE: (unknown) $PLAYER_CHAR $_165 
+02FF: (unknown) $5870(1@,2) 1 
+0300: (unknown) $5354(0@,3) 20 
+0301: (unknown) $5373 
+0304: $5378 $5352 $5353 20.0 20.0 0   unknown_check 
+0305: $5407 $5370 $5371 $5372 4.0 4.0 3.0 0   unknown_check 
+0306: $5378   unknown_check 
+0309: (unknown) $3480 1 -1 
+030A: set_zone_car_class_info 'AIRPORT' 1 200 90 200 0 500 0 0 0 10 900 100 0 0 
+030E: (unknown) $5563(0@,3) 
+030F: (unknown) 2@ 0@ 3@ 4@ 5@ 6@ 0 0 
+0310: (unknown) 0@ $PLAYER_CHAR 1 
+0311: status_text $4317 type 1 line 1 GXT 'DAMAGE' // global_variable  // Damage
+0312: (unknown) 1 225.0 -1244.0 227.4 -1248.5 249.0 -1255.0 246.0 -1250.6 208.4 -1238.4 209.6 -1243.5 
+0313: (unknown) 0 0 
+0314: (unknown) 0 
+0315: (unknown) $PLAYER_CHAR 47@ 51@ 54@ 58@ 61@ 65@ 
+0317: 0@   unknown_check 
+0318: $PLAYER_CHAR $1450(0@,14)   unknown_check 
+031B: (unknown) 218 0 0 
+031C: (unknown) $5455 
+031D: (unknown) 10@ 11@ $681 $682 13@ 
+031E: (unknown) 0 0 0 0@ 1@ 2@ 6@ 
+031F: (unknown) $5875 
+0321: (unknown) $5348(2@,27) 0@ 
+0322: (unknown) 0@ $5590(6@,10) $5600(6@,10) $5610(6@,10) 1.0 
+0323: show_text_box 'CLOTHA'  // Use the ~h~~k~ ~AMMOV~ ~w~to view outfits. ~h~~k~ ~AMBUY~ ~w~to change into outfit. ~h~~k~ ~AMEXI~ ~w~to cancel.
+0324: (unknown) 0@ 6 0 
+0325: (unknown) $2514 0 
+0326: $3392 $PLAYER_CHAR   unknown_check 
+0327: 1@ 0@   unknown_check 
+0328: $4196(56@,20) $PLAYER_CHAR   unknown_check 
+0329: (unknown) $5483 $5482 
+032A: (unknown) 0@ 
+032D: (unknown) $5013 0 
+032E: (unknown) 0@ 
+032F: (unknown) $5703 1 
+0331: (unknown) 0@ 1 
+0332: (unknown) $5616 
+0333: (unknown) 8@ 9@ 10@ 11@ 2@ 4@ 
+0334: (unknown) $2506 0 
+0335: (unknown) $5389 
+0336: $PLAYER_CHAR $5537   unknown_check 
+0339: (unknown) 1@ 1 
+033A: use_GXT_table 12@ 
+033B: (unknown) $5381(2@,3) 
+033C: (unknown) $5356 
+033D: (unknown) 5@ 1 
+033F: (unknown) 
+0340: set_player $PLAYER_CHAR max_health += 50 
+0341: set_player $PLAYER_CHAR max_armour += 50 
+0342: (unknown) $5770(0@,16) $5498(1@,16) 
+0343: (unknown) $5770(0@,16) 3@ $5498(1@,16) 
+0344: (unknown) 4@ 1 
+0347: (unknown) 0@ 1 
+0348: (unknown) $2252(9@,10) 1 
+034A: $3392   unknown_check 
+034B: 0@   unknown_check 
+034D: (unknown) $6057 
+034E: (unknown) 1 
+034F: (unknown) $3406 1 
+0351: (unknown) $5646 
+0352: (unknown) $PLAYER_CHAR 
+0353: (unknown) $_913 1 
+0356: (unknown) 0@ 
+035B:   unknown_check $PLAYER_CHAR 'AIRPORT' 
+0362: 0@ = percentage_completed 
+0363: (unknown) 407.6 725.3 10.5 177.0 
+0364: (unknown) 28@ 29@ 30@ 31@ 
+0367: (unknown) 3 1 
+0368: (unknown) $5013 1 
+0369: (unknown) $5354(0@,3) 0 
+036A: (unknown) 
+036E: (unknown) $5438 
+0372: (unknown) 12@ 13@ 15@ 16@ 20@ 
+0373: (unknown) 3@ 4@ 5@ 6@ 7@ 8@ 13@ 
+0374: (unknown) 10 10 $3393 
+0375: (unknown) 50 3@ 4@ 5@ 
+0376: (unknown) 50 50 0@ 1@ 2@ 
+0377: (unknown) 39 $828 
+037A: args 2 out 0 locals_base_index 2 call_func @MAIN_6590 0@ 1@ 
+037B:   args 4 out 0 locals_base_index 0 call_func @MAIN_2520 0 'PLR' 'OUT_F1' 'OU_1'  // 'Army Fatigues' // ~h~Army Fatigues~w~ are now available at the safehouse.
+037C: (unknown) 1@ 
+037D: $2513   unknown_check 
+037E: (unknown) 0@ 
+037F: $2513   unknown_check 
+0393: (unknown) $5013 0 
+0395: (unknown) 3@ 4@ 5@ $5356 6 0 237 130 180 $5474(1@,37) 
+0396: (unknown) $5474(1@,37) 
+0397: (unknown) 0@ 
+0398: $5549(1@,20)   unknown_check 
+0399: (unknown) 8@ 1 
+039C: $PLAYER_CHAR   unknown_check 
+039E: (unknown) 
+039F: (unknown) 1 
+03A0: (unknown) 1 
+03A1: (unknown) 0 
+03A2: (unknown) 9@ 10@ 12@ 13@ 5@ 
+03A3: (unknown) -138.44 1029.14 -142.44 1033.14 20@ 
+03A4: (unknown) 0@ 1@ 
+03A5: (unknown) $3406 0 
+03A6: (unknown) $5591 
+03A7: (unknown) $5399 0 
+03A9: (unknown) $5348(2@,27) 9@ 10@ 11@ 
+03AA: (unknown) 8@ 999999.9 999999.9 0.99 
+03AC: (unknown) 72@ 
+03AE: (unknown) 12@ $2513 
+03AF: (unknown) $5377 
+03B0: (unknown) 
+03B3: (unknown) 0@ $5589 $5590 $5591 
+03B4: (unknown) $5373(0@,5) 0 0 0 
+03B5: (unknown) $5379 1 1 1 1 1 
+03B6: (unknown) $_173 
+03B7: (unknown) $_173 
+03B8: (unknown) $5537 4@ 5@ 6@ 
+03B9: (unknown) $5537 4@ 5@ 6@ 
+03BA: (unknown) 
+03BB: (unknown) $5373 
+03BC: (unknown) 0@ 2@ 
+03BD: (unknown) 0 
+03BE: (unknown) 8@ 
+03BF: (unknown) 6@ 7@ 8@ 9@ -1 5@ 
+03C0:   unknown_check 
+03C1:   unknown_check 
+03C2: (unknown) 
+03C3: (unknown) 4@ 5@ -50.0 6@ 7@ 50.0 
+03C6: (unknown) 0 
+03CF: (unknown) 72 72 171 255 
+03D0: (unknown) 11 11 91 255 
+03D1: (unknown) $5537 
+03D2: (unknown) $5348(11@,36) $5384(11@,36) $5420(11@,36) 8.0 0 255 0 
+03D3: (unknown) 'JER1_17'  // This is your barracks.
+03D4: (unknown) 2@ 
+03D5: (unknown) 0@ 1250 
+03D6: (unknown) $3406 2000 
+03D7: (unknown) 13@ 800 
+03D8: (unknown) $5383 
+03DE: (unknown) $3595(0@,2) 1 
+03DF: (unknown) 6@ 
+03E0: (unknown) 1 
+03E1: (unknown) 32 
+03E2: (unknown) $5348(11@,36) $5384(11@,36) $5420(11@,36) $5348(12@,36) $5384(12@,36) $5420(12@,36) 237 130 180 -1.5 
+03E5:   unknown_check 
+03E6: 1 unknown 
+03E7: (unknown) $5348(1@,27) 0@ 11@ 12@ 13@ 
+03E8: (unknown) $5348(2@,27) 
+03E9: (unknown) 2.0 0.5 
+03EC: (unknown) 'TT_L1' 1 1  // ~r~ Locked.
+03ED: (unknown) 'CHO_VA1' 1@ 2 1  // You have ~1~ second to return to an air ambulance!
+03EE: (unknown) 9@ 10@ 12@ 13@ 7@ 
+03F0: (unknown) 1 
+03F1: (unknown) 0 
+03F2: (unknown) 0@ 
+03F5: (unknown) 0@ 7@ 8@ 9@ 
+03F6: (unknown) $5841 60.0 0 0 
+03F7: (unknown) $5683 1 
+03F8: (unknown) $1450(0@,14) 
+03F9: (unknown) $2512 1@ 0 'E_COUN'  // Job ~1~
+03FA: (unknown) 20 
+03FB: (unknown) $5469(0@,20) 13 2000 
+03FC: (unknown) $_920 1 
+03FD:   unknown_check 
+03FF: (unknown) $5783 $5631 0 3 'RACE_P1' 'RACE_L'  // ~w~1st // Lap
+0400: (unknown) $PLAYER_CHAR $814 
+0401: (unknown) 1 
+0403: (unknown) 0 0 0 
+0404: (unknown) 0.01 0.89 0.47 
+0407: (unknown) 'CLOTHA'  // Use the ~h~~k~ ~AMMOV~ ~w~to view outfits. ~h~~k~ ~AMBUY~ ~w~to change into outfit. ~h~~k~ ~AMEXI~ ~w~to cancel.
+0409: (unknown) $5381 
+040C: (unknown) 0@ 1@ 2@ 5@ 6@ 
+040D: (unknown) 8@ 7@ 1 6 
+040F: (unknown) 'DBGSEL5' 2@  // Weapon Cheat:
+0410: (unknown) 0@ 
+0412: (unknown) 0@ 
+0413: (unknown) 0@ 1@ 4@ 2@ 
+0414: (unknown) 0@ 67 3@ 
+0415: set_actor 5@ immunities 1 1 1 0 1 1 1 1 0 
+0416: set_car 6@ immunities 1 1 1 1 0 
+0417: (unknown) $2010 $2011 $2012 200 2@ 
+0418: (unknown) $2010 $2011 $2012 
+0419: (unknown) 2@ 3@ 5@ 6@ 1@ 
+041A: (unknown) 'HFYPR' 7@ 
+041B: (unknown) $4156(14@,20) 9 
+041E: (unknown) 6@ 
+041F: (unknown) 5@ 
+0420: (unknown) 7@ 
+0421: (unknown) 9@ 10@ 12@ 13@ 7@ 
+0422: (unknown) 6@ 15@ 16@ 17@ 
+0423: (unknown) $PLAYER_CHAR $2949(11@,30) $2979(11@,30) $3009(11@,30) 
+0424: $2513   unknown_check 
+0425: (unknown) 0@ 1@ 2@ 3@ 4@ 5@ $5348 $5349 6@ 
+0426: (unknown) $681 $682 $683 9@ 
+0427: (unknown) $681 $682 $683 0@ 
+0428: (unknown) 0@ 1 $2723(1@,4) $2731 $2732 $2733 $2734 $2735 $2736 $2737 $2738 $2739 $2727(1@,4) 
+0429: (unknown) $PLAYER_CHAR 3@ 
+042A: (unknown) $5508(0@,6) 2 
+042B: (unknown) $5200 5@ 
+042C: (unknown) $PLAYER_CHAR 0 
+042D: 0@ 13   unknown_check 
+042E: 2   unknown_check 
+042F: (unknown) 0@ 1500 
+0430: (unknown) 0@ 3@ 
+0433: (unknown) $5982(9@,20) 3@ 4@ 6@ 7@ 1 
+0434: (unknown) $5349 1 
+0436: $PLAYER_CHAR   unknown_check 
+0438: (unknown) $5551(0@,11) 
+0439: (unknown) $5551(0@,11) 
+043C: (unknown) 0 1 20.0 
+0442: (unknown) 0@ 1 
+0443: (unknown) 67 
+0444: (unknown) 67 
+0445: (unknown) 75 
+0446: (unknown) 0@ 
+0447: (unknown) $6139 200.0 
+0448: (unknown) 0@ 1@ 2@ 3@ 
+044D: (unknown) 2 $3630(1@,99) $3729(1@,99) $3828(1@,99) 
+044E: (unknown) 0 1 
+044F: (unknown) 
+0450: (unknown) 0 5 5 
+0451: (unknown) 0 40 150 
+0452: (unknown) 0 0 0 0 128 
+0453: (unknown) 0 0 0 0 0 
+0454: (unknown) 'DBG_OF3' 0 2 3@ 2@  // >
+0455: (unknown) 'DBG_OF2' 0 17 3@ 1 0@ 0 0 0 0 0 1@  // ~1~ <<
+0456: (unknown) 0 
+0457: (unknown) 2@ 4@ 5@ 6@ 7@ 
+0458: (unknown) 2@ 0.5 
+0459: (unknown) 4@ 1 
+045A: (unknown) 5@ 1 
+045F: (unknown) 0@ $263(0@,30) 
+0460: (unknown) 0@ $323(0@,30) 
+0461: (unknown) 0@ $353(0@,30) 
+0462: (unknown) 0@ $383(0@,30) 
+0463: (unknown) 0@ 0 
+0464: (unknown) 0@ $413(0@,30) 
+0465: (unknown) $2473 4@ 5@ 6@ 
+046C: (unknown) 0@ $1673(0@,30) 
+0470: (unknown) 0@ 1@ 2@ 
+0472: (unknown) 1@ 100 1 0 
+0473: (unknown) 'EM_PAY' 3@ 100 1 0  // Pay day - Empire earnings: $~1~
+0475: (unknown) 8@ 0.9 1 
+0478: (unknown) $5461(0@,5) $5466(0@,5) $5471(0@,5) 1@ 2@ 3@ 247 242 155 255 0.5 4.0 1 
+0479: (unknown) 1@ 2@ 3@ 1.0 5@ 
+047A: (unknown) $2505 
+047B: (unknown) 0@ 5@ 
+047D: (unknown) 0@ 5@ 6@ 
+047E: (unknown) 1@ 9 0 $2293 $2294 $2295 3@ 
+047F: (unknown) 1@ $1823(14@,32) 10@ 7@ 9@ 
+0480: (unknown) 1@ $1823(14@,32) 9@ 10@ 7@ 3@ 4@ 5@ 6@ 
+0481: (unknown) $PLAYER_CHAR 1 
+0482: (unknown) 702504715 1 
+0483: (unknown) 2@ 1@ 
+0484: (unknown) 418653656 1@ 
+0485: 0@ 214   unknown_check 
+0486: (unknown) 1@ 178 85 255 9 
+0487: (unknown) $PLAYER_CHAR 
+0488: (unknown) $5554 
+0489: (unknown) 
+048A: (unknown) 
+048B: (unknown) 'MI_BOX' 1@ 2@ 3@ 64 64 6@ 
+048D: (unknown) 64 $1542(0@,5) $1542(0@,5) 
+048E: (unknown) 4 $2645(0@,25) $2645(0@,25) 
+048F: 32 $1542(0@,5)   unknown_check 
+0490: (unknown) 8@ 1@ 
+0492: (unknown) 0 
+0493: (unknown) $2301 0@ 
+0494: (unknown) $2301 0@ 1@ 2@ 
+0495: (unknown) $5455 $5457 
+0496: (unknown) 13@ 2@ 
+0497: (unknown) $5455 $5457 
+049B: (unknown) 1@ 
+049C: (unknown) 1 0 
+049D: (unknown) 1 
+049E: (unknown) 0@ $2443(0@,30) 
+049F: (unknown) 1 
+04A0: (unknown) 27@ $5677 $5678 $5679 0 28@ 0.2 1.0 
+04A1: (unknown) 2@ 3@ 
+04A2: $PLAYER_CHAR -984.5 -1237.6 10.2 -990.9 -1254.7 -993.5 -1233.9 15.0   unknown_check 
+04A3: (unknown) $5503 $PLAYER_CHAR 
+04A4: (unknown) 0@ $5854 
+04A5: (unknown) 8@ 
+04A6: (unknown) $5383 4 
+04A7: (unknown) $5356 
+04A8: (unknown) $5356 0@ 
+04A9: (unknown) $5356 0@ 
+04AA: (unknown) $5365(1@,2) 1 
+04AB: (unknown) $5383 1 
+04AD: (unknown) 0@ $5407 
+04AE: (unknown) $5200 $5204 
+04B0: (unknown) $5484(8@,6) $5408(8@,6) 
+04B2: (unknown) $5200 $5203 
+04B4: (unknown) $1557(0@,5) 0 1 1.0 
+04B5: (unknown) 2@ 0 
+04B6: (unknown) 10@ 1 
+04B7: (unknown) $5497 1 
+04B8: (unknown) $5675 $5805 
+04B9: (unknown) 6@ 0 1 1 
+04BA: (unknown) $5675 
+04BB: (unknown) 
+04BC: (unknown) 18 15@ 16@ 17@ 12@ 13@ 14@ 30.0 $5578 0 18@ 
+04BD: (unknown) 0 
+04BE: (unknown) $2513 3.0 25.0 
+04BF: (unknown) $5353(0@,20) $5373(0@,20) $5393(0@,20) $5413(0@,20) $5433(0@,20) $5453(0@,20) 237 130 180 5.0 
+04C0: (unknown) 0@ 1@ 25 0.2 0.1 0 
+04C1: (unknown) 0@ 
+04C2: (unknown) 2@ 1 
+04C3: (unknown) 1@(0@,22) 
+04C4: (unknown) 4@ 5@ 6@ 4@ 5@ 6@ 
+04C5: (unknown) 0 
+04C6: (unknown) 1 
+04C8: (unknown) 
+04CA: (unknown) 39@ 25@ 
+04CB: (unknown) 0@ $2443(0@,30) 
+04CD: (unknown) 'SH_MALL' 1  // 'Vice Point Mall'
+04CE: (unknown) 6 1 
+04CF: (unknown) $PLAYER_CHAR 10.0 
+04D0: (unknown) $PLAYER_CHAR 55.0 
+04D2: (unknown) 39@ 1 
+04D3: (unknown) 0@ 
+04D4: (unknown) 1 
+04D5: (unknown) 0@ 1@ 2@ 0 4@ 
+04D6: (unknown) $PLAYER_CHAR 0 
+04D7: (unknown) 1@ 2@ 1 
+04D8: $2013(2@,70)   unknown_check 
+04D9: (unknown) $_1398 
+04DA: set_total_balloons_to 99 
+04DD: (unknown) $2506 
+04DE: (unknown) 1 
+04DF: $PLAYER_CHAR   unknown_check 
+04E0: (unknown) 
+04E1: (unknown) 
+04E2: (unknown) 2 
+04E3: (unknown) 18 2@ 3@ 4@ 5@ 6@ 7@ 0.35 0@ 0 8@ 
+04E4: (unknown) 5@ 1 
+04E5: (unknown) 1 $_558 
+04E6: (unknown) $5383(0@,20) 1 
+04E7: 3@ 4@ 5@   unknown_check 
+04E8: (unknown) $5828 
+04E9: (unknown) $5828 
+04EB: (unknown) 4@ 
+04EC: (unknown) $5353(0@,80) $5433(0@,80) $5513(0@,80) 2.0 1 
+04EE: (unknown) $5356(4@,10) 
+04EF: (unknown) 1 
+04F0: (unknown) $PLAYER_CHAR 0 
+04F2: (unknown) 
+04F3: (unknown) 0@ 
+04F4: (unknown) 0 0@ 
+04F5: (unknown) 0 
+04F6: (unknown) 0 
+04F7: (unknown) 20.0 1@ $5377(0@,8) 
+04F8: $5430(0@,3)   unknown_check 
+04FA: (unknown) $4196(45@,20) 1 
+04FB: (unknown) $5547 
+04FC: (unknown) 0 30 
+04FF: (unknown) 0 200 5 
+0500: (unknown) $PLAYER_CHAR 0@ 
+0501: (unknown) $PLAYER_CHAR 0@ 
+0503: (unknown) $5507 1 
+0504: (unknown) $5546 $5437 $5438 $5439 
+0505: (unknown) $5566 0 -1 0 
+0506: (unknown) $5392 1 
+0507: (unknown) 8@ $5502 
+0509: (unknown) 3@ 4@ 5@ 
+050C: (unknown) 
+050E: (unknown) $5683 
+050F: (unknown) $5818 
+0510: (unknown) $5348 
+0511: (unknown) $5348 
+0514: (unknown) $5350 
+0515: (unknown) $5526 
+0517: (unknown) $5779 
+0518: (unknown) $5672 
+0519: (unknown) $5555 
+051A: (unknown) $5560 
+051B: (unknown) $5560 
+051C: (unknown) 9@ $5491 
+051D: (unknown) 9@ 13@ 
+051E: (unknown) 9@ $5438 
+051F: (unknown) 9@ 13@ 
+0520: (unknown) $5858 13@ 
+0521: (unknown) $5858 14@ 
+0522: (unknown) $5858 12@ 
+0523: (unknown) $5425 90 416 
+0524: (unknown) $5455 
+0525: (unknown) 3 
+0526: (unknown) $PLAYER_CHAR -1.0 
+0528: (unknown) $1557(0@,5) 1 -1.0 
+0529: (unknown) $5425 415 $5843 
+052A: (unknown) $5425 415 0@ 
+052B: (unknown) $5348 
+052C: (unknown) $5348 
+052D: (unknown) 0@ 1@ 2@ 3@ 4@ 5@ 100 0.4 0 
+052E: (unknown) $5618 $5619 
+052F: (unknown) 
+0530: (unknown) 1 
+0531: (unknown) 0@ 1 
+0532: (unknown) $PLAYER_CHAR 1 
+0533: (unknown) $5385 1 
+0534: (unknown) 0 
+0535: (unknown) $5457 
+0536: (unknown) $5438 
+0537: (unknown) 9@ $5419 
+0538: (unknown) 9@ 13@ 
+0539: (unknown) $5434 
+053A: (unknown) 9@ $5415 
+053B: (unknown) 9@ 13@ 
+053C: (unknown) $5548 
+053D: (unknown) $5547 
+053E: (unknown) $5549 
+053F: (unknown) $5781(0@,8) 
+0540: (unknown) 23 0@ 
+0541: (unknown) $5356 2 9@ 10@ 11@ 
+0542: (unknown) $5356(4@,10) 0 
+0543: (unknown) 0@ 0 
+0544: (unknown) 1 
+0546: (unknown) 0@ 
+0547: (unknown) 6 0.3 
+0548: (unknown) $1583(0@,30) $1613(0@,30) $1643(0@,30) 
+0549: (unknown) 0@ 
+054A: (unknown) 2 
+054B: (unknown) $5686 $5558 1 
+054C: (unknown) 0 1 
+054D: (unknown) $5366 1 
+054E: (unknown) 4@ 
+0550: (unknown) 2@ 
+0551: (unknown) 2@ 
+0552: (unknown) 3@ 
+0553: (unknown) 3@ 
+0554: (unknown) 0 0 0 0 
+0556: (unknown) 1 
+0557: (unknown) $5430(0@,3) 1 
+0558: (unknown) $5430(0@,3) 1.0 
+0559: (unknown) $2503 
+055B: (unknown) $5683 
+055C: (unknown) $5584 
+055D: (unknown) $5560 
+055E: (unknown) $5560 
+055F: (unknown) $5348 
+0560: (unknown) 13@ 
+0561: (unknown) $5479 
+0562: (unknown) $5460 
+0563: (unknown) $5911 0 
+0564: (unknown) 1 
+8011:   not  $1239(9@,8) > $5544 // (int) var > var 
+8014:   not  3@ > $6044(0@,30) // (float) var > var 
+8017:   not  1@ >= $5664 // (int) var >= var 
+801C:   not  $_262 == 10@ // (int) num == var 
+801E:   not  1@ == $5491(0@,4) // (float) var == num 
+801F:   not  8@ == 'AU_ST1' // (float) num == var  // EMPTY
+8020:   not  0@ == 1@ // (float) var == var 
+8045:   not actor $PLAYER_CHAR defined 
+8046:   not $PLAYER_CHAR -1744.946 -294.2144 -1691.276 -309.3479 0   unknown_check 
+8047:   not $PLAYER_CHAR $5491 $5492 $5493 $5494 $5495 $5496 0   unknown_check 
+804F:   not 0@   unknown_check 
+805D:   not sphere_onscreen 30@ 31@ 32@ radius 5.0 
+807C:   not actor $PLAYER_CHAR driving 0@ 
+807D:   not actor $PLAYER_CHAR driving_car_with_model #ENFORCE 
+807E:   not actor $PLAYER_CHAR driving 
+807F:   not player 0 pressed_key 16 
+8080:   not actor $PLAYER_CHAR near_point $2474 $2475 radius 30.0 30.0 sphere 0 
+8081:   not actor $PLAYER_CHAR near_point_on_foot $3462 $3463 radius 1.0 1.0 sphere 0 
+8082:   not actor $PLAYER_CHAR near_point_in_car 5@ 6@ radius 7.0 7.0 sphere 0 
+8086:   not actor $PLAYER_CHAR near_actor 0@ radius 45.0 45.0 sphere 0 
+8088:   not actor $PLAYER_CHAR near_actor_in_car $5386(0@,15) radius 20.0 20.0 sphere 0 
+8089:   not actor $PLAYER_CHAR in_sphere 0@ 1@ 2@ radius 3.0 3.0 3.0 sphere 0 
+808A:   not actor $PLAYER_CHAR in_sphere_on_foot 1@ 2@ 3@ radius 3.0 3.0 3.0 sphere 0 
+808B:   not actor $PLAYER_CHAR in_sphere_in_car $5353(2@,20) $5373(2@,20) $5393(2@,20) radius 60.0 60.0 60.0 sphere 0 
+808F:   not actor $PLAYER_CHAR near_actor $5424 radius 5.0 5.0 5.0 sphere 0 
+8095:   not player $PLAYER_CHAR money > 99 
+809A:   not player $PLAYER_CHAR wanted_level > 2 
+809D:   not wasted_or_busted // mission only 
+809F:   not actor $1557(0@,5) dead 
+80A0:   not car $2513 wrecked 
+80A5:   not $PLAYER_CHAR   unknown_check 
+80A6:   not (unknown) 0@ 230 
+80CA:   not fading 
+80D7:   not actor $PLAYER_CHAR health >= 0@ 
+80D8:   not car $5011 health >= 500 
+8102:   not car $5468(7@,2) near_point 1@ 2@ radius 10.0 10.0 sphere 0 
+8104:   not car $5378(0@,4) in_sphere $5397(2@,39) $5436(2@,39) $5475(2@,39) radius 5.0 5.0 5.0 sphere 0 
+8111:   not 0@   unknown_check 
+812C:   not car 0@ in_air 
+812D:   not car $5644(1@,4) flipped 
+8132:   not actor $PLAYER_CHAR near_car $5011 radius 140.0 140.0 sphere 0 
+8135:   not actor $PLAYER_CHAR near_car $5578 radius 50.0 50.0 50.0 sphere 50.0 
+8136:   not actor $5403(0@,12) near_car_on_foot $5399 radius 2.5 2.5 1.5 sphere 1.5 
+813D:   not car 0@ flipped 
+8140:   not pickup 10@ picked_up 
+8161:   not model 0@ available 
+81AB:   not 0@   unknown_check 
+81B3:   not 0@   unknown_check 
+81B7:   not $5354(0@,3)   unknown_check 
+81B8:   not 6@   unknown_check 
+81B9:   not (unknown) $924 
+81BD:   not $5782(0@,80)   unknown_check 
+81C2:   not $PLAYER_CHAR 0   unknown_check 
+81C7:   not 1@   unknown_check 
+81CD:   not (unknown) 
+81F0:   not actor $5424 in_range_of_player $PLAYER_CHAR 
+8202:   not 7@ 8@ 9@ 10@ 11@ 12@ 0 1 1 0 0   unknown_check 
+820B:   not (unknown) $5812 -85.0 10.0 0 
+820C:   not 0@ 4@ 5@ 6@ 7@ 8@ 9@ 0   unknown_check 
+8218:   not $5365(0@,6) $PLAYER_CHAR   unknown_check 
+821A:   not $5348(13@,27)   unknown_check 
+8227:   not (unknown) $2516 $2517 $2518 5.0 5.0 5.0 
+8242:   not (unknown) $_922 
+8252:   not object 0@ exists 
+8256:   not $5578   unknown_check 
+8258:   not (unknown) $3435 
+825A:   not 1@   unknown_check 
+8261:   not 
+826A:   not $PLAYER_CHAR   unknown_check 
+828F:   not (unknown) $_922 $5395 
+8299:   not 0@ 3@   unknown_check 
+829E:   not 
+82A6:   not (unknown) 24@ $5416 
+82A7:   not $PLAYER_CHAR   unknown_check 
+82A8:   not $5366(0@,3)   unknown_check 
+82C1:   not $5364 $5378 30.0 30.0 0   unknown_check 
+82C4:   not $5624(14@,18) $5698 10.0 10.0 20.0 0   unknown_check 
+82D3:   not $5442(0@,2) $5444(0@,2) $5446(0@,2) 1.0   unknown_check 
+82D5:   not (unknown) $5364 3 
+82D8:   not 2@   unknown_check 
+82DB:   not $263(0@,30) 6   unknown_check 
+82DE:   not (unknown) $PLAYER_CHAR 
+82E1:   not actor $PLAYER_CHAR in_water 
+82EF:   not (unknown) 0@ 
+8305:   not $5407 $5370 $5371 $5372 4.0 4.0 1.0 0   unknown_check 
+8326:   not $3406 $PLAYER_CHAR   unknown_check 
+8328:   not $5537 $PLAYER_CHAR   unknown_check 
+8336:   not $PLAYER_CHAR $5709   unknown_check 
+834A:   not $5012   unknown_check 
+834B:   not 0@   unknown_check 
+834D:   not (unknown) $5566(0@,6) 
+8377:   not (unknown) 44 $5714 
+837D:   not 0@   unknown_check 
+837F:   not $5416   unknown_check 
+8397:   not (unknown) $2513 
+8398:   not $5537   unknown_check 
+83A6:   not (unknown) $3480 
+83AB:   not unknown_check 
+83BA:   not (unknown) 
+83C0:   not unknown_check 
+83C1:   not unknown_check 
+83E5:   not unknown_check 
+83FD:   not unknown_check 
+8402:   not 23   unknown_check 
+842E:   not 3   unknown_check 
+8436:   not $5013   unknown_check 
+8445:   not (unknown) 78 
+8446:   not (unknown) 0@ 
+844C:   not (unknown) $5371 
+8474:   not 
+8485:   not $2227 6   unknown_check 
+848F:   not 1 $1542(2@,5)   unknown_check 
+84A2:   not $PLAYER_CHAR 170.98 -945.24 9.42 165.846 -959.0292 161.88 -942.14 12.0   unknown_check 
+84D8:   not $5552   unknown_check 
+84E7:   not 7@(3@,2) 9@(3@,2) 11@(3@,2)   unknown_check 
+84F1:   not 0@ 4@ 5@ 6@ 7@ 8@ 9@ 0   unknown_check 
+8527:   not (unknown) $PLAYER_CHAR 
+8555:   not 1@ 2@ 3@ 4@ 5@ 6@ 0 1 0 0 1 0  unknown_check 

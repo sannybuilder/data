@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    if the "type" parameter is set to the "default" value,
-    this entry is used to decompile a script file for the given game.
-    only one entry for each game may have the type parameter set to "default".
+    when Sanny runs with the "game" param in CLI it picks the entry for that game that has type="default" 
+    one entry for each game must have type="default"
 
     @sb: - path to Sanny Builder
     @game: - path to the game directory
@@ -13,8 +12,8 @@
       sa: multitable, hashed keys, ANSI
       sa_mobile: multitable, hashed keys, UTF-16
  -->
-<games>
-    <game shortcut="GTA3" title="GTA III" mode="gta3" type="default">
+<modes>
+    <mode id="gta3" title="GTA III" game="gta3" type="default">
         <data>@sb:\data\gta3\</data>
         <opcodes>@sb:\data\gta3\SCM.ini</opcodes>
         <classes>@sb:\data\gta3\classes.db</classes>
@@ -25,8 +24,8 @@
         <templates>@sb:\data\gta3\templates.txt</templates>
         <text format="gta3">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
-    </game>
-    <game shortcut="VC" title="GTA VC" mode="vc" type="default">
+    </mode>
+    <mode id="vc" title="GTA VC" game="vc" type="default">
         <data>@sb:\data\vc\</data>
         <opcodes>@sb:\data\vc\VCSCM.ini</opcodes>
         <classes>@sb:\data\vc\classes.db</classes>
@@ -37,8 +36,8 @@
         <templates>@sb:\data\vc\templates.txt</templates>
         <text format="vc">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
-    </game>
-    <game shortcut="SA" title="GTA SA" mode="sa" type="default">
+    </mode>
+    <mode id="sa" title="GTA SA v1.0" game="sa" type="default">
         <data>@sb:\data\sa\</data>
         <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
         <classes>@sb:\data\sa\classes.db</classes>
@@ -51,10 +50,26 @@
         <examples>@sb:\data\sa\opcodes.txt</examples>
         <templates>@sb:\data\sa\templates.txt</templates>
         <text format="sa">@game:\text\american.gxt</text>
-        <ide>@game:\data\default.dat</ide>
+        <ide base="@game:\">@game:\data\default.dat</ide>
         <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
-    </game>
-    <game shortcut="LCS" title="GTA LCS" mode="lcs" type="default">
+    </mode>
+    <mode extends="sa" id="sa_v2" title="GTA SA v2.0" game="sa">      
+        <labels>@sb:\data\sa\CustomLabels_v2.ini</labels>
+    </mode>
+    <mode id="sa_scr" title="GTA SA (v1.0 - SCR)" game="sa" type="">
+        <data>@sb:\data\sa_scr\</data>
+        <opcodes>@sb:\data\sa_scr\SASCM.ini</opcodes>
+        <classes>@sb:\data\sa_scr\classes.db</classes>
+        <variables>@sb:\data\sa_scr\CustomVariables.ini</variables>
+        <keywords>@sb:\data\sa_scr\keywords.txt</keywords>
+        <labels>@sb:\data\sa_scr\CustomLabels.ini</labels>
+        <arrays>@sb:\data\sa_scr\CustomArrays.ini</arrays>
+        <missions>@sb:\data\sa_scr\missions.txt</missions>
+        <constants>@sb:\data\sa_scr\constants.txt</constants>
+        <templates>@sb:\data\sa_scr\templates.txt</templates>
+        <text format="sa">@game:\text\american.gxt</text>
+    </mode>
+    <mode id="lcs" title="GTA LCS" game="lcs" type="default">
         <data>@sb:\data\lcs\</data>
         <opcodes>@sb:\data\lcs\LCSSCM.ini</opcodes>
         <classes>@sb:\data\lcs\classes.db</classes>
@@ -64,20 +79,29 @@
         <templates>@sb:\data\lcs\templates.txt</templates>
         <text format="vc">@sb:\data\lcs\english.gxt</text>
         <ide>@sb:\data\lcs\models.ide</ide>
-    </game>
-    <game shortcut="VCS" title="GTA VCS" mode="vcs" type="default">
+    </mode>
+    <mode id="vcs_psp" title="GTA VCS (PSP)" game="vcs" type="default">
+		<!-- VCS Common-->
         <data>@sb:\data\vcs\</data>
         <opcodes>@sb:\data\vcs\VCSSCM.ini</opcodes>
         <classes>@sb:\data\vcs\classes.db</classes>
-        <variables>@sb:\data\vcs\CustomVariables.ini</variables>
-        <missions num="99">@sb:\data\vcs\missions_psp.txt</missions>
-        <missions num="101">@sb:\data\vcs\missions_ps2.txt</missions>
         <constants>@sb:\data\vcs\constants.txt</constants>
         <templates>@sb:\data\vcs\templates.txt</templates>
-        <text format="vc">@sb:\data\vcs\english.gxt</text>
         <ide>@sb:\data\vcs\models.ide</ide>
-    </game>
-    <game shortcut="SA Mobile" title="SA Mobile" mode="sa_mobile" type="default">
+        <!-- PSP only-->
+        <variables>@sb:\data\vcs\psp\CustomVariables.ini</variables>
+        <text format="vc">@sb:\data\vcs\psp\english.gxt</text>
+        <missions>@sb:\data\vcs\psp\missions.txt</missions>
+        <examples>@sb:\data\vcs\psp\opcodes.txt</examples>
+    </mode>
+    <mode extends="vcs_psp" id="vcs_ps2" title="GTA VCS (PS2)" game="vcs">
+    	<!-- PS2 only-->
+        <variables>@sb:\data\vcs\ps2\CustomVariables.ini</variables>
+        <missions>@sb:\data\vcs\ps2\missions.txt</missions> 
+        <text format="vc">@sb:\data\vcs\ps2\english.gxt</text>
+        <examples>@sb:\data\vcs\ps2\opcodes.txt</examples>       
+    </mode>
+    <mode id="sa_mobile" title="SA Mobile" game="sa_mobile" type="default">
         <data>@sb:\data\sa_mobile\</data>
         <opcodes>@sb:\data\sa_mobile\SASCM.ini</opcodes>
         <classes>@sb:\data\sa_mobile\classes.db</classes>
@@ -90,18 +114,6 @@
         <templates>@sb:\data\sa_mobile\templates.txt</templates>
         <text format="sa_mobile">@sb:\data\sa_mobile\american.gxt</text>
         <ide>@sb:\data\sa_mobile\custom.dat</ide>
-    </game>
-    <game shortcut="GTA SA SCR" title="GTA SA SCR" mode="sa" type="">
-        <data>@sb:\data\sa_scr\</data>
-        <opcodes>@sb:\data\sa_scr\SASCM.ini</opcodes>
-        <classes>@sb:\data\sa_scr\classes.db</classes>
-        <variables>@sb:\data\sa_scr\CustomVariables.ini</variables>
-        <keywords>@sb:\data\sa_scr\keywords.txt</keywords>
-        <labels>@sb:\data\sa_scr\CustomLabels.ini</labels>
-        <arrays>@sb:\data\sa_scr\CustomArrays.ini</arrays>
-        <missions>@sb:\data\sa_scr\missions.txt</missions>
-        <constants>@sb:\data\sa_scr\constants.txt</constants>
-        <templates>@sb:\data\sa_scr\templates.txt</templates>
-        <text format="sa">@game:\text\american.gxt</text>
-    </game>
-</games>
+    </mode>
+
+</modes>
