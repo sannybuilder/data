@@ -88,8 +88,11 @@
         <constants>@sb:\data\vcs\constants.txt</constants>
         <templates>@sb:\data\vcs\templates.txt</templates>
         <ide>@sb:\data\vcs\models.ide</ide>
+        <keywords>@sb:\data\vcs\keywords.txt</keywords>
         <!-- PSP only-->
         <variables>@sb:\data\vcs\psp\CustomVariables.ini</variables>
+        <labels>@sb:\data\vcs\psp\CustomLabels.ini</labels>
+        <arrays>@sb:\data\vcs\psp\CustomArrays.ini</arrays>
         <text format="vc">@sb:\data\vcs\psp\english.gxt</text>
         <missions>@sb:\data\vcs\psp\missions.txt</missions>
         <examples>@sb:\data\vcs\psp\opcodes.txt</examples>
@@ -97,6 +100,8 @@
     <mode extends="vcs_psp" id="vcs_ps2" title="GTA VCS (PS2)" game="vcs">
     	<!-- PS2 only-->
         <variables>@sb:\data\vcs\ps2\CustomVariables.ini</variables>
+        <labels>@sb:\data\vcs\ps2\CustomLabels.ini</labels>
+        <arrays>@sb:\data\vcs\ps2\CustomArrays.ini</arrays>
         <missions>@sb:\data\vcs\ps2\missions.txt</missions> 
         <text format="vc">@sb:\data\vcs\ps2\english.gxt</text>
         <examples>@sb:\data\vcs\ps2\opcodes.txt</examples>       

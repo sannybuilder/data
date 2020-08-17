@@ -1,1 +1,5 @@
-0025=gosub
+0001=wait
+0002=jump
+0022=jf
+0078=if
+0026=return
