@@ -1,0 +1,40 @@
+; all \ params are deprecated and only left for backward compatibility
+; no new \ params to be added
+
+; hides the splash screen at startup
+1=--no-splash
+1=\nosplash
+
+; see --game
+2=\gta3
+3=\vc
+4=\sa
+5=\lcs
+6=\vcs
+7=\sa_mobile
+
+; sets the Debug options
+8=\debug
+8=--debug
+
+; --compile input [output]
+; opens the input file, compiles 
+; and saves as the output file (or uses the Formats options to identify the output file) 
+9=\compile
+9=--compile
+9=-c
+
+; --mode id
+; selects the mode from modes.xml which attribute id is equal to id 
+10=--mode
+10=-m
+
+; -x file
+; loads modes.xml from the file
+11=-x
+
+; selects the default edit mode for the game
+; where game is one of: gta3, vc, sa, lcs, vcs, sa_mobile
+; the same effect as \gta3, \vc, \sa, \lcs, \vcs, \sa_mobile 
+12=--game
+12=-g
