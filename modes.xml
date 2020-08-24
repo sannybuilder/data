@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    when Sanny runs with the "game" param in CLI it picks the entry for that game that has type="default" 
-    one entry for each game must have type="default"
+    Documentation: https://docs.sannybuilder.com/edit-modes
 
     @sb: - path to Sanny Builder
     @game: - path to the game directory
 
-    <text> formats:
-      gta3: single table, ANSI
-      vc: multitable, ANSI
-      sa: multitable, hashed keys, ANSI
-      sa_mobile: multitable, hashed keys, UTF-16
  -->
 <modes>
     <mode id="gta3" title="GTA III" game="gta3" type="default">
@@ -24,6 +18,8 @@
         <templates>@sb:\data\gta3\templates.txt</templates>
         <text format="gta3">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
+        <copy-directory type="scm">@game:\data</copy-directory>
+        <copy-directory type="cleo">@game:\CLEO</copy-directory>
     </mode>
     <mode id="vc" title="GTA VC" game="vc" type="default">
         <data>@sb:\data\vc\</data>
@@ -36,6 +32,8 @@
         <templates>@sb:\data\vc\templates.txt</templates>
         <text format="vc">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
+        <copy-directory type="scm">@game:\data</copy-directory>
+        <copy-directory type="cleo">@game:\CLEO</copy-directory>
     </mode>
     <mode id="sa" title="GTA SA v1.0" game="sa" type="default">
         <data>@sb:\data\sa\</data>
@@ -52,11 +50,13 @@
         <text format="sa">@game:\text\american.gxt</text>
         <ide base="@game:\">@game:\data\default.dat</ide>
         <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
+        <copy-directory type="scm">@game:\data\script</copy-directory>
+        <copy-directory type="cleo">@game:\CLEO</copy-directory>
     </mode>
     <mode extends="sa" id="sa_v2" title="GTA SA v2.0" game="sa">      
         <labels>@sb:\data\sa\CustomLabels_v2.ini</labels>
     </mode>
-    <mode id="sa_scr" title="GTA SA (v1.0 - SCR)" game="sa" type="">
+    <mode extends="sa" id="sa_scr" title="GTA SA (v1.0 - SCR)" game="sa" type="">
         <data>@sb:\data\sa_scr\</data>
         <opcodes>@sb:\data\sa_scr\SASCM.ini</opcodes>
         <classes>@sb:\data\sa_scr\classes.db</classes>
@@ -66,8 +66,8 @@
         <arrays>@sb:\data\sa_scr\CustomArrays.ini</arrays>
         <missions>@sb:\data\sa_scr\missions.txt</missions>
         <constants>@sb:\data\sa_scr\constants.txt</constants>
+        <examples>@sb:\data\sa_scr\opcodes.txt</examples>
         <templates>@sb:\data\sa_scr\templates.txt</templates>
-        <text format="sa">@game:\text\american.gxt</text>
     </mode>
     <mode id="lcs" title="GTA LCS" game="lcs" type="default">
         <data>@sb:\data\lcs\</data>
