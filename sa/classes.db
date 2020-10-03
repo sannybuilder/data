@@ -41,14 +41,14 @@ Audiostream
 ;
 ; ------------------------------------------
 ;
-; * types: 
+; * types:
 ;  0: Regular
 ;  1: Conditional
 ;  2: Property
 ;	player.canmove($player) = true
 ;	player.canmove($player, true)
 ;
-; ** Help Code 
+; ** Help Code
 ;  0 by default
 ;  -2 for deprecated items (used only for compilation of old sources)
 ;
@@ -156,7 +156,7 @@ SetToNormalDriver,00a9,0,0,("Car%h")
 StorePos,00aa,0,0,("Car%h" "X: Variable" "Y: Variable" "Z: Variable")
 PutAt,00ab,0,0,("Car%h" "X%f" "Y%f" "Z%f")
 SetMaxSpeed,00ad,0,0,("Car%h" "MaxSpeed%f")
-SetDriverBehaviour,00af,0,0,("Car%h" "Behaviour:^Nowhere^FollowRoad^KillThePlayer^DriveToPlayer=4^IgnoreRoadPaths=8"
+SetDriverBehaviour,00af,0,0,("Car%h" "Behaviour:^Nowhere^FollowRoad^KillThePlayer^DriveToPlayer=4^IgnoreRoadPaths=8")
 SetImmunities,02ac,0,0,("Car%h" "Bullets%b" "Fire%b" "Explosion%b" "Collision%b" "Melee%b")
 RemoveReferences,01c3,0,0,("Car%h")
 SetAnimation,0477,0,0,("Car%h" "Animation%i" "Duration%i")
@@ -210,8 +210,8 @@ $begin
 ^CreateIconWithoutSphere,[04ce,=,2,2,0],("Marker%h" "Icon%i" "X%f" "Y%f" "Z%f")
 TieToCar,0161,0,0,("Marker%h" "Car%h" "P3%i" "P4%i")
 Disable,0164,0,0,("Marker%h")
-SetColor,0165,0,0,("Marker%h", "Color%i")
-SetIconSize,0168,0,0,("Marker%h", "Size%i")
+SetColor,0165,0,0,("Marker%h" "Color%i")
+SetIconSize,0168,0,0,("Marker%h" "Size%i")
 $end
 
 $Player
