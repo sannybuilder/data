@@ -1,15 +1,15 @@
 load=model request and load
-=024C: request_model #| 
+=024C: request_model #|
 =
-=while 024D:   not model # available
-= wait 0
+=while 824D:   not has_model_loaded #
+=  wait 0 ms
 =end
 
-def=Check if player is defined
-=if 
-=  025B:   player $PLAYER_CHAR defined
+def=Check if player is playing
+=if
+=  025B:   is_player_playing $PLAYER_CHAR
 =then
-=  
+=
 =end
 
 scm=Multifile template (LCS)
@@ -19,5 +19,5 @@ scm=Multifile template (LCS)
 =|
 =
 =while true
-=  0001: wait 250 
+=  0001: wait 250
 =end
