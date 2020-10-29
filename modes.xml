@@ -53,7 +53,7 @@
         <copy-directory type="scm">@game:\data\script</copy-directory>
         <copy-directory type="cleo">@game:\CLEO</copy-directory>
     </mode>
-    <mode extends="sa" id="sa_v2" title="GTA SA v2.0" game="sa">      
+    <mode extends="sa" id="sa_v2" title="GTA SA v2.0" game="sa">
         <labels>@sb:\data\sa\CustomLabels_v2.ini</labels>
     </mode>
     <mode extends="sa" id="sa_scr" title="GTA SA (v1.0 - SCR)" game="sa" type="">
@@ -102,9 +102,9 @@
         <variables>@sb:\data\vcs\ps2\CustomVariables.ini</variables>
         <labels>@sb:\data\vcs\ps2\CustomLabels.ini</labels>
         <arrays>@sb:\data\vcs\ps2\CustomArrays.ini</arrays>
-        <missions>@sb:\data\vcs\ps2\missions.txt</missions> 
+        <missions>@sb:\data\vcs\ps2\missions.txt</missions>
         <text format="vc">@sb:\data\vcs\ps2\english.gxt</text>
-        <examples>@sb:\data\vcs\ps2\opcodes.txt</examples>       
+        <examples>@sb:\data\vcs\ps2\opcodes.txt</examples>
     </mode>
     <mode id="sa_mobile" title="SA Mobile" game="sa_mobile" type="default">
         <data>@sb:\data\sa_mobile\</data>

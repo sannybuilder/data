@@ -3,7 +3,7 @@
 0003: shake_cam 60 
 0004: $2 = 1 // (int) 
 0005: $820 = 100.0 // (float) 
-0006: $664[0] = 'CH_JERR' // (string)  // Jerry Martinez
+0006: $664 = 'CH_JERR' // (string)  // Jerry Martinez
 0007: 3@ += 10 // (int) 
 0008: 9@ += 0.5 // (float) 
 0009: $_262 -= 1 // (int) 
@@ -19,7 +19,7 @@
 0013:   0 > 0@ // (float) num > var 
 0014:   1@ > 0@ // (float) var > var 
 0015:   0@ >= 14 // (int) var >= num 
-0016:   15 >= $550(0@,7) // (int) num >= var 
+0016:   15 >= $_550(0@,7) // (int) num >= var 
 0017:   1@ >= 2@ // (int) var >= var 
 0018:   12@ >= 130.0 // (float) var >= num 
 0019:   0.5 >= 8@ // (float) num >= var 
@@ -68,16 +68,16 @@
 0048: create_car 1@ at 3@ 4@ 5@ store_to 13@ 
 0049: delete_car 0@ 
 004A: car_goto_coordinates $4196(45@,20) coords $681 $682 $683 
-004B: car_wander_randomly $5482[1] 
-004C: car_set_idle $5482[5] 
+004B: car_wander_randomly $5483 
+004C: car_set_idle $5487 
 004D: get_car_coordinates $2514 store_to $2516 $2517 $2518 
 004E: set_car_coordinates $2514 to $2516 $2517 $2518 
 004F:   is_car_still_alive $2506 
 0050: set_car_cruise_speed 2@ to 19@ 
 0051: set_car_driving_style 2@ to 2 
 0052: set_car_mission 0@ to 0 
-0053:   is_car_in_area_2d $5476[1] from -974.19 203.78 to -956.39 180.35 sphere 0 
-0054:   is_car_in_area_3d $5500[3] from $5416(23@,2) $5418(23@,2) $5420(23@,2) to $5422(23@,2) $5424(23@,2) $5426(23@,2) sphere 0 
+0053:   is_car_in_area_2d $5477 from -974.19 203.78 to -956.39 180.35 sphere 0 
+0054:   is_car_in_area_3d $5503 from $5416(23@,2) $5418(23@,2) $5420(23@,2) to $5422(23@,2) $5424(23@,2) $5426(23@,2) sphere 0 
 0055: print_big 0@ time 5000 style 8 
 0056: print 'TAXI_B2' time 1 flag 1  // ~w~There aren't any fares around here. Look elsewhere.
 0057: print_now $1464(13@,14) time 1 flag 1 
@@ -85,14 +85,14 @@
 0059: clear_prints 
 005A: get_time_of_day $1582 $1581 
 005B: set_time_of_day 21 0 
-005C: get_minutes_to_time_of_day $5550[1] $5550[2] store_to 4@ 
+005C: get_minutes_to_time_of_day $5551 $5552 store_to 4@ 
 005D:   is_point_on_screen 30@ 31@ 32@ radius 3.0 
 005E: return_true 
 005F: return_false 
 0078: if and
 0079: launch_mission @JANDW 
 007A: mission_has_finished 
-007B: store_car_char_is_in $PLAYER_CHAR store_to $5441[3] 
+007B: store_car_char_is_in $PLAYER_CHAR store_to $5444 
 007C:   is_char_in_car $PLAYER_CHAR car $2506 
 007D:   is_char_in_model $PLAYER_CHAR model #HUNTER 
 007E:   is_char_in_any_car $PLAYER_CHAR 
@@ -100,7 +100,7 @@
 0080:   locate_char_any_means_2d $PLAYER_CHAR coord $2311 $2312 radius 1.0 1.0 sphere 0 
 0081:   locate_char_on_foot_2d $PLAYER_CHAR coord 5@ 6@ radius 5.0 5.0 sphere 0 
 0082:   locate_char_in_car_2d $PLAYER_CHAR coord 4@ 5@ radius 5.0 5.0 sphere 0 
-0084:   locate_stopped_char_on_foot_2d 0@ coord $5384[19] $5384[29] radius 1.0 1.0 sphere 0 
+0084:   locate_stopped_char_on_foot_2d 0@ coord $5403 $5413 radius 1.0 1.0 sphere 0 
 0085:   locate_stopped_char_in_car_2d $PLAYER_CHAR coord 5@ 6@ radius 6.0 6.0 sphere 0 
 0086:   locate_char_any_means_char_2d $PLAYER_CHAR char 0@(39@,20) radius 2.0 2.0 sphere 0 
 0087:   locate_char_on_foot_char_2d $PLAYER_CHAR char $5348(0@,3) radius 15.0 15.0 sphere 0 
@@ -112,8 +112,8 @@
 008E:   locate_stopped_char_in_car_3d $PLAYER_CHAR coord 1@ 2@ 3@ radius 10.0 10.0 10.0 sphere 0 
 008F:   locate_char_any_means_char_3d $PLAYER_CHAR char $2232(0@,10) radius 2.5 2.5 2.5 sphere 0 
 0090:   locate_char_on_foot_char_3d $PLAYER_CHAR char $5430(0@,3) radius 1.0 1.0 1.0 sphere 0 
-0091:   locate_char_in_car_char_3d $PLAYER_CHAR char $5356[5] radius 18.0 18.0 18.0 sphere 0 
-0092: create_object #JM_UMB4_SHUT at -990.07 63.7 9.57 store_to $926[0] 
+0091:   locate_char_in_car_char_3d $PLAYER_CHAR char $5361 radius 18.0 18.0 18.0 sphere 0 
+0092: create_object #JM_UMB4_SHUT at -990.07 63.7 9.57 store_to $926 
 0093: delete_object $2013(0@,70) 
 0094: add_score $PLAYER_CHAR value 4@ // money 
 0095:   is_score_greater $PLAYER_CHAR than 4@ // money 
@@ -124,7 +124,7 @@
 009B: clear_wanted_level $PLAYER_CHAR 
 009C: set_deatharrest_state 0 
 009D:   has_deatharrest_been_executed 
-009E: add_ammo_to_char $5383(0@,20) weapon $5519[9] ammo 9999 
+009E: add_ammo_to_char $5383(0@,20) weapon $5528 ammo 9999 
 009F:   is_char_dead $PLAYER_CHAR 
 00A0:   is_car_dead 0@ 
 00A1: set_char 2@ search_threat 1 
@@ -132,11 +132,11 @@
 00A3:   is_char_objective_passed $5566(0@,6) 
 00A4: create_char_inside_car $4196(45@,20) pedtype 43@ model 0@(52@,4) store_to $4156(14@,20) 
 00A5:   has_player_been_arrested $PLAYER_CHAR 
-00A6:   is_car_model $5480[1] model #TAXI 
+00A6:   is_car_model $5481 model #TAXI 
 00A7: give_car_alarm $5533(7@,7) 
 00A9: create_car_generator -832.3 1105.9 25.7 angle 270.0 model #HUEYHOSP color -1 -1 force_spawn 1 alarm 0 doorlock 0 delay 0 10000 store_to $956 
 00AA: switch_car_generator $980 num_generations 0 
-00AC: clear_onscreen_timer $5545[0] 
+00AC: clear_onscreen_timer $5545 
 00AE: clear_onscreen_counter $2512 
 00AF: set_zone_car_info 'AIRPORT' time_of_day 1 12 0 0 0 0 0 0 0 0 0 70 
 00B0:   is_char_in_zone $PLAYER_CHAR zone 'BEACH3'  // Vice Point
@@ -150,7 +150,7 @@
 00BA: point_camera_at_point -871.2 -681.66 14.93 switchstyle 2 
 00BB: remove_blip 0@ 
 00BC: change_blip_colour 1@ to 2 
-00BD: dim_blip $5381[2] brightness_to 1 
+00BD: dim_blip $5383 brightness_to 1 
 00BE: add_blip_for_coord_old $5551(0@,50) $5601(0@,50) $5651(0@,50) color 0 visibility 2 store_to $5401(0@,50) 
 00BF: change_blip_scale $5401(0@,15) to 3 
 00C0: add_blip_for_car $2506 store_to $2507 
@@ -175,16 +175,16 @@
 00D4:   is_char_touching_object $PLAYER_CHAR object $5467(0@,30) 
 00D5: set_char_ammo 0@ weapon 1@ ammo 20 
 00D6: declare_mission_flag $ONMISSION 
-00D8:   is_car_health_greater $5350[4] than 400 
+00D8:   is_car_health_greater $5354 than 400 
 00D9: add_one_off_sound 1@ 2@ 3@ sound 68 
-00DA: add_continuous_sound 0@ 1@ 2@ 43 $5842[22] 
-00DB: remove_sound $5842[22] 
-00DC:   is_car_stuck_on_roof $5657[25] 
+00DA: add_continuous_sound 0@ 1@ 2@ 43 $5864 
+00DB: remove_sound $5864 
+00DC:   is_car_stuck_on_roof $5682 
 00DD: add_upsidedown_car_check $5354(0@,3) 
 00DE: remove_upsidedown_car_check $5354(0@,3) 
 00DF: set_char_obj_wait_on_foot $3406 
 00E0: set_char_obj_flee_on_foot_till_safe $4141(56@,15) 
-00E2: set_char_obj_guard_area $5381[1] from $5384[27] $5384[28] to $5384[30] $5384[31] 
+00E2: set_char_obj_guard_area $5382 from $5411 $5412 to $5414 $5415 
 00E3: set_char_obj_wait_in_car 0@ 
 00E4: set_char_obj_kill_char_on_foot $3392 char $PLAYER_CHAR 
 00E5: set_char_obj_kill_char_any_means $3595(0@,2) char $PLAYER_CHAR 
@@ -198,12 +198,12 @@
 00EE: char $PLAYER_CHAR walk_to 7@ 8@ 
 00F1: char 1@ exit_car 
 00F2: set_car_obj_flee_car $5013 car $5011 
-00F3: set_char_obj_walk_to_char $5657[24] char $5550[15] 
+00F3: set_char_obj_walk_to_char $5681 char $5565 
 00F4: set_char_obj_aim_gun_at_char $5503(15@,2) char $PLAYER_CHAR 
 00F5: set_char_obj_sprint_to_coord $5430(0@,3) sprint_to 2@ 3@ 
 0102:   locate_car_2d $4196(56@,20) point 22@ 23@ radius 10.0 10.0 sphere 0 
 0104:   locate_car_3d $2513 point 82@ 83@ 84@ radius 2.0 2.0 2.0 sphere 0 
-0106: give_weapon_to_char $PLAYER_CHAR weapon $134(0@,10) ammo $144(0@,10) 
+0106: give_weapon_to_char $PLAYER_CHAR weapon $_134(0@,10) ammo $_144(0@,10) 
 0107: set_player_control $PLAYER_CHAR to 0 
 0108: force_weather 0 
 0109: force_weather_now 1 
@@ -233,7 +233,7 @@
 0123: get_number_of_passengers 1@ store_to 9@ 
 0124: get_maximum_number_of_passengers 1@ store_to 8@ 
 0125: set_car_density_multiplier 0 
-0126: set_car_heavy $5384[10] to 1 
+0126: set_car_heavy $5394 to 1 
 0127: clear_char_threat_search 2@ 
 0128: set_max_wanted_level 6 
 012C:   is_car_in_air_proper $2513 
@@ -242,15 +242,15 @@
 012F: start_kill_frenzy 'BLANK' weapon 19@ time 120000 targets 20@ models 14@ 15@ 16@ 17@ completed_text 0 
 0130: read_kill_frenzy_status 2@ 
 0132:   locate_char_any_means_car_2d $PLAYER_CHAR car $5870(0@,2) radius 75.0 75.0 sphere 0 
-0133:   locate_char_on_foot_car_2d $PLAYER_CHAR car $6062[6] radius 8.0 8.0 sphere 0 
+0133:   locate_char_on_foot_car_2d $PLAYER_CHAR car $6068 radius 8.0 8.0 sphere 0 
 0134:   locate_char_in_car_car_2d $PLAYER_CHAR car $5354(2@,3) radius 10.0 10.0 sphere 0 
-0135:   locate_char_any_means_car_3d $PLAYER_CHAR car $5356[4] radius 30.0 30.0 30.0 sphere 0 
-0136:   locate_char_on_foot_car_3d $5403(0@,12) car $5384[15] radius 0.9 0.9 1.5 sphere 0 on_foot 
-0137:   locate_char_in_car_car_3d $PLAYER_CHAR car $5350[8] radius 8.0 8.0 8.0 sphere 0 in_car 
+0135:   locate_char_any_means_car_3d $PLAYER_CHAR car $5360 radius 30.0 30.0 30.0 sphere 0 
+0136:   locate_char_on_foot_car_3d $5403(0@,12) car $5399 radius 0.9 0.9 1.5 sphere 0 on_foot 
+0137:   locate_char_in_car_car_3d $PLAYER_CHAR car $5358 radius 8.0 8.0 8.0 sphere 0 in_car 
 0138: generate_random_float_in_range 15.0 20.0 store_to 19@ 
 0139: generate_random_int_in_range 0 20 store_to 2@ 
 013A: lock_car_doors $2506 mode 3 
-013B: explode_car $5384[10] 
+013B: explode_car $5394 
 013C: add_explosion 0@ 1@ 2@ type 4 
 013D:   is_car_upright 2@ 
 013E: turn_char_to_face_char 0@ char $PLAYER_CHAR 
@@ -260,7 +260,7 @@
 0142: set_taxi_lights $5011 to 0 
 0143: print_big_q 'USJ_P' time 2000 style 8  // ~w~UNIQUE STUNT BONUS!
 0145: set_garage from -838.687 -1201.066 10.515 to -830.975 -1198.333 -840.584 depth_from -1195.191 to 14.947 type 1 store_to $_913 
-0146: set_target_car_for_mission_garage $_923 to $5500[2] 
+0146: set_target_car_for_mission_garage $_923 to $5502 
 0147:   car_inside_garage $_923 
 0149:   is_car_armed_with_any_bomb $2513 
 014A: apply_brakes_to_players_car $PLAYER_CHAR apply 1 
@@ -278,11 +278,11 @@
 0157: set_gang 0 primary_weapon_to 19 secondary_weapon_to 0 
 0158: set_char_obj_run_to_coord 0@ run_to $4078(1@,20) $4098(1@,20) 
 015D: set_char $2252(9@,10) ped_stats_to 41 
-015F: set_anim_group_for_char $5501[6] to $5550[15] 
+015F: set_anim_group_for_char $5507 to $5565 
 0160: request_model 0@ 
 0161:   has_model_loaded #GANG5A 
 0162: mark_model_as_no_longer_needed 1@ 
-0165: draw_corona $5551(0@,50) $5601(0@,50) $5651(0@,50) radius $5747[4] type 5 lensflare 0 colour $5777[26] $5777[27] $5777[28] 
+0165: draw_corona $5551(0@,50) $5601(0@,50) $5651(0@,50) radius $5751 type 5 lensflare 0 colour $5803 $5804 $5805 
 0166: store_weather 
 0167: restore_weather 
 0168: store_clock 
@@ -312,10 +312,10 @@
 01BB: get_ground_z_for_3d_coord 7@ 8@ 9@ store_to 9@ 
 01BC: start_script_fire $5353(0@,80) $5433(0@,80) $5513(0@,80) store_to $5782(0@,80) 
 01BD:   is_script_fire_extinguished 0@ 
-01BE: remove_script_fire $5384[9] 
-01BF: boat_goto_coords $5384[10] coords $5384[12] $5384[14] $5384[16] 
-01C0: boat_stop $5458[1] 
-01C1:   is_player_shooting_in_area $PLAYER_CHAR from $5597[25] $5597[26] to $5597[28] $5597[29] weapon 0 
+01BE: remove_script_fire $5393 
+01BF: boat_goto_coords $5394 coords $5396 $5398 $5400 
+01C0: boat_stop $5459 
+01C1:   is_player_shooting_in_area $PLAYER_CHAR from $5622 $5623 to $5625 $5626 weapon 0 
 01C2:   is_current_char_weapon $PLAYER_CHAR weapon 0 
 01C3: set_boat_cruise_speed $5448(0@,2) to 0 
 01C4: get_random_char_in_area from 316.8525 -215.2524 to 346.5 -268.58 civilian 1 gang 1 criminal/prostitute 1 store_to 26@ 
@@ -333,11 +333,11 @@
 01D4: get_car_forward_x 0@ store_to 7@ 
 01D5: get_car_forward_y 0@ store_to 8@ 
 01D6: change_garage_type $_913 to 14 
-01D8: text_2numbers 'REPO_37' 19@ $5657[7] 5000 ms 1  // ~w~Merchandise repossessed: $~1~ reward + ~1~ in-a-row bonus: $250.
+01D8: text_2numbers 'REPO_37' 19@ $5664 5000 ms 1  // ~w~Merchandise repossessed: $~1~ reward + ~1~ in-a-row bonus: $250.
 01D9: print_with_2_numbers_now 'EXP_R02' numbers 1@ 3@ time 9000 flag 1  // ~w~Your collector's fee is $~1~, plus a $~1~ bonus for seizing the whole list.
 01DA: text_2numbers_highpriority 'FPLANT' 8@ 9@ 5000 ms 5  // Ouch! Face plant distance: ~1~.~1~m
 01DB: print_with_3_numbers 'WHEEL02' numbers 8@ 50@ 47@ time 3000 flag 1  // TWO WHEELS BONUS: $ ~1~ Distance: ~1~ feet Time: ~1~ seconds.
-01DC: text_3numbers_highpriority 'SRNG_T4' $5540[3] $5540[2] $5545[0] time 20000 ms 2  // ~w~Qualifying score: ~1~ ~n~Your score: ~1~ ~n~Accuracy: ~1~%
+01DC: text_3numbers_highpriority 'SRNG_T4' $5543 $5542 $5545 time 20000 ms 2  // ~w~Qualifying score: ~1~ ~n~Your score: ~1~ ~n~Accuracy: ~1~%
 01DD: print_with_4_numbers 'WHEEL01' numbers 8@ 48@ 49@ 47@ time 3000 flag 1  // TWO WHEELS BONUS: $ ~1~ Distance: ~1~.~1~m Time: ~1~ seconds.
 01DE: print_with_6_numbers 'SJSTAT' numbers 12@ 13@ 10@ 11@ 15@ 20@ time 1 flag 5  // Distance: ~1~.~1~m Height: ~1~.~1~m Flips: ~1~ Rotation: ~1~°
 01DF: player_made_progress 1 
@@ -356,17 +356,17 @@
 01EC: set_char 0@ running 1 
 01ED: remove_all_script_fires 
 01EE:   has_char_been_damaged_by_weapon 0@ weapon 50 
-01EF:   has_car_been_damaged_by_weapon $5807[12] weapon 33 
+01EF:   has_car_been_damaged_by_weapon $5819 weapon 33 
 01F0:   char 0@ in_range_of_player $PLAYER_CHAR 
 01F1: explode_char_head $5386(0@,15) 
 01F2: anchor_boat $5448(0@,2) set 1 
 01F3: set_zone_pedgroup_info 'AIRPORT' 1 51 
-01F4: start_car_fire $5597[18] store_to $5384[9] 
+01F4: start_car_fire $5615 store_to $5393 
 01F5: start_char_fire $5498(0@,16) store_to $5514(0@,16) 
 01F6: get_random_car_of_type_in_area 2@ 3@ to 5@ 6@ model -1 store_to 1@ 
-01F7:   garage $_916[0] respray_done 
+01F7:   garage $_916 respray_done 
 01F9: create_pickup_with_ammo #BERETTA type 11 ammo 28 at -1640.113 -264.2402 14.7102 store_to $3381(1@,10) 
-01FA: car $5414(0@,1) block $5350[6] 
+01FA: car $5414(0@,1) block $5356 
 01FB: set_player_never_gets_tired $PLAYER_CHAR set 1 
 01FD: set_char_bleeding $5386(2@,15) set 1 
 01FF: set_free_resprays 1 
@@ -381,20 +381,20 @@
 0208: set_text_wrapx 0@ 
 0209: set_text_centre_size 1 
 020A: set_text_background 0 
-020B: rotate_object $5384[10] from 0 to 10.0 colission_check 0 
+020B: rotate_object $5394 from 0 to 10.0 colission_check 0 
 020C:   slide_object 0@ to 1@ 2@ 3@ speed 0 0 2.1 collision_check 0 
 020D: remove_char_elegantly 0@(39@,20) 
 020E: set_char_stay_in_same_place $3480 to 1 
 020F: undress_char $PLAYER_CHAR skin_to $1450(0@,14) 
 0210:   is_explosion_in_area 3 from -958.22 180.59 8.0 to -968.64 188.53 10.6 
-0212: make_object_targettable $2013[0] 
+0212: make_object_targettable $2013 
 0213: add_armour_to_char $PLAYER_CHAR armour 200 
 0214: open_garage $_913 
 0215: close_garage $_913 
 0216: warp_char_from_car_to_coord $PLAYER_CHAR coord $681 $682 $683 
 0217: set_visibility_of_closest_object_of_type -78.48 -1224.62 22.88 radius 10.0 model #GD_HOTELSOFA visibility 1 
 0218:   has_char_spotted_char 0@ char $PLAYER_CHAR 
-0219: set_char $5482[2] hail_taxi 
+0219: set_char $5484 hail_taxi 
 021A:   has_object_been_damaged $3407 
 021C: warp_char_into_car $PLAYER_CHAR car 20@ 
 021D: switch_car_radio 0 
@@ -423,7 +423,7 @@
 0239: save_int_to_debug_file 5991 // nop 
 023A: save_float_to_debug_file 7@ 
 023B: save_newline_to_debug_file // nop 
-023D: set_car_strong $5550[28] to 1 
+023D: set_car_strong $5578 to 1 
 023F: switch_rubbish 1 // NOP in GTA SA 
 0240: remove_particle_effects_in_area -1233.97 -246.92 0 -1185.04 -288.26 30.0 
 0241: switch_streaming 1 
@@ -436,8 +436,8 @@
 0249: remove_sphere $2292 
 024A: set_everyone_ignore_player $PLAYER_CHAR to 1 
 024B: store_car_char_is_in_no_save $PLAYER_CHAR store_to $2513 
-024C: display_onscreen_timer_with_string $5545[0] type 1 gxt 'TIME'  // Time
-024D: display_onscreen_counter_with_string $5540[4] type 1 gxt 'REN7_B1'  // Light rig stress
+024C: display_onscreen_timer_with_string $5545 type 1 gxt 'TIME'  // Time
+024D: display_onscreen_counter_with_string $5544 type 1 gxt 'REN7_B1'  // Light rig stress
 024E: create_random_car_for_car_park 109.8 -1151.2 16.5 heading 1.6 
 024F: set_wanted_multiplier 1.0 
 0250: set_camera_in_front_of_player 
@@ -456,7 +456,7 @@
 025E: clear_this_big_print 'NUMBER'  // ~1~
 025F: set_mission_audio_position slot $3435 to 1@ 2@ 3@ 
 0260: activate_save_menu 
-0263: add_blip_for_pickup $5540[1] store_to $5597[3] 
+0263: add_blip_for_pickup $5541 store_to $5600 
 0264: set_ped_density_multiplier 1.0 
 0265: force_random_ped_type 18@ 
 0266: set_text_right_justify 1 
@@ -470,25 +470,25 @@
 0270: use_text_commands 1 
 0271: pedtype 13 add_threat 0@ 
 0272: pedtype 8 remove_threat 1 
-0273: get_car_colours $5354(0@,3) store_to $5550[2] and $5550[3] 
-0275: set_car_can_be_damaged $5384[11] to 1 
-0276: make_chars $5425[1] $5425[2] converse_in 999000 ms 
-0277: set_drunk_input_delay $PLAYER_CHAR to $5550[4] 
+0273: get_car_colours $5354(0@,3) store_to $5552 and $5553 
+0275: set_car_can_be_damaged $5395 to 1 
+0276: make_chars $5426 $5427 converse_in 999000 ms 
+0277: set_drunk_input_delay $PLAYER_CHAR to $5554 
 0278: set_char_money $3406 to 0 
 0279: get_offset_from_object_in_world_coords 2@ offset 8.6 0 0 store_to 6@ 7@ 8@ 
 027A: register_life_saved 
 027B: register_criminal_caught 
-027C: register_ambulance_level $5350[0] 
+027C: register_ambulance_level $5350 
 027D: register_fire_extinguished 
-027F: get_offset_from_car_in_world_coords $5482[5] offset 0 -5.2 -0.6 store_to 1@ 2@ 3@ 
+027F: get_offset_from_car_in_world_coords $5487 offset 0 -5.2 -0.6 store_to 1@ 2@ 3@ 
 0280: set_total_rampages_to 35 
 0284: clear_mission_audio slot 0@ 
 0285: set_char $5013 use_pednode_seek 1 
 0289: load_and_launch_mission_internal 0  // Initial: Pickups
-028B: get_ammo_in_char_weapon 1@ weapon $5550[1] store_to 0@ 
+028B: get_ammo_in_char_weapon 1@ weapon $5551 store_to 0@ 
 028D: set_near_clip 0.5 
 028E: set_radio_channel 8 68929323 
-028F:   garage_contain_car $_922 $5384[11] 
+028F:   garage_contain_car $_922 $5395 
 0290: set_car_traction 0@ to 1.0 
 0291:   are_measurements_in_metres 
 0292: convert_metres_to_feet 51@ store_to 53@ 
@@ -507,7 +507,7 @@
 02A2: stop_end_of_game_tune 
 02A3: get_car_model $2513 store_to 2@ 
 02A4:   are_any_car_cheats_activated 
-02A5: set_char_suffers_critical_hits $5384[8] enable 0 
+02A5: set_char_suffers_critical_hits $5392 enable 0 
 02A6:   is_char_sitting_in_car $5348(0@,3) car $5354(0@,3) 
 02A7:   is_char_sitting_in_any_car $PLAYER_CHAR 
 02A8:   is_char_on_foot $PLAYER_CHAR 
@@ -520,21 +520,21 @@
 02B3: set_all_occupants_of_car_leave_car $5770(0@,16) 
 02B4: set_interpolation_parameters 0 time 20000 
 02B5: get_debug_camera_point_at 9@ 10@ 11@ 
-02B6: attach_ped_to_car $PLAYER_CHAR car $5482[5] offset 0 0 0 position 0 angle_limit 360.0 weapon 0 
+02B6: attach_ped_to_car $PLAYER_CHAR car $5487 offset 0 0 0 position 0 angle_limit 360.0 weapon 0 
 02B7: detach_char_from_car 5@ 
 02B9: set_car_stay_in_fast_lane 0@ to 0 
-02BB: clear_car_last_weapon_damage $5807[12] 
+02BB: clear_car_last_weapon_damage $5819 
 02BD: get_driver_of_car 1@ store_to 10@ 
 02C0: get_current_char_weapon $PLAYER_CHAR store_to $814 
-02C1:   locate_char_any_means_object_2d $5356[8] object 0@ radius 30.0 30.0 sphere 0 
-02C4:   locate_char_any_means_object_3d $PLAYER_CHAR object $5567[24] radius 1.0 1.0 1.0 sphere 0 
-02C5:   locate_char_on_foot_object_3d $5385(0@,4) object $5384[23] radius 2.5 2.5 3.0 sphere 0 
-02C7: set_car_temp_action $5482[5] to 0 time 2500 
+02C1:   locate_char_any_means_object_2d $5364 object 0@ radius 30.0 30.0 sphere 0 
+02C4:   locate_char_any_means_object_3d $PLAYER_CHAR object $5591 radius 1.0 1.0 1.0 sphere 0 
+02C5:   locate_char_on_foot_object_3d $5385(0@,4) object $5407 radius 2.5 2.5 3.0 sphere 0 
+02C7: set_car_temp_action $5487 to 0 time 2500 
 02C8:   is_char_on_any_bike $PLAYER_CHAR 
-02C9:   can_char_see_dead_char 0@ pedtype $5425[1] 
+02C9:   can_char_see_dead_char 0@ pedtype $5426 
 02CA: set_enter_car_range_multiplier 50.0 
 02CB: set_threat_reaction_range_multiplier 1.0 
-02CC: set_char_cease_attack_timer $5371[1] time 10000 
+02CC: set_char_cease_attack_timer $5372 time 10000 
 02CF:   is_model_available #GANG4A 
 02D0: shut_char_up $5393(0@,6) to 1 
 02D3:   is_any_pickup_at_coords $3613 $3614 $3615 radius 0.5 
@@ -548,29 +548,29 @@
 02DC: get_dead_char_pickup_coords $5356(4@,10) store_to 1@ 2@ 3@ 
 02E1:   is_char_in_water $PLAYER_CHAR 
 02E2: 12@ = 11 // (any) 
-02E7: get_char_weapon_in_slot $PLAYER_CHAR slot 1@ store_weapon_to $134(0@,10) ammo_to $144(0@,10) model_to $154(0@,10) 
-02E8: get_closest_straight_road 5@ 6@ 10.0 unk_length 1@ radius 4@ store_to $5348[0] $5350[0] $5350[2] $5348[1] $5350[1] $5350[3] $5350[5] 
-02E9: set_car_forward_speed $5482[5] to 5.0 
+02E7: get_char_weapon_in_slot $PLAYER_CHAR slot 1@ store_weapon_to $_134(0@,10) ammo_to $_144(0@,10) model_to $_154(0@,10) 
+02E8: get_closest_straight_road 5@ 6@ 10.0 unk_length 1@ radius 4@ store_to $5348 $5350 $5352 $5349 $5351 $5353 $5355 
+02E9: set_car_forward_speed $5487 to 5.0 
 02EA: set_area_visible 0 
 02EE: get_offset_from_char_in_world_coords $PLAYER_CHAR offset 0 2.8 -0.6 store_to 4@ 5@ 6@ 
 02F0: switch_security_camera 1 
 02F1:   is_char_in_flying_vehicle $PLAYER_CHAR 
 02F2: set_heli_orientation 0@ to 7@ 
-02F3: clear_heli_orientation $5550[28] 
+02F3: clear_heli_orientation $5578 
 02F5: get_nth_closest_car_node 30@ 31@ 32@ nth 20 store_to 30@ 31@ 32@ 
 02F6: get_nth_closest_char_node 30@ 31@ 32@ nth 25 store_to 30@ 31@ 32@ 
 02F8: freeze_char_position $PLAYER_CHAR set_to 1 
-02F9: set_char_drowns_in_water $5421[3] to 1 
-02FA: set_object_records_collisions $5378[1] to 1 
-02FB:   has_object_collided_with_anything $5378[1] 
+02F9: set_char_drowns_in_water $5424 to 1 
+02FA: set_object_records_collisions $5379 to 1 
+02FB:   has_object_collided_with_anything $5379 
 02FD:   has_photograph_been_taken 
 02FE: get_char_armour $PLAYER_CHAR store_to $_165 
 02FF: set_heli_stabiliser $5870(1@,2) to 1 
 0300: set_car_straight_line_distance $5354(0@,3) to 20 
-0301: pop_car_boot $5371[2] 
-0304:   locate_object_2d $5378[0] point $5350[2] $5350[3] radius 20.0 20.0 sphere 0 
-0305:   locate_object_3d $5384[23] point $5368[2] $5371[0] $5371[1] radius 4.0 4.0 3.0 sphere 0 
-0306:   is_object_in_water $5378[0] 
+0301: pop_car_boot $5373 
+0304:   locate_object_2d $5378 point $5352 $5353 radius 20.0 20.0 sphere 0 
+0305:   locate_object_3d $5407 point $5370 $5371 $5372 radius 4.0 4.0 3.0 sphere 0 
+0306:   is_object_in_water $5378 
 0309: set_char_crouch $3480 to 1 set_char_crouch -1 
 030A: set_zone_civilian_car_info 'AIRPORT' 1 200 90 200 0 500 0 0 0 10 900 100 0 0 
 030E: move_char $5563(0@,3) from_car_passengerseat_to_driverseat 
@@ -584,10 +584,10 @@
 0317:   is_char_obj_no_obj 0@ 
 0318:   is_player_wearing $PLAYER_CHAR skin $1450(0@,14) 
 031B: set_car_model_components #BARRACKS to 0 0 
-031C: close_all_car_doors $5454[1] 
+031C: close_all_car_doors $5455 
 031D: get_distance_between_coords_2d 10@ 11@ and $681 $682 store_to 13@ 
 031E: get_distance_between_coords_3d 0 0 0 and 0@ 1@ 2@ store_to 6@ 
-031F: pop_car_boot_using_physics $5842[33] 
+031F: pop_car_boot_using_physics $5875 
 0321: sort_out_object_collision_with_car $5348(2@,27) car 0@ 
 0322:   is_char_wander_path_clear 0@ on_path $5590(6@,10) $5600(6@,10) $5610(6@,10) radius 1.0 
 0323: print_help_forever 'CLOTHA'  // Use the ~h~~k~ ~AMMOV~ ~w~to view outfits. ~h~~k~ ~AMBUY~ ~w~to change into outfit. ~h~~k~ ~AMEXI~ ~w~to cancel.
@@ -596,21 +596,21 @@
 0326:   has_char_been_damaged_by_char $3392 char $PLAYER_CHAR 
 0327:   has_char_been_damaged_by_car 1@ car 0@ 
 0328:   has_car_been_damaged_by_char $4196(56@,20) char $PLAYER_CHAR 
-0329:   has_car_been_damaged_by_car $5482[1] car $5482[0] 
+0329:   has_car_been_damaged_by_car $5483 car $5482 
 032A: get_radio_channel 0@ 
 032D: set_char_stay_in_car_when_jacked $5013 to 0 
 032E: add 0@ to_money_spent_on_weapons_stats 
-032F: set_char_answering_mobile $5687[16] on 1 
+032F: set_char_answering_mobile $5703 on 1 
 0331: set_char_in_players_group_can_fight 0@ can_fight 1 
-0332: clear_char_wait_state $5597[19] 
+0332: clear_char_wait_state $5616 
 0333: get_random_car_of_type_in_area_no_save 8@ 9@ to 10@ 11@ model 2@ store_to 4@ 
 0334: set_can_burst_car_tyres $2506 to 0 
-0335: fire_hunter_gun $5384[5] 
-0336:   is_char_touching_vehicle $PLAYER_CHAR vehicle $5535[2] 
+0335: fire_hunter_gun $5389 
+0336:   is_char_touching_vehicle $PLAYER_CHAR vehicle $5537 
 0339: set_char_can_be_shot_in_vehicle 1@ to 1 
 033A: load_mission_text 12@ 
 033B: clear_char_last_damage_entity $5381(2@,3) 
-033C: clear_car_last_damage_entity $5350[6] 
+033C: clear_car_last_damage_entity $5356 
 033D: freeze_object_position 5@ to 1 
 033F: clear_taxi_shortcut 
 0340: increase_player_max_health $PLAYER_CHAR by 50 
@@ -622,10 +622,10 @@
 0348: set_char_crouch_when_threatened $2252(9@,10) on 1 
 034A:   does_char_exist $3392 
 034B:   does_vehicle_exist 0@ 
-034D: is_char_stuck $6042[15] 
+034D: is_char_stuck $6057 
 034E: set_all_taxis_have_nitro 1 
 034F: set_char_stop_shoot_dont_seek_entity $3406 on 1 
-0351: save_highest_vigilante_level $5646[0] 
+0351: save_highest_vigilante_level $5646 
 0352: stop_char $PLAYER_CHAR 
 0353: set_garage $_913 max_cars_to 1 
 0354:   wanted_stars_are_flashing 
@@ -638,7 +638,7 @@
 0368: set_char_frightened_in_jacked_car $5013 flag 1 
 0369: set_vehicle_to_fade_in $5354(0@,3) to 0 
 036A: register_oddjob_mission_passed 
-036E: register_fire_level $5437[1] 
+036E: register_fire_level $5438 
 0372: get_dot_product_of_2d_vectors 12@ 13@ and 15@ 16@ store_to 20@ 
 0373: get_dot_product_of_3d_vectors 3@ 4@ and 5@ 6@ store_to 7@ 8@ 13@ 
 0374: display_float_value int_2D_coords 10 10 float_value $3393 
@@ -652,7 +652,7 @@
 037E:   is_this_vehicle_a_plane 0@ 
 037F:   is_this_vehicle_a_heli $2513 
 0393: unknown_command_ac7b char $5013 flag 0 
-0395: create_permanent_corona 3@ at 4@ 5@ $5350[6] radius 6 type 0 enable_lensflare 237 colour 130 180 $5474(1@,37) store_to 
+0395: create_permanent_corona 3@ at 4@ 5@ $5356 radius 6 type 0 enable_lensflare 237 colour 130 180 $5474(1@,37) store_to 
 0396: delete_permanent_corona $5474(1@,37) 
 0397:   unknown_vehicle_command_532c vehicle 0@ 
 0398:   unknown_vehicle_command_6c1a vehicle $5549(1@,20) 
@@ -666,23 +666,23 @@
 03A3: get_random_car_in_area_no_save from -138.44 1029.14 to -142.44 1033.14 store_to 20@ 
 03A4: store_car_collided_with_no_save 0@ store_to 1@ 
 03A5: unknown_char_command_1167 char $3406 flag 0 
-03A6:   unknown_command_7272 char $5567[24] 
-03A7: unknown_command_5271 vehicle $5384[15] flag 0 
+03A6:   unknown_command_7272 char $5591 
+03A7: unknown_command_5271 vehicle $5399 flag 0 
 03A9: set_object_initial_rotation_velocity $5348(2@,27) rotation_velocity 9@ 10@ 11@ 
 03AA: set_object_initial_velocity 8@ velocity 999999.9 999999.9 0.99 
 03AC: set_unique_jumps_found 72@ 
 03AE: set_char_evasive_dive char 12@ vehicle $2513 
-03AF: damage_car $5371[6] 
+03AF: damage_car $5377 
 03B0: register_outfit_changed 
-03B3: set_car_initial_rotation_velocity 0@ rotation_velocity $5550[39] $5567[23] $5567[24] 
+03B3: set_car_initial_rotation_velocity 0@ rotation_velocity $5589 $5590 $5591 
 03B4: set_car_initial_velocity $5373(0@,5) velocity 0 0 0 
-03B5: set_object_proofs $5378[1] bullet 1 fire 1 explosion 1 collision 1 melee 1 
+03B5: set_object_proofs $5379 bullet 1 fire 1 explosion 1 collision 1 melee 1 
 03B6: unknown_camera_command_6e11 store_to $_173 
 03B7: unknown_camera_command_7521 $_173 
-03B8: get_car_rotation $5535[2] store_to 4@ 5@ 6@ 
-03B9: set_car_rotation $5535[2] rot 4@ 5@ 6@ 
+03B8: get_car_rotation $5537 store_to 4@ 5@ 6@ 
+03B9: set_car_rotation $5537 rot 4@ 5@ 6@ 
 03BA:   unknown_timer_command_2151 
-03BB: process_car_open_door $5371[2] 
+03BB: process_car_open_door $5373 
 03BC: unknown_char_command_5618 0@ store_to 2@ 
 03BD: unknown_camera_command_7432 enable 0 
 03BE: unknown_object_command_8421 8@ 
@@ -695,14 +695,14 @@
 03CE:   unknown_command_71df 
 03CF: set_onscreen_counter_colour 72 72 171 255 
 03D0: set_onscreen_counter_background_colour 11 11 91 255 
-03D1: damage_car_boot $5535[2] 
+03D1: damage_car_boot $5537 
 03D2: draw_checkpoint coord $5348(11@,36) $5384(11@,36) $5420(11@,36) radius 8.0 colour 0 255 0 
 03D3: print_help_always_allow 'JER1_17'  // This is your barracks.
 03D4: print_help_permanent_always_allow 2@ 
 03D5: set_char_max_health 0@ to 1250 
 03D6: unknown_char_command_76f6 char $3406 value 2000 
 03D7: unknown_char_command_2618 char 13@ value 800 
-03D8: unknown_heli_command_7314 vehicle $5381[2] 
+03D8: unknown_heli_command_7314 vehicle $5383 
 03DE: unknown_char_command_2682 $3595(0@,2) flag 1 
 03DF: register_longest_face_plant_distance 6@ 
 03E0: add_number_of_exported_cars 1 
@@ -720,21 +720,21 @@
 03F1: switch_emergency_services 0 
 03F2: unlock_the_costume 0@ 
 03F5: get_object_rotation 0@ store_to 7@ 8@ 9@ 
-03F6: set_object_rotation_dont_update_frame $5837[4] to 60.0 0 0 
-03F7: set_onscreen_counter_display_money_value $5657[26] enable 1 
+03F6: set_object_rotation_dont_update_frame $5841 to 60.0 0 0 
+03F7: set_onscreen_counter_display_money_value $5683 enable 1 
 03F8: store_player_outfit $1450(0@,14) 
 03F9: display_onscreen_counter_with_string_and_max_number $2512 max_number 1@ unk3 0 name 'E_COUN'  // Job ~1~
 03FA: unknown_player_command_832d 20 
 03FB: set_char $5469(0@,20) anim 13 wait_state_time 2000 ms version_b 
 03FC: lock_garage $_920 enable_lock 1 
 03FD:   unknown_check_command_92ea 
-03FF: display_onscreen_counter_with_two_numbers_place $5777[6] number_of_levels $5626[5] unk3 0 unk4 3 string 'RACE_P1' progress_subject 'RACE_L'  // ~w~1st // Lap
+03FF: display_onscreen_counter_with_two_numbers_place $5783 number_of_levels $5631 unk3 0 unk4 3 string 'RACE_P1' progress_subject 'RACE_L'  // ~w~1st // Lap
 0400: get_player_saved_weapon $PLAYER_CHAR store_to $814 
 0401: disable_access_to_pause_menu 1 
 0403: set_clock_event hours 0 minutes 0 warning_minutes 0 
 0404: set_weather_extra_colour_light_direction 0.01 0.89 0.47 
 0407: print_help_forever_version_b 'CLOTHA'  // Use the ~h~~k~ ~AMMOV~ ~w~to view outfits. ~h~~k~ ~AMBUY~ ~w~to change into outfit. ~h~~k~ ~AMEXI~ ~w~to cancel.
-0409: print_help_forever_version_c $5381[0] 
+0409: print_help_forever_version_c $5381 
 040C: calc_screen_coords 0@ 1@ 2@ returned_screen_coords 5@ 6@ 
 040D: get_integer_number_in_string result_var 8@ num 7@ num_length 1 start_index 6 
 040F: get_length_of_text_entry 'DBGSEL5' store_to 2@  // Weapon Cheat:
@@ -756,7 +756,7 @@
 0422: set_car_coordinates_no_offset 6@ to 15@ 16@ 17@ 
 0423: set_char_coordinates_no_offset $PLAYER_CHAR to $2949(11@,30) $2979(11@,30) $3009(11@,30) 
 0424:   unknown_car_check_f721 $2513 
-0425: get_random_char_of_specified_model_in_area_3d 0@ 1@ 2@ to 3@ 4@ 5@ model $5348[0] or $5348[1] store_to 6@ 
+0425: get_random_char_of_specified_model_in_area_3d 0@ 1@ 2@ to 3@ 4@ 5@ model $5348 or $5349 store_to 6@ 
 0426: get_name_of_info_zone $681 $682 $683 store_to 9@ 
 0427: get_name_of_zone $681 $682 $683 store_to 0@ 
 0428: get_zone_ped_info 0@ time_of_day 1 store_info_to $2723(1@,4) $2731 $2732 $2733 $2734 $2735 $2736 $2737 $2738 $2739 $2727(1@,4) 
@@ -769,7 +769,7 @@
 042F: set_car_max_health 0@ to 1500 
 0430: get_car_max_health 0@ store_to 3@ 
 0433: unknown_char_area_command_15f2 $5982(9@,20) cornerA 3@ 4@ cornerB 6@ 7@ flag 1 
-0434: unknown_char_set_command_3747 $5348[1] flag 1 
+0434: unknown_char_set_command_3747 $5349 flag 1 
 0436: $PLAYER_CHAR   is_char_fighting $677 
 0438:   unknown_is_specified_area_for_char_set_up $5551(0@,11) 
 0439:   unknown_char_check_command_8517 $5551(0@,11) 
@@ -779,7 +779,7 @@
 0444: remove_anims 67 
 0445: have_anims_loaded 75 
 0446:  is_char_surrendering 0@ 
-0447: apply_visible_damage_to_car $6132[7] amount_of_damage 200.0 
+0447: apply_visible_damage_to_car $6139 amount_of_damage 200.0 
 0448: get_dead_char_coordinates 0@ store_to 1@ 2@ 3@ 
 044B: unknown_nop_command_1847 
 044D: add_toggleable_blip_for_coord 2 coords $3630(1@,99) $3729(1@,99) $3828(1@,99) 
@@ -796,12 +796,12 @@
 0458: unknown_empire_display_command_7492 2@ 0.5 
 0459: unknown_empire_display_command_9274 4@ 1 
 045A: unknown_empire_display_command_8917 5@ 1 
-045F: set_empire_ownership 0@ value $263(0@,30) 
-0460: set_empire_type 0@ type $323(0@,30) 
-0461: set_empire_scale 0@ scale $353(0@,30) 
-0462: set_empire_condition 0@ condition $383(0@,30) 
+045F: set_empire_ownership 0@ value $_263(0@,30) 
+0460: set_empire_type 0@ type $_323(0@,30) 
+0461: set_empire_scale 0@ scale $_353(0@,30) 
+0462: set_empire_condition 0@ condition $_383(0@,30) 
 0463: set_empire_visual_damage 0@ flag 0 
-0464: set_empire_state 0@ state $413(0@,30) 
+0464: set_empire_state 0@ state $_413(0@,30) 
 0465: get_empire_coords $2473 store_to 4@ 5@ 6@ 
 046C: get_empire_heading 0@ store_to $1673(0@,30) 
 0470: get_active_camera_coordinates 0@ 1@ 2@ 
@@ -824,7 +824,7 @@
 0485:   unknown_char_check_command_5936 0@ id 214 
 0486: set_gang_empire_building_colour gangID 1@ colour 178 85 255 unk_gangID 9 
 0487: unknown_player_command_6421 $PLAYER_CHAR values 2 200 
-0488: unknown_player_set_drunk_delay $5550[4] 
+0488: unknown_player_set_drunk_delay $5554 
 0489: load_empire_hud 
 048A: unknown_disable_empire_display 
 048B: draw_empire_box_with_text 'MI_BOX' 1@ 2@ 3@ 64 64 6@ 
@@ -835,39 +835,39 @@
 0492: set_radar_display_mode 0 
 0493: unknown_command_7395 $2301 store_to 0@ 
 0494: unknown_get_coords_command_8316 $2301 store_to 0@ 1@ 2@ 
-0495: change_car_colour_set $5454[1] set_id $5456[1] 
+0495: change_car_colour_set $5455 set_id $5457 
 0496: change_car_script_colour_set 13@ set_id 2@ 
-0497: get_car_colour_set $5454[1] store_to $5456[1] 
+0497: get_car_colour_set $5455 store_to $5457 
 049B: get_number_of_days_passed 1@ 
 049C: unknown_command_7264 1 unused 0 
 049D: unknown_command_83e5 1 
 049E: add_sprite_blip_for_empire_building empire_index 0@ store_to $2443(0@,30) 
 049F: switch_dollar_particle 1 
-04A0: unknown_command_3842 27@ $5657[20] $5657[21] $5657[22] 0 28@ 0.2 1.0 
+04A0: unknown_command_3842 27@ $5677 $5678 $5679 0 28@ 0.2 1.0 
 04A1: unknown_audio_command_0648 2@ store_to 3@ 
 04A2: unknown_char_coord_check_command_6382 $PLAYER_CHAR coords -984.5 -1237.6 10.2 -990.9 -1254.7 -993.5 -1233.9 15.0 
-04A3: unknown_char_command_8375 $5500[3] char $PLAYER_CHAR 
-04A4: unknown_char_command_7845 0@ char $5842[12] 
+04A3: unknown_char_command_8375 $5503 char $PLAYER_CHAR 
+04A4: unknown_char_command_7845 0@ char $5854 
 04A5: pop_car_bonnet 8@ 
-04A6: create_rope_for_car $5381[2] rope_type 4 
-04A7: delete_rope_from_car $5350[6] 
-04A8: unknown_get_object_from_car_command_8457 $5350[6] store_object_to 0@ 
-04A9: unknown_get_car_from_car_command_7457 $5350[6] store_car_to 0@ 
+04A6: create_rope_for_car $5383 rope_type 4 
+04A7: delete_rope_from_car $5356 
+04A8: unknown_get_object_from_car_command_8457 $5356 store_object_to 0@ 
+04A9: unknown_get_car_from_car_command_7457 $5356 store_car_to 0@ 
 04AA: unknown_object_set_command_5758 $5365(1@,2) flag 1 
-04AB: unknown_car_set_command_5758 $5381[2] flag 1 
-04AD: unknown_get_object_from_car_command_7393 0@ store_object_to $5384[23] 
+04AB: unknown_car_set_command_5758 $5383 flag 1 
+04AD: unknown_get_object_from_car_command_7393 0@ store_object_to $5407 
 04AE: change_char_colour_set $5200 set_id $5204 
 04B0: get_char_colour_set $5484(8@,6) store_to $5408(8@,6) 
 04B2: get_number_of_char_colour_sets_2 $5200 store_to $5203 
 04B4:   unknown_char_animation_6727 $1557(0@,5) values 0 1 1.0 
 04B5: unknown_char_set_command_47e1 2@ flag 0 
 04B6: unknown_char_set_command_87c3 10@ flag 1 
-04B7: unknown_char_set_command_3120 $5482[15] flag 1 
-04B8:   has_object_collided_with_car $5657[18] car $5777[28] 
+04B7: unknown_char_set_command_3120 $5497 flag 1 
+04B8:   has_object_collided_with_car $5675 car $5805 
 04B9: unknown_char_command_4384 6@ values 0 1 1 
-04BA: reset_car_num_collided_entities $5657[18] 
+04BA: reset_car_num_collided_entities $5675 
 04BB: unknown_radar_command_0628 
-04BC: create_flying_projectile_shot_by_car weapon_type 18 start_coords 15@ 16@ 17@ target_coords 12@ 13@ 14@ power 30.0 shooting_car_handle $5550[28] flag 0 store_to 18@ 
+04BC: create_flying_projectile_shot_by_car weapon_type 18 start_coords 15@ 16@ 17@ target_coords 12@ 13@ 14@ power 30.0 shooting_car_handle $5578 flag 0 store_to 18@ 
 04BD: unknown_radar_command_0628 0 
 04BE: unknown_car_set_command_2872 $2513 values 3.0 25.0 
 04BF: draw_checkpoint_with_alpha coords $5353(0@,20) $5373(0@,20) $5393(0@,20) coords $5413(0@,20) $5433(0@,20) $5453(0@,20) colour 237 130 180 radius 5.0 
@@ -903,11 +903,11 @@
 04E2: unknown_audio_command_7659 2 
 04E3: create_flying_projectile_shot_by_char weapon_type 18 start_coords 2@ 3@ 4@ target_coords 5@ 6@ 7@ power 0.35 shooting_car_handle 0@ flag 0 store_to 8@ 
 04E4: unknown_char_set_command_8248 5@ flag 1 
-04E5: set_number_of_empire_business_sites_owned_by_player business_type 1 number $_557[1] 
+04E5: set_number_of_empire_business_sites_owned_by_player business_type 1 number $_558 
 04E6: unknown_char_set_command_c728 $5383(0@,20) flag 1 
 04E7:   is_3d_coord_in_current_level 3@ 4@ 5@ 
-04E8:   is_vehicle_performing_wheelie $5807[21] 
-04E9:   is_vehicle_performing_stoppie $5807[21] 
+04E8:   is_vehicle_performing_wheelie $5828 
+04E9:   is_vehicle_performing_stoppie $5828 
 04EB: unknown_audio_command_4817 4@ 
 04EC: extinguish_fire_at_point $5353(0@,80) $5433(0@,80) $5513(0@,80) radius 2.0 use_water 1 
 04EE: make_char_invisible $5356(4@,10) 
@@ -921,70 +921,70 @@
 04F7: display_text_without_highlighting 20.0 1@ gxt $5377(0@,8) 
 04F8: unknown_char_check_command_7892 $5430(0@,3) 
 04FA: unknown_char_set_command_9817 $4196(45@,20) flag 1 
-04FB: unknown_audio_get_command_7219 $5545[2] 
+04FB: unknown_audio_get_command_7219 $5547 
 04FC: unknown_gang_set_command_2891 0 to 30 
 04FD: unknown_coll_set_command_5171 
 04FF: unknown_gang_set_command_6393 0 values 200 5 
 0500: unknown_char_set_command_1736 $PLAYER_CHAR bit_num 0@ 
 0501: unknown_char_unset_command_1736 $PLAYER_CHAR bit_num 0@ 
-0503: unknown_char_set_command_4828 $5501[6] flag 1 
-0504: nop_char_vcs_0504 $5545[1] coords $5437[0] $5437[1] $5437[2] 
-0505: unknown_command_1693 char $5550[16] handle_type_of_next_param 0 handle -1 flag 0 
-0506: unknown_char_set_command_9621 $5384[8] flag 1 
-0507: unknown_char_audio_command_8157 char 8@ value $5500[2] 
+0503: unknown_char_set_command_4828 $5507 flag 1 
+0504: nop_char_vcs_0504 $5546 coords $5437 $5438 $5439 
+0505: unknown_command_1693 char $5566 handle_type_of_next_param 0 handle -1 flag 0 
+0506: unknown_char_set_command_9621 $5392 flag 1 
+0507: unknown_char_audio_command_8157 char 8@ value $5502 
 0509: unknown_radar_set_coords_command_0472 3@ 4@ 5@ 
 050A: register_empire_attack_successful 
 050B: register_empire_attack_unsuccessful 
 050C: register_site_was_defended_successfully 
 050D: register_site_was_not_defended_successfully 
-050E: register_most_damage_caused_on_crash_mission $5657[26] 
-050F: register_fastest_time_on_mashing_up_the_mall $5807[11] 
-0510: register_fastest_time_on_harbor_hover_race $5348[0] 
-0511: register_fastest_time_on_haiti_hover_race $5348[0] 
-0514: register_air_ambulance_level $5350[0] 
-0515: register_vice_sights_level $5519[7] 
-0517: register_fire_copter_level $5777[2] 
-0518: register_beach_patrol_level $5657[15] 
-0519: register_crims_on_wings_time $5550[5] 
-051A: register_pcjplay_town_time $5550[10] 
-051B: register_pcjplay_point_time $5550[10] 
-051C: register_watersports_time course 9@ time $5482[9] 
+050E: register_most_damage_caused_on_crash_mission $5683 
+050F: register_fastest_time_on_mashing_up_the_mall $5818 
+0510: register_fastest_time_on_harbor_hover_race $5348 
+0511: register_fastest_time_on_haiti_hover_race $5348 
+0514: register_air_ambulance_level $5350 
+0515: register_vice_sights_level $5526 
+0517: register_fire_copter_level $5779 
+0518: register_beach_patrol_level $5672 
+0519: register_crims_on_wings_time $5555 
+051A: register_pcjplay_town_time $5560 
+051B: register_pcjplay_point_time $5560 
+051C: register_watersports_time course 9@ time $5491 
 051D: register_watersports_best_lap course 9@ time 13@ 
-051E: register_dtrial_time course 9@ $5437[1] time $5694 
+051E: register_dtrial_time course 9@ $5438 time $5694 
 051F: register_dtrial_best_lap course 9@ 13@ time $5694 
-0520: register_turismo_time course $5842[16] time 13@ 
-0521: register_turismo_best_lap course $5842[16] time 14@ 
-0522: register_turismo_best_position course $5842[16] time 12@ 
-0523: unknown_char_anim_command_5618 $5425[0] values 90 416 
-0524: get_camera_vehicle_zoom_base $5454[1] 
+0520: register_turismo_time course $5858 time 13@ 
+0521: register_turismo_best_lap course $5858 time 14@ 
+0522: register_turismo_best_position course $5858 time 12@ 
+0523: unknown_char_anim_command_5618 $5425 values 90 416 
+0524: get_camera_vehicle_zoom_base $5455 
 0525: set_camera_vehicle_zoom_base 3 
 0526: unknown_char_command_7812 $PLAYER_CHAR value -1.0 
 0528: unknown_command_6825 $1557(0@,5) values 1 -1.0 
-0529: unknown_char_command_8377 $5425[0] value 415 store_to $5837[6] 
-052A: $5425[0] 415 0@ unknown_char_anim_command_7281 $5425 values 415 0@ 
-052B: register_mvrace_time $5348[0] 
-052C: register_skywolf_time $5348[0] 
+0529: unknown_char_command_8377 $5425 value 415 store_to $5843 
+052A: $5425 415 0@ unknown_char_anim_command_7281 $5425 values 415 0@ 
+052B: register_mvrace_time $5348 
+052C: register_skywolf_time $5348 
 052D: add_ped_static_shadow cornerA 0@ 1@ 2@ cornerB 3@ 4@ 5@ intensity 100 radius 0.4 unused 0 
-052E: get_radio_channel_all_values $5597[21] $5597[22] 
+052E: get_radio_channel_all_values $5618 $5619 
 052F: return_player_weapons 
 0530: disable_splash_screen_when_moving_between_levels 1 
 0531: unknown_char_set_command_8319 0@ flag 1 
 0532: unknown_player_set_command_7236 $PLAYER_CHAR flag 1 
-0533: unknown_car_door_command_2714 $5384[1] door 1 
+0533: unknown_car_door_command_2714 $5385 door 1 
 0534: allow_planes_to_move 0 
-0535: register_dtrial_furthest_hoop $5456[1] 
-0536: register_btrial_furthest_hoop $5437[1] 
-0537: register_btrial_time course 9@ time $5384[35] 
+0535: register_dtrial_furthest_hoop $5457 
+0536: register_btrial_furthest_hoop $5438 
+0537: register_btrial_time course 9@ time $5419 
 0538: register_btrial_best_lap course 9@ time 13@ 
-0539: register_qttrial_furthest_hoop $5433[1] 
-053A: register_qttrial_time course 9@ time $5384[31] 
+0539: register_qttrial_furthest_hoop $5434 
+053A: register_qttrial_time course 9@ time $5415 
 053B: register_qttrial_best_lap course 9@ time 13@ 
-053C: register_shrange_time $5545[3] 
-053D: register_shrange_accuracy $5545[2] 
-053E: register_shrange_score $5545[4] 
+053C: register_shrange_time $5548 
+053D: register_shrange_accuracy $5547 
+053E: register_shrange_score $5549 
 053F: unknown_char_audio_command_5171 $5781(0@,8) 
 0540: unknown_audio_command_2762 values 23 0@ 
-0541: unknown_car_path_coord_command_6291 $5350[6] unused 2 store_coords 9@ 10@ 11@ 
+0541: unknown_car_path_coord_command_6291 $5356 unused 2 store_coords 9@ 10@ 11@ 
 0542: $5356(4@,10) 0 unknown_char_set_command_6416 
 0543: unknown_char_set_command_2782 0@ flag 0 
 0544: 1 unknown_world_bullet_command_7281 
@@ -993,9 +993,9 @@
 0548: unknown_radar_set_coords_command_6295 $1583(0@,30) $1613(0@,30) $1643(0@,30) 
 0549: unknown_radar_command_1835 0@ 
 054A: unknown_command_6181 2 
-054B: unknown_char_command_7359 char $5657[29] vehicle $5550[8] flag 1 
+054B: unknown_char_command_7359 char $5686 vehicle $5558 flag 1 
 054C: unknown_command_8258 0 1 
-054D: unknown_command_6817 $5358[8] flag 1 
+054D: unknown_command_6817 $5366 flag 1 
 054E: get_number_of_weapons_to_return_to_player 4@ 
 054F: set_photograph_has_not_been_taken 
 0550: 2@ add_money_spent_on_empire_development 2@ 
@@ -1008,25 +1008,25 @@
 0558: unknown_command_7441 $5430(0@,3) value 1.0 
 0559: unknown_object_command_0167 $2503 
 055A:   unknown_world_streaming_check_command_6292 
-055B: register_rush_damage_value $5657[26] 
-055C: register_airrace2_time $5550[34] 
-055D: register_dock_pcjplay_time $5550[10] 
-055E: register_park_pcjplay_time $5550[10] 
-055F: register_mvrace2_time $5348[0] 
+055B: register_rush_damage_value $5683 
+055C: register_airrace2_time $5584 
+055D: register_dock_pcjplay_time $5560 
+055E: register_park_pcjplay_time $5560 
+055F: register_mvrace2_time $5348 
 0560: register_gtrial_best_lap 13@ 
-0561: register_gtrial_furthest_hoop $5478[1] 
-0562: register_gtrial_time $5460[0] 
-0563: unknown_command_2951 $5842[69] flag 0 
+0561: register_gtrial_furthest_hoop $5479 
+0562: register_gtrial_time $5460 
+0563: unknown_command_2951 $5911 flag 0 
 0564: allow_pause_in_widescreen 1 
 800F:   not  1@ > 0 // (int) var > num 
 8010:   not  14 > $_262 // (int) num > var 
-8011:   not  $1239(9@,8) > $5540[4] // (int) var > var 
+8011:   not  $_1239(9@,8) > $5544 // (int) var > var 
 8013:   not  50.0 > 2@ // (float) num > var 
 8014:   not  3@ > $6044(0@,30) // (float) var > var 
 8015:   not  0@ >= 45000 // (int) var >= num 
 8016:   not  0 >= $5661(5@,2) // (int) num >= var 
-8017:   not  1@ >= $5657[7] // (int) var >= var 
-801B:   not  $_6[0] == 1 // (int) var == num 
+8017:   not  1@ >= $5664 // (int) var >= var 
+801B:   not  $_6 == 1 // (int) var == num 
 801C:   not  $_262 == 10@ // (int) num == var 
 801D:   not  0@ == 0 // (int) var == var 
 801E:   not  1@ == $5491(0@,4) // (float) var == num 
@@ -1034,7 +1034,7 @@
 8020:   not  0@ == 1@ // (float) var == var 
 8045:   not is_char_still_alive $PLAYER_CHAR 
 8046:   not is_char_in_area_2d $PLAYER_CHAR from -1744.946 -294.2144 to -1691.276 -309.3479 sphere 0 
-8047:   not is_char_in_area_3d $PLAYER_CHAR from $5482[9] $5482[10] $5482[11] to $5482[12] $5482[13] $5482[14] sphere 0 
+8047:   not is_char_in_area_3d $PLAYER_CHAR from $5491 $5492 $5493 to $5494 $5495 $5496 sphere 0 
 804F:   not is_car_still_alive 0@ 
 805D:   not is_point_on_screen 30@ 31@ 32@ radius 5.0 
 807C:   not is_char_in_car $PLAYER_CHAR car 0@ 
@@ -1049,7 +1049,7 @@
 8089:   not locate_char_any_means_3d $PLAYER_CHAR coord 0@ 1@ 2@ radius 3.0 3.0 3.0 sphere 0 
 808A:   not locate_char_on_foot_3d $PLAYER_CHAR coord 1@ 2@ 3@ radius 3.0 3.0 3.0 sphere 0 
 808B:   not locate_char_in_car_3d $PLAYER_CHAR coord $5353(2@,20) $5373(2@,20) $5393(2@,20) radius 60.0 60.0 60.0 sphere 0 
-808F:   not locate_char_any_means_char_3d $PLAYER_CHAR char $5421[3] radius 5.0 5.0 5.0 sphere 0 
+808F:   not locate_char_any_means_char_3d $PLAYER_CHAR char $5424 radius 5.0 5.0 5.0 sphere 0 
 8095:   not is_score_greater $PLAYER_CHAR than 99 // money 
 809A:   not is_wanted_level_greater $PLAYER_CHAR than 2 
 809D:   not has_deatharrest_been_executed 
@@ -1066,8 +1066,8 @@
 812C:   not is_car_in_air_proper 0@ 
 812D:   not is_car_upsidedown $5644(1@,4) 
 8132:   not locate_char_any_means_car_2d $PLAYER_CHAR car $5011 radius 140.0 140.0 sphere 0 
-8135:   not locate_char_any_means_car_3d $PLAYER_CHAR car $5550[28] radius 50.0 50.0 50.0 sphere 0 
-8136:   not locate_char_on_foot_car_3d $5403(0@,12) car $5384[15] radius 2.5 2.5 1.5 sphere 0 on_foot 
+8135:   not locate_char_any_means_car_3d $PLAYER_CHAR car $5578 radius 50.0 50.0 50.0 sphere 0 
+8136:   not locate_char_on_foot_car_3d $5403(0@,12) car $5399 radius 2.5 2.5 1.5 sphere 0 on_foot 
 813D:   not is_car_upright 0@ 
 8140:   not has_pickup_been_collected 10@ 
 8161:   not has_model_loaded 0@ 
@@ -1080,47 +1080,47 @@
 81C2:   not is_current_char_weapon $PLAYER_CHAR weapon 0 
 81C7:   not is_char_shooting 1@ 
 81CD:   not has_cutscene_finished 
-81F0:   not char $5421[3] in_range_of_player $PLAYER_CHAR 
+81F0:   not char $5424 in_range_of_player $PLAYER_CHAR 
 8202:   not is_area_occupied 7@ 8@ 9@ to 10@ 11@ 12@ solid 0 car 1 char 1 object 0 particle 0 
-820B:   not rotate_object $5807[5] from -85.0 to 10.0 colission_check 0 
+820B:   not rotate_object $5812 from -85.0 to 10.0 colission_check 0 
 820C:   not slide_object 0@ to 4@ 5@ 6@ speed 7@ 8@ 9@ collision_check 0 
 8218:   not has_char_spotted_char $5365(0@,6) char $PLAYER_CHAR 
 821A:   not has_object_been_damaged $5348(13@,27) 
 8227:   not is_point_obscured_by_a_mission_entity $2516 $2517 $2518 radius 5.0 5.0 5.0 
 8242:   not is_garage_open $_922 
 8252:   not does_object_exist 0@ 
-8256:   not is_car_stuck $5550[28] 
+8256:   not is_car_stuck $5578 
 8258:   not has_mission_audio_loaded slot $3435 
 825A:   not has_mission_audio_finished slot 1@ 
 8261:   not has_save_game_finished 
 826A:   not is_char_in_control $PLAYER_CHAR 
-828F:   not garage_contain_car $_922 $5384[11] 
+828F:   not garage_contain_car $_922 $5395 
 8299:   not is_car_passenger_seat_free 0@ seat 3@ 
 829E:   not are_credits_finished 
-82A6:   not is_char_sitting_in_car 24@ car $5384[32] 
+82A6:   not is_char_sitting_in_car 24@ car $5416 
 82A7:   not is_char_sitting_in_any_car $PLAYER_CHAR 
 82A8:   not is_char_on_foot $5366(0@,3) 
-82C1:   not locate_char_any_means_object_2d $5356[8] object $5378[0] radius 30.0 30.0 sphere 0 
-82C4:   not locate_char_any_means_object_3d $5624(14@,18) object $5687[11] radius 10.0 10.0 20.0 sphere 0 
+82C1:   not locate_char_any_means_object_2d $5364 object $5378 radius 30.0 30.0 sphere 0 
+82C4:   not locate_char_any_means_object_3d $5624(14@,18) object $5698 radius 10.0 10.0 20.0 sphere 0 
 82D3:   not is_any_pickup_at_coords $5442(0@,2) $5444(0@,2) $5446(0@,2) radius 1.0 
-82D5:   not has_char_got_weapon $5356[8] weapon 3 
+82D5:   not has_char_got_weapon $5364 weapon 3 
 82D8:   not is_car_on_fire 2@ 
-82DB:   not  $263(0@,30) == 6 // any == constant 
+82DB:   not  $_263(0@,30) == 6 // any == constant 
 82DE:   not is_char_in_any_boat $PLAYER_CHAR 
 82E1:   not is_char_in_water $PLAYER_CHAR 
 82EF:   not has_char_been_photographed 0@ 
-8305:   not locate_object_3d $5384[23] point $5368[2] $5371[0] $5371[1] radius 4.0 4.0 1.0 sphere 0 
+8305:   not locate_object_3d $5407 point $5370 $5371 $5372 radius 4.0 4.0 1.0 sphere 0 
 8326:   not has_char_been_damaged_by_char $3406 char $PLAYER_CHAR 
-8328:   not has_car_been_damaged_by_char $5535[2] char $PLAYER_CHAR 
-8336:   not is_char_touching_vehicle $PLAYER_CHAR vehicle $5687[22] 
+8328:   not has_car_been_damaged_by_char $5537 char $PLAYER_CHAR 
+8336:   not is_char_touching_vehicle $PLAYER_CHAR vehicle $5709 
 834A:   not does_char_exist $5012 
 834B:   not does_vehicle_exist 0@ 
 834D:   not is_char_stuck $5566(0@,6) 
-8377:   not get_pad_state actionID 44 store_to $5687[27] 
+8377:   not get_pad_state actionID 44 store_to $5714 
 837D:   not is_this_vehicle_a_bike 0@ 
-837F:   not is_this_vehicle_a_heli $5384[32] 
+837F:   not is_this_vehicle_a_heli $5416 
 8397:   not unknown_vehicle_command_532c vehicle $2513 
-8398:   not unknown_vehicle_command_6c1a vehicle $5535[2] 
+8398:   not unknown_vehicle_command_6c1a vehicle $5537 
 83A6:   not unknown_command_7272 char $3480 
 83AB:   not has_cutscene_loaded 
 83BA:   not unknown_timer_command_2151 
@@ -1133,12 +1133,12 @@
 8436:   not $5013   is_char_fighting $677 
 8445:   not have_anims_loaded 78 
 8446:   not is_char_surrendering 0@ 
-844C:   not unknown_char_check_command_3553 $5371[0] 
+844C:   not unknown_char_check_command_3553 $5371 
 8474:   not is_help_message_being_displayed 
 8485:   not unknown_char_check_command_5936 $2227 id 6 
 848F:   not is_bitwise_and_not_equal_to_zero 1 and $1542(2@,5) 
 84A2:   not unknown_char_coord_check_command_6382 $PLAYER_CHAR coords 170.98 -945.24 9.42 165.846 -959.0292 161.88 -942.14 12.0 
-84D8:   not is_object_still_alive $5550[2] 
+84D8:   not is_object_still_alive $5552 
 84E7:   not is_3d_coord_in_current_level 7@(3@,2) 9@(3@,2) 11@(3@,2) 
 84F1:   not unknown_slide_object_5128 0@ to 4@ 5@ 6@ speed 7@ 8@ 9@ collision_check 0 
 8527:   not is_char_on_fire $PLAYER_CHAR 
