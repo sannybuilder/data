@@ -39,6 +39,7 @@
         <data>@sb:\data\sa\</data>
         <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
         <classes>@sb:\data\sa\classes.db</classes>
+        <enums>@sb:\data\sa\enums.txt</enums>
         <variables>@sb:\data\sa\CustomVariables.ini</variables>
         <keywords>@sb:\data\sa\keywords.txt</keywords>
         <labels>@sb:\data\sa\CustomLabels.ini</labels>

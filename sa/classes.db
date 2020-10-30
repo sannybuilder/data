@@ -237,7 +237,7 @@ $BEGIN
 ^SprintMode,[06af,=,1,2,0],("Player%h" "%b")
 
 ; procs
-SetClothes,087B,0,0,("Player%h" "Texture%v" "Model%v" "BodyPart: ClothesTexturePart")
+SetClothes,087B,0,0,("Player%h" "Texture%v" "Model%v" "BodyPart: BodyPart")
 SetMinWantedLevel,010e,0,0,("Player%h" "Level%i")
 ClearWantedLevel,0110,0,0,("Player%h")
 MakeSafe,03ef,0,0,("Player%h")
