@@ -20,7 +20,7 @@
 0317=increment_mission_attempts
 0111=set_wb_check_to
 
-; CLEO 4 Keywords
+; CLEO 2.0 for GTA III
 ; https://github.com/thelink2012/gta3sc/blob/36e0a3ee852159ce6e5e164f495e6d7e83bece85/config/gtasa/cleo.xml
 0A8C=write_memory
 0A8D=read_memory
