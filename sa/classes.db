@@ -289,7 +289,7 @@ $Audiostream
 $begin
 ^Load,[0AAC,=,2,0,0],("FileName%v")
 ^Load3D,[0AC1,=,2,0,0],("FileName%v")
-PerformAction,0AAD,0,0,("Handle%h" "Action: AudioStreamAction")
+PerformAction,0AAD,0,0,("Handle%h" "State: AudioStreamState")
 Release,0AAE,0,0,("Handle%h")
 ^Length,[0AAF,=,2,0,0],("Handle%h")
 ^State,[0AB9,=,2,0,0],("Handle%h")
