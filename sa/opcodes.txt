@@ -1658,7 +1658,6 @@
 0A4C:   mouse_not_inverted_vertically
 0A4E: increment_useless_flag
 
-; cleo 4
 0A8C: write_memory 0xC0BC15 size 1 value 1 virtual_protect 0
 0A8D: $result = read_memory 1@ size 4 virtual_protect 0
 0A8E: 4@ = 5@ + 6@ // int
@@ -1779,7 +1778,40 @@
 0B15: 0@ = 0@ SHR 8
 0B16: 0@ = 0@ SHL 8
 
-; cleo+
+0D01: rotate_matrix 0@ on_axis 1.0 0.0 0.0 angle 45.0 combine_op 2
+0D02: 1@ = matrix 0@ x_angle
+0D03: 1@ = matrix 0@ y_angle
+0D04: 1@ = matrix 0@ z_angle
+0D0A: store_coords_to 1@ 2@ 3@ from_matrix 0@ with_offsets 0.0 2.0 0.0
+0D0F: set_car 0@ model_alpha 255 // IF and SET
+0D10: set_actor $PLAYER_ACTOR model_alpha 50 // IF and SET
+0D11: set_object 0@ model_alpha 50 // IF and SET
+0D16: set_matrix 0@ rotation_from_quat 1@
+0D17: convert_matrix 0@ to_quat 1@
+0D18: rotate_quat 0@ axis_vector 1.0 0.0 0.0 angle 45.0 flag 2
+0D19: get_normalized_quat 0@ to_quat 1@
+0D1A: quat 2@ = quat 0@ * quat 1@
+0D1E: quat_slerp 0@ 1@ 2@ 0.5
+0D24: set_quat 0@ elements 1.0 0.0 0.0 45.0
+0D27: copy_memory_from 0@ to 1@ size 32
+0D29: get_quat 0@ elements_to 1@ 2@ 3@ 4@
+0D2D: get_local_time_year_to 0@ month_to 1@ day_of_week_to 2@ day_to 3@ hour_to 4@ minute_to 5@ second_to 6@ milliseconds_to 7@
+0D2E: set_script 0@ var 10 to 10.0
+0D2F: 1@ = get_script 0@ var 10
+0D33: set_car 0@ door 8 window_state 1
+0D37: struct 0@ param 0 = 10.0
+0D38: 1@ = struct 0@ param 0
+0D39: 1@ = actor 0@ max_health
+0D3A: get_collision_between_points 0@ 1@ 2@ and 3@ 4@ 5@ flags 1 1 1 1 1 1 1 1 ignore_entity 0 store_point_to 0@ 1@ 2@ entity_to 3@ colpoint_data_to 1 // IF and SET
+0D3B: get_colpoint_data 1 normal_XYZ_to 0@ 1@ 2@
+0D3C: get_colpoint_data 1 surface_to 0@
+0D3D: get_colpoint_data 1 lighting_to 0@
+0D4C: 0@ = string "string" length
+0D4D: copy_string "yes" to 0@
+0D4E: 1@ = struct 0@ offset 1220 size 4
+0D4F: struct 0@ offset 1220 size 4 = 0
+0D59: 0@ = current_weather
+
 0E00: get_car_alarm 1@ mode_to 2@
 0E01: create_object_no_save 1@ at 2@ 3@ 4@ offset 5@ ground 6@ to 7@
 0E02: set_car_generator 1@ no_save

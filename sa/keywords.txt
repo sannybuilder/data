@@ -22,7 +22,7 @@
 0111=set_wb_check_to
 0459=end_thread_named
 
-; CLEO 4 Keywords
+; CLEO 4
 ; https://github.com/thelink2012/gta3sc/blob/36e0a3ee852159ce6e5e164f495e6d7e83bece85/config/gtasa/cleo.xml
 0A8C=write_memory
 0A8D=read_memory
@@ -146,41 +146,40 @@
 0B20=read_clipboard_data
 0B21=write_clipboard_data
 
-; cleo+ Keywords
-;0D4C=get_string_length
-;0D59=get_current_weather
-;0B20=read_clipboard_data_to
-;0B21=write_clipboard_data_from
-;0D01=rotate_matrix_on_axis
-;0D02=get_matrix_x_angle
-;0D03=get_matrix_y_angle
-;0D04=get_matrix_z_angle
-;0D0A=get_offset_from_matrix_in_world_coords
-;0D0F=set_car_model_alpha
-;0D10=set_char_model_alpha
-;0D11=set_object_model_alpha
-;0D16=set_matrix_rotation_from_quat
-;0D17=set_quat_from_matrix
-;0D18=rotate_quat_on_axis
-;0D19=get_normalised_quat
-;0D1A=multiply_quats
-;0D1E=quat_slerp
-;0D24=initialise_quat
-;0D27=copy_memory
-;0D29=get_quat_elements
-;0D2D=get_local_time
-;0D2E=set_thread_var
-;0D2F=get_thread_var
-;0D33=set_car_door_window_state
-;0D37=write_struct_param
-;0D38=read_struct_param
-;0D39=get_char_max_health
-;0D3A=get_collision_between_points
-;0D3B=get_colpoint_normal_vector
-;0D3C=get_colpoint_depth
-;0D3D=get_colpoint_surface
-;0D4D=copy_string
-;0D4E=read_struct_offset
+; CLEO+
+0D01=rotate_matrix_on_axis
+0D02=get_matrix_x_angle
+0D03=get_matrix_y_angle
+0D04=get_matrix_z_angle
+0D0A=get_offset_from_matrix_in_world_coords
+0D0F=set_car_model_alpha
+0D10=set_char_model_alpha
+0D11=set_object_model_alpha
+0D16=set_matrix_rotation_from_quat
+0D17=set_quat_from_matrix
+0D18=rotate_quat_on_axis
+0D19=get_normalised_quat
+0D1A=multiply_quats
+0D1E=quat_slerp
+0D24=initialise_quat
+0D27=copy_memory
+0D29=get_quat_elements
+0D2D=get_local_time
+0D2E=set_thread_var
+0D2F=get_thread_var
+0D33=set_car_door_window_state
+0D37=write_struct_param
+0D38=read_struct_param
+0D39=get_char_max_health
+0D3A=get_collision_between_points
+0D3B=get_colpoint_normal_vector
+0D3C=get_colpoint_depth
+0D3D=get_colpoint_surface
+0D4C=get_string_length
+0D4D=copy_string
+0D4E=read_struct_offset
+;0D4F=write_struct_offset ; see 0E28
+0D59=get_current_weather
 0E00=get_car_alarm
 0E01=create_object_no_save
 0E02=set_car_generator_no_save
