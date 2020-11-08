@@ -63,8 +63,8 @@
 0044:   $4883 == $4891($9916,151f) // (float)
 0045:   93@ == 77@ // (float)
 004D: jump_if_false @MAIN_5742
-004E: end_thread
-004F: create_thread @ODDVEH
+004E: terminate_this_script
+004F: start_new_script @ODDVEH
 0051: return
 0052: NOP 107@ 109@ $74 108@ 109@ $74
 0053: $PLAYER_CHAR = create_player 0 at 2488.562 -1666.865 12.8757
@@ -156,7 +156,7 @@
 00C1: 3@ = get_minutes_left_to_time_hours 5@ time_minutes 6@
 00C2:   sphere_onscreen 167@ 168@ 169@ radius 5.0
 00D6: if
-00D7: create_thread @NONAME_1 // without extra params
+00D7: start_new_script @NONAME_1 // without extra params
 00D8: mission_cleanup
 00D9: 76@ = actor $PLAYER_ACTOR car // add to mission cleanup
 00DB:   actor $PLAYER_ACTOR in_car 23@
@@ -449,7 +449,7 @@
 03A1: show_sphere_at 2468.8 -1278.2 29.1 radius 1.2
 03A2: set_car 77@ action 3
 03A3:   actor 0@ male
-03A4: name_thread 'MAIN'
+03A4: script_name 'MAIN'
 03A7: save_int_to_debug_file $1075
 03A8: save_float_to_debug_file $1568
 03A9: save_newline_to_debug_file
@@ -538,7 +538,7 @@
 0454: store_debug_camera_position_to $1513 $1514 $1515
 0457:   player $PLAYER_CHAR aiming_at_actor 109@
 0458:   player $PLAYER_CHAR aiming_at_object $3140[0]
-0459: end_thread_named 'INT'
+0459: terminate_all_scripts_with_this_name 'INT'
 045A: draw_text_1number 320.0 155.333 GXT 'ALLRACE' number 0@  // ALL RACES WON!~n~~w~$~1~
 045B: draw_text_2numbers 320.0 40.0 GXT 'TIME' numbers $34 $7611  // ~1~:~1~
 045C: abort_mission
@@ -1430,8 +1430,8 @@
 09BA: show_entered_zone_name 0
 09BB:   car 330@ has_visible_damage_on_component 0
 09BC: put_actor $PLAYER_ACTOR at $677 $678 $679 no_offset_and_dont_warp_gang
-09BD: allow_other_threads_to_display_text_boxes 1
-09BE:   are_text_boxes_locked_to_any_thread
+09BD: allow_other_scripts_to_display_text_boxes 1
+09BE:   are_text_boxes_locked_to_any_script
 09BF: set_random_traffic_spawn_to_model #TOPFUN // Load the vehicle model before using this
 09C0: 45@ = get_random_car_in_area 87@ 89@ 88@ 90@ 1.0 with_actors -1
 09C1: add_next_text_to_brief_history 0
@@ -1802,7 +1802,7 @@
 8981:   not train $62 wrecked
 899D:   not night_vision_enabled
 89A8:   not actor 64@ headshoted
-89BE:   not are_text_boxes_locked_to_any_thread
+89BE:   not are_text_boxes_locked_to_any_script
 89D0:   not car $136 on_wheels
 89D1:   not pickup 222@ created
 89DE:   not actor $PLAYER_ACTOR entering_car

@@ -481,7 +481,7 @@
 03A1: show_sphere_at 2468.8 -1278.2 29.1 radius 1.2
 03A2: set_car 69@ action 3
 03A3:   actor 0@ male
-03A4: name_script 'MAIN'
+03A4: script_name 'MAIN'
 03A7: save_int_to_debug_file $CURRENT_WANTED_LIST
 03A8: save_float_to_debug_file 208@
 03A9: save_newline_to_debug_file
@@ -1677,7 +1677,7 @@
 0A9C: 0@ = file $hFILE size
 0A9D: read_file $hFILE size 2 to $150
 0A9E: write_file $hFILE size 128 from 0@
-0A9F: 0@ = this_script_struct
+0A9F: 0@ = get_this_script_struct
 0AA0: gosub_if_false @CREATE_NEW_ACTOR
 0AA1: return_if_false
 0AA2: $hLIB = load_dynamic_library "CLEO\version.dll" // IF and SET
@@ -1688,7 +1688,7 @@
 0AA7: call_function_return 0x569660 num_params 2 pop 2 $COORD_Y $COORD_X $GROUND
 0AA8: call_method_return 0x4048E0 struct 0xB74494 num_params 1 pop 0 $MyCar 0@
 0AA9:   is_game_version_original
-0AAA: 0@ = script_struct_named 'OTB'
+0AAA: 0@ = get_script_struct_named 'OTB'
 0AAB:   does_file_exist "CLEO\version.dll"
 0AAC: $hMP3 = load_audio_stream "CLEO\playlist\1.mp3"
 0AAD: set_audio_stream $hMP3 state 1

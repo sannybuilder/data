@@ -3,9 +3,11 @@
 0002=jump
 0003=shake_camera
 004f=create_thread
+004f=start_new_script
 004d=else_jump
 004d=jf
 004e=end_thread
+004e=terminate_this_script
 00d6=if
 0051=return
 0050=gosub
@@ -14,6 +16,7 @@
 016a=fade
 01B6=set_weather
 03a4=thread
+03a4=script_name
 04BB=select_interior
 0112=wasted_or_busted
 0417=start_mission
@@ -21,6 +24,7 @@
 0317=increment_mission_attempts
 0111=set_wb_check_to
 0459=end_thread_named
+0459=terminate_all_scripts_with_this_name
 
 ; CLEO 4
 ; https://github.com/thelink2012/gta3sc/blob/36e0a3ee852159ce6e5e164f495e6d7e83bece85/config/gtasa/cleo.xml

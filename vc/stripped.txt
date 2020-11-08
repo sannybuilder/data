@@ -6,18 +6,18 @@ DEFINE MISSIONS 0
 //-------------MAIN---------------
 thread 'MAIN'
 var
-    $PLAYER_CHAR: Player 
+    $PLAYER_CHAR: Player
 end // var
 fade 0  0 ms
 01F0: set_max_wanted_level_to 6
 set_wb_check_to 0
 00C0: set_current_time 12 0
-04E4: unknown_refresh_game_renderer_at 468.7745 -1298.6228 
+04E4: unknown_refresh_game_renderer_at 468.7745 -1298.6228
 Camera.SetAtPos(468.7745, -1298.6228, 11.0712)
 $PLAYER_CHAR = Player.Create(#NULL, 468.7745, -1298.6228, 11.0712)
 $PLAYER_ACTOR = Actor.EmulateFromPlayer($PLAYER_CHAR)
 set_weather 0
-wait 0 ms                  
+wait 0 ms
 0180: set_on_mission_flag_to $ONMISSION // Note: your missions should use the variable defined here ($ONMISSION)
 if
   NOT Actor.Dead($PLAYER_ACTOR)
@@ -34,14 +34,14 @@ then
   $PLAYER_CHAR.CanMove = True
   01B7: release_weather
 end
-// put your create_thread commands here
+// put your start_new_script commands here
 
 :InfLoop
 wait 250 ms
-jump @InfLoop  
+jump @InfLoop
 
 
-// put your mods (threads) here
+// put your scripts here
 
 
 

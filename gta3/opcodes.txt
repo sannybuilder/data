@@ -30,8 +30,8 @@
 003A:   $SAVED_PEDS == $NUMBER_OF_INJURED_PEDS // $ == $ int
 0042:   $OBJECTX == 1016.0 // $ == float
 004D: jump_if_false @MAIN_14291
-004E: end_thread
-004F: create_thread @NONAME_4
+004E: terminate_this_script
+004F: start_new_script @NONAME_4
 0051: return
 0053: $PLAYER_CHAR = create_player #NULL at 811.875 -939.9375 35.75
 0054: store_player $PLAYER_CHAR position_to $PLAYER1_A_X $PLAYER1_A_Y $PLAYER1_A_Z
@@ -82,7 +82,7 @@
 00C0: set_current_time 12 0
 00C1: $TIME_LEFT_A1 = minutes_to_current_time $HOURS_A1 $MINS_A1
 00D6: if
-00D7: create_thread @HJ without_parameters
+00D7: start_new_script @HJ without_parameters
 00D8: mission_cleanup
 00D9: $CRIMINAL_CAR = actor $CRIMINAL car // add to mission cleanup
 00DA: $RC_VAN = player $PLAYER_CHAR car
@@ -492,7 +492,7 @@
 039F: car $CAR1_D1 race_to $CAR1_X_D1 $CAR1_Y_D1
 03A2: set_vehicle $TONIS_RIDE action 0
 03A3:   actor $INJURED_PED_1 male
-03A4: name_thread 'MAIN'
+03A4: script_name 'MAIN'
 03A5: set_garage $GARAGE_BANK type_to 7 118
 03A6: get_drug_plane_coords $DODO_AS3_X $DODO_AS3_Y $DODO_AS3_Z
 03AA: play_suspect_last_seen_at $CRIMINAL_COORD_X $CRIMINAL_COORD_Y $CRIMINAL_COORD_Z
@@ -777,7 +777,7 @@
 0A9C: 0@ = file $hFILE size
 0A9D: read_file $hFILE size 2 to $150
 0A9E: write_file $hFILE size 128 from 0@
-0A9F: 0@ = this_script_struct
+0A9F: 0@ = get_this_script_struct
 0AA0: gosub_if_false @CREATE_NEW_ACTOR
 0AA1: return_if_false
 0AA2: $hLIB = load_dynamic_library "CLEO\version.dll" // IF and SET
@@ -788,7 +788,7 @@
 0AA7: call_function_return 0x569660 num_params 2 pop 2 $COORD_Y $COORD_X $GROUND
 0AA8: call_method_return 0x4048E0 struct 0xB74494 num_params 1 pop 0 $MyCar 0@
 0AA9:   is_game_version_original
-0AAA: 0@ = script_struct_named 'OTB'
+0AAA: 0@ = get_script_struct_named 'OTB'
 0AAB:   does_file_exist "CLEO\version.dll"
 0AB0:   is_key_pressed 0x73
 0AB1: cleo_call @GetSQR 1 10 $result

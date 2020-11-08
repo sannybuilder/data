@@ -42,8 +42,8 @@
 0042:   $725 == 100.0 // $ == float
 0043:   9@ == 0.0 // @ == float
 004D: jump_if_false @MAIN_5272
-004E: end_thread
-004F: create_thread @O4X4_1
+004E: terminate_this_script
+004F: start_new_script @O4X4_1
 0050: gosub @HELP_2883
 0051: return
 0053: $PLAYER_CHAR = create_player #NULL at 83.0 -849.8 9.3
@@ -103,7 +103,7 @@
 00C0: set_current_time 22 0
 00C1: $4529 = minutes_to_current_time 7 0
 00D6: if
-00D7: create_thread @HJ without_parameters
+00D7: start_new_script @HJ without_parameters
 00D8: mission_cleanup
 00D9: $2816 = actor 0@ car // add to mission cleanup
 00DA: $2108 = player $PLAYER_CHAR car
@@ -485,7 +485,7 @@
 03A1: draw_sphere 475.5 30.3 11.0 radius 3.0
 03A2: set_vehicle $2702 action 4
 03A3:   actor $6785 male
-03A4: name_thread 'MAIN'
+03A4: script_name 'MAIN'
 03AA: play_suspect_last_seen_at $6954 $6955 $447
 03AB: set_car $2816 strong 1
 03AC: clear_route 0
@@ -596,7 +596,7 @@
 0451: load_end_of_game_audio
 0453: object $889 set_rotation 0.0 8.0 0.0
 0457:   player $PLAYER_CHAR aiming_at_actor $854
-0459: end_thread_named 'LAW1'
+0459: terminate_all_scripts_with_this_name 'LAW1'
 045A: text_draw_1number 32.0 317.0 'HOTR_26' $1596  // Best Result: ~1~th
 045B: text_draw_2numbers 32.0 232.0 'HOTR_15' $7457 $7458  // Time: ~1~:~1~
 045F: set_car 0@ everyone_exit
@@ -965,7 +965,7 @@
 0A9C: 0@ = file $hFILE size
 0A9D: read_file $hFILE size 2 to $150
 0A9E: write_file $hFILE size 128 from 0@
-0A9F: 0@ = this_script_struct
+0A9F: 0@ = get_this_script_struct
 0AA0: gosub_if_false @CREATE_NEW_ACTOR
 0AA1: return_if_false
 0AA2: $hLIB = load_dynamic_library "CLEO\version.dll" // IF and SET
@@ -976,7 +976,7 @@
 0AA7: call_function_return 0x569660 num_params 2 pop 2 $COORD_Y $COORD_X $GROUND
 0AA8: call_method_return 0x4048E0 struct 0xB74494 num_params 1 pop 0 $MyCar 0@
 0AA9:   is_game_version_original
-0AAA: 0@ = script_struct_named 'OTB'
+0AAA: 0@ = get_script_struct_named 'OTB'
 0AAB:   does_file_exist "CLEO\version.dll"
 0AB0:   is_key_pressed 0x73
 0AB1: cleo_call @GetSQR 1 10 $result
