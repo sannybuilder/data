@@ -2072,8 +2072,8 @@
 0B14=IntOperations
 0B15=IntOperations
 0B16=IntOperations
-0B20=clipboard
-0B21=clipboard
+0B20=ClipboardControl
+0B21=ClipboardControl
 0D01=cleo+
 0D02=cleo+
 0D03=cleo+
