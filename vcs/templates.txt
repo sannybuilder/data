@@ -1,7 +1,7 @@
 load=model request and load
-=0160: load_model #| 
+=0160: request_model #|
 =
-=while 0161:   not model # available
+=while 8161:   not has_model_loaded #
 = wait 0
 =end
 
@@ -12,5 +12,5 @@ scm=Multifile template (VCS)
 =|
 =
 =while true
-=  0001: wait 250 
+=  0001: wait 250
 =end

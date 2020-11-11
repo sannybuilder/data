@@ -6,7 +6,7 @@
 var
  $PLAYER_CHAR: Player
 end // var 
-03A4: name_thread 'MAIN' 
+03A4: script_name 'MAIN' 
 01F0: set_max_wanted_level_to 6 
 0111: toggle_wasted_busted_check 0 
 00C0: set_current_time_hours_to 8 minutes_to 0 
@@ -33,7 +33,7 @@ end // var
 0004: $DEFAULT_WAIT_TIME = 250
 03E6: remove_text_box 
 
-// put your create_thread commands here
+// put your start_new_script commands here
 
 
 
@@ -43,7 +43,7 @@ end // var
 0002: jump @MAIN_LOOP 
 
 
-// put your mods (threads) here
+// put your scripts here
 
 
 //-------------Mission 0---------------

@@ -4,21 +4,22 @@ cleo=CLEO script
 =
 =|
 =
-=0A93: end_custom_thread
+=0A93: terminate_this_custom_script
 
 load=model request and load
-=0247: load_model #| 
+=0247: request_model #|
 =
-=while 8248:   not model # available
-= wait 0
+=while 8248:   not has_model_loaded #
+=  wait 0 ms
 =end
 
-def=Check if player is defined
-=if 
-=  0256:   player $PLAYER_CHAR defined
+def=Check if player is playing
+=if
+=  0256:   is_player_playing $PLAYER_CHAR
 =then
-=  
+=
 =end
+
 
 scm=Multifile template (SA)
 =DEFINE MISSIONS 0
@@ -31,5 +32,5 @@ scm=Multifile template (SA)
 =|
 =
 =while true
-=  wait 250 
+=  wait 250
 =end
