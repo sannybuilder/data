@@ -738,7 +738,6 @@
 8443:   not player $PLAYER_CHAR sitting_in_any_car
 8447:   not player $PLAYER_CHAR lifting_a_phone
 8448:   not actor $EIGHTBALL sitting_in_car $CAR_EIGHTBALL
-
 04C2: create_coordinate 0@ 1@ 2@ from_object 11@ offset -0.277 -16.662 3.152 ;0400 in VC
 04C3: create_coordinate 0@ 1@ 2@ from_car 10@ offset 0.0 -20.0 0.0 ;0407 in VC
 04C4: create_coordinate 0@ 1@ 2@ from_actor $PLAYER_ACTOR offset 0.0 1.2 0.0

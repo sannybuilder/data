@@ -934,7 +934,6 @@
 8583:   not player $PLAYER_CHAR in_zone 'GANG1'
 8596:   not player $PLAYER_CHAR riding_mission_restart_taxi
 859A:   not australian_game
-
 016F: draw_shadow 3 at 13@ 14@ 15@ angle 0.0 size 1.0 intensity 150 colour 0 0 0
 0349: text_draw_style = 3
 0601: is_button_pressed_on_pad 3 with_sensitivity 0xFF
@@ -947,7 +946,6 @@
 0608: show_text_position 50.0 50.0 text "Test string"
 0609: show_formatted_text_position 50.0 50.0 text "model id = %d; weapon id = %d; weather = %d" 6@ 7@ 8@
 0673: play_animation on actor $PLAYER_ACTOR animgroup 61 anim 512 blendfactor 30.0 // play dance animation from cj_dance
-
 0A8C: write_memory 0xC0BC15 size 1 value 1 virtual_protect 0
 0A8D: $result = read_memory 1@ size 4 virtual_protect 0
 0A8E: 4@ = 5@ + 6@ // int

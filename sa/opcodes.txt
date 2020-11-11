@@ -1657,7 +1657,6 @@
 0A4B:   controls_set_to_joystick
 0A4C:   mouse_not_inverted_vertically
 0A4E: increment_useless_flag
-
 0A8C: write_memory 0xC0BC15 size 1 value 1 virtual_protect 0
 0A8D: $result = read_memory 1@ size 4 virtual_protect 0
 0A8E: 4@ = 5@ + 6@ // int
@@ -1777,7 +1776,6 @@
 0B14: 0@ = 0@ MOD 5
 0B15: 0@ = 0@ SHR 8
 0B16: 0@ = 0@ SHL 8
-
 0D01: rotate_matrix 0@ on_axis 1.0 0.0 0.0 angle 45.0 combine_op 2
 0D02: 1@ = matrix 0@ x_angle
 0D03: 1@ = matrix 0@ y_angle
@@ -1811,7 +1809,6 @@
 0D4E: 1@ = struct 0@ offset 1220 size 4
 0D4F: struct 0@ offset 1220 size 4 = 0
 0D59: 0@ = current_weather
-
 0E00: get_car_alarm 1@ mode_to 2@
 0E01: create_object_no_save 1@ at 2@ 3@ 4@ offset 5@ ground 6@ to 7@
 0E02: set_car_generator 1@ no_save
