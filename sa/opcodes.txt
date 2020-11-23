@@ -1811,6 +1811,7 @@
 0D3B: get_colpoint_data 1 normal_XYZ_to 0@ 1@ 2@
 0D3C: get_colpoint_data 1 surface_to 0@
 0D3D: get_colpoint_data 1 lighting_to 0@
+0D3E: get_colpoint_data 1 depth_to 0@
 0D4C: 0@ = string "string" length
 0D4D: copy_string "yes" to 0@
 0D4E: 1@ = struct 0@ offset 1220 size 4
@@ -2025,22 +2026,22 @@
 0ECE: get_time_char_is_dead 1@ store_to 2@
 0ECF: get_time_car_is_dead 1@ store_to 2@
 0ED0: return_script_event
-0ED1: set_script_event_save_confirmation 1@ label 2@ args 3@
-0ED2: set_script_event_char_delete 1@ label 2@ args 3@
-0ED3: set_script_event_char_create 1@ label 2@ args 3@
-0ED4: set_script_event_car_delete 1@ label 2@ args 3@
-0ED5: set_script_event_car_create 1@ label 2@ args 3@
-0ED6: set_script_event_object_delete 1@ label 2@ args 3@
-0ED7: set_script_event_object_create 1@ label 2@ args 3@
-0ED8: set_script_event_on_menu 1@ label 2@ 3@
+0ED1: set_script_event_save_confirmation 1@ label 2@ var_slot 3@
+0ED2: set_script_event_char_delete 1@ label 2@ var_char 3@
+0ED3: set_script_event_char_create 1@ label 2@ var_char 3@
+0ED4: set_script_event_car_delete 1@ label 2@ var_car 3@
+0ED5: set_script_event_car_create 1@ label 2@ var_car 3@
+0ED6: set_script_event_object_delete 1@ label 2@ var_object 3@
+0ED7: set_script_event_object_create 1@ label 2@ var_object 3@
+0ED8: set_script_event_on_menu 1@ label 2@ var_just_paused 3@
 0ED9: set_char_ignore_damage_anims 1@ 2@
-0EDA: set_script_event_char_process 1@ label 2@ args 3@
-0EDB: set_script_event_car_process 1@ label 2@ args 3@
-0EDC: set_script_event_object_process 1@ label 2@ args 3@
-0EDD: set_script_event_building_process 1@ label 2@ args 3@
-0EDE: set_script_event_char_damage 1@ label 2@ args 3@
-0EDF: set_script_event_car_weapon_damage 1@ label 2@ args 3@
-0EE0: set_script_event_bullet_impact 1@ label 2@ args 3@ 4@ 5@ 6@
+0EDA: set_script_event_char_process 1@ label 2@ var_char 3@
+0EDB: set_script_event_car_process 1@ label 2@ var_car 3@
+0EDC: set_script_event_object_process 1@ label 2@ var_object 3@
+0EDD: set_script_event_building_process 1@ label 2@ var_building 3@
+0EDE: set_script_event_char_damage 1@ label 2@ var_char 3@
+0EDF: set_script_event_car_weapon_damage 1@ label 2@ var_car 3@
+0EE0: set_script_event_bullet_impact 1@ label 2@ args var_owner 3@ var_victim 4@ var_weapon 5@ var_colpoint 6@
 0EE1: get_colpoint_coordinates 1@ store_to 2@ 3@ 4@
 0EE2: read_struct_offset_multi 1@ offset 2@ total 3@ size 4@
 0EE3: write_struct_offset_multi 1@ offset 2@ count 3@ size 4@

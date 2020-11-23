@@ -177,8 +177,8 @@
 0D39=get_char_max_health
 0D3A=get_collision_between_points
 0D3B=get_colpoint_normal_vector
-0D3C=get_colpoint_depth
-0D3D=get_colpoint_surface
+0D3C=get_colpoint_surface
+0D3E=get_colpoint_depth
 0D4C=get_string_length
 0D4D=copy_string
 0D4E=read_struct_offset
