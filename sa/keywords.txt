@@ -281,8 +281,8 @@
 0D7F=draw_2d_sprite_with_gradient
 
 ; CLEO+
-:0D3C=get_colpoint_depth
-:0D3D=get_colpoint_surface
+0D3C=get_colpoint_surface
+0D3E=get_colpoint_depth
 0D4E=read_struct_offset
 ;0D4F=write_struct_offset ; see 0E28
 0E00=get_car_alarm
