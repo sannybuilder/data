@@ -229,7 +229,7 @@
 0D4B=string_str
 0D4C=get_string_length
 0D4D=copy_string
-0D4E=get_struct_field
+0D4E=read_struct_offset
 0D4F=set_struct_field
 0D50=draw_temporary_shadow
 0D51=draw_permanent_shadow
