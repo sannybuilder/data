@@ -1776,39 +1776,135 @@
 0B14: 0@ = 0@ MOD 5
 0B15: 0@ = 0@ SHR 8
 0B16: 0@ = 0@ SHL 8
+<<<<<<< Updated upstream
+=======
+0B17: 0@ &= 1@
+0B18: 0@ |= 1@
+0B19: 0@ ^= 1@
+0B1A: ~0@
+0B1B: 0@ %= 1@
+0B1C: 0@ >>= 1@
+0B1D: 0@ <<= 1@
+0B20: read_clipboard_data 0@ size 1@ 
+0B21: write_clipboard_data 0@ size 1@
+0D00: matrix 0@ = matrix 0@ * matrix 1@
+>>>>>>> Stashed changes
 0D01: rotate_matrix 0@ on_axis 1.0 0.0 0.0 angle 45.0 combine_op 2
-0D02: 1@ = matrix 0@ x_angle
-0D03: 1@ = matrix 0@ y_angle
-0D04: 1@ = matrix 0@ z_angle
-0D0A: store_coords_to 1@ 2@ 3@ from_matrix 0@ with_offsets 0.0 2.0 0.0
-0D0F: set_car 0@ model_alpha 255 // IF and SET
-0D10: set_actor $PLAYER_ACTOR model_alpha 50 // IF and SET
-0D11: set_object 0@ model_alpha 50 // IF and SET
+0D02: 1@ = matrix 0@ x_angle 
+0D03: 1@ = matrix 0@ y_angle 
+0D04: 1@ = matrix 0@ z_angle 
+0D05: set_matrix 0@ position 0.0 0.0 1.0 
+0D06: get_matrix 0@ position_to 1@ 2@ 3@ 
+0D07: get_coords 0@ 1@ 2@ offsets_relative_to_matrix 3@ store_to 4@ 5@ 6@ 
+0D08: set_matrix 0@ rotation 172.0 7@ 0.0 
+0D09: copy_matrix 0@ to 1@ 
+0D0A: store_coords_to 1@ 2@ 3@ from_matrix 0@ with_offsets 0.0 2.0 0.0 
+0D0B: get_actor $3 bone BONE_HEAD2 matrix_pointer_to 0@ // IF and SET 
+0D0C: get_car 0@ component "wheel_lf_dummy" matrix_pointer_to 1@ // IF and SET 
+0D0D: 1@ = get_car 0@ component "wheel_lf_dummy" // IF and SET 
+0D0E: set_car 0@ component "bump_front_dummy" state STATE_DAM // IF and SET 
+0D0F: set_car 0@ alpha 255 // IF and SET 
+0D10: set_actor $3 alpha 50 // IF and SET 
+0D11: set_object 0@ alpha 50 // IF and SET 
+0D12: set_car 0@ component "door_lf_dummy" alpha 50 // IF and SET 
+0D13: set_matrix 0@ x_angle 45.0 
+0D14: set_matrix 0@ y_angle 45.0 
+0D15: set_matrix 0@ z_angle 45.0
 0D16: set_matrix 0@ rotation_from_quat 1@
 0D17: convert_matrix 0@ to_quat 1@
 0D18: rotate_quat 0@ axis_vector 1.0 0.0 0.0 angle 45.0 flag 2
 0D19: get_normalized_quat 0@ to_quat 1@
 0D1A: quat 2@ = quat 0@ * quat 1@
+0D1B: get_entity 0@ type_to 1@ class_to 2@
+0D1C: get_inversed_quat 0@ to_quat 1@
+0D1D: matrix_slerp 0@ 1@ 2@ 0.5
 0D1E: quat_slerp 0@ 1@ 2@ 0.5
+0D20: 1@ = component 0@ next_component
+0D21: 1@v = component 0@ name
+0D22: 1@ = component 0@ ltm
+0D23: 1@ = component 0@ modelling_matrix
 0D24: set_quat 0@ elements 1.0 0.0 0.0 45.0
+0D25: set_matrix 0@ elements 0.0 0.0 0.0 0 0.0 0.0 0.0 0 0.0 0.0 0.0 0 0.0 0.0 0.0 0
+0D26: set_vector 0@ elements 1.0 0.0 0.0
 0D27: copy_memory_from 0@ to 1@ size 32
+0D28: get_vector 0@ elements_to 1@ 2@ 3@
 0D29: get_quat 0@ elements_to 1@ 2@ 3@ 4@
+0D2A: 1@ = get_car 0@ number_of_collided_entites
+0D2B: 1@ = get_actor 0@ number_of_collided_entites
+0D2C: 1@ = get_object 0@ number_of_collided_entites
 0D2D: get_local_time_year_to 0@ month_to 1@ day_of_week_to 2@ day_to 3@ hour_to 4@ minute_to 5@ second_to 6@ milliseconds_to 7@
 0D2E: set_script 0@ var 10 to 10.0
 0D2F: 1@ = get_script 0@ var 10
-0D33: set_car 0@ door 8 window_state 1
+0D30: 0@ = actor $3 bone BONE_UPPERTORSO // IF and SET 
+0D31: 1@ = bone 0@ offset_vector_pointer
+0D32: 1@ = bone 0@ quat_pointer
+0D33: set_car 0@ door DOOR_RF window_state OPENED
+0D34: store_car 0@ collided_entities_to 1@ 2@ -1 -1 -1 -1
+0D35: store_actor 0@ collided_entities_to 1@ 2@ -1 -1 -1 -1
+0D36: store_object 0@ collided_entities_to 1@ 2@ -1 -1 -1 -1
 0D37: struct 0@ param 0 = 10.0
 0D38: 1@ = struct 0@ param 0
 0D39: 1@ = actor 0@ max_health
-0D3A: get_collision_between_points 0@ 1@ 2@ and 3@ 4@ 5@ flags 1 1 1 1 1 1 1 1 ignore_entity 0 store_point_to 0@ 1@ 2@ entity_to 3@ colpoint_data_to 1 // IF and SET
-0D3B: get_colpoint_data 1 normal_XYZ_to 0@ 1@ 2@
+0D3A: get_collision_between_poitns 0@ 1@ 2@ and 3@ 4@ 5@ flags 1 1 1 1 1 1 1 1 ignore_entity 0 store_point_to 0@ 1@ 2@ entity_to 3@ colpoint_data_to STD_COLPOINT_DATA // IF and SET
+0D3B: get_colpoint_data STD_COLPOINT_DATA normal_XYZ_to 0@ 1@ 2@
 0D3C: get_colpoint_data 1 surface_to 0@
 0D3D: get_colpoint_data 1 lighting_to 0@
+<<<<<<< Updated upstream
+=======
+0D3E: get_colpoint_data 1 depth_to 0@
+0D3F: find_intersection_between_circles_xyr1 0.0 0.0 20.0 and_xyr2 10.0 10.0 20.0 store_point1_to 0@ 1@ point2_to 2@ 3@ // IF and SET 
+0D40: draw_2d_shape_type PRIMTYPETRIFAN texture 0@ numVerts 4 pVerts 1@ vertexAlpha 0 srcBlend 2 dstBlend 2 priority 0 // IF and SET 
+0D41: set_vertices 0@ vertex 1 xyz 0.0 0.0 0.0 rhw 3.33 RGBA 255 255 255 255 uv 0.0 0.0 screenX false screenY true
+0D42: load_txd "rlogos" from "MODELS\\RLOGOS.TXD" // IF and SET 
+0D43: 0@ = txd "rlogos" id
+0D44: 0@ = find_texture "radio_wctr" in_dictionary "rlogos" // IF and SET
+0D45: rotate_2d_vertices_shape 0@ num_verts 4 aroundXY 1@ 2@ angle 90.0
+0D46: 0@ = find_texture "radio_wctr" in_dictionary 1@ // IF and SET
+0D47: 0@ = model #BANSHEE txd_id // IF and SET 
+0D48: 1@ = model 0@ crc32_key // IF and SET 
+0D49: 0@ = compare_strings "yes" "no" // IF and SET
+0D4A: concatenate_strings 0@ " or no"
+0D4B: 1@ = locate_substring 0@ ".bmp" // IF and SET
+>>>>>>> Stashed changes
 0D4C: 0@ = string "string" length
 0D4D: copy_string "yes" to 0@
-0D4E: 1@ = struct 0@ offset 1220 size 4
-0D4F: struct 0@ offset 1220 size 4 = 0
+0D4E: 1@ = struct 0@ offset 0x4C4 size 4
+0D4F: struct 0@ offset 0x4C4 size 4 = 0
+0D50: draw_shadow_type TYPE_LIGHT position 0@ 1@ 2@ width 3@ height 4@ rotation 5@ distance 6@ texture 7@ intensity 255 RGB 255 255 255 shadow_data 0
+0D51: draw_permanent_shadow_type TYPE_LIGHT position 0@ 1@ 2@ width 3@ height 4@ rotation 5@ distance 6@ texture 7@ intensity 255 RGB 255 255 255 time 5000
+0D52: draw_light_type LIGHT_DIRECTIONAL position 0@ 1@ 2@ direction 3@ 4@ 5@ radius 3.0 RGBA 255 0 0 affect_entity 0
+0D53: draw_corona_with_texture CORONASTAR color 255 255 255 255 on_entity 0 at 0@ 1@ 2@ size 0.5
+0D54: draw_corona_with_extra_params_texture CORONASTAR color 255 255 255 255 on_entity 0 at 0@ 1@ 2@ size 0.5 far_clip 150.0 near_clip 1.5 flare 0 enable_reflection 1 check_obstacles 0 flash_while_fading 0 fade_speed 15.0 only_from_below 0
+0D55: get_sun_colors_core_to 0@ 1@ 2@ glow_to 3@ 4@ 5@
+0D56: get_sun_screen_coords_XY_to 0@ 1@
+0D57: get_sun_position_to 0@ 1@ 2@ // IF and SET
+0D58: get_sun_size_core_to 0@ glow_to 1@
 0D59: 0@ = current_weather
+0D5A: get_trafficlights_type_NS_current_color_to 0@ type_WE_current_color_to 1@
+0D5B: draw_spotlight_from 0@ 1@ 2@ to 3@ 4@ 5@ base_radius 1.0 target_radius 5.0 enable_shadow 1 shadow_intensity 1.0 flag1 1 flag2 1
+0D5C: 1@ = get_car 0@ light HEAD_LIGHT_LEFT damage_state
+0D5D: set_car 0@ light HEAD_LIGHT_LEFT damage_state 0
+0D5E: get_vehicle 0@ class_to 1@ subclass_to 2@
+0D5F: get_vehicle 0@ dummy_element DUMMY_TAILIGHTS position WORLD to 1@ 2@ 3@ invert_x false // IF and SET 
+0D60: create_projectile_type PROJECTILE_MISSILE launched_from_entity 0@ origin 1@ 2@ 3@ target 4@ 5@ 6@ target_entity 0 force 1.0 // IF and SET
+0D61: 0@ = load_texture_bmp_from "models\\image.bmp" with_mask "models\\imagea.bmp" // IF and SET
+0D64: 0@ = load_texture_png_from "image.png" // IF and SET
+0D65: print "Hello, world" at 50.0 50.0 scale 1.0 1.0 style FONT_GOTHIC
+0D66: print "Hello, world" at 50.0 50.0 scale 1.0 1.0 style FONT_GOTHIC prop TRUE align ALIGN_LEFT wrap 600.0 justify FALSE color 255 255 255 255 outline 0 shadow 0 dropColor 0 0 0 0 background FALSE backColor 0 0 0 0
+0D72: get_sfx_volume_to 0@ radio_volume_to NULL type TYPE_FLOAT
+0D73: get_screen_width_to 0@ height_to 1@ type TYPE_FLOAT
+0D74: 1@ = component 0@ parent_component
+0D75: 1@ = component 0@ num_objects
+0D76: 1@ = component 0@ object 0
+0D77: object_atomic 0@ hide 1
+0D78: 2@ = get_object 0@ atomic_flag 1@
+0D79: set_object 0@ atomic_flag 1@ state 2@
+0D7A: 1@ = get_object 0@ num_materials // IF and SET
+0D7B: 1@ = get_object 0@ material 0 texture // IF and SET
+0D7C: 0@ = load_texture_dds_from "image.dds" // IF and SET
+0D7D: clean_loaded_texture 0@
+0D7E: draw_sprite_with_texture 0@ at_cornerA 100.0 100.0 cornerB 300.0 300.0 color 255 255 255 255 angle 0.0
+0D7F: draw_gradient_sprite_with_texture 0@ at_cornerA 100.0 100.0 cornerB 300.0 300.0 colors 255 255 255 255  255 255 255 255  255 255 255 255  255 255 255 255 angle 0.0
 0E00: get_car_alarm 1@ mode_to 2@
 0E01: create_object_no_save 1@ at 2@ 3@ 4@ offset 5@ ground 6@ to 7@
 0E02: set_car_generator 1@ no_save

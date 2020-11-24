@@ -2,20 +2,20 @@
 0002=goto
 0002=jump
 0003=shake_camera
-004f=create_thread
+004f=create_script
 004f=start_new_script
 004d=else_jump
 004d=jf
-004e=end_thread
+004e=end_script
 004e=terminate_this_script
 00d6=if
 0051=return
 0050=gosub
 016B=fading
-00d7=create_thread_wb
+00d7=create_script_wb
 016a=fade
 01B6=set_weather
-03a4=thread
+03a4=script
 03a4=script_name
 04BB=select_interior
 0112=wasted_or_busted
@@ -23,11 +23,26 @@
 00d8=mission_cleanup
 0317=increment_mission_attempts
 0111=set_wb_check_to
-0459=end_thread_named
+0459=end_script_named
 0459=terminate_all_scripts_with_this_name
+
+
 
 ; CLEO 2.0 for VC
 ; https://github.com/thelink2012/gta3sc/blob/36e0a3ee852159ce6e5e164f495e6d7e83bece85/config/gtasa/cleo.xml
+05E5=get_game_version
+016F=draw_shadow
+0349=set_text_font
+0601=is_button_pressed_with_sensitivity
+0602=emulate_button_press_with_sensitivity
+0603=is_camera_in_widescreen_mode
+0604=get_weapontype_model
+0605=get_model_from_weapontype
+0606=set_memory_offset
+0607=get_current_weather
+0608=display_text_string
+0609=display_text_formatted
+0673=play_animation
 0A8C=write_memory
 0A8D=read_memory
 ; int 4@ = 5@ + 6@

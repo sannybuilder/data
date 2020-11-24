@@ -934,6 +934,42 @@
 8583:   not player $PLAYER_CHAR in_zone 'GANG1'
 8596:   not player $PLAYER_CHAR riding_mission_restart_taxi
 859A:   not australian_game
+05DC: terminate_this_custom_script
+05DD: terminate_all_custom_scripts_with_this_name 'BENZIN'
+05DE: stream_custom_script 'ShowTextBox.s'
+05DF: write_memory 0xC0BC15 size 1 value 1 virtual_protect 0
+05E0: $result = read_memory 1@ size 4 virtual_protect 0
+05E1: call_function $hPROC num_params 1 pop 1 $param
+05E2: call_function_return 0x569660 num_params 2 pop 2 $COORD_Y $COORD_X $GROUND
+05E3: call_method $Destroy struct $CarStruct num_params 0 pop 0
+05E4: call_method_return 0x4048E0 struct 0xB74494 num_params 1 pop 0 $MyCar 0@
+05E5: 0@ = game_version
+05E6: $ActorStruct = ped $PLAYER_ACTOR struct
+05E7: $CarStruct = vehicle $MyCar struct
+05E8: $ObjectStruct = object 0@ struct
+05E9: $actor = ped_struct $ped_struct handle
+05EA: $car = vehicle_struct $vehicle_struct handle
+05EB: $object = object_struct $object_struct handle
+05EC: 0@ = get_this_script_struct
+05ED: 0@ = get_script_struct_named 'OTB'
+05EE:   key_pressed 74
+05EF: $actor = random_actor_near_point 0@ 1@ 2@ in_radius 10.0 find_next 1 pass_deads 1 //IF and SET
+05F0: $car = random_vehicle_near_point 0@ 1@ 2@ in_radius 10.0 find_next 1 pass_wrecked 1 //IF and SET
+05F1: $object = random_object_near_point 0@ 1@ 2@ in_radius 10.0 find_next 1 //IF and SET
+05F2: 0@ = pop_float
+05F3: 0@ = pow 2.0 base 0.5 //all floats
+05F4: 0@ = log 10.0 base 2.718281828459045 //all floats
+05F5: cleo_call @GetSQR params_count 1 10 $result
+05F6: cleo_return 1 0@
+05F7: 0@ = label @label pointer
+05F8: 0@ = var 0@ pointer
+05F9: 0@ = 0@ AND 0xFF
+05FA: 0@ = 0@ OR 0x80
+05FB: 0@ = 1@ XOR 1
+05FC: 0@ = NOT 0@
+05FD: 0@ = 0@ MOD 5
+05FE: 0@ = 0@ SHR 8
+05FF: 0@ = 0@ SHL 8
 016F: draw_shadow 3 at 13@ 14@ 15@ angle 0.0 size 1.0 intensity 150 colour 0 0 0
 0349: text_draw_style = 3
 0601: is_button_pressed_on_pad 3 with_sensitivity 0xFF
@@ -1013,7 +1049,7 @@
 0AEA: $actor = ped_struct $ped_struct handle
 0AEB: $car = vehicle_struct $vehicle_struct handle
 0AEC: $object = object_struct $object_struct handle
-0AEE: 0@ = 2.0 pow 0.5 //all floats
+0AEE: 0@ = pow 2.0 base 0.5 //all floats
 0AEF: 0@ = log 10.0 base 2.718281828459045 //all floats
 0AF0: 0@ = read_int_from_ini_file "cleo\config.ini" section "SectionName" key "intKey"
 0AF1: write_int 16 to_ini_file "cleo\config.ini" section "SectionName" key "intKey"
