@@ -2072,6 +2072,13 @@
 0B14=bitwise
 0B15=bitwise
 0B16=bitwise
+0B17=bitwise
+0B18=bitwise
+0B19=bitwise
+0B1A=bitwise
+0B1B=bitwise
+0B1C=bitwise
+0B1D=bitwise
 0B20=clipboard
 0B21=clipboard
 0D01=CLEO+
