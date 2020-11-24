@@ -210,17 +210,10 @@
 0D38=read_struct_param
 0D39=get_char_max_health
 0D3A=get_collision_between_points
-<<<<<<< Updated upstream
-0D3B=get_col_data_normal_vector
-0D3C=get_col_data_surface
-0D3D=get_col_data_lighting
-0D3E=get_col_data_depth
-=======
 0D3B=get_colpoint_normal_vector
 0D3C=get_colpoint_surface
 0D3D=get_colpoint_lighting
 0D3E=get_colpoint_depth
->>>>>>> Stashed changes
 0D3F=find_intersection_between_circles
 0D40=draw_shape
 0D41=setup_shape_vertex
@@ -288,63 +281,6 @@
 0D7F=draw_2d_sprite_with_gradient
 
 ; CLEO+
-0D3C=get_colpoint_surface
-0D3E=get_colpoint_depth
-0D4E=read_struct_offset
-<<<<<<< Updated upstream
-=======
-0D4F=set_struct_field
-0D50=draw_temporary_shadow
-0D51=draw_permanent_shadow
-0D52=draw_temporary_light
-0D53=draw_temporary_corona
-0D54=draw_temporary_corona_ex
-0D55=get_sun_colors
-0D56=get_sun_screen_coors
-0D57=get_sun_world_coors
-0D58=get_sun_size
-0D59=get_current_weather
-0D5A=get_trafficlights_current_color
-0D5B=draw_spotlight
-0D5C=get_car_light_damage_status
-0D5D=set_car_light_damage_status
-0D5E=get_vehicle_class_and_subclass
-0D5F=get_vehicle_dummy_posn
-0D60=create_projectile
-0D61=load_texture_from_bmp_file
-;0D62=set_car_remap_texture
-;0D63=set_car_custom_color
-0D64=load_texture_from_png_file
-0D65=print_temporary_text
-0D66=print_temporary_text_ex
-;0D67=set_audio_stream_position_time
-;0D68=get_audio_stream_position_time
-;0D69=set_audio_stream_effect
-;0D6A=remove_audio_stream_effect
-;0D6B=set_audio_stream_parameters
-;0D6C=get_audio_stream_parameters
-;0D6D=reset_audio_stream_effect
-;0D6E=set_audio_stream_attribute
-;0D6F=get_audio_stream_attribute
-;0D70=set_3d_audio_stream_attributes
-;0D71=get_3d_audio_stream_attributes
-0D72=get_game_volume
-0D73=get_screen_width_and_height
-0D74=get_component_parent_component
-0D75=get_component_num_objects
-0D76=get_component_object
-0D77=hide_object_atomic
-0D78=get_object_atomic_flag
-0D79=set_object_atomic_flag
-0D7A=get_object_atomic_num_materials
-0D7B=get_object_atomic_material_texture
-0D7C=load_texture_from_dds_file
-0D7D=clean_loaded_texture
-0D7E=draw_2d_sprite
-0D7F=draw_2d_sprite_with_gradient
-
-; CLEO+
->>>>>>> Stashed changes
 ;0D4F=write_struct_offset ; see 0E28
 0E00=get_car_alarm
 0E01=create_object_no_save
