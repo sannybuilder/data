@@ -28,6 +28,19 @@
 
 ; CLEO 2.0 for VC
 ; https://github.com/thelink2012/gta3sc/blob/36e0a3ee852159ce6e5e164f495e6d7e83bece85/config/gtasa/cleo.xml
+05E5=get_game_version
+016F=draw_shadow
+0349=set_text_font
+0601=is_button_pressed_with_sensitivity
+0602=emulate_button_press_with_sensitivity
+0603=is_camera_in_widescreen_mode
+0604=get_weapontype_model
+0605=get_model_from_weapontype
+0606=set_memory_offset
+0607=get_current_weather
+0608=display_text_string
+0609=display_text_formatted
+0673=play_animation
 0A8C=write_memory
 0A8D=read_memory
 ; int 4@ = 5@ + 6@
