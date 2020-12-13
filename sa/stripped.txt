@@ -1,8 +1,7 @@
 {
-  use macro (Ctrl+J) "headsa"
-  to insert a file header      
+  use macro (Ctrl+J) "scm"
+  to insert a file header
 }
-{$VERSION 3.0.0000}
 var
  $PLAYER_CHAR: Player
 end // var 
