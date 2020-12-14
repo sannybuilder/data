@@ -306,7 +306,7 @@
 022F: set_actor $SWAT2_INFO stop_looking
 0230: set_player $PLAYER_CHAR stop_looking
 0236: set_gang 0 car_to #MAFIA
-0237: set_gang 0 primary_weapon_to #SWAT secondary_weapon_to #SWAT
+0237: set_gang 0 primary_weapon_to 2 secondary_weapon_to 2
 0239: actor $EIGHTBALL run_to 892.6875 -308.5625
 023C: load_special_actor 4 'SAM'
 0240: flash_object $CHARLIE_1 1
