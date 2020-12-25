@@ -733,13 +733,16 @@
 0450=default
 0451=default
 0453=default
+0454=default
 0457=default
 0459=default
 045a=default
 045b=default
 045c=default
+045d=default
 045f=default
 0460=default
+0463=default
 0464=default
 0465=default
 0466=default
@@ -754,6 +757,10 @@
 0470=default
 0471=default
 0472=default
+0473=default
+0474=default
+0475=default
+0476=default
 0477=default
 047a=default
 047e=default
@@ -871,6 +878,7 @@
 0510=default
 0512=default
 0514=default
+0515=default
 0517=default
 0518=default
 0519=default
