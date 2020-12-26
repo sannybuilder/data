@@ -697,6 +697,7 @@
 040d=default
 0411=default
 0414=default
+0416=default
 0417=default
 0418=default
 0419=default
@@ -718,6 +719,7 @@
 0436=default
 0437=default
 043c=default
+043e=default
 043f=default
 0440=default
 0441=default
