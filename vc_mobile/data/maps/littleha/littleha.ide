@@ -1,0 +1,305 @@
+objs
+1210, miamiland037, littlhab1, 1, 150, 128
+1211, lhroadc4, lh_roads, 1, 149.5, 1
+1212, miamiland039, generic, 1, 149.5, 1
+1213, littlehacoast02, lithablk4, 1, 150, 0
+1214, lh_buildingg1, lithablk9, 1, 140, 128
+1215, miamiland170, littlehab2, 1, 100, 128
+1216, miamiland171, lithahouse, 1, 100, 128
+1217, miamiland172, litthabg1, 1, 130, 128
+1218, miamiland173, litthabg1, 1, 130, 128
+1219, miamiland174, littlhablk7, 1, 149.5, 128
+1220, miamiland175, litthablk6, 1, 149.5, 0
+1221, miamiland176, generic, 1, 149.5, 1
+1222, miamiland177, generic, 1, 149.5, 1
+1223, miamiland178, generic, 1, 149.5, 1
+1224, miamiland179, lithablk12, 1, 149.5, 128
+1225, miamiland180, lithablk12, 1, 130, 128
+1226, havanahouse01, lithahouse, 1, 70, 128
+1227, lithavabit01, lithahouse, 1, 70, 128
+1228, havanahouse02, lithahouse, 1, 70, 128
+1229, havanahouse03, lithahouse, 1, 70, 128
+1230, havanahouse04, lithahouse, 1, 70, 128
+1231, lithavabit03, lhgardens, 1, 149.5, 128
+1232, havanahouse06, lithahouse, 1, 70, 128
+1233, lithavabit04, lhgardens, 1, 149.5, 4
+1234, lithavabit05, lithahouse, 1, 70, 128
+1235, lithavabit06, lithahouse, 1, 70, 128
+1236, vegetationb, generic, 1, 149.5, 132
+1237, lithavabit07, lithahouse, 1, 70, 128
+1238, lithavabit08, lithahouse, 1, 70, 128
+1239, havanahouse07, lithahouse, 1, 70, 128
+1240, havbit01, lhgardens, 1, 149.5, 128
+1241, fuckedcars03, lhfuckercars, 1, 50, 128
+1242, fuckedcars01, lhfuckercars, 1, 50, 128
+1243, fuckedcars04, lhfuckercars, 1, 50, 128
+1244, fuckedcars02, lhfuckercars, 1, 50, 128
+1245, car_fucko03, lhfuckercars, 1, 50, 128
+1246, havanahouse09, lithahouse, 1, 70, 128
+1247, lithavabit09, lithahouse, 1, 70, 128
+1248, lithavabit10, lithahouse, 1, 70, 128
+1249, lithavabit11, lithahouse, 1, 70, 128
+1250, havbit02, lhgardens, 1, 149.5, 128
+1251, havbit03, littlehab2, 1, 100, 128
+1252, veged, generic, 1, 149.5, 132
+1253, veged01, generic, 1, 149.5, 132
+1254, veged02, generic, 1, 300, 132
+1255, deli_exterior_front, deliext, 1, 80, 132
+1256, deli_interior, deliint, 1, 30, 128
+1257, drycleaners, drycleaners, 1, 22.5, 128
+1258, vegetationb03, generic, 1, 320, 132
+1259, lh_icedoor, lh_taxi, 1, 50, 164
+1260, lh_icecream02, lh_taxi, 1, 60, 160
+1261, lh_icecream01, lh_taxi, 1, 149.5, 128
+1262, havgangshop, lhgangshop, 1, 80, 132
+1263, littleha_hardware, wa_tool2, 1, 120, 128
+1264, littleha_police, hav_police, 1, 149.5, 128
+1265, glue_straight01, lhglue, 1, 25, 132
+1266, glue_corner01, lhglue, 1, 25, 132
+1267, telewire04, wire, 1, 149.5, 132
+1268, telewire03, wire, 1, 149.5, 132
+1269, telewire02, wire, 1, 149.5, 132
+1270, littlehabroad, lh_roads, 1, 170, 0
+1271, lithavroad3, lh_roads, 1, 149.5, 0
+1272, littlharoadgg2, lh_roads, 1, 149.5, 0
+1273, lhwallbit, hav_health, 1, 149.5, 0
+1274, lhavnew_bush, generic, 1, 149.5, 132
+1275, hospital, hahospital, 1, 160, 128
+1276, lhcoastsky1, habuildblok, 1, 149.5, 128
+1277, havhotel, lhhotelbg, 1, 149.5, 128
+1278, havbuild, lithahotel, 1, 149.5, 128
+1279, lithahousebk2, lithablk22, 1, 120, 128
+1280, cof_intfloor, cofshopint, 1, 80, 160
+1281, cofsho_ext1, coffeshpext, 1, 100, 128
+1282, cof_seat, cofshopintdet, 1, 15, 160
+1283, cof_extwindw, cofshopwind, 1, 50, 164
+1284, cof_shpdetail1, cofshopintdet, 1, 15, 160
+1285, cof_bardetail, cofshopintdet, 1, 15, 160
+1286, cof_xtremedet, cofshopintdet, 1, 12.5, 160
+1287, cof_shad1, cofshad, 1, 10, 164
+1288, cof_shad2, cofshad, 1, 12.5, 228
+1289, cof_shad4, cofshad, 1, 10, 164
+1290, lithawaste1, lithawaste, 1, 149.5, 0
+1291, lithawaste2, lithawaste, 1, 149.5, 0
+1292, glue_straight02, lhglue, 1, 25, 132
+1293, lhbasket, havbasketball, 1, 149.5, 4
+1294, fuckedcars05, lhfuckercars, 1, 50, 128
+1295, fuckedcars06, lhfuckercars, 1, 50, 128
+1296, lhbuild034, lhbuild3, 1, 150, 128
+1297, lhgrnda1, lithawaste, 1, 149.5, 0
+1298, lhroofst01, lhrooft, 1, 100, 132
+1299, lhparkline2, lhparkline, 1, 50, 132
+1300, LODoastsky1, lodhavbig, 1, 2000, 0
+1301, LODpital, LODhavana, 1, 800, 0
+1302, LODmiland175, LODhavana, 1, 800, 0
+1303, LODmiland037, LODhavana, 1, 800, 0
+1304, LODbuildingg1, LODhavana, 1, 800, 0
+1305, LODtlehacoast02, LODhavana, 1, 800, 0
+1306, LODicecream01, LODhavana, 1, 800, 0
+1307, LODtleha_police, LODhavana, 1, 800, 0
+1308, LODhotel, lodhavbig, 1, 2000, 0
+1309, LODuild034, lodhavbig, 1, 2000, 0
+1310, lihawasteb2, lithawaste, 1, 149.5, 0
+1311, LODmiland170, LODhavana, 1, 800, 0
+1312, LODmiland179, LODhavana, 1, 800, 0
+1313, LODmiland180, LODhavana, 1, 800, 0
+1314, LODmiland173, LODhavana, 1, 800, 0
+1315, LODmiland174, LODhavana, 1, 800, 0
+1316, lhavroad1, generic, 1, 149.5, 1
+1317, lhavroad2, generic, 1, 149.5, 1
+1318, LODvroad1, LODhavana, 1, 800, 0
+1319, LODvroad2, LODhavana, 1, 800, 0
+1320, LODhahousebk2, LODhavana, 1, 800, 0
+1321, LODmiland178, LODhavana, 1, 800, 0
+1322, LODmiland177, LODhavana, 1, 800, 0
+1323, LODmiland176, LODhavana, 1, 800, 0
+1324, LODmiland039, LODhavana, 1, 800, 0
+1325, LODtlharoadgg2, lodhavbig, 1, 2000, 0
+1326, LODhavroad3, lodhavbig, 1, 2000, 0
+1327, lhcoastsky2, habuildblok, 1, 149.5, 128
+1328, LODoastsky2, lodhavbig, 1, 2000, 0
+1329, lhroofst02, lhrooft, 1, 100, 128
+1330, lhroofst03, lhrooft, 1, 100, 128
+1331, lhroofst04, lhrooft, 1, 100, 128
+1332, lhroofst07, lhrooft, 1, 100, 128
+1333, lhroofst08, lhrooft, 1, 100, 128
+1334, lhroofst09, lhrooft, 1, 100, 128
+1335, lhroofst10, lhrooft, 1, 100, 128
+1336, lhroofst11, lhrooft, 1, 100, 128
+1337, lhroofst12, lhrooft, 1, 100, 128
+1338, lhroadc1, lh_roads, 1, 149.5, 1
+1339, lhroadc2, lh_roads, 1, 149.5, 1
+1340, lhroadc3, lh_roads, 1, 149.5, 1
+1341, LODoadc1, LODhavana, 1, 800, 0
+1342, LODoadc3, LODhavana, 1, 800, 0
+1343, LODoadc4, LODhavana, 1, 800, 0
+1344, LODoadc2, LODhavana, 1, 800, 0
+1345, lh_buildingw1, littlhab1, 1, 100, 128
+1346, LODbuildingw1, LODhavana, 1, 800, 0
+1347, lh_buildingg2, lithablk9, 1, 150, 128
+1348, lh_buildingg3, lithablk9, 1, 180, 128
+1349, LODbuildingg2, lodhavbig, 1, 2000, 0
+1350, LODbuildingg3, LODhavana, 1, 800, 0
+1351, lhdirtpass1, lhglue, 1, 25, 164
+1352, lh2glue, lhglue, 1, 25, 132
+1353, grasspatch, grasspatch, 1, 55, 196
+1354, lhglue3, lhglue, 1, 25, 132
+1355, lhdirtpassz, lhglue, 1, 25, 164
+1356, lhddirt, lhglue, 1, 25, 164
+1357, lhgrasspatchg, grasspatch, 1, 55, 196
+1358, havanahouse10, lithahouse, 1, 70, 128
+1359, lithavabit12, lithahouse, 1, 70, 128
+1360, havanahouse11, lithahouse, 1, 70, 128
+1361, lh2glue01, lhglue, 1, 45, 132
+1362, lhdirtpassax1, lhglue, 1, 25, 164
+1363, lhglue01, lhglue, 1, 45, 132
+1364, lhroofst14, lhrooft, 1, 100, 128
+1365, lhroofst16, lhrooft, 1, 100, 128
+1366, BillBd04, littlhab1, 1, 100, 128
+1367, lodhavabit11, LODhavana, 1, 800, 0
+1368, lodanahouse01, LODhavana, 1, 800, 0
+1369, lodhavabit06, LODhavana, 1, 800, 0
+1370, lodmiland171, LODhavana, 1, 800, 0
+1371, lodhavabit05, LODhavana, 1, 800, 0
+1372, lodhavabit01, LODhavana, 1, 800, 0
+1373, lodhavabit12, LODhavana, 1, 800, 0
+1374, lodanahouse09, LODhavana, 1, 800, 0
+1375, lodanahouse11, LODhavana, 1, 800, 0
+1376, lodanahouse10, LODhavana, 1, 800, 0
+1377, lodanahouse02, LODhavana, 1, 800, 0
+1378, lodanahouse07, LODhavana, 1, 800, 0
+1379, lodanahouse03, LODhavana, 1, 800, 0
+1380, lodanahouse04, LODhavana, 1, 800, 0
+1381, lodanahouse06, LODhavana, 1, 800, 0
+1382, lodhavabit09, LODhavana, 1, 800, 0
+1383, lodhavabit10, LODhavana, 1, 800, 0
+1384, lodhavabit07, LODhavana, 1, 800, 0
+1385, lodhavabit08, LODhavana, 1, 800, 0
+1386, lodmiland172, LODhavana, 1, 800, 0
+1387, hav_car_show_out, air_carshow, 1, 149.5, 0
+1388, hav_garagedoor1, lh_garagebits, 1, 50, 128
+1389, hav_car_show_int, hai_carshowint, 1, 75, 160
+1390, hav_car_show_out2, lh_garagebits, 1, 50, 128
+1391, lhbillboard05xx, lhbillbrd, 1, 100, 128
+1392, lh_showdoor1, lh_garagebits, 1, 100, 0
+1393, lh_showdoor03, lh_garagebits, 1, 50, 128
+1394, carshowflags, air_carshow, 1, 100, 132
+1395, hav_garagedoor02, lh_garagebits, 1, 50, 128
+1396, hav_garagedoor03, lh_garagebits, 1, 50, 128
+1397, hav_garagedoor04, lh_garagebits, 1, 50, 128
+1398, lh_carshow_windows, hai_carshowint, 1, 100, 132
+1399, lh_groundstains, lh_garagebits, 1, 100, 132
+1400, LOD_car_show_out, LODhavana, 1, 800, 128
+1401, lha_carfence, air_carshow, 1, 70, 4
+1402, lodawasteb2, lodhavbig, 1, 2000, 0
+1403, lodhawaste1, lodhavbig, 1, 2000, 0
+1404, lodhavabit04, LODhavana, 1, 800, 0
+1405, lodbit03, LODhavana, 1, 800, 0
+1406, lodbuild, LODhavana, 1, 800, 0
+1407, lhroofstuffg, lhrooft, 1, 100, 128
+1408, lhbacknbit, litthablk6, 1, 149.5, 128
+1409, vrates, lh_taxi, 1, 60, 128
+1410, lhsbackbit, lh_taxi, 1, 60, 128
+1411, lhroofst17, lhrooft, 1, 100, 132
+1412, lhroofst18, lhrooft, 1, 100, 132
+1413, lhsteps3, lhrooft, 1, 100, 132
+1414, lodasket, LODhavana, 1, 800, 128
+1415, lodbit02, LODhavana, 1, 800, 128
+1416, lodsho_ext1, LODhavana, 1, 800, 128
+1417, lodtleha_hardware, LODhavana, 1, 800, 128
+1418, lodrnda1, LODhavana, 1, 800, 0
+1419, lodhawaste2, LODhavana, 1, 800, 0
+1420, lodi_exterior_front, LODhavana, 1, 800, 0
+1421, lhcargo, lhalleysect, 1, 65, 0
+1422, lhstairs7, lhrooft, 1, 100, 132
+1423, lhdirt2s, lhglue, 1, 100, 132
+1424, lhblbrd8, lhblbrd8, 1, 100, 0
+1425, lhblbrd2, lhblbrd2, 1, 100, 4
+1426, lhblbrd1, bilbrd1, 1, 100, 4
+1427, lhblbrd3, lhblbrd3, 1, 100, 4
+1428, lhtankdoor, lithablk9, 1, 100, 128
+1429, lhroofwee, lhrooft, 1, 100, 128
+1430, LODtlehabroad, lodhavbig, 1, 2000, 0
+1431, lhjetty, lhjetty, 1, 100, 0
+1432, lharoadab, generic, 1, 149.5, 1
+1433, lh_race01, lhrace1, 1, 15, 132
+1434, lh_race02, lhrace2, 1, 15, 132
+1435, lh_race03, lhrace3, 1, 15, 132
+1436, lh_race04, lhrace4, 1, 15, 132
+1437, lh_race05, lhrace5, 1, 15, 132
+1438, lh_race06, lhrace6, 1, 15, 132
+1439, lh_racemap, lh_racemap, 1, 22, 128
+1440, lhbuild1b, littlhablk7, 1, 149.5, 128
+1441, LODuild1b, LODhavana, 1, 800, 0
+1442, LODallbit, LODhavana, 1, 800, 0
+1443, LODroadab, LODhavana, 1, 800, 0
+1444, lh_imp_exp01, lh_imp_exp1, 1, 30, 128
+1445, lh_strikethrough, lh_imp_exp1, 1, 30, 132
+1446, lh_imp_exp02, lh_imp_exp2, 1, 30, 128
+1447, lh_imp_exp03, lh_imp_exp3, 1, 30, 128
+1448, lh_imp_exp04, lh_imp_exp4, 1, 30, 128
+1449, miamiland041, lh_roads, 1, 149.5, 0
+1450, LODmiland041, LODhavanabrg, 1, 1200, 256
+1451, havbackbit, littlehab2, 1, 150, 0
+1452, lodbackbit, LODhavana, 1, 800, 0
+1453, labiggrass, sharedbiggrass, 1, 50, 4
+1454, vegeha1, generic, 1, 320, 132
+1455, labiggrass01, sharedbiggrass, 1, 50, 4
+1456, labiggrass02, sharedbiggrass, 1, 50, 4
+1457, icedoor, lh_taxi, 1, 149.5, 128
+1458, signagelh, lhroadsign, 1, 100, 128
+1459, lhroofst19, lhrooft2, 1, 150, 128
+1460, cofbarbothint, cofintout, 1, 20, 0
+1461, littleha_hardwareb, wa_tool2, 1, 120, 132
+end
+tobj
+end
+path
+end
+2dfx
+1210, -53.9467, -31.1033, -6.97434, 184, 255, 0, 120, 3, 4, -1, 0.000836716, 0, -1, 0.000836716, 0
+1215, 7.00391, 22.2748, -8.37627, 184, 255, 0, 120, 3, 4, 0.985286, 0.16995, -0.0181252, 0.985286, 0.16995, -0.0181252
+1219, -22.7476, -66.6341, -5.63463, 184, 255, 0, 120, 3, 4, -0.991914, -0.126911, 4.64609e-005, -0.991914, -0.126911, 4.64609e-005
+1220, -22.4473, 11.2503, -11.478, 184, 255, 0, 120, 3, 4, -0.989521, -0.13285, -0.0565559, -0.989521, -0.13285, -0.0565559
+1220, -17.6044, -57.9371, -11.6323, 184, 255, 0, 120, 3, 4, -0.989826, -0.142283, 0, -0.989826, -0.142283, 0
+1220, -0.614136, -72.255, -11.7103, 184, 255, 0, 120, 3, 4, 0.0380243, -0.998781, -0.0314613, 0.0380243, -0.998781, -0.0314613
+1220, -15.4104, -70.2338, -11.7103, 184, 255, 0, 120, 3, 4, -0.886971, -0.46145, -0.0185985, -0.886971, -0.46145, -0.0185985
+1220, -20.8479, -37.7491, -11.6323, 184, 255, 0, 120, 3, 4, -0.989826, -0.142283, 0, -0.989826, -0.142283, 0
+1224, 12.7196, -36.6637, -4.93255, 184, 255, 0, 120, 3, 4, 0.39938, 0.916785, 0.00128354, 0.39938, 0.916785, 0.00128354
+1225, -15.2424, 6.04382, -7.26345, 184, 255, 0, 120, 3, 4, -0.152236, 0.98834, -0.00275481, -0.152236, 0.98834, -0.00275481
+1256, -5.98537, 1.0392, 0.82138, 184, 255, 0, 120, 3, 3, 0.56305, -0.81837, -0.115087, 0.56305, -0.81837, -0.115087
+1260, 6.96265, -0.693848, -3.94489, 184, 255, 0, 120, 3, 4, -0.0911168, 0.995696, -0.0169745, -0.0911168, 0.995696, -0.0169745
+1261, -0.88623, -7.56207, 13.4397, 184, 255, 0, 120, 4, 
+1273, 24.6791, 27.4506, -1.71451, 184, 255, 0, 120, 3, 1, 0.999704, -0.0243269, 5.80489e-005, 0.999704, -0.0243269, 5.80489e-005
+1273, 39.5347, 43.1526, -1.71451, 184, 255, 0, 120, 3, 1, 0.999642, -0.0267351, 0.000353567, 0.999642, -0.0267351, 0.000353567
+1273, 38.5565, 23.2599, -1.71451, 184, 255, 0, 120, 3, 1, 0.999559, -0.0297012, 0.00032847, 0.999559, -0.0297012, 0.00032847
+1273, 38.2427, 10.2596, -1.71451, 184, 255, 0, 120, 3, 1, 0.999642, -0.0267358, 0.000353577, 0.999642, -0.0267358, 0.000353577
+1275, 14.9979, -0.610352, -12.0374, 184, 255, 0, 120, 4, 
+1275, 14.9979, 1.29242, -12.0374, 184, 255, 0, 120, 4, 
+1275, 14.9979, -2.65277, -12.0374, 184, 255, 0, 120, 4, 
+1275, 14.9979, -4.5491, -12.0374, 184, 255, 0, 120, 4, 
+1275, 14.9979, -6.70148, -12.0374, 184, 255, 0, 120, 4, 
+1275, 14.9979, -8.33026, -12.0374, 184, 255, 0, 120, 4, 
+1275, 27.3696, 8.048, -15.9232, 184, 255, 0, 120, 3, 1, 0.999361, -0.0357404, 0.000356582, 0.999361, -0.0357404, 0.000356582
+1276, -5.10162, -3.69235, -40.8679, 184, 255, 0, 120, 4, 
+1276, -6.01422, 0.389343, -40.8679, 184, 255, 0, 120, 4, 
+1276, -5.10162, -6.93903, -40.8679, 184, 255, 0, 120, 4, 
+1290, -104.443, 36.7565, -2.18969, 184, 255, 0, 120, 3, 1, -0.964457, -0.264239, 3.1352e-006, -0.964457, -0.264239, 3.1352e-006
+1290, -106.376, 43.6428, -2.18969, 184, 255, 0, 120, 3, 1, -0.964457, -0.264239, 3.1352e-006, -0.964457, -0.264239, 3.1352e-006
+1290, -102.019, 27.8745, -2.18969, 184, 255, 0, 120, 3, 1, -0.99786, -0.0653813, 3.16966e-006, -0.99786, -0.0653813, 3.16966e-006
+1334, 6.00208, -2.42877, 3.18168, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+1334, -0.521851, -1.04211, 3.18168, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+1334, -6.70898, 0.578491, 3.18168, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+1335, 6.34241, 2.6496, 3.18168, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+1335, 0.611694, -1.07281, 3.18168, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+1335, -5.04468, -4.05792, 3.18168, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+1337, 4.55725, 4.57782, 3.18169, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+1337, 0.924683, -1.01581, 3.18169, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+1337, -2.64056, -6.50586, 3.18169, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+1345, 39.8427, -33.4446, -4.43023, 255, 255, 255, 200, 3, 0, 0.719101, -0.694666, 0.0182775, 0.719101, -0.694666, 0.0182775
+1348, -41.0721, 36.1505, -6.61866, 255, 255, 255, 200, 3, 4, -0.984322, -0.170293, -0.0459317, -0.984322, -0.170293, -0.0459317
+1350, 40.2012, 2.34885, -6.46865, 255, 255, 255, 200, 3, 4, 0.996267, 0.0863205, 8.87665e-005, 0.996267, 0.0863205, 8.87665e-005
+1459, -6.59364, -1.0625, 3.18169, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 1, 0, 0, 0
+1459, -0.0497472, -1.23387, 3.18169, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 1, 0, 0, 0
+1459, 6.6176, -1.40843, 3.18169, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 11, 0, 0, 0
+end

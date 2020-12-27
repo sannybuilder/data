@@ -1,0 +1,315 @@
+objs
+3290, washbuild005, newashbuild1, 1, 90, 128
+3291, washbuild014, washbuild124, 1, 100, 128
+3292, washbuild025, washnewbuild23, 1, 90, 128
+3293, wshbuildws07, washnewbuild2, 1, 110, 128
+3294, wshbuildws12, washnewbuild23, 1, 90, 128
+3295, wash_hosp02, wash_hosp, 1, 100, 128
+3296, wshbuildws16, washnewbuild5, 1, 100, 128
+3297, wshbuildws20, washbuild44, 1, 90, 128
+3298, washbuild062, washnewbuild3, 1, 60, 128
+3299, washbuild063, washnewbuild3, 1, 80, 128
+3300, washbuild068, washnewbuild21, 1, 100, 128
+3301, washbuild071, northbuild, 1, 90, 128
+3302, washbuild073, northbuild, 1, 110, 128
+3303, washbuild074, northbuild, 1, 110, 128
+3304, washbuild075, washnewbuild2, 1, 90, 128
+3305, wshnrthroad23, generic, 1, 140, 1
+3306, wshnrthroad27, generic, 1, 140, 1
+3307, wshnrthroad25, generic, 1, 140, 1
+3308, wshnrthroad24, generic, 1, 140, 1
+3309, wshnrthroad22, generic, 1, 140, 1
+3310, wshnrthroad18, generic, 1, 140, 1
+3311, wshnrthroad16, generic, 1, 140, 1
+3312, wshnrthroad17, generic, 1, 140, 1
+3313, wshnrthroad19, generic, 1, 140, 1
+3314, wshnrthroad15, generic, 1, 140, 1
+3315, wshnrthroad20, generic, 1, 140, 1
+3316, wshnrthroad21, generic, 1, 140, 1
+3317, wshbuildws26, washlandb, 1, 130, 0
+3318, wsh_roadswsh05, washlandb, 1, 130, 0
+3319, wsh_roadswsh04, washlandb, 1, 100, 0
+3320, wash_hospgrnd, wash_hosp, 1, 130, 0
+3321, wsh_roadswsh01, wash_hosp, 1, 110, 0
+3322, wshbuildws30, washlandb, 1, 110, 0
+3323, washbuild116, washlandb, 1, 70, 0
+3324, wshbuildws31, washlandb, 1, 90, 0
+3325, wshbuildws32, washlandb, 1, 90, 0
+3326, washbuild119, washbuild120, 1, 90, 0
+3327, washbuild120, washbuild120, 1, 110, 0
+3328, washbuild184, washnewbuild3, 1, 80, 128
+3329, wshbuildws38, washbuild120, 1, 90, 128
+3330, washbuild187, washbuild120, 1, 140, 128
+3331, wshbuildws40, washnewbuild5, 1, 120, 0
+3332, wshbuildws43, washmallnew, 1, 120, 128
+3333, washbuild198, washmallpark, 1, 120, 128
+3334, washbuild199, washmallnew, 1, 50, 128
+3335, washbuild200, washmallnew, 1, 60, 0
+3336, washbuild201, generic, 1, 50, 132
+3337, washbuild202, generic, 1, 50, 132
+3338, LODbuildws07, LODwsouth08, 1, 700, 128
+3339, LODbuildws09, LODwsouth08, 1, 700, 128
+3340, LODbuildws26, LODbuildws07, 1, 2000, 128
+3341, LODbuildws30, LODwsouth08, 1, 700, 128
+3342, LODbuildws40, LODwsouth08, 1, 700, 128
+3343, LODbuildws43, LODwsouth08, 1, 700, 128
+3344, LOD_roadswsh01, LODbuildws07, 1, 2000, 128
+3345, LODh_hospgrnd, LODwsouth08, 1, 700, 128
+3346, lodnrthroad15, LODwsouth08, 1, 700, 128
+3347, LOD_roadswsh04, LODbuildws07, 1, 2000, 128
+3348, LOD_roadswsh05, LODbuildws07, 1, 2000, 128
+3349, lodnrthroad16, LODwsouth08, 1, 700, 128
+3350, lodnrthroad17, LODwsouth08, 1, 700, 128
+3351, lodnrthroad18, LODwsouth08, 1, 700, 128
+3352, lodnrthroad19, LODwsouth08, 1, 700, 128
+3353, lodnrthroad20, LODwsouth08, 1, 700, 128
+3354, lodnrthroad21, LODwsouth08, 1, 700, 128
+3355, lodnrthroad22, LODwsouth08, 1, 700, 128
+3356, lodnrthroad23, LODwsouth08, 1, 700, 128
+3357, lodnrthroad24, LODwsouth08, 1, 700, 128
+3358, lodnrthroad25, LODwsouth08, 1, 700, 128
+3359, lodnrthroad26, LODwsouth08, 1, 700, 128
+3360, lodnrthroad27, LODwsouth08, 1, 700, 128
+3361, wash_pizzaplace, newashbuild1, 1, 90, 132
+3362, wash_hospital, wash_hosp, 1, 90, 132
+3363, wash_hosp03, wash_hosp, 1, 100, 128
+3364, LODh_hosp03, LODbuildws07, 1, 1000, 128
+3365, LODh_hosp02, LODbuildws07, 1, 1000, 128
+3366, LODh_hospital, LODwsouth08, 1, 700, 128
+3367, carwashpole3, washnewbuild3, 1, 40, 128
+3368, carwashpole2, washnewbuild3, 1, 40, 128
+3369, carwashpole1, washnewbuild3, 1, 40, 128
+3370, washtooceanrd1, washroads, 1, 150, 0
+3371, wash_deco01, washmiamistrip4, 1, 130, 128
+3372, wash_deco02, washmiamistrip3, 1, 130, 128
+3373, wash_deco03, washmiamistrip2, 1, 130, 128
+3374, wash_deco04, washmiamistrip13, 1, 130, 128
+3375, wash_deco05, washmiamistrip11, 1, 130, 128
+3376, basketballcourt04, washbballcrt, 1, 90, 132
+3377, washnewsky1, washsky1, 1, 140, 128
+3378, washskyplant2, generic, 1, 90, 132
+3379, washnewsky3, washsky1, 1, 140, 128
+3380, washskyplant1, generic, 1, 90, 132
+3381, washnewsky2, washsky1, 1, 140, 128
+3382, washbuild003, newashbuild1, 1, 90, 128
+3383, washbuild072, northbuild, 1, 90, 128
+3384, wshbuildws43ins, washmallnew, 1, 70, 128
+3386, LODhnewsky2, LODbuildws07, 1, 2000, 128
+3387, LODbuildws16, LODbuildws07, 1, 1000, 128
+3388, LODhnewsky1, LODbuildws07, 1, 2000, 128
+3389, LODhbuild074, LODwsouth08, 1, 700, 128
+3390, LODhbuild073, LODbuildws07, 1, 700, 128
+3391, LODhbuild072, LODwsouth08, 1, 350, 128
+3392, LODhbuild071, LODbuildws07, 1, 700, 128
+3393, LODhbuild120, LODwsouth08, 1, 700, 128
+3394, LODbuildws12, LODwsouth08, 1, 700, 128
+3395, LODhbuild025, LODwsouth08, 1, 350, 128
+3396, LODhbuild063, LODwsouth08, 1, 350, 128
+3397, LODhbuild062, LODwsouth08, 1, 350, 128
+3398, LODhbuild075, LODwsouth08, 1, 350, 128
+3399, LODh_pizzaplace, LODwsouth08, 1, 350, 128
+3400, LODhbuild003, LODwsouth08, 1, 350, 128
+3401, LODhbuild005, LODwsouth08, 1, 350, 128
+3402, LODhbuild014, LODwsouth08, 1, 350, 128
+3403, LODhbuild068, LODwsouth08, 1, 350, 128
+3404, LODhtooceanrd1, LODwsouth08, 1, 700, 128
+3405, LODbuildws20, LODwsouth08, 1, 700, 128
+3406, LODh_deco01, LODwsouth08, 1, 700, 128
+3407, LODh_deco02, LODwsouth08, 1, 700, 128
+3408, LODh_deco03, LODwsouth08, 1, 700, 128
+3409, LODh_deco04, LODwsouth08, 1, 700, 128
+3410, LODh_deco05, LODwsouth08, 1, 700, 128
+3411, LODhbuild198, LODwsouth08, 1, 700, 128
+3412, LODhbuild116, LODwsouth08, 1, 700, 128
+3413, wash_brdgsup1, bridge, 1, 150, 128
+3414, wshtelgrphcabl02, wshtelgrph, 1, 150, 132
+3415, wshtelgrphcabl03, wshtelgrph, 1, 150, 132
+3416, wshtelgrphcabl04, wshtelgrph, 1, 150, 132
+3417, wshtelgrphcabl05, wshtelgrph, 1, 150, 132
+3418, LODhbuild184, LODwsouth08, 1, 350, 128
+3419, basketballcourt05, washbballcrt, 1, 90, 132
+3420, wshswimupbar, swimupbar, 1, 80, 128
+3421, wshswmupstuf, swimupbar, 1, 50, 132
+3422, wshhotelawn1, washnewbuild5, 1, 90, 128
+3423, wshhotelwater1, wshbuildws40, 1, 120, 132
+3424, wshotelveg1, generic, 1, 70, 132
+3425, washfence1, washfence128, 1, 90, 132
+3426, washfence2, washfence128, 1, 90, 132
+3427, washawninga1, washnewbuild2, 1, 140, 128
+3428, washawning2b, washnewbuild2, 1, 140, 128
+3429, wshbuildws19, washnewbuild1, 1, 140, 128
+3430, LODbuildws19, LODbuildws07, 1, 2000, 128
+3431, wshbuil19wall, washnewbuild1, 1, 110, 128
+3432, woshmallglas1, woshmalglas, 1, 50, 132
+3433, woshmallglas2, woshmalglas, 1, 50, 132
+3434, LODhpshoutdet, LODwsouth08, 1, 700, 128
+3435, woshmalmarkings, wshmolmrk, 1, 50, 132
+3440, woshmaldirt1, wshbuildirt, 1, 50, 132
+3442, LODhbuild119, LODwsouth08, 1, 700, 128
+3443, LODh_brdgsup1, LODwashnbrdge, 1, 2000, 384
+3444, LODhbuild187, LODwsouth08, 1, 700, 128
+3445, wshnrthroad01, generic, 1, 140, 1
+3446, lodnrthroad01, LODwsouth08, 1, 700, 128
+3447, wshnrthroad02, generic, 1, 140, 1
+3448, lodnrthroad02, LODwsouth08, 1, 700, 128
+3449, wshnrthroad03, generic, 1, 140, 1
+3450, lodnrthroad03, LODwsouth08, 1, 700, 128
+3451, wshnrthroad04, generic, 1, 140, 1
+3452, wshnrthroad05, generic, 1, 140, 1
+3453, lodnrthroad05, LODwsouth08, 1, 700, 128
+3454, lodnrthroad06, LODwsouth08, 1, 700, 128
+3455, wshnrthroad06, generic, 1, 140, 1
+3456, wshnrthroad07, generic, 1, 140, 1
+3457, lodnrthroad07, LODwsouth08, 1, 700, 128
+3458, lodnrthroad09, LODwsouth08, 1, 700, 128
+3459, lodnrthroad08, LODwsouth08, 1, 700, 128
+3460, wshnrthroad08, generic, 1, 140, 1
+3461, wshnrthroad09, generic, 1, 140, 1
+3462, lodnrthroad10, LODwsouth08, 1, 700, 128
+3463, wshnrthroad10, generic, 1, 140, 1
+3464, lodnrthroad11, LODwsouth08, 1, 700, 128
+3465, wshnrthroad11, generic, 1, 140, 1
+3466, wshnrthroad12, generic, 1, 140, 1
+3467, lodnrthroad12, LODwsouth08, 1, 700, 128
+3468, wshnrthroad13, generic, 1, 140, 1
+3469, lodnrthroad13, LODwsouth08, 1, 700, 128
+3470, lodnrthroad14, LODwsouth08, 1, 700, 128
+3471, wshbuildws312, washlandb, 1, 90, 0
+3472, wshbuildws322, washlandb, 1, 90, 0
+3473, lodbuildws31, LODwsouth08, 1, 350, 128
+3474, lodbuildws312, LODwsouth08, 1, 700, 128
+3475, lodbuildws322, LODwsouth08, 1, 350, 128
+3476, lodbuildws32, LODwsouth08, 1, 350, 128
+3477, wshbuildws09, northbuild, 1, 140, 128
+3479, LODhnewsky3, LODbuildws07, 1, 2000, 128
+3480, wshmalsign1, washlandb, 1, 70, 0
+3481, wshmalsign3, washlandb, 1, 70, 0
+3482, wshmalsign2, washlandb, 1, 70, 0
+3483, wshmalsign4, washlandb, 1, 70, 0
+3484, wshmalsign5, washlandb, 1, 70, 0
+3485, lodmalsign5, LODwsouth08, 1, 200, 128
+3486, lodmalsign1, LODwsouth08, 1, 200, 128
+3487, lodmalsign2, LODwsouth08, 1, 200, 128
+3488, lodmalsign3, LODwsouth08, 1, 200, 128
+3489, lodmalsign4, LODwsouth08, 1, 200, 128
+3490, ggsalonsign1, newashbuild1, 1, 70, 132
+3492, cokpoolwater, washwater, 1, 80, 4
+3493, nrth7veg, generic, 1, 200, 132
+3494, nrth1veg21, generic, 1, 200, 132
+3495, nrth1veg37, generic, 1, 200, 132
+3496, nrth1veg42, generic, 1, 200, 132
+3497, nrth3veg05, generic, 1, 200, 132
+3498, nrth3veg08, generic, 1, 200, 132
+3499, nrth3veg16, generic, 1, 200, 132
+3500, nrth3veg25, generic, 1, 200, 132
+3501, nrth3veg35, generic, 1, 200, 132
+3502, nrth3veg50, generic, 1, 200, 132
+3503, nrth3veg59, generic, 1, 200, 132
+3504, nrth4veg05, generic, 1, 200, 132
+3505, nrth4veg08, generic, 1, 200, 132
+3506, nrth4veg09, generic, 1, 200, 132
+3507, nrth4veg21, generic, 1, 200, 132
+3508, nrth7veg09, generic, 1, 200, 132
+3509, wshnrthroad28, generic, 1, 140, 1
+3510, lodnrthroad28, LODwsouth08, 1, 700, 128
+3511, wshbuildws264, washlandb, 1, 100, 0
+3512, wshnrthroad26, generic, 1, 140, 1
+3513, wshnrthroad14, generic, 1, 140, 1
+3514, lodnrthroad04, LODwashnbrdge, 1, 700, 384
+3515, lodbuil19wall, LODbuildws07, 1, 790, 128
+3516, lodbuildws264, LODwsouth08, 1, 700, 128
+3517, nrth4veg212, generic, 1, 200, 132
+3518, wsh_roadblock, wshrdblck, 1, 145, 0
+3519, wshbuildws43ins2, washmallnew, 1, 70, 128
+3520, carwashsign1, washnewbuild3, 1, 40, 128
+3521, washpshoutveg, generic, 1, 144, 132
+3522, wshnrthpstr1, washnrthpstr1, 1, 100, 0
+3523, wshnrthpstr02, washnrthpstr1, 1, 100, 0
+3524, wshnrthpstr03, washnrthpstr1, 1, 100, 0
+3525, wshnrthpstr05, washnrthpstr1, 1, 100, 0
+3526, wshnrthpstr07, washnrthpstr1, 1, 100, 0
+3527, washmallwater, washmallnew, 1, 60, 132
+3528, lodbuildws43ins, LODwsouth08, 1, 350, 128
+3529, wshnrthlawdoor, northbuild, 1, 100, 128
+3530, wshmoundlaw1, washlandb, 1, 90, 4
+3531, wshbldws26bit, washlandb, 1, 100, 4
+3532, wtn_roadsigns01, washlandb, 1, 100, 128
+3533, washpshoutdet, washmallnew, 1, 120, 128
+3534, wash_deco042, washmiamistrip13, 1, 130, 0
+3535, wash_deco032, washmiamistrip2, 1, 130, 0
+3536, wash_deco022, washmiamistrip3, 1, 130, 0
+3537, wash_deco012, washmiamistrip4, 1, 130, 0
+end
+tobj
+3385, wshmallneon, wshneon, 1, 290, 172, 22, 5
+3436, washgasneon, wshneon, 1, 290, 172, 22, 5
+3437, washgasneon01, wshneon, 1, 290, 172, 22, 5
+3438, washgasneon02, wshneon, 1, 290, 172, 22, 5
+3439, washotelneon1, wshneon, 1, 290, 172, 22, 5
+3441, woshmalneon2, wshneon, 1, 290, 172, 22, 5
+3478, washbuild025neon, wshneon, 1, 290, 172, 22, 5
+3491, ggneonsign2, wshneon, 1, 290, 172, 22, 5
+end
+path
+end
+2dfx
+3298, -0.918728, -7.02344, -0.934174, 184, 255, 0, 120, 3, 0, 1, -9.55343e-016, 4.37114e-008, 1, -9.55343e-016, 4.37114e-008
+3299, -4.65798, -4.36926, -0.605874, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 2.5, 0, 40, 1, 0, 0, 0
+3299, 4.58494, -4.36926, -0.605874, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 2.5, 0, 40, 1, 0, 0, 0
+3299, -4.65798, 4.36609, -0.605874, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 2.5, 0, 40, 1, 0, 0, 0
+3299, 4.58494, 4.36609, -0.605873, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 2.5, 0, 40, 1, 0, 0, 0
+3328, 4.56409, -4.37878, -0.605958, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 2.5, 0, 40, 1, 0, 0, 0
+3328, -4.67883, -4.37878, -0.605958, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 2.5, 0, 40, 1, 0, 0, 0
+3328, -4.67883, 4.35657, -0.605958, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 2.5, 0, 40, 1, 0, 0, 0
+3328, 4.56409, 4.35657, -0.605958, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 2.5, 0, 40, 1, 0, 0, 0
+3333, 6.45086, 8.85901, -2.00024, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 1, 0, 0, 0
+3333, -6.23981, 9.06406, -4.33202, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 1, 0, 0, 0
+3333, -6.23981, 9.06406, 0.449877, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 1, 0, 0, 0
+3333, 6.45086, 8.85901, 2.78165, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 1, 0, 0, 0
+3333, 6.45086, 8.85901, 8.79839, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 1, 0, 0, 0
+3333, -6.23981, 9.06406, 8.79839, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 1, 0, 0, 0
+3362, 29.203, 9.56616, -6.802, 255, 238, 170, 200, 0, "coronastar", "shad_exp", 100, 7, 2, 5, 40, 1, 0, 0, 0
+3362, 24.9801, 8.46875, -6.78901, 255, 238, 170, 200, 0, "coronastar", "shad_exp", 100, 7, 2, 5, 40, 1, 0, 0, 0
+3384, 9.31611, 11.485, -0.31087, 255, 238, 170, 200, 3, 0, -2.19619e-022, -1, -8.74228e-008, -2.19619e-022, -1, -8.74228e-008
+3384, 7.3697, 11.485, -0.31087, 255, 238, 170, 200, 3, 0, -2.19619e-022, -1, -8.74228e-008, -2.19619e-022, -1, -8.74228e-008
+3384, 9.31611, -11.4641, -0.310872, 255, 238, 170, 200, 3, 0, 2.19619e-022, 1, 8.74228e-008, 2.19619e-022, 1, 8.74228e-008
+3384, 7.3697, -11.4641, -0.310872, 255, 238, 170, 200, 3, 0, -2.05765e-007, 1, 8.74228e-008, -2.05765e-007, 1, 8.74228e-008
+3384, 28.5763, 10.1381, 3.75505, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3384, 37.572, 10.1381, 3.75505, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3384, 46.5026, 10.1381, 3.75505, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3384, 19.6501, 10.1381, 3.75505, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3384, 46.5026, -10.14, 3.75504, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3384, 37.572, -10.14, 3.75504, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3384, 28.5763, -10.14, 3.75504, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3384, 19.6501, -10.14, 3.75504, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3427, 3.40793, 0.552612, -1.68834, 255, 237, 164, 200, 3, 4, 0, -1, 0, 0, -1, 0
+3427, -3.35544, 0.552612, -1.68834, 255, 237, 164, 200, 3, 4, 0, -1, 0, 0, -1, 0
+3427, 10.4663, 0.552612, -1.68834, 255, 237, 164, 200, 3, 4, 0, -1, 0, 0, -1, 0
+3427, -10.2023, 0.552612, -1.68834, 255, 237, 164, 200, 3, 4, 0, -1, 0, 0, -1, 0
+3427, 10.6837, 0.345703, -1.68834, 255, 237, 164, 200, 3, 4, 1, 0, 0, 1, 0, 0
+3428, 10.1603, 0.189377, -1.68834, 255, 237, 164, 200, 3, 4, 0, -1, 0, 0, -1, 0
+3428, -10.1847, 0.189377, -1.68834, 255, 237, 164, 200, 3, 4, 0, -1, 0, 0, -1, 0
+3428, 10.3777, -0.0174103, -1.68834, 255, 237, 164, 200, 3, 4, 1, -1.26397e-005, 0, 1, -1.26397e-005, 0
+3428, -9.82483, -0.0175934, -1.68834, 255, 237, 164, 200, 3, 0, -1, 1.26397e-005, 0, -1, 1.26397e-005, 0
+3428, 3.40686, 0.251144, -1.68834, 255, 237, 164, 200, 3, 4, -1.26398e-005, -1, 0, -1.26398e-005, -1, 0
+3428, -3.39502, 0.189377, -1.68834, 255, 237, 164, 200, 3, 4, 0, -1, 0, 0, -1, 0
+3477, 9.38862, 37.0894, -4.56332, 181, 169, 121, 200, 0, "coronastar", "shad_exp", 100, 18, 1.5, 8, 40, 1, 0, 0, 0
+3477, 6.64994, 33.1751, -4.56332, 224, 209, 149, 200, 0, "coronastar", "shad_exp", 100, 7, 0.8, 8, 40, 1, 0, 0, 0
+3480, 0.0147236, -0.490248, 2.31645, 110, 110, 110, 10, 0, "coronastar", "shad_exp", 100, 0, 5, 8, 40, 1, 0, 0, 0
+3481, -0.13071, -0.642741, 2.5639, 110, 110, 110, 10, 0, "coronastar", "shad_exp", 100, 0, 5, 8, 40, 1, 0, 0, 0
+3482, 0.113013, -0.596294, 2.37234, 110, 110, 110, 10, 0, "coronastar", "shad_exp", 100, 0, 5, 8, 40, 1, 0, 0, 0
+3483, 7.83898e-007, -0.486819, 2.30205, 110, 110, 110, 10, 0, "coronastar", "shad_exp", 100, 0, 5, 8, 40, 1, 0, 0, 0
+3484, 1.20785e-006, -0.594842, 2.12632, 110, 110, 110, 10, 0, "coronastar", "shad_exp", 100, 0, 5, 8, 40, 1, 0, 0, 0
+3518, -4.58395, 0.465454, -1.23505, 255, 246, 173, 200, 0, "coronastar", "shad_exp", 100, 12, 0.6, 0, 40, 6, 0, 0, 3
+3518, -4.37447, -2.69574, -1.26368, 255, 65, 28, 200, 0, "coronastar", "shad_exp", 100, 12, 0.6, 0, 40, 6, 0, 0, 3
+3518, -5.24928, -2.72638, 1.63054, 255, 246, 173, 200, 0, "coronastar", "shad_exp", 100, 12, 0.6, 0, 40, 6, 0, 0, 3
+3518, -5.51526, 0.353455, 1.59554, 255, 65, 28, 200, 0, "coronastar", "shad_exp", 100, 12, 0.6, 0, 40, 6, 0, 0, 3
+3519, -3.04226, 10.1375, 3.75505, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3519, -3.04226, -10.1405, 3.75504, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3519, -11.9684, -10.1405, 3.75504, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3519, -20.9642, -10.1405, 3.75504, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3519, -29.8948, -10.1405, 3.75504, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3519, -29.8948, 10.1375, 3.75505, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3519, -20.9642, 10.1375, 3.75505, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+3519, -11.9684, 10.1375, 3.75505, 255, 237, 164, 200, 0, "coronastar", "shad_exp", 100, 5, 0.5, 1.5, 40, 1, 0, 0, 0
+end

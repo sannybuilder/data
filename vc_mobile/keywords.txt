@@ -7,7 +7,7 @@
 004d=else_jump
 004d=jf
 004e=end_thread
-004e=terminate_this_custom_script
+004e=terminate_this_script
 00d6=if
 0051=return
 0050=gosub

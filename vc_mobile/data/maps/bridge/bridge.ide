@@ -1,0 +1,48 @@
+objs
+end
+tobj
+2750, Roosbridge_dt, bwidge, 1, 100, 0, 5, 23
+2751, RoosbrgeStartf_dt, bwidge, 1, 100, 0, 5, 23
+2752, Roosbridge1_dt, bwidge, 1, 100, 0, 5, 23
+2753, Roosbridge2_dt, bwidge, 1, 100, 0, 5, 23
+2754, Roosbridge3_dt, bwidge, 1, 100, 0, 5, 23
+2755, Roosbridge4_dt, bwidge, 1, 100, 0, 5, 23
+2756, Roosbridge5_dt, bwidge, 1, 100, 0, 5, 23
+2757, Roosbridge6_dt, bwidge, 1, 100, 0, 5, 23
+2758, Roosbridge07_dt, bwidge, 1, 100, 0, 5, 23
+2759, LODsbridge6_dt, LODbridge, 1, 3000, 0, 5, 23
+2760, LODsbridge3_dt, LODbridge, 1, 3000, 0, 5, 23
+2761, LODsbridge2_dt, LODbridge, 1, 3000, 0, 5, 23
+2762, LODsbridge1_dt, LODbridge, 1, 3000, 0, 5, 23
+2763, LODsbridge_dt, LODbridge, 1, 3000, 0, 5, 23
+2764, LODsbridge4_dt, LODbridge, 1, 3000, 0, 5, 23
+2765, LODsbridge5_dt, LODbridge, 1, 3000, 0, 5, 23
+2766, LODsbridge07_dt, LODbridge, 1, 3000, 0, 5, 23
+2767, LODsbrgeStartf_dt, LODbridge, 1, 3000, 0, 5, 23
+2768, Roosbridge_nt, bwidge, 1, 100, 0, 23, 5
+2769, RoosbrgeStartf_nt, bwidge, 1, 100, 0, 23, 5
+2770, Roosbridge1_nt, bwidge, 1, 100, 0, 23, 5
+2771, Roosbridge2_nt, bwidge, 1, 100, 0, 23, 5
+2772, Roosbridge3_nt, bwidge, 1, 100, 0, 23, 5
+2773, Roosbridge4_nt, bwidge, 1, 100, 0, 23, 5
+2774, Roosbridge5_nt, bwidge, 1, 100, 0, 23, 5
+2775, Roosbridge6_nt, bwidge, 1, 100, 0, 23, 5
+2776, Roosbridge07_nt, bwidge, 1, 100, 0, 23, 5
+2777, LODsbridge6_nt, LODbridge, 1, 3000, 0, 23, 5
+2778, LODsbridge3_nt, LODbridge, 1, 3000, 0, 23, 5
+2779, LODsbridge2_nt, LODbridge, 1, 3000, 0, 23, 5
+2780, LODsbridge1_nt, LODbridge, 1, 3000, 0, 23, 5
+2781, LODsbridge_nt, LODbridge, 1, 3000, 0, 23, 5
+2782, LODsbridge4_nt, LODbridge, 1, 3000, 0, 23, 5
+2783, LODsbridge5_nt, LODbridge, 1, 3000, 0, 23, 5
+2784, LODsbridge07_nt, LODbridge, 1, 3000, 0, 23, 5
+2785, LODsbrgeStartf_nt, LODbridge, 1, 3000, 0, 23, 5
+2786, RoosbrgeStart_r_dt, bwidge, 1, 100, 0, 5, 23
+2787, RoosbrgeStart_r_nt, bwidge, 1, 100, 0, 23, 5
+2788, LODsbrgeStart_r_nt, LODbridge, 1, 3000, 0, 23, 5
+2789, LODsbrgeStart_r_dt, LODbridge, 1, 3000, 0, 5, 23
+end
+path
+end
+2dfx
+end

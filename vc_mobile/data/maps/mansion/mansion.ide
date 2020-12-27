@@ -1,0 +1,167 @@
+objs
+2462, mna_table_scrfce, starmansionst, 1, 50, 32
+2463, man_cellar1, man_cellar, 1, 90, 32
+2464, man_cellar2, man_cellar, 1, 90, 32
+2465, man_couch02, starmansionst, 1, 50, 32
+2466, man_chandeliers, starmansionst, 1, 50, 36
+2467, man_hall_floor, man_hall, 1, 200, 32
+2468, man_hall_pillars, man_hall, 1, 200, 32
+2469, man_hall_ref, man_hall, 1, 200, 36
+2470, man_hall_wall1, man_hall, 1, 200, 32
+2471, man_hallway1, man_hall_2, 1, 100, 32
+2472, man_hallway2, man_hall_2, 1, 100, 32
+2473, man_lights_pool, man_props, 1, 60, 32
+2474, man_monitor_base, man_props, 1, 100, 32
+2475, man_pool, man_pool2, 1, 90, 32
+2476, man_pool_shado1, man_pool_shado, 1, 100, 100
+2477, man_pool_water, man_pool1, 1, 100, 36
+2478, man_xchandeliers, starmansionst, 1, 50, 32
+2479, man_scar_curtains, starmansionst, 1, 50, 32
+2480, man_scar_propv, starmansionst, 1, 50, 32
+2481, man_scar_props206, starmansionst, 1, 50, 32
+2482, man_scrface_walls, man_scarface, 1, 100, 32
+2483, man_f_chandelier, starmansionst, 1, 50, 32
+2484, man_scrfce_floor1, man_scarface, 1, 100, 32
+2485, man_tablkb1, starmansionst, 1, 50, 32
+2486, man_scrfce_chstrset, starmansionst, 1, 50, 32
+2487, man_wtrftr_wtr1, man_wtr_ftr, 1, 90, 36
+2488, man_wtrftr_2, man_wtr_ftr, 1, 90, 36
+2489, man_wtrftr_3a, man_wtr_ftr, 1, 170, 132
+2490, many_polys, man_grnds_kb, 1, 100, 0
+2491, man_wtr_fill, manbackside, 1, 60, 0
+2492, mn_treesisl05, generic, 1, 299, 4
+2493, mansbushes, generic, 1, 200, 4
+2494, LOD_grnd5, lod_man_grnds, 1, 1000, 256
+2495, LOD_grnd2, lod_man_grnds, 1, 1000, 256
+2496, LOD_grnd6, lod_man_grnds, 1, 1000, 256
+2497, LOD_grnd4, lod_man_grnds, 1, 1000, 256
+2498, LOD_grnd3, lod_man_grnds, 1, 1000, 256
+2499, man_frntstep, man_grnds_kb, 1, 100, 128
+2500, man_wtrftr_2a, man_wtr_ftr, 1, 170, 132
+2501, man_hedge1, man_veg_ext, 1, 100, 0
+2502, man_grnd5, man_grnds_kb, 1, 100, 0
+2503, man_grnd4, man_grnds_kb, 1, 125, 0
+2504, man_wtrftr_1a, man_wtr_ftr, 1, 100, 36
+2505, man_maze, man_veg_ext, 1, 200, 0
+2506, man_grnd6, man_grnds_kb, 1, 100, 0
+2507, man_grnd3, man_grnds_kb, 1, 160, 0
+2508, lod_backside, lod_man_grnds, 1, 1000, 256
+2509, lod_frntstep, lod_man_grnds, 1, 700, 256
+2510, lod_build02, lod_man_grnds, 1, 1000, 256
+2511, lod_build01, lod_man_grnds, 1, 1000, 256
+2512, lod_build05, lod_man_grnds, 1, 1000, 256
+2513, lod_build03, lod_man_grnds, 1, 1000, 256
+2514, lod_build04, lod_man_grnds, 1, 1000, 256
+2515, man_build04, mansion_new, 1, 100, 0
+2516, man_build01, mansion_new, 1, 110, 0
+2517, man_build02, mansion_new, 1, 100, 0
+2518, man_build03, mansion_new, 1, 100, 128
+2519, man_build05, mansion_new, 1, 100, 0
+2520, man_dooropen, mannewdoors, 1, 100, 0
+2521, man_build04_fnce, mansion_new, 1, 100, 4
+2522, mansbushes2, generic, 1, 200, 4
+2523, man_backside, man_grnds_kb, 1, 90, 128
+2524, man_twr_stairs, man_twr, 1, 100, 32
+2525, man_sdr_seating, hi_cutsdrm_3, 1, 50, 32
+2526, man_sdr_tvstf, hi_cutsdrm_2, 1, 50, 32
+2527, man_sdr_strctur, hi_cutsdrm_1, 1, 50, 32
+2528, man_sdr_paintin, hi_cutsdrm_2, 1, 50, 32
+2529, man_sdr_tables, hi_cutsdrm_2, 1, 50, 36
+2530, man_sdr_lamps, hi_cutsdrm_2, 1, 50, 36
+2531, man_sdr_tabls, hi_cutsdrm_2, 1, 50, 32
+2532, man_sdr_folge, hi_cutsdrm_3, 1, 50, 36
+2533, man_sdr_props, hi_cutsdrm_1, 1, 50, 32
+2534, man_sdr_rug, hi_cutsdrm_3, 1, 50, 32
+2535, man_sidrm_shad, hi_cutrshad, 1, 50, 36
+2536, drive_flowers06, manf, 1, 100, 4
+2537, scar_winglass, man_scarface, 1, 50, 36
+2538, man_backside_int, man_grnds_kb, 1, 200, 132
+2539, man_build_int, mansion_new, 1, 110, 0
+2540, mn_treesis_int, generic, 1, 100, 4
+2541, man_safenew, hi_cutsafe, 1, 40, 32
+2542, man_safenewmny, hi_cutsafe, 1, 40, 36
+2543, man_safenewdr, hi_cutsafe, 1, 40, 32
+2544, IslandLOD1, islandmanext1, 1, 1000, 256
+2545, IslandLOD2, islandmanext1, 1, 1000, 256
+2546, many_polys2, man_grnds_kb, 1, 100, 0
+2547, man_backside2, man_grnds_kb, 1, 90, 128
+2548, man_frntstepGD, man_grnds_kb, 1, 100, 128
+2549, man_doorway2, mansiondoor, 1, 50, 32
+2550, manmrgbuild2, star1b, 1, 130, 128
+2551, mans_merge03, star1b, 1, 130, 4
+2552, manmrgbase1, star1b, 1, 130, 0
+2553, LODmrgbase1, lod_man_grnds, 1, 1000, 256
+2554, LODmrgbuild2, lod_man_grnds, 1, 700, 256
+2555, LODmrgbuild1, lod_man_grnds, 1, 700, 256
+2556, manmrgbuild1, star1b, 1, 100, 128
+2557, LODmrgtrees4, generic, 1, 800, 256
+2558, mans_merge07, star1b, 1, 130, 0
+2559, mans_merge09, manf, 1, 100, 4
+2560, stargatedetail, star1b, 1, 130, 0
+2561, man_grnd2, man_grnds_kb, 1, 150, 0
+2562, mansion_new_doors, mannewdoors, 1, 200, 0
+2563, man_doorclosed, mannewdoors, 1, 200, 0
+2564, gashbags2, mansion_details, 1, 100, 164
+2565, Heli_box, mansion_details, 1, 100, 164
+2566, Gash_bags1, mansion_details, 1, 100, 164
+2567, pizza_box1, mansion_details, 1, 100, 164
+2568, Trophies, mansion_details, 1, 100, 164
+2569, Pizza_mess, mansion_Rubbish, 1, 100, 164
+2570, Shovel, mansion_details, 1, 100, 164
+2571, Flame_tins, mansion_details, 1, 100, 164
+2572, Gun_docs, mansion_details, 1, 100, 132
+2573, man_scrfashado, hi_cutmanshad, 1, 100, 36
+2574, pizza_mess2, mansion_Rubbish, 1, 100, 164
+2575, Man_rubbish03, mansion_Rubbish, 1, 100, 164
+2576, Frame1, mansion_details2, 1, 100, 132
+2577, Poloroids, mansion_details, 1, 100, 164
+2578, Frame1Damaged, mansion_details2, 1, 100, 132
+2579, lod_wtrftr_1a, lod_man_grnds, 1, 1000, 256
+2580, man_twr_stairsB, man_twr, 1, 100, 36
+2581, man_build03_al, mansion_new, 1, 100, 132
+2582, man_build02_al, mansion_new, 1, 100, 4
+2583, man_build01_al, mansion_new, 1, 110, 4
+2584, man_build05_al, mansion_new, 1, 100, 4
+end
+tobj
+end
+path
+end
+2dfx
+2466, -17.5869, 4.25116, 0.930544, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -15.7389, 13.3054, 0.930544, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -4.04083, 13.3054, 0.930544, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, 4.11957, 13.3054, 0.930544, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, 15.7096, 13.3054, 0.930544, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, 17.5109, 5.21191, 0.930544, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, 17.5109, -5.90771, -0.674427, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, 14.43, -13.3158, -0.674427, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -13.9581, -13.3158, -0.674427, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -17.2536, -5.97675, -0.674427, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -17.5869, 0.0986938, -6.40816, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -17.5869, -5.8775, -6.40816, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -14.1923, -13.6818, -6.40816, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -6.17151, -13.6818, -6.40816, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, 13.8165, -13.6818, -6.40816, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, 17.17, 6.22803, -6.40816, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, 9.88477, 13.5186, -6.40816, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -9.98718, 13.5186, -6.40816, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2466, -17.6024, 10.7242, -6.40816, 76, 68, 35, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+2467, -14.3249, -6.13397, 3.57634, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 13, 0, 0, 40, 0, 0, 0, 0
+2467, 12.051, -6.13397, 3.57634, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 13, 0, 0, 40, 0, 0, 0, 0
+2467, -1.69989, 10.3081, 3.57634, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 13, 0, 0, 40, 0, 0, 0, 0
+2467, 32.0059, 10.3081, 3.57634, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 13, 0, 0, 40, 0, 0, 0, 0
+2467, 54.3325, -8.49658, -1.39654, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 13, 0, 0, 40, 0, 0, 0, 0
+2467, -26.4114, 10.155, -1.81288, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 7, 0, 0, 40, 0, 0, 0, 0
+2467, -0.16626, -28.29, 4.2312, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 7, 0, 0, 40, 0, 0, 0, 0
+2467, -26.4114, -25.1834, -8.91621, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 13, 0, 0, 40, 0, 0, 0, 0
+2467, -45.7284, -5.97827, -8.91621, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 13, 0, 0, 40, 0, 0, 0, 0
+2478, 7.18365, 0.550781, 0.583748, 105, 98, 91, 200, 0, "coronastar", "shad_exp", 30, 0, 1, 0, 40, 1, 0, 0, 0
+2478, 7.18365, -4.74359, 0.583748, 105, 98, 91, 200, 0, "coronastar", "shad_exp", 30, 0, 1, 0, 40, 1, 0, 0, 0
+2478, 2.35318, -5.99274, 0.583748, 105, 98, 91, 200, 0, "coronastar", "shad_exp", 30, 0, 1, 0, 40, 1, 0, 0, 0
+2478, -2.26202, -5.99274, 0.583748, 105, 98, 91, 200, 0, "coronastar", "shad_exp", 30, 0, 1, 0, 40, 1, 0, 0, 0
+2478, -7.31812, -4.71881, 0.583748, 105, 98, 91, 200, 0, "coronastar", "shad_exp", 30, 0, 1, 0, 40, 1, 0, 0, 0
+2478, -7.31812, 0.536072, 0.583748, 105, 98, 91, 200, 0, "coronastar", "shad_exp", 30, 0, 1, 0, 40, 1, 0, 0, 0
+2478, 1.02478, -0.214417, -0.894323, 105, 98, 91, 200, 0, "coronastar", "shad_exp", 30, 0, 1.2, 0, 40, 1, 0, 0, 0
+2478, -0.754517, -0.214417, -0.894323, 105, 98, 91, 200, 0, "coronastar", "shad_exp", 30, 0, 1.2, 0, 40, 1, 0, 0, 0
+end

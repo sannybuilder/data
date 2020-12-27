@@ -1,0 +1,370 @@
+objs
+2795, wshbuildws02, wshsthbuild1, 1, 110, 128
+2796, washbuild013, wshsthbuild1, 1, 100, 128
+2797, washbuild015, washbuild1, 1, 70, 128
+2798, wshbuildws03, washbuild13, 1, 90, 128
+2799, washbuild017, washbuild15, 1, 90, 128
+2800, washbuild018, washbuild43, 1, 90, 128
+2801, wshbuildws04, washnewbuild6, 1, 100, 128
+2802, washbuild020, washbuild43, 1, 90, 128
+2803, washbuild021, washbuild5, 1, 80, 128
+2804, wshbuildws05, washnewbuild6, 1, 90, 128
+2805, wshbuildws06, swashnwbuild5, 1, 140, 128
+2806, wshbuildws08, washbuild6, 1, 90, 128
+2807, washbuild030, washrestone, 1, 90, 128
+2808, wshbuildws10, washnewbuild25, 1, 100, 128
+2809, washbuild033, washbuild5, 1, 90, 128
+2810, washbuild039, washnewbuild24, 1, 95, 128
+2811, washbuild040, washbuild15, 1, 110, 128
+2812, washbuild041, generic, 1, 120, 132
+2813, wshbuildws14, washbuild41, 1, 80, 128
+2814, wshbuildws17, washotel2, 1, 140, 128
+2815, wshbuildws18, washotel2, 1, 140, 128
+2816, washbuild050, washnewbuild6, 1, 70, 128
+2817, wshbuildws21, swashnwbuild5, 1, 90, 128
+2818, washbuild058, washcorn2, 1, 110, 128
+2819, wshbuildws22, wslawyers, 1, 90, 128
+2820, washbuild066, washnewbuild25, 1, 110, 128
+2821, washbuild069, washbuild43, 1, 90, 128
+2822, wshbuildws24, wslawyers, 1, 90, 128
+2823, wshbuildws25, washnewbuild6, 1, 90, 128
+2824, washbuild081, washland, 1, 90, 0
+2825, wshsthroad01, generic, 1, 140, 1
+2826, wshsthroad02, generic, 1, 140, 1
+2827, wshsthroad03, generic, 1, 140, 1
+2828, wshsthroad04, generic, 1, 140, 1
+2829, wshsthroad05, generic, 1, 140, 1
+2830, wshsthroad06, generic, 1, 140, 1
+2831, wshsthroad07, generic, 1, 140, 1
+2832, wshsthroad08, generic, 1, 140, 1
+2833, wshsthroad09, generic, 1, 140, 1
+2834, wshsthroad10, generic, 1, 140, 1
+2835, washbuild111, washland, 1, 110, 0
+2836, washbuild112, washland, 1, 90, 4
+2837, wshbuildws29, washland, 1, 105, 0
+2838, washbuild114, washland, 1, 70, 0
+2839, washbuild121, swashlandb, 1, 95, 4
+2840, wshbuildws33, washland, 1, 90, 0
+2841, wshbuildws36, washmarina, 1, 200, 0
+2842, wshbuildws41, swashlandb, 1, 110, 0
+2843, washbuild191, washland, 1, 130, 4
+2844, washbuild192, washland, 1, 130, 4
+2845, wshbuildws42, washland, 1, 130, 0
+2846, washbuild194, washland, 1, 70, 0
+2847, washbuild195, washland, 1, 70, 0
+2848, washbuild203, washland, 1, 90, 4
+2849, wshbuildws45, washland, 1, 200, 0
+2850, washbuild206, washland, 1, 90, 0
+2851, wsh_roadswsh28, washland, 1, 120, 0
+2852, washbuild043, washnewbuild24, 1, 95, 128
+2853, washbuild210, washnewbuild24, 1, 95, 128
+2854, washbuild213, washmarina, 1, 100, 0
+2855, washbuild214, washmarina, 1, 100, 0
+2856, washbuild215, washmarina, 1, 100, 0
+2857, washbuild216, washmarina, 1, 100, 0
+2858, washbuild217, marinacpark, 1, 90, 0
+2859, LODbuildws02, LODwshsth99, 1, 350, 128
+2860, LODbuildws03, LODwshsth99, 1, 350, 128
+2861, LODbuildws04, LODwshsth99, 1, 350, 128
+2862, LODbuildws05, LODwshsth99, 1, 350, 128
+2863, LODbuildws06, LODwashsth, 1, 2000, 128
+2864, LODbuildws08, LODwshsth99, 1, 350, 128
+2865, LODbuildws10, LODwshsth99, 1, 350, 128
+2866, lodhpaynspray, LODwshsth99, 1, 350, 128
+2867, LODbuildws17, LODwashsth, 1, 2000, 128
+2868, LODbuildws18, LODwashsth, 1, 2000, 128
+2869, LODbuildws21, LODwshsth99, 1, 790, 128
+2870, LODbuildws23, LODwshsth99, 1, 790, 128
+2871, LODbuildws24, LODwshsth99, 1, 350, 128
+2872, LODbuildws29, LODwshsth99, 1, 790, 128
+2873, LODbuildws41, LODwshsth99, 1, 790, 128
+2874, LODbuildws44, LODwashsth, 1, 2000, 132
+2875, lodsthroad09, LODwshsth99, 1, 790, 128
+2876, lodsthroad10, LODwshsth99, 1, 790, 128
+2877, lodsthroad08, LODwshsth99, 1, 790, 128
+2878, lodsthroad06, LODwshsth99, 1, 790, 128
+2879, lodsthroad07, LODwshsth99, 1, 790, 128
+2880, lodsthroad01, LODwshsth99, 1, 790, 128
+2881, lodsthroad05, LODwshsth99, 1, 790, 128
+2882, lodsthroad04, LODwshsth99, 1, 790, 128
+2883, lodsthroad03, LODwshsth99, 1, 790, 128
+2884, lodsthroad02, LODwshsth99, 1, 790, 128
+2885, LODhundermall1, LODwshsth99, 1, 790, 128
+2886, wslawyersfront, wslawyers, 1, 90, 128
+2887, wshbuildws2326, swashnwbuild5, 1, 90, 128
+2888, wshbuildws23, wshsthbuild1, 1, 130, 128
+2889, svehsebuild1, washotel2, 1, 110, 0
+2890, washbuild231, generic, 1, 50, 4
+2891, washbuild05067, generic, 1, 50, 4
+2892, washbitsnew04, washbuild41, 1, 70, 0
+2893, washbitsnew03, washbuild41, 1, 70, 0
+2894, marina1, washmarina, 1, 200, 0
+2895, marina2, washmarina, 1, 200, 0
+2896, marina3, washmarina, 1, 200, 0
+2897, svegrgedoor, washsfehse, 1, 50, 0
+2899, washawning1, washshops1, 1, 50, 128
+2900, LODina3, LODwashsth, 1, 2000, 128
+2901, LODina1, LODwashsth, 1, 2000, 128
+2902, LODbuildws36, LODwashsth, 1, 2000, 128
+2903, LODina2, LODwashsth, 1, 2000, 128
+2904, LODhbuild040, LODwashsth, 1, 2000, 128
+2905, LODbuildws14, LODwashsth, 1, 2000, 128
+2906, LODhbuild020, LODwshsth99, 1, 350, 128
+2907, LODhbuild021, LODwshsth99, 1, 790, 128
+2908, LODhbuild033, LODwshsth99, 1, 790, 128
+2909, LODhbuild017, LODwashsth, 1, 2000, 128
+2910, LODhbuild066, LODwshsth99, 1, 350, 128
+2911, LODhbuild013, LODwshsth99, 1, 350, 128
+2912, LODhbuild069, LODwshsth99, 1, 350, 128
+2913, LODhbuild050, LODwshsth99, 1, 350, 128
+2914, LODhbuild058, LODwshsth99, 1, 350, 128
+2915, LODhbuild018, LODwshsth99, 1, 790, 128
+2916, LODbuildws13, LODwshsth99, 1, 350, 128
+2917, LODhbuild015, LODwshsth99, 1, 350, 128
+2918, LODhbuild030, LODwshsth99, 1, 350, 128
+2919, LODhbuild121, LODwshsth99, 1, 790, 128
+2920, LODhbuild111, LODwshsth99, 1, 790, 128
+2921, LODhbuild112, LODwshsth99, 1, 790, 128
+2922, wash_ammu, wash_ammu, 1, 40, 160
+2923, stiltsville03, stilty, 1, 299, 0
+2924, wshbuildws44, washland, 1, 200, 0
+2925, LODbuildws25, LODwshsth99, 1, 350, 128
+2926, wshtelgrphcabl06, swshtelgrph, 1, 150, 132
+2927, wshtelgrphcabl01, swshtelgrph, 1, 150, 132
+2928, wshtelgrphcabl07, swshtelgrph, 1, 100, 132
+2929, wshtelgrphcabl08, swshtelgrph, 1, 150, 132
+2930, wshtelgrphcabl09, swshtelgrph, 1, 150, 132
+2931, wshtelgrphcabl10, swshtelgrph, 1, 100, 132
+2932, wshtelgrphcabl11, swshtelgrph, 1, 100, 132
+2933, LODbuildws45, LODwashsth, 1, 2000, 132
+2934, LODbuildws35, LODwashsth, 1, 2000, 128
+2935, LODbuildws27, LODwashsth, 1, 2000, 128
+2936, LODbuildws28, LODwashsth, 1, 2000, 128
+2937, lodbuildws22, LODwshsth99, 1, 350, 128
+2938, lodawyersfront, LODwshsth99, 1, 350, 128
+2939, marinaveg1, generic, 1, 90, 4
+2940, wshbuildws2329, washland, 1, 200, 0
+2941, pierentrance1, washmarina, 1, 70, 132
+2942, pierentrance02, washmarina, 1, 70, 132
+2943, marinafence01, washmarina, 1, 70, 4
+2944, marinafence02, washmarina, 1, 70, 4
+2945, marinafence03, washmarina, 1, 70, 4
+2946, marinafence04, washmarina, 1, 70, 4
+2947, marinafence05, washmarina, 1, 70, 4
+2948, wshtelwter1, swashlandb, 1, 90, 132
+2949, washundermall1, wslawyers, 1, 100, 128
+2950, washdirtbuild1, washbuild5, 1, 40, 36
+2951, wshbuildws13, washbuild6, 1, 110, 128
+2954, scarinterior1, scarinterior, 1, 8, 160
+2955, wshcrprtstuf1, wshcrprkstuf, 1, 55, 132
+2956, washcrprkdirt1, wshcrprkdrt, 1, 50, 132
+2958, wshcrprtstuf2, wshcrprkstuf, 1, 60, 132
+2959, wshcarprksign, wshcrprkstuf, 1, 50, 132
+2960, washrafalpha, washnewbuild25, 1, 70, 4
+2961, rafaelsign1, washnewbuild25, 1, 70, 128
+2963, wshchurchwal, washland, 1, 130, 0
+2964, wsgbuildwl97, washland, 1, 100, 0
+2965, lodhbuild192, LODwshsth99, 1, 790, 128
+2966, lodbuildws42, LODwshsth99, 1, 790, 128
+2967, lodhbuild195, LODwshsth99, 1, 790, 128
+2968, lodhbuild203, LODwshsth99, 1, 790, 128
+2969, wshsthroad11, generic, 1, 140, 1
+2970, wshsthroad12, generic, 1, 140, 1
+2971, wshsthroad13, generic, 1, 140, 1
+2972, lodsthroad11, LODwshsth99, 1, 790, 128
+2973, lodsthroad12, LODwshsth99, 1, 790, 128
+2974, lodsthroad13, LODwshsth99, 1, 790, 128
+2975, wshsthroad14, generic, 1, 140, 1
+2976, lodsthroad14, LODwshsth99, 1, 790, 128
+2977, wshsthroad15, generic, 1, 140, 1
+2978, lodsthroad15, LODwshsth99, 1, 790, 128
+2979, wshsthroad16, generic, 1, 140, 1
+2980, lodsthroad16, LODwshsth99, 1, 790, 128
+2981, wshsthroad17, generic, 1, 140, 1
+2982, wshsthroad18, generic, 1, 140, 1
+2983, lodsthroad17, LODwshsth99, 1, 790, 128
+2984, lodsthroad18, LODwshsth99, 1, 790, 128
+2985, wshsthroad19, generic, 1, 140, 1
+2986, wshsthroad20, generic, 1, 140, 1
+2987, lodsthroad19, LODwshsth99, 1, 790, 128
+2988, lodsthroad20, LODwshsth99, 1, 790, 128
+2989, wshsthroad21, generic, 1, 140, 1
+2990, lodsthroad21, LODwshsth99, 1, 790, 128
+2991, lodsthroad22, LODwshsth99, 1, 790, 128
+2992, wshsthroad22, generic, 1, 140, 1
+2993, lodsthroad23, LODwshsth99, 1, 790, 128
+2994, wshsthroad23, generic, 1, 140, 1
+2995, lodsthroad24, LODwshsth99, 1, 790, 128
+2996, wshsthroad24, generic, 1, 140, 1
+2997, lodhbuild114, LODwshsth99, 1, 790, 128
+2998, lod_roadswsh28, LODwshsth99, 1, 790, 128
+2999, wshscarland226, swashlandb, 1, 95, 0
+3000, lodscarland226, LODwshsth99, 1, 790, 128
+3001, lodhsebuild1, LODwshsth99, 1, 790, 128
+3002, strpclubsigns1, strpclbsgns, 1, 290, 132
+3003, lodrentrance1, LODwshsth99, 1, 350, 128
+3004, lodrentrance02, LODwshsth99, 1, 350, 128
+3005, lodhbuild214, LODwshsth99, 1, 790, 128
+3006, lodhbuild213, LODwshsth99, 1, 790, 128
+3007, lodhbuild215, LODwshsth99, 1, 790, 128
+3008, lodhbuild216, LODwshsth99, 1, 790, 128
+3009, wshundercrprk27, wshcrprkstuf, 1, 90, 68
+3010, washpaynspray, washbuild13, 1, 90, 128
+3013, wshpnsdoor, wshsprayshp, 1, 70, 128
+3015, ticketbooth1, marinacpark, 1, 90, 0
+3016, wshprkbarrier1, marinacpark, 1, 90, 0
+3017, wshprkbarrier2, washcpark2, 1, 30, 128
+3018, ticketbooth2, washcpark2, 1, 30, 128
+3019, pooladder, swashlandb, 1, 150, 0
+3020, divingboard, swashlandb, 1, 150, 0
+3021, scarinterblood1, scarinterior, 1, 20, 36
+3022, poolwaterwshs, washland, 1, 90, 132
+3023, pooladder01, swashlandb, 1, 150, 0
+3024, wshbuildws28, washland, 1, 200, 0
+3025, wshbuildws27, washland, 1, 200, 0
+3026, wshbuildws35, washland, 1, 200, 0
+3027, wshcokland, wshcoklnd, 1, 140, 0
+3028, marinasign2, washmarina, 1, 70, 0
+3029, marinasign1, washmarina, 1, 70, 0
+3030, wshgarage1, wshgarage1, 1, 90, 128
+3031, wshgarage02, wshgarage1, 1, 90, 128
+3032, wshgarage03, wshgarage1, 1, 90, 128
+3033, washbuild0812, washland, 1, 90, 0
+3034, wshbuildws332, washland, 1, 130, 0
+3035, marinaplanter1, washmarina, 1, 90, 0
+3036, marinaplanter2, washmarina, 1, 90, 0
+3037, marinaveg3, generic, 1, 90, 4
+3038, marinaveg2, generic, 1, 90, 4
+3039, washvegy2, generic, 1, 200, 132
+3040, washvegy3, generic, 1, 200, 132
+3041, washvegy237, generic, 1, 200, 132
+3042, washvegy4, generic, 1, 200, 132
+3043, washvegy238, generic, 1, 200, 132
+3044, washvegy239, generic, 1, 200, 132
+3045, washvegy240, generic, 1, 200, 132
+3046, washvegy241, generic, 1, 200, 132
+3047, washvegy242, generic, 1, 200, 132
+3048, washvegy2413, generic, 1, 200, 132
+3049, washdirtbuild02, swashnwbuild5, 1, 40, 164
+3050, wshotelsign35, wshotelsign35, 1, 30, 128
+3051, lodotelsign35, LODwashsth, 1, 200, 132
+3052, lodgarage03, LODwshsth99, 1, 350, 128
+3053, scarbuildglas, washbuild7, 1, 80, 132
+3054, washbld195fenc, washland, 1, 70, 4
+3055, LODbuildws2329, LODwashsth, 1, 2000, 132
+3056, lodbuildws332, LODwshsth99, 1, 790, 128
+3057, lodbuildws33, LODwshsth99, 1, 790, 128
+3058, lodhbuild0812, LODwshsth99, 1, 790, 128
+3059, lodhbuild081, LODwshsth99, 1, 790, 128
+3060, stiltsville05, stilty, 1, 299, 0
+3061, stripclbdropen, washcorn2, 1, 100, 0
+3062, stripclbdrclsd, washcorn2, 1, 100, 0
+3063, wshammuglas, wash_ammu, 1, 50, 36
+3064, washelipad, washrestone, 1, 90, 132
+3065, lodhbuild043, LODwashsth, 1, 2000, 128
+3066, wshsthpstr02, washsthpstr, 1, 100, 0
+3067, wshsthpstr03, washsthpstr, 1, 100, 0
+3068, wshsthpstr04, washsthpstr, 1, 100, 0
+3069, wshsthpstr05, washsthpstr, 1, 100, 0
+3071, lodbuildws2326, LODwshsth99, 1, 350, 132
+3072, washfntinwtr, washland, 1, 90, 132
+3073, wshperdrclsd, washmarina, 1, 70, 132
+3074, lodgarage1, LODwshsth99, 1, 350, 128
+3075, lodgarage02, LODwshsth99, 1, 350, 128
+3076, stiltsville1, stilty, 1, 299, 0
+3077, lodh_ammu, LODwshsth99, 1, 350, 128
+3078, ticketbooth1a, marinacpark, 1, 90, 4
+end
+tobj
+2898, wshneon, swshneon, 1, 290, 172, 22, 5
+2952, washdeconeon1, swshneon, 1, 290, 172, 22, 5
+2953, wshbuildneon9, swshneon, 1, 290, 172, 22, 5
+2957, undermallneon, swshneon, 1, 290, 172, 22, 5
+2962, rafelneonsgn, rafneonsign, 1, 100, 172, 22, 5
+3011, wshpspryneon1, swshneon, 1, 290, 172, 22, 5
+3012, wshpnssignday_dy, wshsprayshp, 1, 70, 128, 5, 22
+3014, wshpnssignight_nt, wshsprayshp, 1, 70, 128, 22, 5
+3070, newashneon245, swshneon, 1, 290, 172, 22, 5
+end
+path
+end
+2dfx
+2798, -5.136, 5.63953, -0.378277, 163, 152, 121, 200, 0, "coronastar", "shad_exp", 100, 18, 1.5, 8, 40, 1, 0, 0, 0
+2798, -8.21865, -14.5701, -0.378277, 163, 152, 121, 200, 0, "coronastar", "shad_exp", 100, 18, 1.5, 8, 40, 1, 0, 0, 0
+2798, 7.63495, -4.8075, -0.378277, 163, 152, 121, 200, 0, "coronastar", "shad_exp", 100, 18, 1.5, 8, 40, 1, 0, 0, 0
+2798, 8.58069, 17.4253, -0.378277, 163, 152, 121, 200, 0, "coronastar", "shad_exp", 100, 18, 1.5, 8, 40, 1, 0, 0, 0
+2798, 11.6603, 5.63953, -0.378277, 163, 152, 121, 200, 0, "coronastar", "shad_exp", 100, 18, 1.5, 8, 40, 1, 0, 0, 0
+2798, 8.57761, -14.5701, -0.378277, 163, 152, 121, 200, 0, "coronastar", "shad_exp", 100, 18, 1.5, 8, 40, 1, 0, 0, 0
+2805, 40.8916, -4.64697, -6.07225, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 1.5, 8, 40, 1, 0, 0, 0
+2805, 40.8916, -13.0361, -6.07225, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 1.5, 8, 40, 1, 0, 0, 0
+2805, 40.8916, -21.9784, -6.07225, 163, 163, 163, 200, 0, "coronastar", "shad_exp", 100, 0, 1.5, 8, 40, 1, 0, 0, 0
+2820, -25.4083, 32.0643, -3.05149, 163, 163, 163, 200, 3, 4, 0.139185, 0.990207, 0.0108009, 0.139185, 0.990207, 0.0108009
+2820, -1.2654, 28.7832, -3.05149, 163, 163, 163, 200, 3, 4, 0.139185, 0.990207, 0.0108009, 0.139185, 0.990207, 0.0108009
+2820, 14.2422, 19.3477, -3.05149, 163, 163, 163, 200, 3, 4, 0.990209, -0.139177, 0.0108009, 0.990209, -0.139177, 0.0108009
+2820, 11.2701, -7.61133, -3.05149, 163, 163, 163, 200, 3, 4, 0.990209, -0.139177, 0.0108009, 0.990209, -0.139177, 0.0108009
+2820, 8.29451, -33.3978, -3.05149, 163, 163, 163, 200, 3, 4, 0.990209, -0.139177, 0.0108009, 0.990209, -0.139177, 0.0108009
+2851, -32.9648, 28.6979, -0.0311985, 163, 163, 163, 200, 3, 1, -0.99238, 0.123008, -0.00714684, -0.99238, 0.123008, -0.00714684
+2851, -34.2839, 19.9346, -0.0311985, 163, 163, 163, 200, 3, 1, -0.99238, 0.123008, -0.00714684, -0.99238, 0.123008, -0.00714684
+2851, -35.3131, 11.3535, -0.0311985, 163, 163, 163, 200, 3, 1, -0.99238, 0.123008, -0.00714684, -0.99238, 0.123008, -0.00714684
+2853, -22.2155, 19.5874, -2.1796, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, -22.2155, 5.61303, -2.1796, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, -22.2155, -18.384, -2.1796, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, 6.70785, -18.384, -2.1796, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, 6.70785, 5.61303, -2.1796, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, 6.70785, 19.5874, -2.1796, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, 15.8776, 22.8093, -4.30909, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, -22.2155, 5.61303, 4.58039, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, 6.70785, 19.5874, 4.5804, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, 6.70785, 5.61303, 4.5804, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, -22.2155, 19.5874, 4.58039, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, 6.70785, -18.384, 4.5804, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, 15.8776, 22.8093, 1.47409, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, -22.2155, -18.384, 4.58039, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2853, 15.8776, 22.8093, 7.22785, 221, 221, 221, 170, 0, "coronastar", "shad_exp", 100, 7, 0.8, 4, 40, 1, 0, 0, 0
+2858, 36.9471, 36.5101, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 37.3824, 55.3939, 0.404043, 0, 255, 0, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+2858, 20.9371, 3.29993, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 34.9608, -39.6145, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 35.552, -15.5768, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 35.8743, -1.54723, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 36.3647, 12.3161, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 20.8076, -34.823, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 20.933, 17.2804, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 20.9953, -10.7, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 20.5739, -50.2566, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 21.9275, 55.4473, 0.404043, 0, 255, 0, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+2858, 21.7151, 41.3664, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 6.11929, -41.2276, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 37.2447, 50.2795, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 5.90298, -17.1565, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 6.09599, -3.19817, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, -10.7614, -9.94818, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, -11.0739, 4.12029, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, 6.02543, 10.9557, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2858, -10.9467, 18.0484, 0.530736, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.7, 0, 40, 0, 0, 0, 0
+2887, -4.57764e-005, 0.00012207, 5.37775, 225, 88, 199, 200, 1, 5, 0, 0, 0.005, 0.5
+2949, 0.189002, 15.1761, -0.641125, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 1, 0, 0, 0
+2949, 0.136364, 8.18676, -0.641125, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 1, 0, 0, 0
+2949, 3.38566, -10.3839, -0.641125, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 1, 0, 0, 0
+2949, -3.36698, -10.3866, -0.641125, 255, 255, 255, 150, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 1, 0, 0, 0
+2949, 5.53905, -10.966, -4.21339, 255, 255, 255, 150, 3, 4, 0.99939, 0.0348875, 0.00172781, 0.99939, 0.0348875, 0.00172781
+2949, 6.68776, 8.81229, -4.21339, 255, 255, 255, 150, 3, 4, 0.99939, 0.0348875, 0.00172781, 0.99939, 0.0348875, 0.00172781
+2949, -7.38348, 10.6487, -4.21339, 255, 255, 255, 150, 3, 4, -0.99939, -0.0348875, 0.00172781, -0.99939, -0.0348875, 0.00172781
+2954, -4.30414, 0.279609, -0.251612, 137, 133, 119, 200, 0, "coronastar", "shad_exp", 4, 0, 0.4, 0, 40, 10, 0, 0, 0
+2954, -4.30415, 3.60317, -0.251612, 137, 133, 119, 200, 0, "coronastar", "shad_exp", 5, 0, 0.4, 0, 40, 0, 0, 0, 0
+2954, -0.973811, 1.85871, 0.877263, 242, 229, 175, 200, 0, "coronastar", "shad_exp", 5, 0, 0.5, 0, 40, 0, 0, 0, 0
+2954, 3.61141, -0.592907, 1.43483, 216, 235, 242, 200, 0, "coronastar", "shad_exp", 5, 0, 0.3, 0, 40, 0, 0, 0, 0
+2954, 3.61141, -1.93517, 1.43483, 152, 165, 170, 200, 0, "coronastar", "shad_exp", 4, 0, 0.3, 0, 40, 0, 0, 0, 0
+2954, 3.61142, -3.10699, 1.43483, 216, 235, 242, 200, 0, "coronastar", "shad_exp", 3, 0, 0.3, 0, 40, 0, 0, 0, 0
+3010, -4.59932, -7.84692, 0.043726, 255, 255, 255, 180, 0, "coronastar", "shad_exp", 100, 18, 0.8, 8, 40, 1, 0, 0, 0
+3010, -4.59932, 0.0531043, 0.043726, 255, 255, 255, 180, 0, "coronastar", "shad_exp", 100, 18, 0.8, 8, 40, 1, 0, 0, 0
+3010, -4.59931, 7.7937, 0.043726, 255, 255, 255, 180, 0, "coronastar", "shad_exp", 100, 18, 0.8, 8, 40, 1, 0, 0, 0
+3064, -3.23382, -7.81775, 1.30167, 201, 0, 0, 200, 0, "coronastar", "shad_exp", 100, 2, 0.5, 8, 40, 0, 0, 0, 0
+3064, 3.23457, -7.81897, 1.30167, 201, 0, 0, 200, 0, "coronastar", "shad_exp", 100, 2, 0.5, 8, 40, 0, 0, 0, 0
+3064, 7.82528, -3.23279, 1.30167, 201, 0, 0, 200, 0, "coronastar", "shad_exp", 100, 2, 0.5, 8, 40, 0, 0, 0, 0
+3064, -7.82531, 3.23279, 1.30167, 201, 0, 0, 200, 0, "coronastar", "shad_exp", 100, 2, 0.5, 8, 40, 0, 0, 0, 0
+3064, -3.21367, 7.84485, 1.30167, 201, 0, 0, 200, 0, "coronastar", "shad_exp", 100, 2, 0.5, 8, 40, 0, 0, 0, 0
+3064, -7.82381, -3.22498, 1.30167, 201, 0, 0, 200, 0, "coronastar", "shad_exp", 100, 2, 0.5, 8, 40, 0, 0, 0, 0
+3064, 3.22242, 7.83936, 1.30167, 201, 0, 0, 200, 0, "coronastar", "shad_exp", 100, 2, 0.5, 8, 40, 0, 0, 0, 0
+3064, 7.82117, 3.25879, 1.30167, 201, 0, 0, 200, 0, "coronastar", "shad_exp", 100, 2, 0.5, 8, 40, 0, 0, 0, 0
+end

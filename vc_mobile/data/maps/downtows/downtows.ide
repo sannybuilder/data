@@ -1,0 +1,145 @@
+objs
+1733, road_downtown08, dts_roads, 1, 250, 1
+1734, road_downtown07, dts_roads, 1, 250, 1
+1735, road_downtown06, dts_roads, 1, 250, 1
+1736, road_downtown09, dts_roads, 1, 250, 1
+1737, doontoon10, dt_sheraton, 1, 200, 1
+1738, doontoon13, dts_shops_new1, 1, 160, 0
+1739, doontoon14, dt_firestation2, 1, 140, 0
+1740, doontoon40, dts_copshop, 1, 120, 0
+1741, doontoon41, dt_firestation, 1, 100, 128
+1742, doontoon44, dt_firestation, 1, 190, 128
+1743, doontoon45, dts_copshop, 1, 120, 0
+1744, doontoon72, dts_grassbits, 1, 250, 0
+1745, doontoon73, dts_grassbits, 1, 250, 0
+1746, doontoon_top05, dt_sheraton, 1, 200, 0
+1747, doontoon_top01, dt_firestation, 1, 150, 0
+1748, LODntoon_top02, dts_LODbig, 1, 2000, 0
+1749, LODntoon72, dts_LODbig, 1, 1200, 0
+1750, LODntoon73, dts_LODbig, 1, 1200, 0
+1751, LODntoon_top07, dts_LODbig, 1, 2000, 0
+1752, dwnmiamilanda, dts_bikebar_ext, 1, 140, 0
+1753, dowbikershop, dts_shops1, 1, 150, 0
+1754, dow_pizzaplacedt, dts_shops, 1, 130, 0
+1755, recsho_recordshop1, dt_newtest1, 1, 100, 0
+1756, gluetest19, dt_firestation, 1, 150, 4
+1757, doontoon66_bushes01, generic, 1, 150, 4
+1758, dt_scabby_fence01, dt_firestation, 1, 80, 4
+1759, dt_scabby_fence03, dt_firestation, 1, 80, 4
+1760, dt_scabby_fence04, dt_firestation, 1, 120, 4
+1761, dt_scabby_fence07, dt_firestation, 1, 120, 4
+1762, dt_carspaces1, dt_sheraton, 1, 70, 4
+1763, dt_carpsaces2, dt_sheraton, 1, 25, 4
+1764, dt_carpsaces03, dt_newtest1, 1, 45, 4
+1765, dt_carpsaces06, dt_firestation, 1, 60, 4
+1766, doontoon_top03, dts_grassbits, 1, 200, 4
+1767, doontoon_top04, dt_sheraton, 1, 230, 0
+1768, LODd_downtown08, dts_LODsmall, 1, 1000, 0
+1769, LODd_downtown09, dts_LODsmall, 1, 1000, 0
+1770, LODd_downtown07, dts_LODsmall2, 1, 700, 0
+1771, LODd_downtown06, dts_LODsmall, 1, 1000, 0
+1772, LODntoon23, dts_LODbig, 1, 2000, 0
+1773, LODntoon14, dts_LODsmall2, 1, 700, 0
+1774, LODntoon16, dts_LODsmall2, 1, 700, 0
+1775, LODntoon44, dts_LODsmall2, 1, 700, 0
+1776, LODntoon40, dts_LODsmall2, 1, 700, 0
+1777, LODntoon45, dts_LODsmall2, 1, 700, 0
+1778, LODntoon_top08, dts_LODbig, 1, 2000, 0
+1779, LODmiamilanda, dts_LODsmall, 1, 1000, 0
+1780, dt_nbeach08, dts_nbeach, 1, 250, 0
+1781, LODntoon10, dts_LODsmall2, 1, 700, 0
+1782, LODntoon_top03, dts_LODsmall2, 1, 700, 0
+1783, LODntoon_top05, dts_LODsmall, 1, 1000, 0
+1784, LODntoon_top04, dts_LODsmall2, 1, 700, 0
+1785, LODnbeach08, dts_LODsmall, 1, 2000, 0
+1786, dwn_bikerbarfrnt, dts_grassbits, 1, 200, 4
+1787, LODntoon74, dts_LODsmall, 1, 2000, 0
+1788, dt_sheraton_fence, dt_sheraton, 1, 250, 0
+1789, new_inside, dts_office, 1, 80, 0
+1790, dts_offglassa, dts_office, 1, 100, 4
+1791, LODspotlite_01, dts_LODsmall2, 1, 700, 0
+1793, dts_telwire2, dts_roads, 1, 200, 4
+1794, dts_telwire1, dts_roads, 1, 200, 4
+1795, dts_telwire4, dts_roads, 1, 200, 4
+1796, dts_gs_liftdoorR, dts_office, 1, 20, 0
+1797, dts_gs_liftdoorL, dts_office, 1, 20, 0
+1798, dts_offglassb, dts_office, 1, 20, 4
+1799, dts_office2, dts_office, 1, 50, 0
+1800, dts_glassplane_a, dts_office, 1, 100, 516
+1802, dts_spot_a, dt_CUNT, 1, 250, 0
+1804, new_insideb, dts_office, 1, 80, 4
+1805, LODntoon41, dts_LODsmall2, 1, 700, 0
+1806, dts_bbdoor, dts_grassbits, 1, 200, 4
+1807, bikeshop_glass, dts_shops1, 1, 80, 1028
+1808, bikeshop_glass2, dts_shops1, 1, 80, 1028
+1809, doontoon77, dt_firestation, 1, 90, 128
+1810, dtn_buildnew1, dts_copshop, 1, 90, 0
+1811, dtn_buildnew2, dts_copshop, 1, 90, 0
+1812, LODntoon77, dts_LODsmall2, 1, 700, 0
+1813, LOD_buildnew2, dts_LODsmall2, 1, 700, 0
+1814, LOD_buildnew1, dts_LODsmall2, 1, 700, 0
+1815, dts_cop_park, dts_copshop, 1, 150, 4
+1816, doontoon74, dt_CUNT2, 1, 250, 0
+1817, dt_spotlite_01, dt_CUNT, 1, 180, 0
+1818, biker_bar_exterior, bb_exterior, 1, 100, 1
+1819, doontoon23, dt_tall_build01, 1, 200, 0
+1820, dtns_kbshop1, dt_shops, 1, 100, 0
+1821, dtns_kbshop1b, dt_shops, 1, 100, 4
+1822, pharmacy_kb2, dt_newtest1, 1, 100, 0
+1823, dispensary_gls, dt_newtest1, 1, 100, 4
+1824, bb_roof1_01, bb_barroom, 1, 60, 32
+1825, bb_walljunk1_01, bb_barroomtrans, 1, 20, 36
+1826, bb_fence1, bb_barroomtrans, 1, 20, 36
+1827, bb_pooltable1_01, bb_barroom, 1, 20, 32
+1828, LOD_pizzaplacedt, dts_LODsmall2, 1, 700, 0
+1831, dts_tit_stares, dt_CUNT, 1, 90, 4
+1832, LODntoon_top01, dts_LODsmall2, 1, 700, 0
+1833, LODntoon13, dts_LODsmall, 1, 1000, 0
+1834, lodsho_recordshop1, dts_LODsmall2, 1, 700, 0
+1835, dw_scuz_kb, hi_cutsafehoos, 1, 170, 0
+1836, doontoon73b, dts_grassbits, 1, 250, 0
+1837, doontoon72b, dts_grassbits, 1, 250, 0
+1838, LODntoon72b, dts_LODbig, 1, 1200, 0
+1839, LODntoon73b, dts_LODbig, 1, 1200, 0
+1840, road_downtown05, dts_roads, 1, 250, 1
+1841, road_downtown10, dts_roads, 1, 250, 1
+1842, LODd_downtown05, dts_LODsmall, 1, 1500, 0
+1843, LODd_downtown10, dts_LODsmall, 1, 1000, 0
+1844, LODntoon_shops, dts_LODbig, 1, 2000, 0
+1845, LODntoon66, dts_LODsmall, 1, 1000, 0
+1846, LODnbeach07, dts_LODsmall, 1, 2000, 0
+1847, road_downtown_new1, dts_roads, 1, 250, 1
+1848, LODntoon65, dts_LODsmall, 1, 1000, 0
+1849, doontoon65, dts_ground, 1, 200, 0
+1850, doontoon66, dts_ground, 1, 250, 0
+1851, LODd_downtown_new1, dts_LODsmall, 1, 1000, 0
+1852, dt_nbeach07, dts_nbeach, 1, 250, 0
+1853, doontoon_top02, shipthisgamenow, 1, 150, 0
+1854, shopwindows_dts, dt_newtest1, 1, 120, 4
+1855, doontoon_shops, dts_shops, 1, 200, 0
+1856, doontoon_top08, dt_newtest1, 1, 250, 0
+1857, doontoon_top07, dt_newtest2, 1, 200, 0
+1858, doontoon16, dt_shops, 1, 150, 0
+1859, dts_telwire9, dts_roads, 1, 200, 4
+end
+tobj
+1792, dts_nitelites1, dts_nitelites, 1, 800, 0, 18, 6
+1801, dts_soapytitwank_b, tit_wank, 1, 299, 12, 22, 8
+1803, dts_soapytitwank_a, tit_wank, 1, 299, 12, 22, 8
+1829, blimp_day, dt_blimp, 1, 3000, 0, 6, 21
+1830, blimp_night, dt_blimp, 1, 3000, 0, 21, 6
+end
+path
+end
+2dfx
+1754, -2.58575, 6.05988, -5.05424, 184, 255, 0, 120, 3, 3, -0.09211, -0.995602, -0.01708, -0.995602, 0.0921099, -0.01708
+1824, 2.16461, -2.69205, -2.41555, 255, 255, 212, 200, 0, "coronastar", "shad_exp", 100, 5, 0, 0, 40, 0, 0, 0, 0
+1824, 1.55575, -8.03596, -2.41555, 255, 255, 198, 200, 0, "coronastar", "shad_exp", 100, 5, 0, 0, 40, 0, 0, 0, 0
+1824, 6.80452, 6.60239, -1.64236, 250, 250, 250, 200, 0, "coronastar", "shad_exp", 100, 5, 0, 0, 40, 0, 0, 0, 0
+1824, 3.56481, 1.98321, -2.41555, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 5, 0, 0, 40, 0, 0, 0, 0
+1824, 4.81609, 12.9435, -2.41555, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 5, 0, 0, 40, 0, 0, 0, 0
+1824, -0.0432328, 13.1573, -2.41555, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 5, 0, 0, 40, 0, 0, 0, 0
+1824, -2.88715, -5.14578, -2.41555, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 5, 0, 0, 40, 0, 0, 0, 0
+1824, 6.97927, 1.292, -1.64236, 250, 250, 250, 200, 0, "coronastar", "shad_exp", 100, 5, 0, 0, 40, 0, 0, 0, 0
+1826, -0.053772, -3.64459, 0.893715, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 5, 0, 0, 40, 0, 0, 0, 0
+end
