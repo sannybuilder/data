@@ -1951,6 +1951,8 @@
 0A4C=default
 0A4D=default
 0A4E=default
+0A4F=default
+0A50=default
 0242=default
 0a51=default
 0a52=default
@@ -1985,6 +1987,7 @@
 0a6f=default
 0a70=default
 0a71=default
+0a72=default
 0a73=default
 0a74=default
 0a75=default
