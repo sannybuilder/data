@@ -39,11 +39,8 @@
         <data>@sb:\data\vc_mobile\</data>
         <opcodes>@sb:\data\vc_mobile\VCSCM.ini</opcodes>
         <examples>@sb:\data\vc_mobile\opcodes.txt</examples>
-        <classes>@sb:\data\vc_mobile\classes.db</classes>  
         <variables>@sb:\data\vc_mobile\CustomVariables.ini</variables>
         <keywords>@sb:\data\vc_mobile\keywords.txt</keywords>
-        <missions>@sb:\data\vc_mobile\missions.txt</missions>        
-        <constants>@sb:\data\vc_mobile\constants.txt</constants>
         <templates>@sb:\data\vc_mobile\templates.txt</templates>
         <text format="vc">@sb:\data\vc_mobile\american.gxt</text>
         <ide>@sb:\data\vc_mobile\data\default.ide</ide>
