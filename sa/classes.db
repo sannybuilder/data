@@ -88,7 +88,7 @@ $BEGIN
 ^Health,[0223,=,1,0,0],[0226,=,2,0,0],("Actor%h")
 ^EmulateFromPlayer,[01f5,=,2,2,0],("Player Actor%h" "Player%h")
 ^MissionCar,[00d9,=,2,0,0],("Actor%h")
-^Create,[009a,=,2,2,0],("Actor%h" "PedType:^Player1^Player2^Player3^Player4^CivMale^CivFemale^Cop^Gang1^Gang2^Gang3^Gang4^Gang5^Gang6^Gang7^Gang8^Gang9^Gang10^Dealer^Medic^Fireman^Criminal^ ^Prostitute^Special^Mission1^Mission2^Mission3^Mission4^Mission5^Mission6^Mission7^Mission8" "ModelID%i" "X%f" "Y%f" "Z%f")
+^Create,[009a,=,2,2,0],("Actor%h" "PedType: PedType" "ModelID%i" "X%f" "Y%f" "Z%f")
 ^CreateAsDriver,[0129,=,2,2,0],("Actor%h" "PedType: PedType" "ModelID%i" "Car%h")
 ^CreateAsPassenger,[01c8,=,2,2,0],("Actor%h" "PedType: PedType" "ModelID%i" "Car%h" "Seat%i")
 ^Angle,[0172,=,2,0,0],[0173,=,1,0,0],("Actor%h")
