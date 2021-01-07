@@ -1,0 +1,177 @@
+objs
+4315, mlmiamiland056, mall_ground, 1, 140, 0
+4316, mlmiamiland058, mall_ground, 1, 140, 0
+4317, mlmiamiland060, mall_ground, 1, 180, 0
+4318, mlnorthmall, malltotal, 1, 180, 160
+4319, newmallcp_03, mallcarpark, 1, 150, 128
+4320, mlmallflag02, mallitems, 1, 140, 128
+4321, mlmallflag12, mallitems, 1, 140, 128
+4322, mlmallflag14, mallitems, 1, 140, 128
+4323, mloven, foodcourt, 1, 150, 160
+4324, mlobjects_n, mall_props, 1, 140, 160
+4325, mlmallbush, mallplants, 1, 299, 132
+4326, mlNpoint02, mallcarpark, 1, 140, 128
+4327, mlNpoint04, mallcarpark, 1, 140, 128
+4328, mlNpoint06, mallcarpark, 1, 140, 128
+4329, mlmallplan02, mallitems, 1, 150, 128
+4330, mlmallplan04, mallitems, 1, 150, 128
+4331, mlmallplan05, mallitems, 1, 150, 128
+4332, mlnorthmallrt, malltotal, 1, 250, 162
+4333, mlnorthmalllft, malltotal, 1, 250, 162
+4334, newmallcp_05, mallcarpark, 1, 80, 128
+4335, newmallcp_02, mallcarpark, 1, 90, 128
+4336, newmallcp_04, mallcarpark, 1, 90, 128
+4337, ml_gap, ml_clothes, 1, 90, 128
+4338, ml_record, ml_tuneless, 1, 100, 160
+4339, ml_borders, ml_books, 1, 100, 160
+4340, ml_jewellers, ml_jewellers, 1, 100, 160
+4341, ml_tarbrush, ml_coffee, 1, 110, 160
+4342, ml_cofcounter1, ml_coffee, 1, 50, 160
+4343, ml_record3, ml_tuneless, 1, 50, 160
+4344, ml_borderswin01, ml_coffee, 1, 90, 1188
+4345, ml_recordwin01, ml_coffee, 1, 90, 1188
+4346, ml_coffee_dsk, ml_coffee, 1, 50, 160
+4347, mall_hardware, mall_ammu, 1, 125, 160
+4348, mall_hardwarebits, mall_ammu, 1, 40, 160
+4349, LODorthmallext1, lod_mall, 1, 1000, 0
+4350, LODlloutside, lod_mall, 1, 1000, 0
+4351, LODorthmalllftex, lod_mall, 1, 1000, 0
+4352, LODiamiland056, lod_mall, 1, 1000, 0
+4353, LODiamiland060, lod_mall, 1, 1000, 0
+4354, LODiamiland058, lod_mall, 1, 1000, 0
+4355, LODmallcp_02, lod_mall, 1, 1000, 0
+4356, LODmallcp_03, lod_mall, 1, 1000, 0
+4357, newmallcp_01, mallcarpark, 1, 100, 128
+4358, LODmallcp_04, lod_mall, 1, 1000, 0
+4359, LODmallcp_05, lod_mall, 1, 1000, 0
+4360, LODmallcp_01, lod_mall, 1, 1000, 0
+4361, mall_ammu, mall_ammu, 1, 125, 164
+4362, mall_ammuwin, mall_ammu, 1, 50, 164
+4363, ml_jewelwinframe02, ml_jewellers, 1, 90, 164
+4364, ml_coffwinframe01, ml_coffee, 1, 90, 164
+4365, ml_coffwinframe02, ml_coffee, 1, 90, 164
+4366, nmalloutside, mallext, 1, 140, 128
+4367, nbnorthmallext1, mallext, 1, 140, 128
+4368, mlnorthmalllftex, mallext, 1, 140, 128
+4369, ml_vegbits05, mall_veg, 1, 140, 128
+4370, ml_vegbits01, mall_veg, 1, 140, 128
+4371, ml_vegbits02, mall_veg, 1, 140, 128
+4372, ml_vegbits03, mall_veg, 1, 140, 128
+4373, ml_glasslft, ml_coffee, 1, 140, 164
+4374, ml_water, mall_props, 1, 100, 164
+4375, ml_vegbits04, mall_veg, 1, 140, 128
+4376, ml_tarbrushdamage, ml_coffee, 1, 110, 160
+4377, ml_borderswin02, ml_coffee, 1, 90, 1188
+4378, ml_bordersdoor, ml_books, 1, 100, 164
+4379, ml_recordwin02, ml_coffee, 1, 90, 1188
+4380, ml_recordwin03, ml_coffee, 1, 90, 1188
+4381, ml_recordwin04, ml_coffee, 1, 90, 1188
+4382, ml_recordwin05, ml_coffee, 1, 90, 1188
+4383, ml_recordwin06, ml_coffee, 1, 90, 1188
+4384, ml_gapdoors, ml_clothes, 1, 50, 132
+4385, ml_gapwindows01, ml_coffee, 1, 90, 1188
+4386, ml_gapwindows02, ml_coffee, 1, 90, 1188
+4387, ml_gapwindows03, ml_coffee, 1, 90, 1188
+4388, ml_gapwindows04, ml_coffee, 1, 90, 1188
+4389, ml_gapwindows05, ml_coffee, 1, 90, 1188
+4390, ml_gapwindows06, ml_coffee, 1, 90, 1188
+4391, ml_gapwindows07, ml_coffee, 1, 90, 1188
+4392, ml_gapwindows08, ml_coffee, 1, 90, 1188
+4393, ml_gapwindows09, ml_coffee, 1, 90, 1188
+4394, ml_gapwindows10, ml_coffee, 1, 90, 1188
+4395, ml_gapwindows11, ml_coffee, 1, 90, 1188
+4396, ml_gapwindows12, ml_coffee, 1, 90, 1188
+4397, ml_jewelcounter, ml_jewellers, 1, 100, 160
+4398, ml_water2, mall_props, 1, 140, 164
+4399, mloven02, foodcourt, 1, 150, 160
+4400, mlobjects_n02, mall_props, 1, 140, 160
+4401, mlobjects_n03, mall_props, 1, 140, 160
+4402, mlobjects_n04, mall_props, 1, 140, 160
+4403, mlobjects_s02, mall_props, 1, 140, 160
+4404, ml_jewelwin02, ml_coffee, 1, 90, 1188
+4405, ml_jewelwin01, ml_coffee, 1, 90, 1188
+4406, ml_jewelwin03, ml_coffee, 1, 90, 1188
+4407, ml_coffwin02, ml_coffee, 1, 90, 1188
+4408, ml_coffwin01, ml_coffee, 1, 90, 1188
+4409, ml_tartable, ml_coffee, 1, 90, 160
+4410, ml_escl, mall_props, 1, 100, 160
+4411, mlrecords, ml_tuneless, 1, 50, 160
+4412, mall_fans, mall_props, 1, 40, 160
+4413, mlngrnd, malltotal, 1, 250, 166
+4414, mlgrndmidtop, malltotal, 1, 180, 164
+4415, mlgrounds, malltotal, 1, 250, 166
+4416, mallint1, malltotal, 1, 250, 162
+4417, mallint2, malltotal, 1, 180, 160
+4418, mallint3, malltotal, 1, 180, 160
+4419, mallint5, malltotal, 1, 180, 160
+4420, mallint7, malltotal, 1, 180, 160
+4421, mallint8, malltotal, 1, 180, 160
+4422, mallint9, malltotal, 1, 260, 162
+4423, ml_planterbed, mall_props, 1, 90, 160
+4424, mlmallroof, mallroof, 1, 220, 160
+4425, LODallroof01, mallroof, 1, 1500, 160
+4426, mlmallroof01, mallroof, 1, 200, 164
+4427, ml_jewelwinframe01, ml_jewellers, 1, 90, 160
+4428, ml_doorstopl, malltotal, 1, 180, 164
+4429, ml_doorstopr, malltotal, 1, 180, 164
+4430, ml_doorscarp, malltotal, 1, 90, 164
+4431, ml_doorsbotr, malltotal, 1, 90, 164
+4432, ml_doorsbotl, malltotal, 1, 90, 164
+4433, ml_doorsmidl, malltotal, 1, 90, 164
+4434, ml_doorsmidr, malltotal, 1, 90, 164
+4435, malllights, malltotal, 1, 180, 164
+4436, mallstrut, malltotal, 1, 100, 160
+4437, MALLUNDER, malltotal, 1, 250, 166
+4438, malltreereflect2, generic, 1, 200, 4
+4439, malltreereflect, generic, 1, 200, 4
+4440, mallbushdense, mallplants, 1, 299, 132
+4441, mallbushs, mallplants, 1, 299, 132
+4442, mallint5up, malltotal, 1, 180, 160
+4443, mlnorthmalltop, malltotal, 1, 180, 160
+4444, mlmiamiland060b, mall_ground, 1, 180, 0
+4445, midmallflorre, malltotal, 1, 250, 166
+4446, midmallfloorw, malltotal, 1, 250, 166
+4447, maidmalltopa, malltotal, 1, 180, 164
+4448, ml_jewelglass, ml_jewellers, 1, 50, 164
+4449, mallint5up_b, malltotal, 1, 180, 164
+end
+tobj
+end
+path
+end
+2dfx
+4324, -0.9888, -1.8363, 0.534748, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4324, -2.01434, 1.2074, 0.534748, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4324, 1.17624, 1.78674, 0.534748, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4324, 2.24283, -1.22656, 0.534748, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4400, -1.35373, -6.48828, 0.316866, 185, 183, 169, 200, 3, 1, -0.44017, -0.897914, 0, -0.44017, -0.897914, 0
+4400, -5.37076, -4.17297, 0.316866, 185, 183, 169, 200, 3, 1, -0.595221, -0.803562, 0, -0.595221, -0.803562, 0
+4400, 3.46475, -5.33081, 0.316866, 185, 183, 169, 200, 3, 1, 0.516056, -0.856555, 0, 0.516056, -0.856555, 0
+4400, 6.32748, -0.22229, 0.316866, 185, 183, 169, 200, 3, 1, 0.999718, 0.0237581, 0, 0.999718, 0.0237581, 0
+4400, 4.66086, 4.65027, 0.316866, 185, 183, 169, 200, 3, 1, 0.513423, 0.858135, 0, 0.513423, 0.858135, 0
+4400, -3.73602, 5.23157, 0.316866, 185, 183, 169, 200, 3, 1, -0.544421, 0.838812, 0, -0.544421, 0.838812, 0
+4423, 5.38455, -6.91089, 0.0895824, 185, 183, 169, 200, 3, 1, 0.999938, 0.00434397, 0.0102626, 0.999938, 0.00434397, 0.0102626
+4423, 5.41418, 6.72827, -0.175394, 185, 183, 169, 200, 3, 1, 0.999893, 0.00680962, 0.012908, 0.999893, 0.00680962, 0.012908
+4423, -6.51138, 5.37683, -0.320547, 185, 183, 169, 200, 3, 1, -0.0185263, 0.999754, -0.0121637, -0.0185263, 0.999754, -0.0121637
+4423, -6.67175, -5.45349, -0.0974216, 185, 183, 169, 200, 3, 1, -0.00188401, -0.999859, 0.0166771, -0.00188401, -0.999859, 0.0166771
+4435, -0.782501, 0.00415039, -0.170723, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4435, -20.9686, -0.0559082, 0.114655, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4435, -20.8957, -12.0593, 0.114105, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4435, -10.9192, -12.0308, 0.000125885, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4435, -10.8806, -0.0224609, 0.000141144, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4435, -0.782318, -11.9774, -0.17075, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4435, -31.2099, -12.0363, 0.313419, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4435, -31.2369, -0.0582275, 0.313557, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4435, -43.4393, -0.0489502, 0.434418, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4435, -43.521, -12.0249, 0.434853, 185, 183, 169, 200, 0, "coronastar", "shad_exp", 100, 10, 0.6, 0, 40, 0, 0, 0, 0
+4436, -31.9768, -0.163208, -0.121017, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+4436, -24.9608, -0.163208, -0.121017, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+4436, -17.1251, -0.071167, -0.121094, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+4436, -9.50284, -0.163208, -0.121017, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+4436, -1.50549, -0.163208, -0.121017, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+4436, 6.58398, -0.071167, -0.121094, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+4436, 13.9501, -0.163208, -0.121017, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+4436, 20.77, -0.163208, -0.121017, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+4436, 27.9211, -0.163208, -0.121017, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+4436, 35.2978, -0.071167, -0.121094, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 0, 0.6, 0, 40, 0, 0, 0, 0
+end

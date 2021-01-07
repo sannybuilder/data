@@ -1951,6 +1951,8 @@
 0A4C=default
 0A4D=default
 0A4E=default
+0A4F=default
+0A50=default
 0242=default
 0a51=default
 0a52=default
@@ -1985,6 +1987,7 @@
 0a6f=default
 0a70=default
 0a71=default
+0a72=default
 0a73=default
 0a74=default
 0a75=default
@@ -2015,3 +2018,18 @@
 0A8E=default
 0A8F=default
 0A90=default
+0DD0=CLEO
+0DD1=CLEO
+0DD2=CLEO
+0DD3=CLEO
+0DD4=CLEO
+0DD6=CLEO
+0DD7=CLEO
+0DD8=CLEO
+0DD9=CLEO
+0DDC=CLEO
+0DDD=CLEO
+0DE0=CLEO
+0DE1=CLEO
+0DE2=CLEO
+0DE3=CLEO

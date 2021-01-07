@@ -1,0 +1,219 @@
+objs
+3085, plants01, Generic, 1, 299, 132
+3086, deco_buildkb09, oceanstrip2, 1, 100, 128
+3087, deco_polgrnda12, ocmiamistrip9, 1, 160, 128
+3088, deco_polgrnda13, ocmiamistrip9, 1, 140, 132
+3089, deco_polgrnda14, ocmiamistrip9, 1, 140, 128
+3090, deco_polgrnda16, ocmiamistrip9X, 1, 140, 128
+3091, deco_polgrnda17, ocmiamistrip16, 1, 140, 128
+3096, od_walkway2, od_lighthouse, 1, 200, 0
+3097, od_walkway3, od_lighthouse, 1, 125, 0
+3098, plants04, Generic, 1, 200, 132
+3099, plants05, Generic, 1, 150, 132
+3100, od_lightext, od_lighthouse, 1, 150, 132
+3102, od_northstar, od_bigshops2, 1, 100, 132
+3106, od_bphq, od_bphq, 1, 100, 128
+3107, od_acne, od_bigshops2, 1, 130, 128
+3108, od_bigshops2, od_bigshops2, 1, 140, 128
+3109, od_bigshops1, od_bigshops2, 1, 110, 128
+3116, LODo_polgrnda12, LODodrive, 1, 900, 128
+3117, LODo_polgrnda13, LODodrive, 1, 900, 128
+3118, LODo_polgrnda14, LODodrive, 1, 900, 128
+3119, LODo_polgrnda16, LODodrive, 1, 900, 128
+3120, LODo_polgrnda17, LODodrive, 1, 900, 128
+3121, LODlightext, LODodrive, 1, 2000, 128
+3122, LODacne, LODodrive, 1, 900, 128
+3123, LODbigshops1, LODodrive, 1, 900, 128
+3124, LODbigshops2, LODodrive, 1, 900, 128
+3125, LODbphq, LODodrive, 1, 900, 128
+3148, od_clevelfence, od_fence, 1, 100, 128
+3150, oddoorwayS1, sharedalleyod, 1, 250, 128
+3151, odrv_bushes, Generic, 1, 200, 132
+3188, od_cornercrap1, sharedalleyod, 1, 50, 132
+3189, od_cornercrap2, sharedalleyod, 1, 50, 132
+3190, od_cornercrap3, sharedalleyod, 1, 50, 132
+3191, od_tracks08, shared_beach, 1, 100, 196
+3192, od_tracks10, shared_beach, 1, 100, 196
+3193, od_tracks12, shared_beach, 1, 100, 196
+3194, od_tracks14, shared_beach, 1, 100, 196
+3196, lodo_buildkb09, LODodrive, 1, 900, 128
+3197, miamiland_kb03, shared_beach, 1, 300, 0
+3198, miamiland_kb04, shared_beach, 1, 200, 0
+3199, beach_bush08s, shared_beach, 1, 200, 4
+3200, beach_bush06s, shared_beach, 1, 200, 4
+3201, miamiland_ws04, shared_beach, 1, 200, 0
+3202, miamiland_ws04b, shared_beach, 1, 300, 0
+3203, miamiland_kb02, shared_beach, 1, 300, 0
+3204, od_lhland, shared_beach, 1, 300, 4
+3205, beachlo1, shared_beach, 1, 300, 0
+3206, miamiland_kb01_dy, shared_beach, 1, 200, 0
+3207, LODmiland_ws04, LODodrive, 1, 900, 128
+3208, LODmiland_kb04, LODodrive, 1, 2000, 128
+3209, LODmiland_kb03, LODodrive, 1, 2000, 128
+3210, LODmiland_ws04b, LODodrive, 1, 2000, 128
+3211, LODlhland, LODodrive, 1, 1000, 128
+3212, LODchlo1, LODodrive, 1, 2000, 128
+3214, lodmiland_kb02, LODodrive, 1, 2000, 128
+3216, miamiland_kb01_nt, shared_beach, 1, 200, 0
+3217, LODoceanrdN1_dy, LODodrive, 1, 900, 0
+3218, LODoceanrdN1_nt, LODodrive, 1, 900, 0
+3219, lodwalkway2, LODodrive, 1, 2000, 0
+3220, odlowsand2, shared_beach, 1, 300, 0
+3221, odlowsand1, shared_beach, 1, 300, 0
+3222, odhighsandgrs1, shared_beach, 1, 300, 0
+3223, lodowsand1, LODodrive, 1, 2000, 128
+3224, lodighsandgrs1, LODodrive, 1, 2000, 128
+3225, lodowsand2, LODodrive, 1, 2000, 128
+3227, oddoorwayS02, sharedalleyod, 1, 100, 128
+3228, odrv_bushes01, Generic, 1, 200, 132
+3234, beachblend15, ocmiamistrip, 1, 150, 132
+3235, beachblend12, ocmiamistrip, 1, 150, 132
+3236, beachblend13, ocmiamistrip, 1, 150, 132
+3237, beachblend14, ocmiamistrip, 1, 150, 132
+3238, beachblend16, ocmiamistrip, 1, 150, 132
+3244, plants05b, Generic, 1, 150, 132
+3248, od_lightint, od_lighthousein, 1, 66, 128
+3249, lodnorthstar, LODodrive, 1, 900, 128
+end
+tobj
+3092, oceanrda06_dy, Generic, 1, 200, 1, 5, 20
+3093, oceanrda05_dy, Generic, 1, 200, 1, 5, 20
+3094, oceanrda04_dy, Generic, 1, 200, 1, 5, 20
+3095, oceanrda03_dy, Generic, 1, 200, 1, 5, 20
+3101, od_lightbeam, LODodrive, 1, 2000, 172, 20, 5
+3103, od_clevelander_dy, od_hotels1, 1, 110, 128, 5, 20
+3104, od_clevelander_nt, od_hotels1, 1, 110, 128, 20, 5
+3105, od_alleys1_01_dy, sharedalleyod, 1, 150, 4, 5, 21
+3110, od_majestic2c_dy, od_hotels1, 1, 100, 128, 5, 20
+3111, od_majestic2c_nt, od_hotels1, 1, 100, 128, 20, 5
+3112, LODanrda06_dy, LODodrive, 1, 900, 128, 5, 20
+3113, LODanrda05_dy, LODodrive, 1, 900, 128, 5, 20
+3114, LODanrda04_dy, LODodrive, 1, 900, 128, 5, 20
+3115, LODanrda03_dy, LODodrive, 1, 900, 128, 5, 20
+3126, od_neons3b_nt, od_neons1, 1, 200, 172, 21, 5
+3127, od_neons2b_nt, od_neons1, 1, 200, 172, 21, 5
+3128, od_casagrande_dy, od_hotels1, 1, 100, 128, 5, 20
+3129, od_casagrande_nt, od_hotels1, 1, 100, 128, 20, 5
+3130, LODcasagrande_dy, LODodrive, 1, 900, 128, 5, 20
+3131, od_pelican_dy, od_hotels1, 1, 100, 128, 5, 20
+3132, od_pelican_nt, od_hotels1, 1, 100, 128, 20, 5
+3133, od_pelican2_dy, od_hotels1, 1, 100, 128, 5, 20
+3134, od_pelican2_nt, od_hotels1, 1, 100, 128, 20, 5
+3135, LODpelican_dy, LODodrive, 1, 900, 128, 5, 20
+3136, od_colony_dy, od_hotels1, 1, 100, 128, 5, 20
+3137, od_colony_nt, od_hotels1, 1, 100, 128, 20, 5
+3138, od_colony2_nt, od_hotels1, 1, 100, 128, 20, 5
+3139, od_colony2_dy, od_hotels1, 1, 100, 128, 5, 20
+3140, LODcolony_dy, LODodrive, 1, 900, 128, 5, 20
+3141, LODcolony2_dy, LODodrive, 1, 900, 128, 5, 20
+3142, od_tides3_dy, od_hotels1, 1, 100, 128, 5, 20
+3143, od_tides3_nt, od_hotels1, 1, 100, 132, 20, 5
+3144, LODclevelander_dy, LODodrive, 1, 900, 128, 5, 20
+3145, od_dirtshad1, od_neons1, 1, 100, 132, 5, 20
+3146, od_dirtshad3, od_neons1, 1, 100, 132, 5, 20
+3147, od_dirtshad4, od_neons1, 1, 100, 132, 5, 20
+3149, od_alleys3_01_nt, sharedalleyod, 1, 150, 0, 21, 5
+3152, lodalleys1b_01_dy, LODodrive, 1, 900, 128, 21, 5
+3153, lodalleys2_01_dy, LODodrive, 1, 900, 128, 5, 21
+3154, od_alleys3b_01_dy, sharedalleyod, 1, 150, 4, 5, 21
+3155, oceanrda04_nt, Generic, 1, 200, 1, 20, 5
+3156, oceanrda06_nt, Generic, 1, 200, 1, 20, 5
+3157, ocdneona_nt, od_neons1, 1, 200, 172, 21, 5
+3158, ocdneonb_nt, od_neons1, 1, 200, 172, 21, 5
+3159, od_dirty1, od_neons1, 1, 100, 132, 5, 20
+3160, od_dirty2, od_neons1, 1, 100, 132, 5, 20
+3161, od_dirty4, od_neons1, 1, 100, 132, 5, 20
+3162, od_neonx1, od_neons1, 1, 200, 172, 21, 5
+3163, od_neonn, od_neons1, 1, 200, 172, 21, 5
+3164, LODmajestic2c_dy, LODodrive, 1, 900, 128, 5, 20
+3165, LODtides3_dy, LODodrive, 1, 900, 128, 5, 20
+3166, LODpelican2_dy, LODodrive, 1, 900, 128, 5, 20
+3167, LODanrda06_nt, LODodrive, 1, 900, 128, 20, 5
+3168, LODanrda05_nt, LODodrive, 1, 900, 128, 20, 5
+3169, LODanrda04_nt, LODodrive, 1, 900, 128, 20, 5
+3170, LODanrda03_nt, LODodrive, 1, 900, 128, 20, 5
+3171, LODclevelander_nt, LODodrive, 1, 900, 128, 20, 5
+3172, LODcasagrande_nt, LODodrive, 1, 900, 128, 20, 5
+3173, LODpelican2_nt, LODodrive, 1, 900, 128, 20, 5
+3174, LODcolony_nt, LODodrive, 1, 900, 128, 20, 5
+3175, LODtides3_nt, LODodrive, 1, 900, 128, 20, 5
+3176, LODpelican_nt, LODodrive, 1, 900, 128, 20, 5
+3177, LODcolony2_nt, LODodrive, 1, 900, 128, 20, 5
+3178, LODmajestic2c_nt, LODodrive, 1, 900, 128, 20, 5
+3179, od_alleys2_01_dy, sharedalleyod, 1, 180, 4, 5, 21
+3180, od_newscafe_dy, od_hotels1, 1, 100, 0, 5, 20
+3181, od_newscafe_nt, od_hotels1, 1, 100, 0, 20, 5
+3182, LODnewscafe_nt, LODodrive, 1, 900, 128, 20, 5
+3183, LODnewscafe_dy, LODodrive, 1, 900, 128, 5, 20
+3184, od_oceanrdN1_nt, Generic, 1, 200, 1, 20, 5
+3185, od_oceanrdN1_dy, Generic, 1, 200, 1, 5, 20
+3186, oceanrda03_nt, Generic, 1, 200, 1, 20, 5
+3187, oceanrda05_nt, Generic, 1, 200, 1, 20, 5
+3195, od_fpbarsign, od_hotels1, 1, 100, 164, 20, 5
+3213, LODmiland_kb01_nt, LODodrive, 1, 1000, 128, 20, 5
+3215, LODmiland_kb01_dy, LODodrive, 1, 1000, 128, 5, 20
+3226, lodalleys1_01_dy, LODodrive, 1, 900, 128, 5, 21
+3229, od_alleys1_01_nt, sharedalleyod, 1, 150, 4, 21, 5
+3230, od_alleys1b_01_nt, sharedalleyod, 1, 150, 4, 21, 5
+3231, od_alleys2_01_nt, sharedalleyod, 1, 180, 4, 21, 5
+3232, od_alleys3b_01_nt, sharedalleyod, 1, 150, 4, 21, 5
+3233, od_alleys3_01_dy, sharedalleyod, 1, 150, 4, 5, 21
+3239, lodalleys2_01_nt, LODodrive, 1, 900, 128, 21, 5
+3240, lodalleys3_01_nt, LODodrive, 1, 900, 0, 21, 5
+3241, lodalleys3b_01_nt, LODodrive, 1, 900, 4, 21, 5
+3242, lodalleys3_01_dy, LODodrive, 1, 900, 4, 5, 21
+3243, lodalleys3b_01_dy, LODodrive, 1, 900, 4, 5, 21
+3245, lodalleys1b_01_nt, LODodrive, 1, 900, 128, 5, 21
+3246, lodalleys1_01_nt, LODodrive, 1, 900, 128, 21, 5
+3247, od_alleys1b_01_dy, sharedalleyod, 1, 150, 5, 5, 21
+end
+path
+end
+2dfx
+3102, -16.3504, -15.0079, 0.590238, 184, 255, 0, 120, 3, 1, 0.771844, 0.635812, 0, 0.771844, 0.635812, 0
+3102, -16.827, -13.601, 0.590238, 184, 255, 0, 120, 3, 1, -0.973475, 0.228794, 0, -0.973475, 0.228794, 0
+3102, -13.6091, -14.375, 0.590238, 184, 255, 0, 120, 3, 1, -0.521634, -0.853169, 0, -0.521634, -0.853169, 0
+3102, -17.1011, -11.0023, 0.590238, 184, 255, 0, 120, 3, 1, 0.985075, -0.172123, 0, 0.985075, -0.172123, 0
+3102, 14.1826, -6.76746, 1.79933, 184, 255, 0, 120, 3, 4, 0.99397, 0.10965, 0, 0.99397, 0.10965, 0
+3102, 8.92903, 92.4141, 1.79933, 184, 255, 0, 120, 3, 4, -0.698921, 0.715199, 0, -0.698921, 0.715199, 0
+3102, -14.3321, 14.3402, 1.79933, 184, 255, 0, 120, 3, 4, -0.95842, 0.285362, 0, -0.95842, 0.285362, 0
+3102, 65.9194, 335.471, 1.79933, 184, 255, 0, 120, 3, 4, -0.929644, 0.36846, 0, -0.929644, 0.36846, 0
+3102, -10.8697, -13.7183, 1.19695, 184, 255, 0, 120, 3, 3, -0.482862, 0.875697, 0, -0.482862, 0.875697, 0
+3104, 24.6233, 21.8299, -4.50003, 246, 19, 238, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3104, 24.7871, -1.37784, -4.50003, 246, 19, 238, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3104, 27.2251, -24.8279, -4.50003, 246, 19, 238, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3104, 13.2392, -2.4603, -1.51012, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 18, 1, 8, 40, 1, 0, 0, 0
+3104, 13.253, -0.693262, -1.51012, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 18, 1, 8, 40, 1, 0, 0, 0
+3104, 13.2668, 1.07378, -1.51012, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 18, 1, 8, 40, 1, 0, 0, 0
+3104, 13.2806, 2.84082, -1.51012, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 18, 1, 8, 40, 1, 0, 0, 0
+3129, 12.413, -0.723482, -6.12483, 251, 229, 142, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3134, 9.4322, 0.749675, -4.00063, 246, 126, 19, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3137, 18.9044, 0.944991, -5.97202, 19, 130, 255, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3137, 15.8451, -0.322234, -5.97202, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 30, 0, 0, 40, 1, 0, 0, 4
+3137, 18.9044, 0.944991, 5.49993, 65, 225, 231, 200, 0, "coronastar", "shad_exp", 100, 30, 0, 0, 40, 1, 0, 0, 4
+3143, 15.6633, -3.69556, -19.3166, 246, 199, 19, 200, 0, "coronastar", "shad_exp", 100, 30, 0, 0, 40, 1, 0, 0, 4
+3155, -5.05856, -46.0665, 1.40186, 246, 199, 19, 200, 3, 1, 0.88489, -0.156349, -0.438776, 0.88489, -0.156349, -0.438776
+3155, -4.26575, -39.1285, 1.68641, 246, 199, 19, 200, 3, 1, 0.924648, -0.167327, -0.342094, 0.924648, -0.167327, -0.342094
+3155, -2.41541, -32.5359, 1.57304, 246, 199, 19, 200, 3, 1, 0.796375, -0.147484, -0.586545, 0.796375, -0.147484, -0.586545
+3155, 8.93073, 5.51794, 2.48271, 229, 132, 18, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3155, 19.1897, 57.5885, 2.48271, 23, 229, 18, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3155, 12.1447, 36.7787, 1.11899, 23, 229, 18, 200, 3, 3, -0.770375, -0.637591, 0, -0.770375, -0.637591, 0
+3156, 3.97693, 41.4218, 5.65326, 155, 119, 21, 200, 0, "coronastar", "shad_exp", 100, 20, 1, 8, 40, 1, 0, 0, 0
+3156, 9.56927, 69.2865, 2.23737, 19, 246, 25, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3156, -0.0433502, 38.72, 1.83991, 19, 246, 25, 200, 3, 3, 0.0321174, 0.999484, 0, 0.0321174, 0.999484, 0
+3181, 9.27614, -5.40027, -8.69031, 19, 246, 25, 200, 3, 1, 0.96552, -0.260328, -9.4788e-007, 0.96552, -0.260328, -9.4788e-007
+3181, 9.37969, -8.64646, -8.75578, 19, 246, 25, 200, 3, 1, 0.779557, 0.626332, -9.28666e-007, 0.779557, 0.626332, -9.28666e-007
+3181, 5.2949, -7.9573, -8.7749, 19, 246, 25, 200, 3, 1, 0.996751, 0.0805435, -3.10324e-007, 0.996751, 0.0805435, -3.10324e-007
+3181, 10.3801, 9.48765, -3.60953, 64, 240, 205, 200, 0, "coronastar", "shad_exp", 100, 15, 0, 0, 40, 1, 0, 0, 4
+3181, 5.81615, -5.0119, -3.60953, 149, 201, 184, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3181, 13.1304, -4.07715, -9.18964, 149, 201, 184, 200, 3, 3, -0.2661, -0.963945, -6.25874e-007, -0.2661, -0.963945, -6.25874e-007
+3186, -28.0352, -73.2734, 2.24832, 227, 18, 229, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3186, -26.0681, -57.1148, 2.24832, 227, 18, 229, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3186, -24.8615, -34.7374, 2.24832, 137, 18, 229, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3186, -20.1747, -5.82233, 2.2323, 18, 53, 229, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3186, -7.23584, 35.8136, 2.2323, 229, 117, 18, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3186, -27.7003, -7.64685, 0.862008, 229, 117, 18, 200, 3, 3, -0.0994932, 0.995038, 0, -0.0994932, 0.995038, 0
+3186, -29.7805, -29.8906, 1.71935, 229, 117, 18, 200, 3, 3, -0.561495, -0.82748, 0, -0.561495, -0.82748, 0
+3187, 15.7724, 35.5728, 2.49728, 19, 137, 246, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+3187, 17.0117, 52.2809, 2.49728, 246, 19, 19, 200, 0, "coronastar", "shad_exp", 100, 20, 0, 0, 40, 1, 0, 0, 4
+end

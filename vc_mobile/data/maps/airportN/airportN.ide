@@ -1,0 +1,111 @@
+objs
+1075, ap_terminalB1, airporterminal, 1, 290, 0
+1076, ap_termbbase1, ap_build1, 1, 299, 0
+1077, ap_carbush2_01, generic, 1, 299, 4
+1078, ap_carparkterm1, apcarparkN, 1, 299, 0
+1079, ap_smallradar1_02, nairport, 1, 299, 4
+1080, mc_shed1, mcompounda1, 1, 299, 0
+1081, mc_tower_01, mcompounda1, 1, 90, 0
+1082, mc_hangar1, mcompounda1, 1, 100, 0
+1083, mc_largebuild, mcompounda1, 1, 299, 0
+1084, mc_wall, mcompounda1, 1, 299, 0
+1085, mc_fence1, mcompounda1, 1, 299, 4
+1086, mc_fence3, mcompounda1, 1, 299, 4
+1087, mc_fence2, mcompounda1, 1, 299, 4
+1088, mc_fencshad, mcompounda1, 1, 299, 4
+1089, ap_smallhangars1_02, nairport, 1, 290, 4
+1090, mc_shed04, mcompounda1, 1, 299, 0
+1091, mc_assaultcourse1, mcompounda1, 1, 299, 0
+1092, mc_assaultcourse2, mcompounda1, 1, 299, 0
+1093, mc_dirtjump1, mcompounda1, 1, 299, 0
+1094, ap_rland10, apgroundN, 1, 299, 0
+1095, ap_rlandnew9, ap_francisland, 1, 299, 0
+1096, mc_ground3, ap_francisland, 1, 299, 0
+1097, mc_ground1, ap_francisland, 1, 299, 0
+1098, mc_ground5, ap_francisland, 1, 299, 0
+1099, ap_roadsect4, aproadsN, 1, 299, 0
+1100, ap_roadsect3, aproadsN, 1, 299, 0
+1101, ap_roadsect5, aproadsN, 1, 299, 0
+1102, mc_ground4, ap_francisland, 1, 299, 0
+1103, ap_wallfence4, aproadsN, 1, 299, 4
+1104, ap_wallfence3, aproadsN, 1, 299, 4
+1105, mc_crashbar1, aproadsN, 1, 299, 0
+1106, mc_crashbar2, aproadsN, 1, 299, 0
+1107, ap_wallfence5, aproadsN, 1, 299, 4
+1108, mc_treesfw1_01, generic, 1, 299, 4
+1109, mc_tower_02, mcompounda1, 1, 90, 0
+1110, mc_tower_03, mcompounda1, 1, 90, 0
+1111, mc_camotent1_01, militcompound3, 1, 150, 0
+1112, mc_flags1, militcompound3, 1, 150, 0
+1113, mc_flags2, militcompound3, 1, 150, 0
+1114, mc_kerb_01, apbitsN, 1, 175, 0
+1115, mc_wall2, mcompounda1, 1, 175, 0
+1116, mc_wall3, mcompounda1, 1, 175, 0
+1117, mc_overlights1, aproadsN, 1, 299, 0
+1118, mc_overlights2, aproadsN, 1, 299, 0
+1119, ap_jumbo_BRIDGE, apJumboN, 1, 150, 4
+1120, mc_kerb_02, apbitsN, 1, 175, 0
+1121, mc_hangarint1, mcompounda1, 1, 95, 36
+1122, mc_camotent1_04, militcompound3, 1, 150, 0
+1123, mc_camotent1_05, militcompound3, 1, 150, 0
+1124, ap_hangar1_03, nairport, 1, 190, 4
+1125, ap_smallhangars1_03, nairport, 1, 290, 4
+1126, ap_billboards2, ap_billboard, 1, 150, 0
+1127, ap_billboards1, ap_billboard, 1, 150, 0
+1128, ap_billboards3, ap_billboard, 1, 150, 0
+1129, ap_billboards4, ap_billboard, 1, 150, 0
+1130, ap_billboards5, ap_billboard, 1, 150, 0
+1131, ap_barriergate3, apchecpointN, 1, 150, 4
+1132, LODcarparkterm1, LODairpN, 1, 1700, 0
+1133, LODsmallhangars1_02, LODairpN, 1, 700, 0
+1134, LODtower_01, LODairpN, 1, 1000, 0
+1135, LODrland10, LODairpN, 1, 1700, 0
+1136, LODrlandnew9, LODairpN, 1, 1700, 0
+1137, LODground4, LODairpN, 1, 1700, 0
+1138, LODground2, LODairpN, 1, 1700, 0
+1139, LODground1, LODairpN, 1, 1700, 0
+1140, LODground3, LODairpN, 1, 1700, 0
+1141, LODground5, LODairpN, 1, 1700, 0
+1142, LODroadsect4, LODairpN, 1, 1500, 0
+1143, LODroadsect5, LODairpN, 1, 1500, 0
+1144, LODroadsect3, LODairpN, 1, 1500, 0
+1145, LODtower_02, LODairpN, 1, 1000, 0
+1146, LODtower_03, LODairpN, 1, 1000, 0
+1147, LODsmallhangars1_03, LODairpN, 1, 700, 0
+1148, LODsmallradar1_02, LODairpN, 1, 700, 0
+1149, LODlargebuild, LODairpN, 1, 1000, 0
+1150, ap_stairsout1, nairport, 1, 175, 4
+1151, ap_stairsout02, nairport, 1, 175, 4
+1152, ap_stairsout03, nairport, 1, 175, 4
+1153, LODhangar1, LODairpN, 1, 700, 0
+1154, LODbillboards1, LODairpN, 1, 700, 0
+1155, mc_ground2, ap_francisland, 1, 299, 0
+1156, LODterminalB1, LODairpN, 1, 1500, 0
+1157, LODwall3, LODairpN, 1, 700, 0
+1158, LODwall2, LODairpN, 1, 700, 0
+1159, LODbillboards5, LODairpN, 1, 700, 0
+1160, LODbillboards4, LODairpN, 1, 700, 0
+1161, LODbillboards3, LODairpN, 1, 700, 0
+1162, LODbillboards2, LODairpN, 1, 700, 0
+1163, mc_treesfw2_01, generic, 1, 299, 4
+1164, mc_treesfw3_01, generic, 1, 299, 4
+1165, mc_barrackshad, mcompounda1, 1, 200, 4
+1166, ap_roadsect3b, aproadsN, 1, 299, 0
+1167, ap_3dbillb, airsignn, 1, 299, 0
+1168, mb_ammobox1, mcompounda1, 1, 299, 0
+1169, mb_ammobox2, mcompounda1, 1, 299, 0
+1170, mb_ammobox3, mcompounda1, 1, 299, 0
+1171, ap_stepsn1_01, airstuff2, 1, 200, 0
+1172, ap_stepsn1_02, airstuff2, 1, 200, 0
+1173, LODwall, LODairpN, 1, 700, 0
+end
+tobj
+end
+path
+end
+2dfx
+1121, -11.3442, 8.58665, 0.848253, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 18, 1, 8, 40, 0, 0, 0, 0
+1121, 11.5034, 8.58665, 0.848253, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 18, 1, 8, 40, 0, 0, 0, 0
+1121, -11.3442, -8.01669, 0.848253, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 18, 1, 8, 40, 0, 0, 0, 0
+1121, 11.5034, -8.01669, 0.848253, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 18, 1, 8, 40, 0, 0, 0, 0
+end

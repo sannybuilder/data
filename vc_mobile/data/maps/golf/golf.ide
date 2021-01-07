@@ -1,0 +1,118 @@
+objs
+2085, gf_tree1_01, gfpalms, 1, 100, 132
+2086, gf_tree2_02, gfpalms, 1, 100, 132
+2087, gf_smallisland1_01, golf3, 1, 200, 0
+2088, gf_flagstees3, gfflag, 1, 100, 128
+2089, gf_flagstees4, gfflag, 1, 150, 128
+2090, gf_mainisl5_01, golf3, 1, 200, 0
+2091, gf_tennisfence, gfflag, 1, 100, 132
+2092, gf_northisland1, golf3, 1, 200, 0
+2093, gf_northbridge1, gf_northbridge, 1, 100, 0
+2094, gf_planters2, generic, 1, 100, 128
+2095, gf_ivy_balcny_01, generic, 1, 100, 128
+2096, gf_ivy_balcny_07, generic, 1, 100, 128
+2097, gf_smallislebridge1, golf3, 1, 100, 0
+2098, gf_flagstees2, gfflag, 1, 100, 128
+2099, gf_flagstees1, gfflag, 1, 100, 128
+2100, gf_drivingrange1, gfnorthisland3, 1, 100, 128
+2101, gf_drdivide1_01, gfnorthisland3, 1, 100, 132
+2102, gf_hedge1_01, gf_hedge1, 1, 100, 4
+2103, gf_hedge2_01, gf_hedge1, 1, 100, 4
+2104, gf_hedge3_01, gf_hedge1, 1, 100, 4
+2105, gf_hedge5_01, gf_hedge1, 1, 100, 4
+2106, gf_northisland2, golf3, 1, 200, 0
+2107, gf_mainisland3a_01, golf3, 1, 200, 0
+2108, gf_mainisland2a_01, golf3, 1, 200, 0
+2109, gf_mainisland1a_01, golf3, 1, 200, 0
+2110, gf_mainisl2b_01, golf3, 1, 200, 0
+2111, gf_mainisland1b_01, golf3, 1, 200, 0
+2112, gf_northisland3, golf3, 1, 200, 0
+2113, gf_mainisland6b_01, golf3, 1, 200, 0
+2114, gf_clubhouse1, golf_clubhouse1, 1, 100, 128
+2115, gf_picket1_01, golf_clubhouse2, 1, 100, 132
+2116, gf_clublight1_01, golf_clubhouse1, 1, 100, 128
+2117, gf_stadlight1_02, golf_clubhouse2, 1, 100, 132
+2118, gf_planters4, generic, 1, 100, 128
+2119, LODnorthisland1, gf_LOD, 1, 1000, 384
+2120, LODnorthisland2, gf_LOD, 1, 1000, 384
+2121, gf_treesfw1_01, generic, 1, 750, 388
+2122, gf_treesfw2_01, generic, 1, 750, 388
+2123, gf_treesfw3_01, generic, 1, 750, 388
+2124, gf_treesfw4_01, generic, 1, 750, 388
+2125, gf_treesfw5_01, generic, 1, 750, 388
+2126, LODsmallisland1_01, gf_LOD, 1, 1000, 384
+2127, LODnorthisland3, gf_LOD, 1, 1000, 384
+2128, gf_mainisland6a_01, golf3, 1, 200, 0
+2129, LODclubhouse1, gf_LOD, 1, 700, 384
+2130, LODdrivingrange1, gf_LOD, 1, 600, 384
+2131, LODnorthbridge1, gf_LOD, 1, 700, 384
+2132, LODwoodbridge1, gf_LOD, 1, 600, 384
+2133, LODsmallislebridge1, gf_LOD, 1, 700, 384
+2134, gf_mainisl4_01, golf3, 1, 200, 0
+2135, gf_water01, gfwater, 1, 200, 132
+2136, gf_water02, gfwater, 1, 200, 132
+2137, gf_water03, gfwater, 1, 200, 132
+2138, nt_security1, golf_clubhouse1, 1, 100, 128
+2139, gf_pedbridge3, golf_bridge, 1, 200, 0
+2140, LODpedbridge3, gf_LOD, 1, 700, 384
+2141, nt_roadblockGF, gf_roadblock, 1, 145, 128
+2142, golfroad5, golf3, 1, 200, 0
+2143, golfroad3, golf3, 1, 200, 0
+2144, golfroad4, golf3, 1, 200, 0
+2145, golfroad1, golf3, 1, 200, 0
+2146, golfroad7, golf3, 1, 200, 0
+2147, golfroad2, golf3, 1, 200, 0
+2148, LODmainisl2b_01, gf_LOD, 1, 1000, 384
+2149, LODmainisland3a_01, gf_LOD, 1, 1000, 384
+2150, LODmainisland3b_01, gf_LOD, 1, 1000, 384
+2151, LODmainisland1a_01, gf_LOD, 1, 1000, 384
+2152, LODmainisl4_01, gf_LOD, 1, 1000, 384
+2153, LODmainisland1b_01, gf_LOD, 1, 1000, 384
+2154, LODmainisland6a_01, gf_LOD, 1, 1000, 384
+2155, LODmainisland6b_01, gf_LOD, 1, 1000, 384
+2156, LODmainisl5_01, gf_LOD, 1, 1000, 384
+2157, LODmainisland2a_01, gf_LOD, 1, 1000, 384
+2158, LODfroad2, gf_LOD, 1, 1000, 384
+2159, LODfroad1, gf_LOD, 1, 1000, 384
+2160, LODfroad4, gf_LOD, 1, 1000, 384
+2161, LODfroad3, gf_LOD, 1, 1000, 384
+2162, LODfroad5, gf_LOD, 1, 1000, 384
+2163, nbt_road12_gf, generic, 1, 164, 0
+2164, gf_rollerjump, golf_clubhouse1, 1, 100, 128
+2165, gf_mainisland3b_01, golf3, 1, 200, 0
+2166, gf_golfwall, gf_hedge1, 1, 100, 4
+2167, golf_gatesclosed, gf_hedge1, 1, 100, 4
+2168, golf_gatesopen, gf_hedge1, 1, 100, 4
+2169, LODcland13_gf, gf_LOD, 1, 1000, 384
+2170, LOD_road12_gf, gf_LOD, 1, 1000, 384
+2171, gf_northisland1b, golf3, 1, 200, 0
+2172, gf_northisland1c, golf3, 1, 200, 0
+2173, gf_mainisland1m_01, golf3, 1, 200, 0
+2174, gf_mainisland6n_01, golf3, 1, 200, 0
+2175, gf_woodbridge1_01, golf3, 1, 100, 0
+2176, gf_hedge6_01, gf_hedge1, 1, 100, 4
+2177, gf_hedge4_01, gf_hedge1, 1, 100, 4
+2178, nbecland13_gf, gf_nbtecland, 1, 164, 256
+2179, gf_signPlane01, gf_roadblock, 1, 100, 128
+2180, LODgolfwall, gf_LOD, 1, 700, 384
+2181, gf_flagstees42, gfflag, 1, 150, 128
+2183, gf_flagstees43, gfflag, 1, 150, 128
+end
+tobj
+end
+path
+end
+2dfx
+2116, 7.09363, 1.46948, 0.347105, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 2000, 9, 0.7, 8, 40, 1, 0, 0, 2
+2116, 6.39019, 3.96648, 0.347105, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 9, 0.7, 8, 40, 1, 0, 0, 2
+2116, -7.18261, -1.73297, 0.347105, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 9, 0.7, 8, 40, 1, 0, 0, 2
+2116, -6.05356, -3.89757, 0.347105, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 9, 0.7, 8, 40, 1, 0, 0, 2
+2117, -1.17738, -0.184734, 3.37025, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 2000, 36, 2, 8, 40, 1, 0, 0, 2
+2117, -25.1062, -30.7845, 3.37025, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 299, 36, 2, 8, 40, 1, 0, 0, 2
+2117, -83.4874, 14.9283, 3.37025, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 299, 36, 2, 8, 40, 1, 0, 0, 2
+2117, -59.4845, 45.9335, 3.37025, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 299, 36, 2, 8, 40, 1, 0, 0, 2
+2141, -4.38837, -2.6552, -0.104612, 255, 65, 28, 200, 0, "coronastar", "shad_exp", 100, 12, 0.6, 0, 40, 6, 0, 0, 3
+2141, -6.02093, 0.253845, 2.64441, 255, 65, 28, 200, 0, "coronastar", "shad_exp", 100, 12, 0.6, 0, 40, 6, 0, 0, 3
+2141, -5.11311, 0.440796, -0.161623, 255, 246, 173, 200, 0, "coronastar", "shad_exp", 100, 12, 0.6, 0, 40, 6, 0, 0, 3
+2141, -5.46106, -2.60533, 2.71372, 255, 246, 173, 200, 0, "coronastar", "shad_exp", 100, 12, 0.6, 0, 40, 6, 0, 0, 3
+end

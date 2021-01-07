@@ -1,0 +1,80 @@
+objs
+4590, hot_room317, hotelroomint, 1, 30, 32
+4591, hot_drawers1_01, hotelroomint, 1, 30, 32
+4592, hot_bar1_01, hotelroomint, 1, 30, 32
+4593, nt_wassily1_02, hotelroomint, 1, 30, 32
+4594, nt_couch_1, hotelroomint, 1, 30, 32
+4595, nt_bed1_01, hotelroomint, 1, 30, 32
+4596, hot_trans1, hot_roomtrans, 1, 30, 36
+4597, hot_mags1, hotelroomint, 1, 30, 32
+4598, mob_door2, hot_roomtrans, 1, 30, 36
+4599, mob_mobroom2, hot_mobint, 1, 30, 32
+4600, mob_door3, hot_mobint, 1, 30, 32
+4601, mob_detailsb, hot_mobint, 1, 30, 32
+4615, ht_veg02_dy, generic, 1, 30, 36
+4620, ht_upstairs, hi_cutint1, 1, 30, 32
+4630, hotshad1, hi_cuthoomintshad, 1, 30, 100
+4631, hotroomfan, hi_cuthoomintshad, 1, 30, 100
+4632, trophy1, hotelroomint2, 1, 30, 32
+4633, pornposters, hotelroomint2, 1, 30, 32
+4634, moneybag, hotelroomint2, 1, 30, 32
+4635, sutibag, hotelroomint2, 1, 30, 32
+4636, mask, hotelroomint2, 1, 30, 32
+4637, coke_voodoo, hotelroomint2, 1, 30, 32
+4638, boomshine, hotelroomint2, 1, 30, 32
+4639, ht_doors, htdoorhtlalp, 1, 55, 4
+4641, htl_gls_lobby, hi_cuthtlalp, 1, 30, 1060
+end
+tobj
+4602, ht_veg04_nt, generic, 1, 30, 36, 18, 6
+4603, ht_veg02_nt, generic, 1, 30, 36, 18, 6
+4604, ht_veg01_nt, generic, 1, 30, 36, 18, 6
+4605, ht_fans_nt, hi_cutintprops, 1, 30, 32, 18, 6
+4606, ht_kb_couch1_nt, hi_cutcouch, 1, 30, 32, 18, 6
+4607, htl_maintiles_nt, hi_cuthtlalp, 1, 30, 36, 18, 6
+4608, htl_lftdoor1_nt, hi_cuthtl4, 1, 30, 32, 18, 6
+4609, htl_exterior03_nt, htl_ext03, 1, 100, 32, 18, 6
+4610, ht_mainfloor2_nt, hi_cuthtl2, 1, 30, 32, 18, 6
+4611, htl_gls_3_nt, hi_cuthtlalp, 1, 30, 1060, 18, 6
+4612, htl_gls_1_nt, hi_cuthtlalp, 1, 30, 1060, 18, 6
+4613, htl_gls_2_nt, hi_cuthtlalp, 1, 30, 1060, 18, 6
+4614, ht_veg04_dy, generic, 1, 30, 36, 6, 18
+4616, ht_veg01_dy, generic, 1, 30, 36, 6, 18
+4617, ht_fans_dy, hi_cutintprops, 1, 30, 32, 6, 18
+4618, ht_kb_couch1_dy, hi_cutcouch, 1, 30, 32, 6, 18
+4619, ht_mainfloor_dy, hi_cuthtl2, 1, 30, 164, 6, 18
+4621, htl_maintiles_dy, hi_cuthtlalp, 1, 30, 36, 6, 18
+4622, htl_lftdoor1_dy, hi_cuthtl4, 1, 30, 32, 6, 18
+4623, htl_exterior03_dy, htl_ext03, 1, 100, 32, 6, 18
+4624, ht_mainfloor2_dy, hi_cuthtl2, 1, 30, 32, 6, 18
+4625, htl_gls_3_dy, hi_cuthtlalp, 1, 30, 1060, 6, 18
+4626, htl_gls_1_dy, hi_cuthtlalp, 1, 30, 1060, 6, 18
+4627, htl_gls_2_dy, hi_cuthtlalp, 1, 30, 1060, 6, 18
+4628, htl_dco_chair03_dy, hi_cuthotel1, 1, 20, 32, 6, 20
+4629, htl_dco_chair03_nt, hi_cuthotel1, 1, 20, 32, 20, 6
+4640, ht_mainfloor_nt, hi_cuthtl2, 1, 30, 160, 18, 6
+end
+path
+end
+2dfx
+4599, 0.360886, -8.76843, 1.31627, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 1, 0, 0, 40, 0, 0, 0, 0
+4601, 0.28006, 1.3551, 0.852808, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 2.5, 0, 0, 40, 0, 0, 0, 0
+4601, 0.197983, 1.39709, 1.05475, 60, 60, 60, 200, 0, "coronastar", "shad_exp", 100, 0, 0.3, 0, 40, 1, 0, 0, 0
+4605, -7.10834, 2.41089, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, -8.18163, -1.90137, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, -9.56656, -7.7373, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 4.89046, -10.0201, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 6.09804, -5.20911, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 7.06099, -1.20386, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 8.34315, 3.66626, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 9.7282, 9.60742, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 1.62254, 12.0649, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, -5.04907, 11.217, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, -6.15192, 6.72058, 1.73409, 80, 62, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 1.27704, 4.75195, 2.02389, 30, 48, 80, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 2.98268, 4.43518, 2.02389, 80, 30, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 4.61693, 4.04932, 2.02389, 30, 53, 80, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, 6.17986, 3.66394, 2.02389, 38, 80, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4605, -0.218704, 5.1908, 2.02389, 30, 80, 30, 200, 0, "coronastar", "shad_exp", 100, 0, 1, 0, 40, 0, 0, 0, 0
+4630, 5.11148, -0.685303, 1.43729, 255, 255, 255, 200, 0, "coronastar", "shad_exp", 100, 14, 0, 0, 40, 0, 0, 0, 0
+end

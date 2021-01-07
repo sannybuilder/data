@@ -1,0 +1,182 @@
+objs
+2190, ci_islandwest, ci_studionew1, 1, 200, 0
+2191, ci_studiowall, ci_studionew1, 1, 200, 0
+2192, ci_astage, ci_studio2, 1, 120, 128
+2193, ci_mansionwall1, ci_island1, 1, 200, 128
+2194, ci_watertank, ci_studio5, 1, 90, 128
+2195, ci_screening, ci_studio6, 1, 90, 128
+2196, ci_screeningstairs, ci_studio6, 1, 90, 128
+2197, ci_offices, ci_studio6, 1, 90, 128
+2198, ci_gateway, ci_island1, 1, 200, 128
+2199, ci_backdrop, ci_island1, 1, 90, 128
+2200, ci_industrial1, ci_industrial, 1, 199, 0
+2201, ci_screening2, ci_studio6, 1, 90, 128
+2202, ci_kerb1, ci_studionew1, 1, 90, 128
+2203, ci_fence2, ci_island1, 1, 90, 128
+2204, ci_trees1, generic, 1, 200, 132
+2205, ci_planter2, generic, 1, 55, 132
+2206, ci_planter1, generic, 1, 55, 132
+2207, ci_backgateopen, ci_studio4, 1, 90, 128
+2208, ci_trees02, generic, 1, 200, 132
+2209, ci_islandeast, ci_studionew1, 1, 200, 0
+2210, ci_busht_02, generic, 1, 80, 132
+2211, ci_trees03, generic, 1, 200, 132
+2212, ci_busht_04, generic, 1, 80, 132
+2213, ci_busht_06, generic, 1, 80, 132
+2214, ci_islandnorth, ci_studionew1, 1, 200, 0
+2215, ci_graf_mansion3, ci_mansion1, 1, 45, 132
+2216, ci_graf_mansion1, ci_mansion1, 1, 45, 132
+2217, ci_posters, ci_posters, 1, 90, 132
+2218, ci_studwallgraf, ci_mansion1, 1, 90, 132
+2219, ci_busht_08, generic, 1, 150, 132
+2220, ci_graf_fountain, ci_mansion1, 1, 35, 132
+2221, ci_boards1, ci_mansion2, 1, 45, 128
+2222, ci_boards2, ci_mansion2, 1, 45, 128
+2223, ci_trees04, generic, 1, 90, 132
+2224, ci_manscourt, ci_island3, 1, 45, 132
+2225, ci_poolhouse, ci_island3, 1, 45, 132
+2226, ci_poolwall1, ci_island3, 1, 45, 132
+2227, ci_poolsteps, ci_island3, 1, 45, 132
+2228, ci_busht_11, generic, 1, 80, 132
+2229, ci_trees05, generic, 1, 200, 132
+2230, ci_jawsramp1, ci_studio3, 1, 45, 128
+2231, ci_backlot3, ci_backlot, 1, 150, 128
+2232, ci_backlot2, ci_backlot, 1, 150, 128
+2233, ci_backlot1, ci_backlot, 1, 150, 128
+2234, ci_backlotprops3, ci_pornset, 1, 150, 128
+2235, ci_backlotprops2, ci_pornset, 1, 150, 128
+2236, ci_backlotprops1, ci_pornset, 1, 150, 128
+2237, ci_dstageext, ci_studio3, 1, 90, 128
+2241, ci_dirtcorn3, ci_dirtcorn, 1, 90, 132
+2242, ci_dirtcorn4, ci_dirtcorn, 1, 90, 132
+2243, ci_dirtcorn1, ci_dirtcorn, 1, 90, 132
+2244, ci_mans1rail, ci_mansrails, 1, 45, 132
+2245, LODislandwest, ci_LOD, 1, 900, 384
+2246, LODislandeast, ci_LOD, 1, 900, 384
+2247, LODscreening, ci_LOD, 1, 680, 384
+2248, LODislandnorth, ci_LOD, 1, 900, 384
+2249, LODcstage, ci_LOD, 1, 680, 384
+2250, LODdstageext, ci_LOD, 1, 680, 384
+2251, LODstudiowall, ci_LOD, 1, 900, 384
+2252, LODbacklot1, ci_LOD, 1, 720, 384
+2253, LODbstage, ci_LOD, 1, 680, 384
+2254, LODmansion1, ci_LOD, 1, 680, 384
+2255, LODmansion3, ci_LOD, 1, 680, 384
+2256, LODoffices, ci_LOD, 1, 680, 384
+2257, LODscreening2, ci_LOD, 1, 680, 384
+2258, ci_mans2rail1, ci_mansrails, 1, 45, 132
+2259, ci_mansion3ballust, ci_ballust, 1, 45, 132
+2260, LODmansion2, ci_LOD, 1, 680, 384
+2261, ci_dirtcorn2, ci_dirtcorn, 1, 90, 132
+2262, ci_mans1grafint, ci_mansionint1, 1, 45, 164
+2263, ci_mans1int, ci_mansionint1, 1, 45, 160
+2264, ci_mans1stair1, ci_mansionint1, 1, 45, 160
+2265, ci_mans1grndfl, ci_mansionint1, 1, 45, 160
+2266, ci_mans1istfl, ci_mansionint1, 1, 45, 160
+2267, ci_mans1stair2, ci_mansionint1, 1, 45, 160
+2268, ci_mans1rail1, ci_mansionint1, 1, 45, 164
+2269, ci_mans1roof, ci_mansionint1, 1, 45, 160
+2270, ci_officewindows, ci_studio6, 1, 90, 132
+2271, ci_dstage, ci_studio3, 1, 100, 160
+2272, ci_pornobed, ci_pornset, 1, 20, 160
+2273, ci_pornocarpet, ci_pornset, 1, 45, 160
+2274, ci_flatprop02, ci_pornset, 1, 45, 160
+2275, ci_camera1_01, ci_filmstuff1, 1, 45, 160
+2276, ci_dstageshad, ci_shadcay, 1, 45, 164
+2277, ci_pornset1, ci_pornset, 1, 45, 160
+2278, ci_flatprop01, ci_pornset, 1, 45, 160
+2279, ci_table1_01, ci_setstuff1, 1, 45, 160
+2280, ci_setshad1, ci_setstuff2, 1, 100, 164
+2281, ci_notice03, ci_filmstuff1, 1, 45, 128
+2282, ci_lights1_01, ci_setstuff1, 1, 45, 160
+2283, ci_dstudiogantry, ci_setstuff1, 1, 35, 164
+2284, ci_dstudlights, ci_setstuff1, 1, 35, 164
+2285, ci_lights1_02, ci_setstuff1, 1, 45, 160
+2286, ci_dstudganwal, ci_setstuff1, 1, 35, 164
+2287, ci_cstage, ci_studio2, 1, 90, 128
+2288, ci_cstageint, ci_setstuff1, 1, 100, 160
+2289, ci_Acyclorama, ci_island1, 1, 35, 160
+2290, ci_shipset, ci_setstuff4, 1, 70, 160
+2291, ci_alights1_01, ci_setstuff1, 1, 45, 160
+2292, ci_astudlights, ci_setstuff1, 1, 35, 160
+2293, ci_astudganwal, ci_setstuff1, 1, 35, 164
+2294, ci_astagelights, ci_setstuff4, 1, 35, 164
+2295, nt_ladder_01, ci_setstuff4, 1, 35, 160
+2296, nt_ladder_02, ci_setstuff4, 1, 35, 160
+2297, ci_astageint, ci_studio2, 1, 90, 160
+2298, ci_Asteps, ci_setstuff4, 1, 35, 160
+2299, ci_astudiogantry, ci_setstuff1, 1, 35, 160
+2300, ci_extertank, ci_island1, 1, 90, 128
+2301, ci_bcyclorama1, ci_island1, 1, 35, 160
+2302, ci_blights1_01, ci_setstuff1, 1, 45, 160
+2303, ci_bstudiogantry, ci_setstuff1, 1, 35, 164
+2304, ci_bstudlights, ci_setstuff1, 1, 35, 164
+2305, ci_bstudganwal, ci_setstuff1, 1, 35, 164
+2306, ci_bstage, ci_studio2, 1, 90, 128
+2307, ci_bstageint, ci_island1, 1, 100, 160
+2308, ci_moonsurface, ci_island1, 1, 100, 128
+2309, ci_spaceflag, ci_island1, 1, 35, 164
+2310, ci_lander, ci_island1, 1, 35, 160
+2311, ci_windmach, ci_studio5, 1, 90, 128
+2312, ci_guardhouse1, ci_island1, 1, 90, 132
+2313, LODextertank, ci_LOD, 1, 900, 384
+2314, ci_fountain, ci_mansion1, 1, 90, 128
+2315, props_group1, ci_studio5, 1, 90, 132
+2316, prop_group3, ci_studio5, 1, 90, 128
+2317, prop_group2, ci_studio5, 1, 90, 128
+2318, ci_manintstuff, ci_mansion1, 1, 15, 132
+2319, ci_gatesopen, ci_studio4, 1, 90, 132
+2320, ci_gatesclosed, ci_studio4, 1, 90, 132
+2321, ci_backgateclose, ci_studio4, 1, 90, 128
+2322, LODindustrial1, ci_LOD, 1, 720, 384
+2323, ci_mansion1, ci_mansion1, 1, 140, 128
+2324, ci_mansion2, ci_mansion1, 1, 140, 128
+2325, ci_mansion3, ci_mansion1, 1, 140, 128
+2326, ci_seajetty, ci_studio2, 1, 90, 128
+2327, ci_jetygatesopen, ci_studio4, 1, 90, 132
+2328, ci_jetygatesclosed, ci_studio4, 1, 90, 132
+2329, LODwatertank, ci_LOD, 1, 680, 384
+2330, LODastage, ci_LOD, 1, 720, 384
+2331, ci_palettes, ci_mansion1, 1, 15, 132
+2332, ci_gobo1, ci_setstuff1, 1, 45, 164
+2333, ci_pornsetxtra, ci_pornset, 1, 20, 160
+2334, ci_stairsout01, ci_studionew1, 1, 200, 4
+2335, ci_rdsigns, ci_island1, 1, 90, 128
+2336, ci_rdsigns01, ci_island1, 1, 75, 128
+2337, ci_tankship, ci_studio5, 1, 90, 128
+2338, ci_redhead1_01, ci_redhead, 1, 90, 128
+2339, ci_clightdesk, ci_setstuff1, 1, 45, 160
+2340, ci_windmach2, ci_studio5, 1, 90, 132
+2341, LODbstageint, ci_LOD, 1, 400, 384
+2342, LODcstageint, ci_LOD, 1, 400, 384
+2343, LODastageint, ci_LOD, 1, 400, 384
+end
+tobj
+2238, ci_dstagelight, ci_shadnit, 1, 45, 132, 21, 5
+2239, ci_astagelight1, ci_shadnit, 1, 90, 132, 21, 5
+2240, ci_astagelight2, ci_shadnit, 1, 90, 132, 21, 5
+end
+path
+end
+2dfx
+2284, 6.41088, -4.49015, -0.334711, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 33, 9, 1, 8, 40, 0, 0, 1, 0
+2284, -0.304711, 4.84282, -0.334711, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2284, -1.6215, 2.6286, 1.09081, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2284, -4.30968, -1.32753, 1.09081, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2284, -9.26916, -10.2914, -0.334711, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2284, -7.36873, -1.12931, -2.41735, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 9, 1, 8, 40, 0, 0, 0, 0
+2284, 4.14341, -12.3676, -2.41735, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 9, 1, 8, 40, 0, 0, 0, 0
+2291, -0.624496, -0.025653, 1.53221, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2292, -0.393898, 6.47101, -0.121961, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2292, -0.393898, -1.99774, -0.121961, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 3
+2292, -0.495583, -6.65186, -0.121961, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2296, -5.3838, -2.1178, -1.93218, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2296, -5.21666, -11.4895, 0.9155, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2302, -0.893605, -0.0645876, 1.4995, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2304, 0.86515, -16.0966, -0.321051, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2304, -3.48477, -14.751, -0.321051, 255, 255, 238, 200, 0, "coronastar", "shad_exp", 35, 18, 1, 8, 40, 0, 0, 0, 0
+2314, -0.164546, 2.86462, -1.36819, 177, 26, 88, 200, 1, 6, 8.25081e-005, 0.00472687, 0.00162784, 0.5
+2314, 2.46537, -0.0616455, -1.36819, 177, 26, 88, 200, 1, 6, 0.00472759, 0, 0.00162784, 0.5
+2314, -2.80289, -0.0869141, -1.36819, 177, 26, 88, 200, 1, 6, -0.00472687, 8.25076e-005, 0.00162784, 0.5
+2314, -0.0273533, -2.99707, -1.36819, 177, 26, 88, 200, 1, 6, -4.12554e-005, -0.00472741, 0.00162784, 0.5
+end

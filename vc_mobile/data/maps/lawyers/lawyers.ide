@@ -1,0 +1,26 @@
+objs
+4780, lw_room_main, hi_cutlaw2, 1, 100, 32
+4781, lw_lights, hi_cutlaw1, 1, 100, 36
+4782, lw_palm1, generic, 1, 100, 36
+4783, lw_floor_opac, hi_cutlaw1, 1, 100, 36
+4784, lw_rug, hi_cutlaw1, 1, 100, 32
+4785, lw_shado, hi_cutlawshad, 1, 100, 36
+4786, lw_officedesk01, hi_cutlaw1, 1, 100, 32
+4787, lawcutmapb, lawcutext, 1, 140, 0
+4788, lawcutmapc, lawcutext, 1, 140, 0
+4789, lawcutmapa, lawcutext, 1, 140, 0
+4790, lw_roombitsb, hi_cutlaw3, 1, 100, 36
+4791, fixedbects06, hi_cutlaw1, 1, 7, 32
+4792, lw_roombitsc, hi_cutlaw3b, 1, 100, 36
+4793, lw_roombitsbb, hi_cutlaw3c, 1, 100, 36
+end
+tobj
+end
+path
+end
+2dfx
+4780, -2.52195, 2.5576, 2.06855, 208, 200, 178, 200, 0, "coronastar", "shad_exp", 100, 2, 0.3, 0, 40, 0, 0, 0, 0
+4780, 2.09849, -0.547936, 2.06855, 208, 200, 178, 200, 0, "coronastar", "shad_exp", 100, 2, 0.3, 0, 40, 0, 0, 0, 0
+4780, 2.10084, 2.05608, 2.06855, 208, 200, 178, 200, 0, "coronastar", "shad_exp", 100, 2, 0.3, 0, 40, 0, 0, 0, 0
+4790, -2.22643, -3.02541, 1.39208, 208, 200, 178, 200, 0, "coronastar", "shad_exp", 100, 1.5, 0.3, 0, 40, 0, 0, 0, 0
+end

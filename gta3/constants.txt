@@ -1,4 +1,6 @@
+const
 false=0
 true=1
 TIMERA=16@
 TIMERB=17@
+end
