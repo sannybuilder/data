@@ -2097,7 +2097,7 @@
 0EC3: set_string_lower 1@
 0EC4: string_find 1@ 2@ 3@ store_to 4@
 0EC5: cut_string_at 1@ 2@
-0EC6: is_string_character_at 1@ 2@
+0EC6: is_string_character_at 1@ 2@ 3@
 0EC7: get_fade_alpha 1@
 0EC8: get_char_random_seed 1@ store_to 2@
 0EC9: get_car_random_seed 1@ store_to 2@
