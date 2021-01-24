@@ -107,7 +107,7 @@
         <text format="vc">@sb:\data\vcs\ps2\english.gxt</text>
         <examples>@sb:\data\vcs\ps2\opcodes.txt</examples>
     </mode>
-    <mode extends="vc" id="vc_mobile" title="VC Mobile" game="vc" type="">
+    <mode extends="vc" id="vc_mobile" title="VC Mobile" game="vc_mobile" type="">
         <data>@sb:\data\vc_mobile\</data>
         <opcodes>@sb:\data\vc_mobile\VCSCM.ini</opcodes>
         <examples>@sb:\data\vc_mobile\opcodes.txt</examples>
