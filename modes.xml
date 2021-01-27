@@ -35,17 +35,6 @@
         <copy-directory type="scm">@game:\data</copy-directory>
         <copy-directory type="cleo">@game:\CLEO</copy-directory>
     </mode>
-    <mode extends="vc" id="vc_mobile" title="VC Mobile" game="vc" type="">
-        <data>@sb:\data\vc_mobile\</data>
-        <opcodes>@sb:\data\vc_mobile\VCSCM.ini</opcodes>
-        <examples>@sb:\data\vc_mobile\opcodes.txt</examples>
-        <variables>@sb:\data\vc_mobile\CustomVariables.ini</variables>
-        <keywords>@sb:\data\vc_mobile\keywords.txt</keywords>
-        <templates>@sb:\data\vc_mobile\templates.txt</templates>
-        <text format="vc">@sb:\data\vc_mobile\american.gxt</text>
-        <ide>@sb:\data\vc_mobile\data\default.ide</ide>
-        <ide base="@sb:\data\vc_mobile\">@sb:\data\vc_mobile\data\gta_vc.dat</ide>
-    </mode>
     <mode id="sa" title="GTA SA v1.0" game="sa" type="default">
         <data>@sb:\data\sa\</data>
         <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
@@ -117,6 +106,17 @@
         <missions>@sb:\data\vcs\ps2\missions.txt</missions>
         <text format="vc">@sb:\data\vcs\ps2\english.gxt</text>
         <examples>@sb:\data\vcs\ps2\opcodes.txt</examples>
+    </mode>
+    <mode extends="vc" id="vc_mobile" title="VC Mobile" game="vc_mobile" type="">
+        <data>@sb:\data\vc_mobile\</data>
+        <opcodes>@sb:\data\vc_mobile\VCSCM.ini</opcodes>
+        <examples>@sb:\data\vc_mobile\opcodes.txt</examples>
+        <variables>@sb:\data\vc_mobile\CustomVariables.ini</variables>
+        <keywords>@sb:\data\vc_mobile\keywords.txt</keywords>
+        <templates>@sb:\data\vc_mobile\templates.txt</templates>
+        <text format="vc">@sb:\data\vc_mobile\american.gxt</text>
+        <ide>@sb:\data\vc_mobile\data\default.ide</ide>
+        <ide base="@sb:\data\vc_mobile\">@sb:\data\vc_mobile\data\gta_vc.dat</ide>
     </mode>
     <mode id="sa_mobile" title="SA Mobile" game="sa_mobile" type="default">
         <data>@sb:\data\sa_mobile\</data>

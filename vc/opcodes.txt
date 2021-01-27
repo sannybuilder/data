@@ -603,7 +603,7 @@
 0460: set_camera_pointing_time 0.0 1500
 0464: put_actor $2485 into_turret_on_car $2468 at_car_offset 0.4242 -0.0679 1.1322 position 3 angle 270.0 with_weapon 27
 0465: remove_actor $2493 from_turret_mode
-0466: set_car $2467 stay_in_fast_lane 0
+0466: set_car $2467 change_lane 0
 0467: set_actor $2147 clear_last_weapon_damage
 0468: set_vehicle $2467 clear_last_weapon_damage
 0469: create_actor $4118 in area -919.5 -329.8 -901.5 -351.45 unknown 0 1 0 0 0

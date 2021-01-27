@@ -611,7 +611,7 @@
 0463: useless_store_debug_camera_target_point_to $1888 $1889 $1890 
 0464: put_actor $2889 into_turret_on_car $2872 at_car_offset 0.4242 -0.0679 1.1322 position 3 angle 270.0 with_weapon 27 
 0465: remove_actor $2897 from_turret_mode 
-0466: set_car $2871 stay_in_fast_lane 0 
+0466: set_car $2871 change_lane 0 
 0467: set_actor $2548 clear_last_weapon_damage 
 0468: set_vehicle $2871 clear_last_weapon_damage 
 0469: create_actor $4519 in area -919.5 -329.8 -901.5 -351.45 unknown 0 1 0 0 0 
