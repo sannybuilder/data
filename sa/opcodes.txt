@@ -244,8 +244,8 @@
 0179:   actor $PLAYER_ACTOR colliding_with_object 73@
 017B: set_actor $PLAYER_ACTOR weapon 22 ammo_to 10
 0180: set_on_mission_flag_to $ONMISSION // Note: your missions have to use the variable defined here
-0184:   actor 35@ health >= 119
-0185:   car 73@ health >= 700
+0184:   actor 35@ health > 119
+0185:   car 73@ health > 700
 0186: $61 = create_marker_above_car $60
 0187: 39@ = create_marker_above_actor 67@
 0188: 123@(214@,5i) = create_marker_above_object 109@(214@,5i)
@@ -254,9 +254,9 @@
 018C: play_sound 1052 at 0.0 0.0 0.0
 018D: NOP 76@ 65535 2181.127 -2251.999 14.036
 018E: stop_sound 82@
-018F:   car 244@ flipped_for_2_seconds
-0190: add_car 244@ to_flipped_check // 6 max
-0191: remove_car 244@ from_flipped_check
+018F:   is_car_stuck_on_roof 244@
+0190: add_car 244@ to_upsidedown_check // 6 max
+0191: remove_car 244@ from_upsidedown_check
 01A1:   actor $PLAYER_ACTOR sphere 0 in_rectangle_cornerA 1028.2 449.6 cornerB 2@ 3@ on_foot
 01A2:   actor $PLAYER_ACTOR sphere 0 in_rectangle_cornerA 82@ 83@ cornerB 84@ 85@ in_car
 01A3:   actor $PLAYER_ACTOR sphere 0 in_rectangle_cornerA 2037.536 2365.373 cornerB 2117.177 2483.922

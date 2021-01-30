@@ -203,8 +203,8 @@
 0177: set_object $ARENA_DOOR_1 z_angle_to 90.0
 017A: set_player $PLAYER_CHAR weapon 17 ammo_to 100
 0180: set_on_mission_flag_to $ONMISSION
-0184:   actor $1020 health >= 95
-0185:   car $2816 health >= 269
+0184:   actor $1020 health > 95
+0185:   car $2816 health > 269
 0186: $2139 = create_marker_above_car $26
 0187: 5@ = create_marker_above_actor $2099
 0188: $3339 = create_marker_above_object $3335
@@ -214,9 +214,9 @@
 018C: play_sound 1 at 0.0 0.0 0.0
 018D: 6@ = create_sound 0 at -923.4324 -333.2397 14.3816
 018E: stop_sound 6@
-018F:   vehicle $3495 flipped
-0190: add_vehicle $3092 to_flipped_check
-0191: remove_vehicle $3092 from_flipped_check
+018F:   is_car_stuck_on_roof $3495
+0190: add_car $3092 to_upsidedown_check
+0191: remove_car $3092 from_upsidedown_check
 0192: set_actor $PLAYER_ACTOR objective_to_stand_still
 0193: set_actor 5@ objective_to_act_like_ped
 0194: set_actor $3517 objective_to_guard_point 388.3 -473.9 11.34
