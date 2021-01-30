@@ -184,7 +184,7 @@
 0180: set_on_mission_flag_to $ONMISSION
 0181: on_mission_for 12 flag = $FLAG_PLAYER_ON_EIGHTBALL_MISSION
 0182: contact 12 base_brief = 1000
-0185:   car $TAXI_CAR1 health >= 500
+0185:   car $TAXI_CAR1 health > 500
 0186: $FIRE_TO_EXTINGUISH_BLIP = create_marker_above_car $CAR_ON_FIRE
 0187: $INJURED_PED_1_BLIP = create_marker_above_actor $INJURED_PED_1
 0188: $BLIP1_AS4 = create_marker_above_object $PHONE_1_OBJ
@@ -193,6 +193,9 @@
 018C: play_sound 94 at 0.0 0.0 0.0
 018D: $111 = create_sound 41 at 850.75 -663.6875 15.0
 018E: stop_sound $131
+018F:   is_car_stuck_on_roof 0@
+0190: add_car 0@ to_upsidedown_check // 6 max
+0191: remove_car 0@ from_upsidedown_check
 0192: set_actor $INJURED_PED_1 objective_to_stand_still
 0193: set_actor $TAXI_PED1 objective_to_act_like_ped
 0194: set_actor $CHUNKY_MATE1 objective_to_go_to_point 976.0625 -715.25 14.1875
