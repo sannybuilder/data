@@ -18,6 +18,7 @@
         <templates>@sb:\data\gta3\templates.txt</templates>
         <text format="gta3">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
+        <library>@sb:\data\gta3\gta3.json</library>
         <copy-directory type="scm">@game:\data</copy-directory>
         <copy-directory type="cleo">@game:\CLEO</copy-directory>
     </mode>
@@ -32,6 +33,7 @@
         <templates>@sb:\data\vc\templates.txt</templates>
         <text format="vc">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
+        <library>@sb:\data\vc\vc.json</library>
         <copy-directory type="scm">@game:\data</copy-directory>
         <copy-directory type="cleo">@game:\CLEO</copy-directory>
     </mode>
@@ -51,6 +53,7 @@
         <text format="sa">@game:\text\american.gxt</text>
         <ide base="@game:\">@game:\data\default.dat</ide>
         <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
+        <library>@sb:\data\sa\sa.json</library>
         <copy-directory type="scm">@game:\data\script</copy-directory>
         <copy-directory type="cleo">@game:\CLEO</copy-directory>
     </mode>
@@ -131,6 +134,7 @@
         <templates>@sb:\data\sa_mobile\templates.txt</templates>
         <text format="sa_mobile">@sb:\data\sa_mobile\american.gxt</text>
         <ide>@sb:\data\sa_mobile\custom.dat</ide>
+        <library>@sb:\data\sa\sa.json</library>
     </mode>
 
 </modes>
