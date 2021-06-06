@@ -1,0 +1,33 @@
+0 = Editor::ShowPanel
+1 = Editor::ShowOpcodeInfo
+2 = Editor::ShowLineNumbers
+3 = Editor::ShowGutterBorder
+4 = Editor::OpenLastFile
+5 = Editor::OpenAllClosedFiles
+6 = Editor::ConfirmExit
+7 = Editor::LanguageService
+8 = Smart
+
+10 = Decompiler::OverwriteOutputFile
+11 = Engine::ShowProgress
+12 = Engine::ShowReport
+13 = Compiler::ShowIMGWarning
+14 = Decompiler::ManualIMGOpening
+15 = QuickGameLoading
+16 = Compiler::CheckConditions
+17 = Compiler::CheckLocalVariables
+18 = Decompiler::AlwaysWriteOpcodes
+19 = Decompiler::ReplaceMissionNumbers
+20 = Decompiler::InsertOriginalMissionNames
+21 = Compiler::AddExtraInfo
+
+30 = CustomNames::UseCustomLabels
+31 = CustomNames::UseCustomVariables
+32 = CustomNames::UseCustomArrays
+33 = CustomNames::CustomNamesFormat
+
+40 = Editor::IdentifiersListAuto
+41 = Editor::LookingDepth
+42 = Formats::HexadimalOffsets
+43 = Formats::LabelsFormat
+44 = Lang
