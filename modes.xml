@@ -15,7 +15,8 @@
         <keywords>@sb:\data\gta3\keywords.txt</keywords>
         <missions>@sb:\data\gta3\missions.txt</missions>
         <constants>@sb:\data\gta3\constants.txt</constants>
-        <templates>@sb:\data\gta3\templates.txt</templates>
+        <templates type="default">@sb:\data\gta3\templates.txt</templates>
+        <templates type="custom">@sb:\data\gta3\templates.custom.txt</templates>
         <text format="gta3">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
         <library>@sb:\data\gta3\gta3.json</library>
@@ -30,7 +31,8 @@
         <keywords>@sb:\data\vc\keywords.txt</keywords>
         <missions>@sb:\data\vc\missions.txt</missions>
         <constants>@sb:\data\vc\constants.txt</constants>
-        <templates>@sb:\data\vc\templates.txt</templates>
+        <templates type="default">@sb:\data\vc\templates.txt</templates>
+        <templates type="custom">@sb:\data\vc\templates.custom.txt</templates>
         <text format="vc">@game:\text\american.gxt</text>
         <ide>@game:\data\default.ide</ide>
         <library>@sb:\data\vc\vc.json</library>
@@ -49,7 +51,8 @@
         <missions>@sb:\data\sa\missions.txt</missions>
         <constants>@sb:\data\sa\constants.txt</constants>
         <examples>@sb:\data\sa\opcodes.txt</examples>
-        <templates>@sb:\data\sa\templates.txt</templates>
+        <templates type="default">@sb:\data\sa\templates.txt</templates>
+        <templates type="custom">@sb:\data\sa\templates.custom.txt</templates>
         <text format="sa">@game:\text\american.gxt</text>
         <ide base="@game:\">@game:\data\default.dat</ide>
         <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
@@ -71,7 +74,8 @@
         <missions>@sb:\data\sa_scr\missions.txt</missions>
         <constants>@sb:\data\sa_scr\constants.txt</constants>
         <examples>@sb:\data\sa_scr\opcodes.txt</examples>
-        <templates>@sb:\data\sa_scr\templates.txt</templates>
+        <templates type="default">@sb:\data\sa_scr\templates.txt</templates>
+        <templates type="custom">@sb:\data\sa_scr\templates.custom.txt</templates>
     </mode>
     <mode id="lcs" title="GTA LCS" game="lcs" type="default">
         <data>@sb:\data\lcs\</data>
@@ -80,7 +84,8 @@
         <variables>@sb:\data\lcs\CustomVariables.ini</variables>
         <missions>@sb:\data\lcs\missions.txt</missions>
         <constants>@sb:\data\lcs\constants.txt</constants>
-        <templates>@sb:\data\lcs\templates.txt</templates>
+        <templates type="default">@sb:\data\lcs\templates.txt</templates>
+        <templates type="custom">@sb:\data\lcs\templates.custom.txt</templates>
         <text format="vc">@sb:\data\lcs\english.gxt</text>
         <ide>@sb:\data\lcs\models.ide</ide>
     </mode>
@@ -90,7 +95,8 @@
         <opcodes>@sb:\data\vcs\VCSSCM.ini</opcodes>
         <classes>@sb:\data\vcs\classes.db</classes>
         <constants>@sb:\data\vcs\constants.txt</constants>
-        <templates>@sb:\data\vcs\templates.txt</templates>
+        <templates type="default">@sb:\data\vcs\templates.txt</templates>
+        <templates type="custom">@sb:\data\vcs\templates.custom.txt</templates>
         <ide>@sb:\data\vcs\models.ide</ide>
         <keywords>@sb:\data\vcs\keywords.txt</keywords>
         <!-- PSP only-->
@@ -116,7 +122,8 @@
         <examples>@sb:\data\vc_mobile\opcodes.txt</examples>
         <variables>@sb:\data\vc_mobile\CustomVariables.ini</variables>
         <keywords>@sb:\data\vc_mobile\keywords.txt</keywords>
-        <templates>@sb:\data\vc_mobile\templates.txt</templates>
+        <templates type="default">@sb:\data\vc_mobile\templates.txt</templates>
+        <templates type="custom">@sb:\data\vc_mobile\templates.custom.txt</templates>
         <text format="vc">@sb:\data\vc_mobile\american.gxt</text>
         <ide>@sb:\data\vc_mobile\data\default.ide</ide>
         <ide base="@sb:\data\vc_mobile\">@sb:\data\vc_mobile\data\gta_vc.dat</ide>
@@ -131,7 +138,8 @@
         <arrays>@sb:\data\sa_mobile\CustomArrays.ini</arrays>
         <missions>@sb:\data\sa_mobile\missions.txt</missions>
         <constants>@sb:\data\sa_mobile\constants.txt</constants>
-        <templates>@sb:\data\sa_mobile\templates.txt</templates>
+        <templates type="default">@sb:\data\sa_mobile\templates.txt</templates>
+        <templates type="custom">@sb:\data\sa_mobile\templates.custom.txt</templates>
         <text format="sa_mobile">@sb:\data\sa_mobile\american.gxt</text>
         <ide>@sb:\data\sa_mobile\custom.dat</ide>
         <library>@sb:\data\sa\sa.json</library>
