@@ -1,33 +1,62 @@
+
 ifthen=IF..THEN statement
 =if
-=  |
+=	|
 =then
-=
+=	
 =end // if
 
 ifelse=IF..THEN..ELSE statement
 =if
-=  |
+=	|
 =then
-=
+=	
 =else
-=
+=	
 =end // if
 
 for=FOR statement
 =for | =  to  // step 1
-=
+=	
 =end // for
 
 while=WHILE statement
 =while |
-=
+=	
 =end // while
+
+wtrue=WHILE TRUE loop
+=while true
+=	wait 0
+=
+=	|
+=end // while true
+
+wgosub=WHILE GOSUB loop
+=while gosub |
+=	wait 0
+=
+=	
+=end // while gosub
 
 repeat=REPEAT statement
 =repeat
-=
+=	
 =until | // repeat
+
+rfalse=REPEAT UNTIL FALSE loop
+=repeat
+=	wait 0
+=
+=	|
+=until false // repeat until false
+
+rgosub=REPEAT UNTIL GOSUB loop
+=repeat
+=	wait 0
+=
+=	
+=until gosub | // repeat until gosub
 
 const=Constants declaration
 =const
@@ -44,3 +73,28 @@ hex=HEX..END construct
 = |
 =end // hex
 
+bthold=Hold ingame button template
+=if // Insert the number of the ingame button to hold below
+=	00E1:   player 0 pressed_key |
+=then
+=	if // Insert the intended milliseconds threshold below
+=		timera > 
+=	then
+=		
+=	end
+=else
+=	timera = 0
+=end // if
+
+kbhold=Hold keyboard button template
+=if // Insert the number of the keyboard button to hold below
+=	0AB0:   is_key_pressed |
+=then
+=	if // Insert the intended milliseconds threshold below
+=		timera > 
+=	then
+=		
+=	end
+=else
+=	timera = 0
+=end // if
