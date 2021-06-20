@@ -72,29 +72,3 @@ hex=HEX..END construct
 =hex
 = |
 =end // hex
-
-bthold=Hold ingame button template
-=if // Insert the number of the ingame button to hold below
-=	00E1:   player 0 pressed_key |
-=then
-=	if // Insert the intended milliseconds threshold below
-=		timera > 
-=	then
-=		
-=	end
-=else
-=	timera = 0
-=end // if
-
-kbhold=Hold keyboard button template
-=if // Insert the number of the keyboard button to hold below
-=	0AB0:   is_key_pressed |
-=then
-=	if // Insert the intended milliseconds threshold below
-=		timera > 
-=	then
-=		
-=	end
-=else
-=	timera = 0
-=end // if
