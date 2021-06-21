@@ -21,3 +21,16 @@ scm=Multifile template (LCS)
 =while true
 =  0001: wait 250
 =end
+
+bthold=Hold ingame button template
+=if // Insert the number of the ingame button to hold below
+=	00E6:   is_button_pressed 0 button |
+=then
+=	if // Insert the intended milliseconds threshold below
+=		timera > 
+=	then
+=		
+=	end
+=else
+=	timera = 0
+=end // if
