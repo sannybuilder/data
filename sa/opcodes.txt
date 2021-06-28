@@ -2155,3 +2155,96 @@
 0EFD: get_car_pedals 1@ gas_to 2@ break_to 3@
 0EFE: get_loaded_library 1@ store_to 2@
 0EFF: get_char_simplest_active_task 1@ id_to 2@ pointer_to 3@
+0F01: imgui_begin label 1@v shown (bool) 2@ flags (int) 3@ mouse visible (int) 4@ 
+0F02: imgui_end 
+0F03: imgui_checkbox label 1@v imguitypeflags 2@ var (int) 3@ 
+0F04: imgui_button label 1@v width (float) 2@ height (float) 3@ 
+0F05: imgui_calc_text_height text 1@v hide after ## (bool) 2@ warp width (float) 3@ imguitypeflags 4@ pointer/var (float) 5@ 
+0F06: imgui_calc_text_width text 1@v hide after ## (bool) 2@ warp width (float) 3@ imguitypeflags 4@ pointer/var (float) 5@ 
+0F07: imgui_set_next_window_pos pos x (float) 1@ pos y (float) 2@ imguicond 3@ 
+0F08: imgui_set_window_pos pos x (float) 1@ pos y (float) 2@ imguicond 3@ 
+0F09: imgui_get_font_size var (float) 1@ 
+0F0A: imgui_set_next_window_size width (float) 1@ height (float) 2@ imguicond 3@ 
+0F0B: imgui_set_window_size width (float) 1@ height (float) 2@ imguicond 3@ 
+0F0C: imgui_show_demo_window 
+0F0D: imgui_show_style_editor 
+0F0E: imgui_text text 1@v 
+0F0F: imgui_text_wrapped text 1@v 
+0F10: imgui_text_disabled text 1@v 
+0F11: imgui_text_colored text 1@v red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ 
+0F12: imgui_columns count (int) 1@ border (int) 2@ 
+0F13: imgui_next_column 
+0F14: imgui_spacing 
+0F15: imgui_dummy padding x (float) 1@ padding y (float) 2@ 
+0F16: imgui_sameline 
+0F17: imgui_slider_int label 1@v imguitypeflags 2@ var 3@ min (int) 4@ max (int) 5@ imguisliderflags 6@ imguislidercount 7@ 
+0F18: imgui_slider_float label 1@v imguitypeflags 2@ var 3@ min (float) 4@ max (float) 5@ imguisliderflags 6@ imguislidercount 7@ 
+0F19: imgui_color_edit label 1@v imguitypeflags 2@ var 3@ imguicoloreditflags 4@ imguicoloreditalpha 5@ 
+0F1A: imgui_color_picker label 1@v imguitypeflags 2@ var 3@ imguicoloreditflags 4@ imguicoloreditalpha 5@ 
+0F1B: imgui_begin_child label 1@v width (float) 2@ height (float) 3@ border (int) 4@ imguiwindowflags 5@ 
+0F1C: imgui_end_child 
+0F1D: imgui_input_int label 1@v imguitypeflags 2@ var 3@ imguiinputtextflags 4@ imguiinputcount 5@ 
+0F1E: imgui_input_float label 1@v imguitypeflags 2@ var 3@ imguiinputtextflags 4@ imguiinputcount 5@ 
+0F1F: imgui_input_text label 1@v hint 2@v var (char) 3@v buffer size (int) 4@ imguiinputtextflags 5@ 
+0F20: imgui_input_text_multiline label 1@v var (char) 2@v buffer size (int) 3@ width (float) 4@ height (float) 5@ imguiinputtextflags 6@ 
+0F25: imgui_separator 
+0F26: imgui_get_cleo_imgui_version var (float) 1@ 
+0F27: imgui_get_version var (float) 1@ 
+0F28: imgui_get_framerate var (int) 1@ 
+0F29: imgui_color_button label (float) 1@v red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ imguicoloreditflags 6@ width (float) 7@ height (float) 8@ 
+0F2A: imgui_bullet 
+0F2B: imgui_bullet_text label 1@v 
+0F2C: imgui_newline 
+0F2D: imgui_set_tooltip label 1@v 
+0F2E: imgui_color_tooltip label 1@v red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ imguicoloreditflags 6@ 
+0F2F: imgui_is_item_hovered indentifier 1@v imguihoveredflags 2@ 
+0F30: imgui_is_item_focused indentifier 1@v 
+0F31: imgui_is_item_activated indentifier 1@v 
+0F32: imgui_is_item_deactivated indentifier 1@v 
+0F33: imgui_is_item_active indentifier 1@v 
+0F34: imgui_is_item_clicked indentifier 1@v imguimousebutton 2@ 
+0F35: imgui_is_window_hovered indentifier 1@v imguihoveredflags 2@ 
+0F36: imgui_is_window_focused indentifier 1@v imguihoveredflags 2@ 
+0F37: imgui_radio_button label 1@v imguitypeflags 2@ pointer/var (int) 3@ number (int) 4@ 
+0F38: imgui_collasping_header label 1@v imguitreenodeflags 2@ 
+0F39: imgui_progress_bar label 1@v fraction (float) 2@ width (float) 3@ height (float) 4@ 
+0F3A: imgui_get_window_posy imguitypeflags 1@ pointer/var (float) 2@ 
+0F3B: imgui_get_window_posx imguitypeflags 1@ pointer/var (float) 2@ 
+0F3C: imgui_get_window_width imguitypeflags 1@ pointer/var (float) 2@ 
+0F3D: imgui_get_window_height imguitypeflags 1@ pointer/var (float) 2@ 
+0F3E: imgui_selectable label 1@v check mark (int) 2@ imguiselectableflags 3@ width (float) 4@ height (float) 5@ 
+0F40: imgui_load_texture path 1@v var (int) 2@ 
+0F41: imgui_image indentifier 1@v var (int) 2@ width (float) 3@ height (float) 4@ 
+0F42: imgui_image_ex indentifier 1@v var (int) 2@ width (float) 3@ height (float) 4@ uv x (float) 5@ uv0 y (float) 6@ uv x (float) 7@ uv0 y (float) 8@ red (float) 9@ green (float) 10@ blue (float) 11@ alpha (float) 12@ border red (float) 13@ border green (float) 14@ border blue (float) 15@ border alpha (float) 16@ 
+0F43: imgui_image_button indentifier 1@v var (int) 2@ width (float) 3@ height (float) 4@ 
+0F44: imgui_image_button_ex indentifier 1@v var (int) 2@ width (float) 3@ height (float) 4@ uv0 x (float) 5@ uv0 y (float) 6@ uv1 x (float) 7@ uv1 y (float) 8@ red (float) 9@ green (float) 10@ blue (float) 11@ alpha (float) 12@ border red (float) 13@ border green (float) 14@ border blue (float) 15@ border alpha (float) 16@ 
+0F45: imgui_get_game_path pointer (char) 1@ 
+0F46: imgui_invisible_button label 1@v width (float) 2@ height (float) 3@ imguibuttonflags 4@ 
+0F47: imgui_drawlist_add_circle center x (float) 1@ center y (float) 2@ radius (float) 3@ color (int) 4@ segment (int) 5@ thickness (int) 6@ 
+0F48: imgui_drawlist_add_circle_filled center x (float) 1@ center y (float) 2@ radius (float) 3@ color (int) 4@ segment (int) 5@ 
+0F49: imgui_drawlist_add_rect min x (float) 1@ min y (float) 2@ max x (float) 3@ max y (float) 4@ color (int) 5@ rounding (int) 6@ corners (int) 7@ thickness (int) 8@ 
+0F4A: imgui_drawlist_add_rect_filled min x (float) 1@ min y (float) 2@ max x (float) 3@ max y (float) 4@ color (int) 5@ rounding (int) 6@ corners (int) 7@ 
+0F4B: imgui_drawlist_add_rect_filled_multicolor min x (float) 1@ min y (float) 2@ max x (float) 3@ max y (float) 4@ color up left (int) 5@ color up right (int) 6@ color down left (int) 7@ color down right (int) 8@ 
+0F4C: imgui_drawlist_add_text text 1@v pos x (float) 2@ pos y (float) 3@ radius (float) 4@ color (int) 5@ 
+0F4D: imgui_drawlist_add_triangle point1 x (float) 1@ point1 y (float) 2@ point2 x (float) 3@ point2 y (float) 4@ point3 x (float) 5@ point3 y (float) 6@ color (int) 7@ thickness (int) 8@ 
+0F4E: imgui_drawlist_add_triangle_filled point1 x (float) 1@ point1 y (float) 2@ point2 x (float) 3@ point2 y (float) 4@ point3 x (float) 5@ point3 y (float) 6@ color (int) 7@ 
+0F4F: imgui_begin_main_menu_bar 
+0F50: imgui_end_main_menu_bar 
+0F51: imgui_menu_item label 1@v 
+0F52: imgui_style_colors_classic 
+0F53: imgui_style_colors_dark 
+0F54: imgui_style_colors_default 
+0F55: imgui_style_colors_light 
+0F57: imgui_get_style imguistyleoffsets 1@ var (float) 2@ 
+0F58: imgui_set_style imguistyleoffsets 1@ value (float) 2@ 
+0F59: imgui_set_style_int imguistyleoffsets 1@ value (int) 2@ 
+0F5A: imgui_get_color imguicoloroffsets 1@ red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ 
+0F5B: imgui_set_color imguicoloroffsets 1@ red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ 
+0F5C: imgui_push_item_width width (float) 1@ 
+0F5D: imgui_pop_item_width 
+0F5E: imgui_push_item_flag imguiitemflags 1@ enabled (int) 2@ 
+0F5F: imgui_pop_item_flag 
+0F60: imgui_get_window_content_region_width imguitypeflags 1@ pointer/var (float) 2@ 
+0F61: imgui_get_frame_height imguitypeflags 1@ pointer/var (float) 2@ 
+0F62: imgui_get_frame_height_with_spacing var (float) 1@ 
+0F63: imgui_get_style_int imguistyleoffsets 1@ var (int) 2@
