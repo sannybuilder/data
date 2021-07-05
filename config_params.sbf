@@ -1,0 +1,49 @@
+;----------------------
+; Editor/IDE
+;----------------------
+0 = Editor::ShowPanel
+1 = Editor::ShowOpcodeInfo
+2 = Editor::ShowLineNumbers
+3 = Editor::ShowGutterBorder
+4 = Editor::OpenLastFile
+5 = Editor::OpenAllClosedFiles
+6 = Editor::ConfirmExit
+7 = Editor::LanguageService
+; 8 = Smart -- renamed
+8 = Editor::SemanticConstHighlighting
+; 11 = Engine::ShowProgress -- renamed
+11 = Editor::ShowProgress
+; 12 = Engine::ShowReport -- renamed
+12 = Editor::ShowReport
+; 15 = QuickGameLoading -- renamed
+15 = Editor::QuickGameLoading
+40 = Editor::IdentifiersListAuto
+; 41 = Editor::LookingDepth -- renamed
+41 = Editor::ScanDistance
+; 44 = Lang -- renamed
+44 = Editor::Lang
+;----------------------
+; Disassembler/Compiler
+;----------------------
+10 = Decompiler::OverwriteOutputFile
+14 = Decompiler::ManualIMGOpening
+18 = Decompiler::AlwaysWriteOpcodes
+19 = Decompiler::ReplaceMissionNumbers
+20 = Decompiler::InsertOriginalMissionNames
+; 42 = Formats::HexadimalOffsets -- renamed
+42 = Decompiler::HexadimalOffsets
+; 43 = Formats::LabelsFormat -- renamed
+43 = Decompiler::LabelsFormat
+13 = Compiler::ShowIMGWarning
+16 = Compiler::CheckConditions
+17 = Compiler::CheckLocalVariables
+21 = Compiler::AddExtraInfo
+
+;----------------------
+; Formatting/Aliases
+;----------------------
+30 = CustomNames::UseCustomLabels
+31 = CustomNames::UseCustomVariables
+32 = CustomNames::UseCustomArrays
+; 33 = CustomNames::CustomNamesFormat -- renamed
+33 = CustomNames::Format

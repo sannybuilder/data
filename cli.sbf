@@ -38,3 +38,7 @@
 ; the same effect as \gta3, \vc, \sa, \lcs, \vcs, \sa_mobile 
 12=--game
 12=-g
+
+; settings override
+13=--option
+13=-o
