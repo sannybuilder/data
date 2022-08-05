@@ -77,6 +77,22 @@
         <templates type="default">@sb:\data\sa_scr\templates.txt</templates>
         <templates type="custom">@sb:\data\sa_scr\templates.custom.txt</templates>
     </mode>
+    <mode extends="sa" id="sa_ps2" title="GTA SA PS2 v1.0" game="sa" type="">
+        <data>@sb:\data\sa_ps2\</data>
+        <opcodes>@sb:\data\sa_ps2\SASCM.ini</opcodes>
+        <classes>@sb:\data\sa_ps2\classes.db</classes>
+        <enums>@sb:\data\sa_ps2\enums.txt</enums>
+        <variables>@sb:\data\sa_ps2\CustomVariables.ini</variables>
+        <keywords>@sb:\data\sa_ps2\keywords.txt</keywords>
+        <labels>@sb:\data\sa_ps2\CustomLabels.ini</labels>
+        <arrays>@sb:\data\sa_ps2\CustomArrays.ini</arrays>
+        <missions>@sb:\data\sa_ps2\missions.txt</missions>
+        <constants>@sb:\data\sa_ps2\constants.txt</constants>
+        <examples>@sb:\data\sa_ps2\opcodes.txt</examples>
+        <templates type="default">@sb:\data\sa_ps2\templates.txt</templates>
+        <templates type="custom">@sb:\data\sa_ps2\templates.custom.txt</templates>
+        <text format="sa">@sb:\data\sa_ps2\american.gxt</text>
+    </mode>
     <mode id="lcs" title="GTA LCS" game="lcs" type="default">
         <data>@sb:\data\lcs\</data>
         <opcodes>@sb:\data\lcs\LCSSCM.ini</opcodes>
