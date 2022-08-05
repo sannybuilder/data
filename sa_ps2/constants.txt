@@ -1,6 +1,0 @@
-const
-false=0
-true=1
-TIMERA=32@
-TIMERB=33@
-end
