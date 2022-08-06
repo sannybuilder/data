@@ -1,21 +1,21 @@
 cleo=CLEO script
 ={$CLEO .cs}
-=0000:
+=NOP
 =
 =|
 =
-=0A93: terminate_this_custom_script
+=TERMINATE_THIS_CUSTOM_SCRIPT
 
 load=model request and load
-=0247: request_model #|
+=REQUEST_MODEL #|
 =
-=while 8248:   not has_model_loaded #
-=  wait 0 ms
+=while NOT HAS_MODEL_LOADED #
+=  WAIT 0
 =end
 
 def=Check if player is playing
 =if
-=  0256:   is_player_playing $PLAYER_CHAR
+=  IS_PLAYER_PLAYING $PLAYER_CHAR
 =then
 =
 =end
@@ -32,5 +32,5 @@ scm=Multifile template (SA)
 =|
 =
 =while true
-=  wait 250
+=  WAIT 250
 =end
