@@ -1656,8 +1656,8 @@
 0A47: set_dialogue_mode_enabled_without_GXT
 0A48: enable_menu_access_in_widescreen_mode 1
 0A4A: store_joystick_X_offset_to 201@ Y_offset_to 202@
-0A8C: write_memory 0xC0BC15 size 1 value 1
-0A8D: $result = read_memory 1@ size 4
+0A8C: write_memory 0xC0BC15 size 1 value 1 unused 0
+0A8D: $result = read_memory 1@ size 4 unused 0
 0A8E: 4@ = 5@ + 6@ // int
 0A8F: $var = 0@(1@,2i) - 1 // int
 0A90: $var(0@,10i) = 100 * 1@ // int
