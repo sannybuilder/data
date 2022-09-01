@@ -10,6 +10,7 @@
     <mode id="gta3" title="GTA III" game="gta3" type="default">
         <data>@sb:\data\gta3\</data>
         <opcodes>@sb:\data\gta3\SCM.ini</opcodes>
+        <enums>@sb:\data\gta3\enums.txt</enums>
         <classes>@sb:\data\gta3\classes.db</classes>
         <variables>@sb:\data\gta3\CustomVariables.ini</variables>
         <keywords>@sb:\data\gta3\keywords.txt</keywords>
@@ -30,6 +31,7 @@
         <variables>@sb:\data\vc\CustomVariables.ini</variables>
         <keywords>@sb:\data\vc\keywords.txt</keywords>
         <missions>@sb:\data\vc\missions.txt</missions>
+        <enums>@sb:\data\vc\enums.txt</enums>
         <constants>@sb:\data\vc\constants.txt</constants>
         <templates type="default">@sb:\data\vc\templates.txt</templates>
         <templates type="custom">@sb:\data\vc\templates.custom.txt</templates>
@@ -64,15 +66,9 @@
         <labels>@sb:\data\sa\CustomLabels_v2.ini</labels>
     </mode>
     <mode extends="sa" id="sa_scr" title="GTA SA (v1.0 - SCR)" game="sa" type="">
-        <data>@sb:\data\sa_scr\</data>
         <opcodes>@sb:\data\sa_scr\SASCM.ini</opcodes>
         <classes>@sb:\data\sa_scr\classes.db</classes>
-        <variables>@sb:\data\sa_scr\CustomVariables.ini</variables>
         <keywords>@sb:\data\sa_scr\keywords.txt</keywords>
-        <labels>@sb:\data\sa_scr\CustomLabels.ini</labels>
-        <arrays>@sb:\data\sa_scr\CustomArrays.ini</arrays>
-        <missions>@sb:\data\sa_scr\missions.txt</missions>
-        <constants>@sb:\data\sa_scr\constants.txt</constants>
         <examples>@sb:\data\sa_scr\opcodes.txt</examples>
         <templates type="default">@sb:\data\sa_scr\templates.txt</templates>
         <templates type="custom">@sb:\data\sa_scr\templates.custom.txt</templates>
@@ -132,6 +128,8 @@
         <text format="vc">@sb:\data\vc_mobile\american.gxt</text>
         <ide>@sb:\data\vc_mobile\data\default.ide</ide>
         <ide base="@sb:\data\vc_mobile\">@sb:\data\vc_mobile\data\gta_vc.dat</ide>
+        <library>@sb:\data\vc_mobile\vc_mobile.json</library>
+        <enums>@sb:\data\vc_mobile\enums.txt</enums>
     </mode>
     <mode id="sa_mobile" title="SA Mobile" game="sa_mobile" type="default">
         <data>@sb:\data\sa_mobile\</data>
@@ -147,7 +145,8 @@
         <templates type="custom">@sb:\data\sa_mobile\templates.custom.txt</templates>
         <text format="sa_mobile">@sb:\data\sa_mobile\american.gxt</text>
         <ide>@sb:\data\sa_mobile\custom.dat</ide>
-        <library>@sb:\data\sa\sa.json</library>
+        <library>@sb:\data\sa_mobile\sa_mobile.json</library>
+        <enums>@sb:\data\sa_mobile\enums.txt</enums>
     </mode>
 
 </modes>

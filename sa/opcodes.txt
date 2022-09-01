@@ -1940,7 +1940,7 @@
 0E26: is_weapon 1@ fire_type 2@
 0E27: get_angle_from_two_coords 1@ 2@ and 3@ 4@ to 5@
 0E28: write_struct 1@ offset 2@ size 3@ value 4@
-0E29: perlin_noise 1@ frequency 2@ amplitude 3@ lacunarity 4@ persistence 5@ store_to 6@
+0E29: perlin_noise 1@ octaves 2@ frequency 3@ amplitude 4@ lacunarity 5@ persistence 6@ store_to 7@
 0E2A: add_cleo_blip 1@ position 2@ 3@ is_short 4@ RGBA 5@ 6@ 7@ 8@ store_to 9@
 0E2B: remove_cleo_blip 1@
 0E2C: get_current_save_slot 1@
@@ -2140,8 +2140,8 @@
 0EEE: get_entity_coordinates 1@ store_to 2@ 3@ 4@
 0EEF: get_entity_heading 1@ store_to 2@
 0EF0: get_coord_from_angled_distance 1@ 2@ angle 3@ dist 4@ store_to 5@ 6@
-0EF1: perlin_noise_fractal_2d 1@ 2@ frequency 3@ amplitude 4@ lacunarity 5@ persistence 6@ store_to 7@
-0EF2: perlin_noise_fractal_3d 1@ 2@ 3@ frequency 4@ amplitude 5@ lacunarity 6@ persistence 7@ store_to 8@
+0EF1: perlin_noise_fractal_2d 1@ 2@ octaves 3@ frequency 4@ amplitude 5@ lacunarity 6@ persistence 7@ store_to 8@
+0EF2: perlin_noise_fractal_3d 1@ 2@ 3@ octaves 4@ frequency 5@ amplitude 6@ lacunarity 7@ persistence 8@ store_to 9@
 0EF3: lerp 1@ 2@ 3@ store_to 4@
 0EF4: clamp_float 1@ min 2@ max 3@ store_to 4@
 0EF5: is_car_owned_by_player 1@

@@ -1739,7 +1739,7 @@ IS_ON_CUTSCENE
 IS_WEAPON_FIRE_TYPE 1@ fire_type 2@
 GET_ANGLE_FROM_TWO_COORDS 1@ 2@ and 3@ 4@ to 5@
 WRITE_STRUCT_OFFSET 1@ offset 2@ size 3@ value 4@
-PERLIN_NOISE_FRACTAL 1@ frequency 2@ amplitude 3@ lacunarity 4@ persistence 5@ store_to 6@
+PERLIN_NOISE_FRACTAL 1@ octaves 2@ frequency 3@ amplitude 4@ lacunarity 5@ persistence 6@ store_to 7@
 ADD_CLEO_BLIP 1@ position 2@ 3@ is_short 4@ RGBA 5@ 6@ 7@ 8@ store_to 9@
 REMOVE_CLEO_BLIP 1@
 GET_CURRENT_SAVE_SLOT 1@
@@ -1939,8 +1939,8 @@ LOCATE_ENTITY_DISTANCE_TO_ENTITY 1@ pos 2@ 3@ 4@ radius 5@
 GET_ENTITY_COORDINATES 1@ store_to 2@ 3@ 4@
 GET_ENTITY_HEADING 1@ store_to 2@
 GET_COORD_FROM_ANGLED_DISTANCE 1@ 2@ angle 3@ dist 4@ store_to 5@ 6@
-PERLIN_NOISE_FRACTAL_2D 1@ 2@ frequency 3@ amplitude 4@ lacunarity 5@ persistence 6@ store_to 7@
-PERLIN_NOISE_FRACTAL_3D 1@ 2@ 3@ frequency 4@ amplitude 5@ lacunarity 6@ persistence 7@ store_to 8@
+PERLIN_NOISE_FRACTAL_2D x 1@ y 2@ octaves 3@ frequency 4@ amplitude 5@ lacunarity 6@ persistence 7@ store_to 8@
+PERLIN_NOISE_FRACTAL_3D x 1@ y 2@ z 3@ octaves 4@ frequency 5@ amplitude 6@ lacunarity 7@ persistence 8@ store_to 9@
 LERP 1@ 2@ 3@ store_to 4@
 CLAMP_FLOAT 1@ min 2@ max 3@ store_to 4@
 IS_CAR_OWNED_BY_PLAYER 1@
