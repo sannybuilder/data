@@ -25,11 +25,11 @@
 0019:   0.5 >= 8@ // (float) num >= var
 001A:   1@ >= 2@ // (float) var >= var
 001B:   $2 == 1 // (int) var == num
-001C:   $_262 == 0@ // (int) num == var
-001D:   1@ == 0 // (int) var == var
-001E:   0@ == 3@ // (float) var == num
-001F:   8@ == 'AU_ST2' // (float) num == var  // LOADING
-0020:   $1547(2@,5) == 0@ // (float) var == var
+001C:   $_262 == 0@ // (int) var == var
+001D:   1@ == 0 // (float) var == num
+001E:   0@ == 3@ // (float) var == var
+001F:   8@ == 'AU_ST2' // (string) var == string
+0020:   $1547(2@,5) == 0@ // (string) var == var
 0021: goto_if_true @NONAME_14_4835
 0022: goto_if_false @MAIN_608
 0023: terminate_this_script
