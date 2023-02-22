@@ -42,3 +42,8 @@
 ; settings override
 13=--option
 13=-o
+
+14=--use-source
+
+15=--decompile
+15=-d
