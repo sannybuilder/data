@@ -1303,19 +1303,19 @@
 08B5:   test $GIRLS_GIFTS_BITMASK bit $GIRLFRIEND
 08B6:   test $383($GIRLFRIEND,6i) bit 3@
 08B7:   test 54@ bit 5
-08B8:   test $1044 bit 20
+08B8:   test 54@ bit $382
 08B9:   test 239@ bit 216@
 08BA: set $377[0] bit 1
 08BB: set $1210 bit $GIRLFRIEND
 08BC: set $390 bit 3@
 08BD: set 54@ bit 10
-08BE: set $377[0] bit 1
+08BE: set 54@ bit $382
 08BF: set 54@ bit 49@
 08C0: clear $391 bit 31
 08C1: clear $1210 bit $GIRLFRIEND
 08C2: clear $391 bit 3@
 08C3: clear 54@ bit 11
-08C4: clear $377[0] bit 31
+08C4: clear 54@ bit $382
 08C5: clear 54@ bit 49@
 08C6: set_actor 65@ stay_on_bike 1
 08C7: put_actor $PLAYER_ACTOR at 2469.7 -1657.0 12.3 dont_warp_gang
@@ -1995,7 +1995,7 @@
 0E5D: is_cheat_active 1@
 0E5E: change_player_money 1@ mode 2@ value 3@
 0E5F: car_horn 1@
-0E60: set_camera_control 1@ 2@
+0E60: set_camera_control 1@
 0E61: set_car_alarm 1@ mode 2@
 0E62: print 1@ event 2@ at 3@ 4@ scale 5@ 6@ fixAR 7@ style 8@
 0E63: print 1@ event 2@ at 3@ 4@ scale 5@ 6@ fixAR 7@ style 8@ prop 9@ align 10@ wrap 11@ justify 12@ color 13@ 14@ 15@ 16@ outline 17@ shadow 18@ dropColor 19@ 20@ 21@ 22@ background 23@ backColor 24@ 25@ 26@ 27@
