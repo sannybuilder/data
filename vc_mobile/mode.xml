@@ -1,0 +1,14 @@
+<mode extends="vc" id="vc_mobile" title="GTA VC Mobile" game="vc_mobile" type="">
+    <data>@sb:\data\vc_mobile\</data>
+    <opcodes>@sb:\data\vc_mobile\VCSCM.ini</opcodes>
+    <examples>@sb:\data\vc_mobile\opcodes.txt</examples>
+    <variables>@sb:\data\vc_mobile\CustomVariables.ini</variables>
+    <keywords>@sb:\data\vc_mobile\keywords.txt</keywords>
+    <templates type="default">@sb:\data\vc_mobile\templates.txt</templates>
+    <templates type="custom">@sb:\data\vc_mobile\templates.custom.txt</templates>
+    <text format="vc">@sb:\data\vc_mobile\american.gxt</text>
+    <ide>@sb:\data\vc_mobile\data\default.ide</ide>
+    <ide base="@sb:\data\vc_mobile\">@sb:\data\vc_mobile\data\gta_vc.dat</ide>
+    <library>@sb:\data\vc_mobile\vc_mobile.json</library>
+    <enums>@sb:\data\vc_mobile\enums.txt</enums>
+</mode>

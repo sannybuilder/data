@@ -1,0 +1,17 @@
+<mode id="sa_mobile" title="GTA SA Mobile" game="sa_mobile" type="default">
+    <data>@sb:\data\sa_mobile\</data>
+    <opcodes>@sb:\data\sa_mobile\SASCM.ini</opcodes>
+    <classes>@sb:\data\sa_mobile\classes.db</classes>
+    <variables>@sb:\data\sa_mobile\CustomVariables.ini</variables>
+    <keywords>@sb:\data\sa_mobile\keywords.txt</keywords>
+    <labels>@sb:\data\sa_mobile\CustomLabels.ini</labels>
+    <arrays>@sb:\data\sa_mobile\CustomArrays.ini</arrays>
+    <missions>@sb:\data\sa_mobile\missions.txt</missions>
+    <constants>@sb:\data\sa_mobile\constants.txt</constants>
+    <templates type="default">@sb:\data\sa_mobile\templates.txt</templates>
+    <templates type="custom">@sb:\data\sa_mobile\templates.custom.txt</templates>
+    <text format="sa_mobile">@sb:\data\sa_mobile\american.gxt</text>
+    <ide>@sb:\data\sa_mobile\custom.dat</ide>
+    <library>@sb:\data\sa_mobile\sa_mobile.json</library>
+    <enums>@sb:\data\sa_mobile\enums.txt</enums>
+</mode>

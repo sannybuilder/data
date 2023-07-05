@@ -1,0 +1,18 @@
+<mode id="vcs_psp" title="GTA VCS (PSP)" game="vcs" type="default">
+    <!-- VCS Common-->
+    <data>@sb:\data\vcs_psp\</data>
+    <opcodes>@sb:\data\vcs_psp\VCSSCM.ini</opcodes>
+    <classes>@sb:\data\vcs_psp\classes.db</classes>
+    <constants>@sb:\data\vcs_psp\constants.txt</constants>
+    <templates type="default">@sb:\data\vcs_psp\templates.txt</templates>
+    <templates type="custom">@sb:\data\vcs_psp\templates.custom.txt</templates>
+    <ide>@sb:\data\vcs_psp\default.ide</ide>
+    <keywords>@sb:\data\vcs_psp\keywords.txt</keywords>
+    <!-- PSP only-->
+    <variables>@sb:\data\vcs_psp\CustomVariables.ini</variables>
+    <labels>@sb:\data\vcs_psp\CustomLabels.ini</labels>
+    <arrays>@sb:\data\vcs_psp\CustomArrays.ini</arrays>
+    <text format="vc">@sb:\data\vcs_psp\english.gxt</text>
+    <missions>@sb:\data\vcs_psp\missions.txt</missions>
+    <examples>@sb:\data\vcs_psp\opcodes.txt</examples>
+</mode>

@@ -1,0 +1,9 @@
+<mode extends="vcs_psp" id="vcs_ps2" title="GTA VCS (PS2)" game="vcs">
+    <!-- PS2 only-->
+    <variables>@sb:\data\vcs_ps2\CustomVariables.ini</variables>
+    <labels>@sb:\data\vcs_ps2\CustomLabels.ini</labels>
+    <arrays>@sb:\data\vcs_ps2\CustomArrays.ini</arrays>
+    <missions>@sb:\data\vcs_ps2\missions.txt</missions>
+    <text format="vc">@sb:\data\vcs_ps2\english.gxt</text>
+    <examples>@sb:\data\vcs_ps2\opcodes.txt</examples>
+</mode>

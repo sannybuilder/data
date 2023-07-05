@@ -1,0 +1,3 @@
+<mode extends="sa" id="sa_v2" title="GTA SA v2.0" game="sa">
+    <labels>@sb:\data\sa_v2\CustomLabels.ini</labels>
+</mode>

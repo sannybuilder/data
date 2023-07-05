@@ -1,0 +1,8 @@
+<mode extends="sa" id="sa_scr" title="GTA SA (v1.0 - SCR)" game="sa" type="">
+    <opcodes>@sb:\data\sa_scr\SASCM.ini</opcodes>
+    <classes>@sb:\data\sa_scr\classes.db</classes>
+    <keywords>@sb:\data\sa_scr\keywords.txt</keywords>
+    <examples>@sb:\data\sa_scr\opcodes.txt</examples>
+    <templates type="default">@sb:\data\sa_scr\templates.txt</templates>
+    <templates type="custom">@sb:\data\sa_scr\templates.custom.txt</templates>
+</mode>
