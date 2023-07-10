@@ -1,0 +1,9 @@
+:GiveActorWeaponAmmo {actor} {weapon} {ammo}
+    WeaponInfo.getModels(1@, 30@, 31@)
+    Model.Load(30@) 
+    Model.Load(31@)
+    Model.Requested()
+    Actor.setGiveWeaponAndAmmo(0@, 1@, 2@)
+    Model.Destroy(30@)
+    Model.Destroy(31@)
+ret 0

@@ -1,0 +1,7 @@
+:IsModelMTruck {Self: model_ide}
+	0AA7: call_function 0x4C5BC0 num_params 1 pop 1 0@ 1@
+	if 1@ == 8766721
+	then return_true
+	else return_false
+	end
+ret 0
