@@ -74,23 +74,23 @@
         <templates type="custom">@sb:\data\sa_scr\templates.custom.txt</templates>
     </mode>
     <mode id="sa_md" title="GTA SA (PC - Mobile)" game="sa" type="">
-        <data>@sb:\data\sa\</data>
-        <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
-        <classes>@sb:\data\sa\classes.db</classes>
-        <enums>@sb:\data\sa\enums.txt</enums>
-        <variables>@sb:\data\sa\CustomVariables.ini</variables>
-        <keywords>@sb:\data\sa\keywords.txt</keywords>
-        <labels>@sb:\data\sa\CustomLabels.ini</labels>
-        <arrays>@sb:\data\sa\CustomArrays.ini</arrays>
-        <missions>@sb:\data\sa\missions.txt</missions>
-        <constants>@sb:\data\sa\constants.txt</constants>
-        <examples>@sb:\data\sa\opcodes.txt</examples>
-        <templates type="default">@sb:\data\sa\templates.txt</templates>
-        <templates type="custom">@sb:\data\sa\templates.custom.txt</templates>
+        <data>@sb:\data\sa_md\</data>
+        <opcodes>@sb:\data\sa_md\SASCM.ini</opcodes>
+        <classes>@sb:\data\sa_md\classes.db</classes>
+        <enums>@sb:\data\sa_md\enums.txt</enums>
+        <variables>@sb:\data\sa_md\CustomVariables.ini</variables>
+        <keywords>@sb:\data\sa_md\keywords.txt</keywords>
+        <labels>@sb:\data\sa_md\CustomLabels.ini</labels>
+        <arrays>@sb:\data\sa_md\CustomArrays.ini</arrays>
+        <missions>@sb:\data\sa_md\missions.txt</missions>
+        <constants>@sb:\data\sa_md\constants.txt</constants>
+        <examples>@sb:\data\sa_md\opcodes.txt</examples>
+        <templates type="default">@sb:\data\sa_md\templates.txt</templates>
+        <templates type="custom">@sb:\data\sa_md\templates.custom.txt</templates>
         <text format="sa">@game:\text\american.gxt</text>
         <ide base="@game:\">@game:\data\default.dat</ide>
         <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
-        <library>@sb:\data\sa\sa.json</library>
+        <library>@sb:\data\sa_md\sa.json</library>
         <copy-directory type="scm">@game:\data\script</copy-directory>
         <copy-directory type="cleo">@game:\CLEO</copy-directory>
     </mode>
