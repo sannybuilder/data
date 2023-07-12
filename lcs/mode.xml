@@ -10,5 +10,4 @@
     <text format="vc">@sb:\data\lcs\english.gxt</text>
     <ide>@sb:\data\lcs\default.ide</ide>
     <keywords>@sb:\data\lcs\keywords.txt</keywords>
-    <library>@sb:\data\lcs\lcs.json</library>
 </mode>
