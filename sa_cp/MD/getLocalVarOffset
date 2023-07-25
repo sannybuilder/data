@@ -1,0 +1,23 @@
+:getLocalVarOffset{ 
+	Parameters:   
+		Passed:     
+			0@ - var number   
+		Result:     
+			0@ - var pointer 
+		Example:   
+			0AB1: call_scm_func @getLocalVarOffset 1 var 0 store_to 1@
+	}
+	
+	0@ *= 0x4
+	0A9F: 1@ = current_thread_pointer
+	0A8E: 2@ = 1@ + 0xDC 
+	0A8D: 2@ = read_memory 2@ size 1 virtual_protect 0 // bMissionFlag
+	if  
+		2@ == 1 
+	then 
+		0@ += 0xA48960 // pMissionLocals
+	else
+		005A: 0@ += 1@
+		0@ += 0x3C // pThreadLocals
+	end
+0AB2: ret 1 0@

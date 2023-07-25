@@ -1,0 +1,58 @@
+:CreateTestCheat { string , vars designadas a la anchura del string}
+  if
+    0AA9:    is_game_version_original
+  then
+    10@ = 0x969110 // keypresses buffer 1.0
+    11@ = 0xA48960 // mission locals 1.0
+  else
+    10@ = 0x96B790 // keypresses buffer 1.01
+    11@ = 0xA4AFE0 // mission locals 1.01
+  end
+  // get 0@'s offset
+  0A9F: 4@ = current_thread_pointer
+  0A8E: 5@ = 4@ + 0xDC // mission Flag
+  0A8D: 5@ = read_memory 5@ size 1 virtual_protect 0
+  if
+    5@ == 1
+  then
+    0085: 4@ = 11@
+  else
+    4@ += 0x3C
+  end
+  // get cheat string length
+  6@ = 0
+  while true
+    0A8D: 5@ = read_memory 4@ size 1 virtual_protect 0
+    if and
+        5@ > 0
+        6@ < 16
+    then
+        inc(4@)
+        inc(6@)       
+    else
+        Break
+    end
+  end
+  0085: 8@ = 10@
+  while 6@ > 0
+    dec(4@)     
+    dec(6@)
+    0A8D: 5@ = read_memory 4@ size 1 virtual_protect 0 // last cheat char
+    // lowercase to uppercase (a->A)
+    if
+        5@ > 90
+    then
+        5@ -= 32
+    end
+    0A8D: 7@ = read_memory 8@ size 1 virtual_protect 0 // last pressed key
+    inc(8@) 
+    if
+        803B:  5@ <> 7@ // (int)
+    then
+        059A: return_false
+        0AB2: ret 0
+    end
+  end
+  0A8C: write_memory 10@ size 1 value 0 virtual_protect 0
+  0485: return_true
+0AB2: ret 0

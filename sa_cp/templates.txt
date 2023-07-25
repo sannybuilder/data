@@ -1,0 +1,189 @@
+cleo=new cleo script
+={$CLEO}
+=nop
+=	
+=	|
+=	
+=terminate_this_custom_script
+
+load=model load
+=#|.Load()
+
+available=model request
+=#|.Available()
+
+def=Check if player is defined
+=if 
+=	$PLAYER_CHAR.Defined()
+=then
+=	|
+=end
+
+scm=Multifile template (SA)
+=DEFINE MISSIONS 0
+=//DEFINE MISSION {ID} 0 AT {LABEL} @
+=DEFINE EXTERNAL_SCRIPTS 0 // Use -1 in order not to compile AAA script
+=//DEFINE SCRIPT {NAME}  AT {LABEL} @
+=DEFINE UNKNOWN_EMPTY_SEGMENT 0
+=DEFINE UNKNOWN_THREADS_MEMORY 0
+=
+=|
+=
+=while true
+=	wait 250
+=end
+
+ifispressed=IF.KEY...END
+=if
+=	Game.isPressed(VK.|)
+=then
+=	wait 0
+=end
+
+whileispressed=WHILE.KEY...END
+=while Game.isPressed(VK.|)
+=	wait 0
+=end
+
+ispressed=virtual key
+=Game.isPressed(VK.|)
+
+while=WHILE..END
+=while true
+=	wait 0
+=	|
+=end
+
+repeat=REPEAT..END
+=repeat
+=	wait 0
+=until |
+
+if=IF..END
+=if |
+=then
+=
+=end
+
+fornearestcar=get random vehicle
+=const
+=	veh = 31@
+=end
+=if
+=	$PLAYER_CHAR.isDefined()
+=then
+=	$PLAYER_ACTOR.getPosition(29@, 30@, 31@)
+=	if
+=		0AE2: veh = random_vehicle_near_point 29@ 30@ 31@ in_radius 200.0 find_next 0 pass_wrecked 1
+=	then
+=		|
+=	end
+=end
+
+fornearestobj=get random object
+=const
+=    obj = 31@
+=end
+=if
+=	$PLAYER_CHAR.isDefined()
+=then
+=	$PLAYER_ACTOR.getPosition(29@, 30@, 31@)
+=	if
+=		0AE3: obj = random_object_near_point 29@ 30@ 31@ in_radius 200.0 find_next 0
+=	then
+=		|
+=	end
+=end
+
+fornearestped=get random ped
+=const
+=    ped = 31@
+=end
+=if
+=    player.ifDefined($player_char)
+=then
+=    actor.StorePos($player_actor, 29@, 30@, 31@)
+=    if
+=        0AE1: ped = random_actor_near_point 29@ 30@ 31@ in_radius 200.0 find_next 0 pass_deads 1
+=    then
+=        |
+
+forallpeds=affect all peds
+=const
+=    ped = 31@
+=end        
+=0A8D: 29@ = read_memory 0xB74490 size 4 virtual_protect 0
+=000A: 29@ += 0x4
+=0A8D: 29@ = read_memory 29@ size 4 virtual_protect 0
+=for 30@ = 0 to 35584 step 0x100
+=    0A8D: ped = read_memory 29@ size 1 virtual_protect 0
+=    000A: 29@ += 0x1
+=    if and
+=        0029:  ped >= 0x00 
+=        001B:  0x80 > ped
+=    then 
+=        005A: ped += 30@
+=        |
+
+forallcars=affect all cars
+=const
+=    veh = 31@
+=end
+=0A8D: 29@ = read_memory 0xB74494 size 4 virtual_protect 0
+=29@ += 0x4
+=0A8D: 29@ = read_memory 29@ size 4 virtual_protect 0
+=for 30@ = 0 to 27904 step 0x100
+=    0A8D: veh = read_memory 29@ size 1 virtual_protect 0
+=    000A: 29@ += 0x1
+=    if and
+=        0029: veh >= 0x00 
+=        001B: 0x80 > veh
+=    then
+=        005A: veh += 30@
+=        |
+
+forallobjs=affect all objects
+=const
+=    obj = 31@
+=end
+=0A8D: 29@ = read_memory 0xB7449C size 4 virtual_protect 0
+=000A: 29@ += 0x4
+=0A8D: 29@ = read_memory 29@ size 4 virtual_protect 0
+=for 30@ = 0 to 89344 step 0x100
+=    0A8D: obj = read_memory 29@ size 1 virtual_protect 0
+=    000A: 29@ += 0x1
+=    if and
+=        0029:  obj >= 0x00 
+=        001B:  0x80 > obj
+=    then 
+=        005A: obj += 30@
+=        |
+
+forallpickups=affect all pickups
+=const
+=    pick = 31@
+=end
+=for 30@ = 0x9788C0 to 0x97D620 step 0x20
+=    if
+=        30@ > 0
+=    then
+=        0A8E: 31@ = 30@ + 0x1A
+=        0A8D: 31@ = read_memory 31@ size 2 virtual_protect 0
+=        31@ *= 0x10000
+=        0A8F: 29@ = 30@ - 0x9788C0
+=        29@ /= 0x20
+=        005A: 31@ += 29@
+=        |
+
+forplayercar=for player car
+=const
+=    car = 31@
+=end
+=if
+=    Player.isDefined($player_char)
+=then
+=    if
+=        Actor.isDriving($player_actor)
+=    then
+=        car = Actor.UsedCar($player_actor)
+=        |
