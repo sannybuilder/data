@@ -1,6 +1,10 @@
 <mode extends="vc" id="vc_mobile" title="GTA VC Mobile" game="vc_mobile" type="">
     <data>@sb:\data\vc_mobile\</data>
-    <opcodes>@sb:\data\vc_mobile\VCSCM.ini</opcodes>
+    <!-- VC mobile uses base opcodes from VC PC mode -->
+    <opcodes>@sb:\data\vc\VCSCM.ini</opcodes>
+    <opcodes>@sb:\data\vc_mobile\VCSCM.Mobile.ini</opcodes>
+    <opcodes>@sb:\data\vc_mobile\VCSCM.CLEO.ini</opcodes>
+    <opcodes>@sb:\data\vc_mobile\VCSCM*.ini</opcodes>
     <examples>@sb:\data\vc_mobile\opcodes.txt</examples>
     <variables>@sb:\data\vc_mobile\CustomVariables.ini</variables>
     <keywords>@sb:\data\vc_mobile\keywords.txt</keywords>

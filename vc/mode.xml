@@ -1,6 +1,8 @@
 <mode id="vc" title="GTA VC" game="vc" type="default">
     <data>@sb:\data\vc\</data>
     <opcodes>@sb:\data\vc\VCSCM.ini</opcodes>
+    <opcodes>@sb:\data\vc\VCSCM.CLEO.ini</opcodes>
+    <opcodes>@sb:\data\vc\VCSCM*.ini</opcodes>
     <classes>@sb:\data\vc\classes.db</classes>
     <variables>@sb:\data\vc\CustomVariables.ini</variables>
     <keywords>@sb:\data\vc\keywords.txt</keywords>

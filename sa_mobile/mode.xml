@@ -1,6 +1,10 @@
 <mode id="sa_mobile" title="GTA SA Mobile" game="sa_mobile" type="default">
     <data>@sb:\data\sa_mobile\</data>
-    <opcodes>@sb:\data\sa_mobile\SASCM.ini</opcodes>
+    <!-- SA Mobile uses base opcodes from SA PC mode -->
+    <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
+    <opcodes>@sb:\data\sa_mobile\SASCM.Mobile.ini</opcodes>
+    <opcodes>@sb:\data\sa_mobile\SASCM.CLEO.ini</opcodes>
+    <opcodes>@sb:\data\sa_mobile\SASCM*.ini</opcodes>
     <classes>@sb:\data\sa_mobile\classes.db</classes>
     <variables>@sb:\data\sa_mobile\CustomVariables.ini</variables>
     <keywords>@sb:\data\sa_mobile\keywords.txt</keywords>

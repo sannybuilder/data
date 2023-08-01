@@ -46,6 +46,18 @@
 0069: $DIFFERENCE_X_FLOAT_HJ *= $DIFFERENCE_X_FLOAT_HJ // $ *= $ float
 0070: $TIME_CHUNK /= $NUMBER_OF_INJURED_PEDS // $ /= $ int
 0071: $PED_TIME_LIMIT_FLOAT /= $TIME_CHUNK_DIVIDER // $ /= $ float
+0078: $var +=@ 6.0 // (float)
+0079: 0@ +=@ -1.325 // (float)
+007A: $var +=@ $var2 // (float)
+007B: 0@ +=@ 1@ // (float)
+007C: 0@ +=@ $var // (float)
+007D: $var +=@ 0@ // (float)
+007E: $var -=@ 6.0 // (float)
+007F: 0@ -=@ 1.0 // (float)
+0080: $var -=@ $var2 // (float)
+0081: 0@ -=@ 1@ // (float)
+0082: 0@ -=@ $var // (float)
+0083: $var -=@ 0@ // (float)
 0084: $CASH_REWARD = $COUNTER_STUNT_ROLLS_HJ // $ = $ int
 0086: $3 = $2 // $ = $ float
 008C: $TOTAL_ROTATION_INT = float_to_integer $TOTAL_ROTATION
