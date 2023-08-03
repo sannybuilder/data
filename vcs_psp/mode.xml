@@ -8,6 +8,7 @@
     <templates type="custom">@sb:\data\vcs_psp\templates.custom.txt</templates>
     <ide>@sb:\data\vcs_psp\default.ide</ide>
     <keywords>@sb:\data\vcs_psp\keywords.txt</keywords>
+    <library>@sb:\data\vcs_psp\vcs.json</library>
     <!-- PSP only-->
     <variables>@sb:\data\vcs_psp\CustomVariables.ini</variables>
     <labels>@sb:\data\vcs_psp\CustomLabels.ini</labels>
