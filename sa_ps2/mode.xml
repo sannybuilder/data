@@ -1,0 +1,6 @@
+<mode extends="sa" id="sa_ps2" title="GTA SA PS2 v1.0" game="sa" type="">
+    <data>@sb:\data\sa_ps2\</data>
+    <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
+    <opcodes>@sb:\data\sa_ps2\SASCM.PS2.ini</opcodes>
+    <examples>@sb:\data\sa_ps2\opcodes.txt</examples>
+</mode>

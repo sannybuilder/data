@@ -1,0 +1,6 @@
+0001=wait
+0002=jump
+004D=jf
+0050=gosub
+0051=return
+00DB=if

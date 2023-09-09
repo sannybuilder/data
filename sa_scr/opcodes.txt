@@ -1794,7 +1794,7 @@ GET_CHAR_HEALTH_PERCENT 1@ store_to 2@
 IS_CHEAT_ACTIVE 1@
 CHANGE_PLAYER_MONEY 1@ mode 2@ value 3@
 CAR_HORN 1@
-SET_CAMERA_CONTROL 1@ 2@
+SET_CAMERA_CONTROL 1@
 SET_CAR_ALARM 1@ mode 2@
 DRAW_STRING 1@ event 2@ at 3@ 4@ scale 5@ 6@ fixAR 7@ style 8@
 DRAW_STRING_EXT 1@ event 2@ at 3@ 4@ scale 5@ 6@ fixAR 7@ style 8@ prop 9@ align 10@ wrap 11@ justify 12@ color 13@ 14@ 15@ 16@ outline 17@ shadow 18@ dropColor 19@ 20@ 21@ 22@ background 23@ backColor 24@ 25@ 26@ 27@
