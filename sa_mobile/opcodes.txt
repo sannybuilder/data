@@ -1826,7 +1826,8 @@
 0DD1: 0@ = get_func_addr_by_cstr_name 0@ // android 
 0DD2: context_call_func 0@ // android 
 0DD3: context_set_reg 0 value 1@ // android 
-0DD4: 10@ = context_get_reg 0 // android 
+0DD4: 10@ = context_get_reg 0 // android
+0DD5: 0@ = get_platform // android
 0DD6: 0@ = get_game_version // android 
 0DD7: 0@ = get_image_base // android 
 0DD8: 6@ = read_mem_addr 0x00123456 size 4 add_ib 1 // android 

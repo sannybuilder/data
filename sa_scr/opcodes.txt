@@ -1954,3 +1954,5 @@ GET_CAR_VALUE 1@ store_to 2@
 GET_CAR_PEDALS 1@ gas_to 2@ break_to 3@
 GET_LOADED_LIBRARY 1@ store_to 2@
 GET_CHAR_SIMPLEST_ACTIVE_TASK 1@ id_to 2@ pointer_to 3@
+RESOLVE_FILEPATH "filename.s" store_to 0@s
+GET_SCRIPT_FILENAME -1 full_path 0 store_to 0@s

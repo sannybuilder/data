@@ -1899,6 +1899,7 @@
 0D7D: clean_loaded_texture 0@
 0D7E: draw_sprite_with_texture 0@ at_cornerA 100.0 100.0 cornerB 300.0 300.0 color 255 255 255 255 angle 0.0
 0D7F: draw_gradient_sprite_with_texture 0@ at_cornerA 100.0 100.0 cornerB 300.0 300.0 colors 255 255 255 255  255 255 255 255  255 255 255 255  255 255 255 255 angle 0.0
+0DD5: 0@ = get_platform // PC
 0E00: get_car_alarm 1@ mode_to 2@
 0E01: create_object_no_save 1@ at 2@ 3@ 4@ offset 5@ ground 6@ to 7@
 0E02: set_car_generator 1@ no_save
@@ -2155,3 +2156,5 @@
 0EFD: get_car_pedals 1@ gas_to 2@ break_to 3@
 0EFE: get_loaded_library 1@ store_to 2@
 0EFF: get_char_simplest_active_task 1@ id_to 2@ pointer_to 3@
+2000: 0@s = resolve_filepath path "filename.s"
+2001: 0@s = get_script_filename script_struct -1 full_path 0
