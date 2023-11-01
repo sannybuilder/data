@@ -163,6 +163,8 @@
 00C0: set_current_time 8 0
 00C1: 3@ = get_minutes_left_to_time_hours 5@ time_minutes 6@
 00C2:   sphere_onscreen 159@ 160@ 161@ radius 5.0
+00C3: debug_on
+00C4: debug_off
 00D6: if
 00D7: start_new_script @NONAME_1 // without extra params
 00D8: mission_cleanup
@@ -2157,4 +2159,7 @@
 0EFE: get_loaded_library 1@ store_to 2@
 0EFF: get_char_simplest_active_task 1@ id_to 2@ pointer_to 3@
 2000: 0@v = resolve_filepath path "filename.s"
-2001: 0@v = get_script_filename script_struct -1 full_path 0
+2001: 0@v = get_script_filename script_struct -1 full_path false
+2100: breakpoint "Time is: %d" TIMERA
+2101: trace "~g~Time: %d" TIMERA
+2102: log_to_file "myLog.txt" timestamp true text "In game time is %d" TIMERA
