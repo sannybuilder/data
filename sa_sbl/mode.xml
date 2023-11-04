@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Documentation: https://docs.sannybuilder.com/edit-modes
+
+    @sb: - path to Sanny Builder
+    @game: - path to the game directory
+
+ -->
+<mode id="sa_sbl" title="GTA SA (v1.0 - SBL)" game="sa">
+    <data>@sb:\data\sa_sbl\</data>
+    
+    <!-- main files -->
+    <library>@sb:\data\sa_sbl\sa.json</library>
+    <classes>@sb:\data\sa_sbl\classes.db</classes>
+    <enums>@sb:\data\sa_sbl\enums.txt</enums>
+    <constants>@sb:\data\sa_sbl\constants.txt</constants>
+    <ide base="@game:\">@game:\data\default.dat</ide>
+    <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
+
+    <!-- decompiling -->
+    <variables>@sb:\data\sa_sbl\CustomVariables.ini</variables>
+    <labels>@sb:\data\sa_sbl\CustomLabels.ini</labels>
+    <arrays>@sb:\data\sa_sbl\CustomArrays.ini</arrays>
+    <missions>@sb:\data\sa_sbl\missions.txt</missions>
+    <text format="sa">@game:\text\american.gxt</text>
+
+    <!-- ide -->
+    <examples>@sb:\data\sa_sbl\opcodes.txt</examples>
+    <templates type="default">@sb:\data\sa_sbl\templates.txt</templates>
+    <templates type="custom">@sb:\data\sa_sbl\templates.custom.txt</templates>
+
+    <!-- compiling -->
+    <copy-directory type="scm">@game:\data\script</copy-directory>
+    <copy-directory type="cleo">@game:\CLEO</copy-directory>
+</mode>

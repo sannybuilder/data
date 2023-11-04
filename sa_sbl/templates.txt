@@ -1,0 +1,36 @@
+cleo=CLEO script
+={$CLEO .cs}
+=NOP
+=
+=|
+=
+=TERMINATE_THIS_CUSTOM_SCRIPT
+
+load=model request and load
+=REQUEST_MODEL #|
+=
+=while NOT HAS_MODEL_LOADED #
+=  WAIT 0
+=end
+
+def=Check if player is playing
+=if
+=  IS_PLAYER_PLAYING $PLAYER_CHAR
+=then
+=
+=end
+
+
+scm=Multifile template (SA)
+=DEFINE MISSIONS 0
+=//DEFINE MISSION {ID} 0 AT {LABEL} @
+=DEFINE EXTERNAL_SCRIPTS 0 // Use -1 in order not to compile AAA script
+=//DEFINE SCRIPT {NAME}  AT {LABEL} @
+=DEFINE UNKNOWN_EMPTY_SEGMENT 0
+=DEFINE UNKNOWN_THREADS_MEMORY 0
+=
+=|
+=
+=while true
+=  WAIT 250
+=end
