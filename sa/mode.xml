@@ -6,7 +6,7 @@
     @game: - path to the game directory
 
  -->
-<mode id="sa" title="GTA SA v1.0" game="sa" type="default">
+<mode id="sa" title="GTA SA v1.0" game="sa">
     <data>@sb:\data\sa\</data>
     <opcodes>@sb:\data\sa\SASCM.ini</opcodes>
     <opcodes>@sb:\data\sa\SASCM.CLEO.ini</opcodes>

@@ -6,7 +6,7 @@
     @game: - path to the game directory
 
  -->
-<mode id="sa_sbl" title="GTA SA (v1.0 - SBL)" game="sa">
+<mode id="sa_sbl" title="GTA SA (v1.0 - SBL)" game="sa" type="default">
     <data>@sb:\data\sa_sbl\</data>
     
     <!-- main files -->
@@ -16,6 +16,7 @@
     <constants>@sb:\data\sa_sbl\constants.txt</constants>
     <ide base="@game:\">@game:\data\default.dat</ide>
     <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
+    <keywords>@sb:\data\sa_sbl\keywords.txt</keywords>
 
     <!-- decompiling -->
     <variables>@sb:\data\sa_sbl\CustomVariables.ini</variables>
