@@ -1785,6 +1785,7 @@
 0B1B: 0@ %= 1@
 0B1C: 0@ >>= 1@
 0B1D: 0@ <<= 1@
+0B1E: sign_extend 0@ size 1
 0B20: read_clipboard_data 0@ size 1@ 
 0B21: write_clipboard_data 0@ size 1@
 0D00: matrix 0@ = matrix 0@ * matrix 1@

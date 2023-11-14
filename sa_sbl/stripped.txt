@@ -19,7 +19,7 @@ Clock.SetTimeOfDay(8, 0)
 Streaming.RequestCollision(2488.56, -1666.84)
 Streaming.LoadScene(2488.56, -1666.84, 13.38)
 $player1 = Player.Create(0, 2488.56, -1666.84, 13.38)
-$player1 = $player1.GetChar
+$scplayer = $player1.GetChar
 $Players_Group = $player1.GetGroup
 Camera.SetBehindPlayer
 Weather.ForceNow(WeatherType.ExtraSunnyLa)

@@ -1666,6 +1666,7 @@ BIT_NOT 0@ store_to 0@
 MOD 0@ mod 5 store_to 0@
 BIT_SHR 0@ shr 8 store_to 0@
 BIT_SHL 0@ shl 8 store_to 0@
+SIGN_EXTEND 0@ size 1
 ROTATE_MATRIX_ON_AXIS 0@ on_axis 1.0 0.0 0.0 angle 45.0 combine_op 2
 GET_MATRIX_X_ANGLE 0@ store_to 1@
 GET_MATRIX_Y_ANGLE 0@ store_to 1@
