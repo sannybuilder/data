@@ -729,7 +729,7 @@
 05CB: AS_actor $PLAYER_ACTOR enter_car 49@ as_driver 10000 ms 
 05CD: AS_actor -1 exit_car 23@ 
 05CF: AS_actor 110@ exit_car 81@ in_direction 2316.4 -1519.2 24.3 
-05D1: AS_actor 157@ drive_car 156@ to 160@ 161@ 162@ speed 15.0 0 model #NULL 0 
+05D1: AS_actor 157@ drive_car 156@ to 160@ 161@ 162@ speed 15.0 0 model 0 0 
 05D2: AS_actor 58@ run_to_and_hijack_car 59@ max_search_radius 20.0 traffic_behavior 2 
 05D3: AS_actor $PLAYER_ACTOR goto_point 681.8004 -474.1063 15.5363 mode 4 time 3000 ms // versionA 
 05D4: AS_actor -1 rotate_angle 77.0 
@@ -1209,7 +1209,7 @@
 089C: unknown_actor 0@ unknown_check 1 
 089E: get_actor_that_buys_drugs_in_sphere 3@ 4@ 5@ radius 5.0 handle_as 11@ 
 089F: get_actor 42@(44@,2i) pedtype_to 526@ 
-08A0: actor 0@ in_radius 100.0 near_model #NULL with_offset 0.0 0.0 0.0 end_script_named "PCUSTOM" // IF and SET 
+08A0: actor 0@ in_radius 100.0 near_model 0 with_offset 0.0 0.0 0.0 end_script_named "PCUSTOM" // IF and SET 
 08A2: set_hydra 154@(56@,3i) attack_with_rockets_car_of_player $PLAYER_CHAR radius 30.0 
 08A3: update_respect_while_on_mission 1 
 08A4: set_car 98@ extra_parts_angle_to 54@ 
