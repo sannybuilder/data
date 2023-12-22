@@ -628,7 +628,7 @@
 04F1:   is_car_waiting_for_world_collision $136 
 04F4: put_actor 45@ into_turret_on_object 60@ offset_from_object_origin 2.85 -0.7 5.9 orientation 0 both_side_angle_limit 360.0 lock_weapon 0 
 04F7: status_text $3311 type 0 line 1 GXT 'BB_18' // global_variable  // Score
-04F8: define_police_trigger_type 3 if_player_with_wanted_level_in_rectangle 2435.2 -1741.0 2454.9 -1723.4 spawn_policeA_at 2481.0 -1707.0 headed_towards 2480.0 -1732.0 2481.0 -1707.0 headed_towards 2480.0 -1732.0 
+04F8: define_police_trigger_type 3 if_player_with_wanted_level_in_rectangle 2435.2 -1741.0 2454.9 -1723.4 spawn_policeA_at 2481.0 -1707.0 headed_towards 2480.0 -1732.0 spawn_policeB_at 2481.0 -1707.0 headed_towards 2480.0 -1732.0 
 04F9: set_sky_color 1 fade 0 
 04FA: reset_sky_colors_with_fade 0 
 04FC: store_player_stunt_data $PLAYER_CHAR two_wheels: $1343 $1347 wheelie: $1350 $1354 stoppie: $1357 $1361 
