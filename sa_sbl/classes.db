@@ -1359,6 +1359,7 @@ RandomFloatInRange,0208,0,0,("min%f" "max%f" "result%f")
 RandomIntInRange,0209,0,0,("min%i" "max%i" "result%i")
 RandomPercent,0E4D,1,0,("percent%i")
 SetBit,08BF,0,0,("number%i" "n%i")
+SignExtend,0B1E,0,0,("value%i" "fromSize%i")
 Sin,02F6,0,0,("angle%f" "result%f")
 Sqrt,01FB,0,0,("num%f" "result%f")
 $END
@@ -2109,7 +2110,7 @@ SetStringUpper,0EC2,0,0,("stringAddress%i")
 SetWrapX,0343,0,0,("width%f")
 StringFind,0EC4,1,0,("stringFind: StringFind" "stringOrigin%s" "strFind%s" "index%i")
 StringFloatFormat,0AED,0,0,("number%f" "format%s" "text%s")
-StringFormat,0AD3,0,0,("result%s" "format%s" "args: arguments")
+StringFormat,0AD3,0,0,("buffer%i" "format%s" "args: arguments")
 UseCommands,03F0,0,0,("state%b")
 $END
 
@@ -2140,7 +2141,7 @@ $END
 $Txd
 $BEGIN
 DrawTexturePlus,0E1E,0,0,("rwTextureOrSprite%i" "drawEvent: DrawEvent" "posX%f" "posY%f" "sizeX%f" "sizeY%f" "angle%f" "depth%f" "fixAr%b" "maskVertCount%i" "maskVertArray%i" "red%i" "green%i" "blue%i" "alpha%i")
-GetFromSprite,0E3C,0,0,("sprite%i" "rwTexture%i")
+GetTextureFromSprite,0E3C,0,0,("sprite%i" "rwTexture%i")
 LoadDictionary,0390,0,0,("name%s")
 LoadSprite,038F,0,0,("memorySlot%i" "spriteName%s")
 Remove,0391,0,0,()
