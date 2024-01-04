@@ -2161,8 +2161,8 @@
 0EFF: get_char_simplest_active_task 1@ id_to 2@ pointer_to 3@
 2000: 0@v = resolve_filepath path "filename.s"
 2001: 0@v = get_script_filename script_struct -1 full_path false
-2002: cleo_return_with 1
-2003: cleo_return_false
+2002: cleo_return_with true
+2003: cleo_return_fail
 2100: breakpoint "Time is: %d" TIMERA
 2101: trace "~g~Time: %d" TIMERA
 2102: log_to_file "myLog.txt" timestamp true text "In game time is %d" TIMERA
