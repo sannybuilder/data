@@ -1,0 +1,2352 @@
+0000: NOP
+0001: wait 0 ms
+0002: jump @LABEL
+0003: shake_camera 0
+0004: $VAR17 = 0
+0005: $VAR11 = 0.0
+0006: 22@ = 0
+0007: 13@ = 0.0
+0008: $VAR22 += 0
+0009: $VAR15 += 0.0
+000A: 3@ += 0
+000B: 18@ += 0.0
+000C: $VAR18 -= 0
+000D: $VAR10 -= 0.0
+000E: 25@ -= 0
+000F: 28@ -= 0.0
+0010: $VAR7 *= 0
+0011: $VAR7 *= 0.0
+0012: 19@ *= 0
+0013: 12@ *= 0.0
+0014: $VAR6 /= 0
+0015: $VAR12 /= 0.0
+0016: 1@ /= 0
+0017: 23@ /= 0.0
+0018:   $VAR21 > 0
+0019:   29@ > 0
+001A:   0 > $VAR25
+001B:   0 > 5@
+001C:   $VAR1 > $VAR4 // (int)
+001D:   17@ > 1@ // (int)
+001E:   $VAR8 > 8@ // (int)
+001F:   13@ > $VAR0 // (int)
+0020:   $VAR20 > 0.0
+0021:   15@ > 0.0
+0022:   0.0 > $VAR22
+0023:   0.0 > 7@
+0024:   $VAR0 > $VAR27 // (float)
+0025:   23@ > 8@ // (float)
+0026:   $VAR24 > 29@ // (float)
+0027:   2@ > $VAR2 // (float)
+0028:   $VAR28 >= 0
+0029:   26@ >= 0
+002A:   0 >= $VAR5
+002B:   0 >= 21@
+002C:   $VAR22 >= $VAR23 // (int)
+002D:   6@ >= 0@ // (int)
+002E:   $VAR5 >= 5@ // (int)
+002F:   4@ >= $VAR16 // (int)
+0030:   $VAR19 >= 0.0
+0031:   9@ >= 0.0
+0032:   0.0 >= $VAR3
+0033:   0.0 >= 0@
+0034:   $VAR7 >= $VAR22 // (float)
+0035:   10@ >= 25@ // (float)
+0036:   $VAR16 >= 22@ // (float)
+0037:   24@ >= $VAR20 // (float)
+0038:   $VAR8 == 0
+0039:   26@ == 0
+003A:   $VAR28 == $VAR12 // (int)
+003B:   20@ == 1@ // (int)
+003C:   $VAR24 == 17@ // (int)
+0042:   $VAR16 == 0.0
+0043:   17@ == 0.0
+0044:   $VAR8 == $VAR2 // (float)
+0045:   14@ == 21@ // (float)
+0046:   $VAR6 == 14@ // (float)
+004D: jump_if_false @LABEL
+004E: terminate_this_script
+004F: start_new_script @LABEL
+0050: gosub @LABEL
+0051: return
+0052: NOP 12@ 21@ $VAR8 22@ 1@ $VAR15
+0053: 0@ = create_player #NULL at 0.0 0.0 0.0
+0058: $VAR25 += $VAR26 // (int)
+0059: $VAR16 += $VAR7 // (float)
+005A: 5@ += 25@ // (int)
+005B: 8@ += 28@ // (float)
+005C: 21@ += $VAR10 // (int)
+005D: 12@ += $VAR23 // (float)
+005E: $VAR10 += 27@ // (int)
+005F: $VAR7 += 12@ // (float)
+0060: $VAR29 -= $VAR8 // (int)
+0061: $VAR19 -= $VAR21 // (float)
+0062: 10@ -= 7@ // (int)
+0063: 27@ -= 18@ // (float)
+0064: 9@ -= $VAR19 // (int)
+0065: 27@ -= $VAR18 // (float)
+0066: $VAR20 -= 15@ // (int)
+0067: $VAR9 -= 23@ // (float)
+0068: $VAR21 *= $VAR4 // (int)
+0069: $VAR25 *= $VAR14 // (float)
+006A: 16@ *= 4@ // (int)
+006B: 24@ *= 11@ // (float)
+006C: $VAR16 *= 4@ // (int)
+006D: $VAR9 *= 8@ // (float)
+006E: 29@ *= $VAR23 // (int)
+006F: 7@ *= $VAR6 // (float)
+0070: $VAR18 /= $VAR16 // (int)
+0071: $VAR18 /= $VAR25 // (float)
+0072: 24@ /= 17@ // (int)
+0073: 10@ /= 0@ // (float)
+0074: $VAR3 /= 18@ // (int)
+0075: $VAR19 /= 25@ // (float)
+0076: 10@ /= $VAR15 // (int)
+0077: 13@ /= $VAR26 // (float)
+0078: $VAR23 += frame_delta_time * 0.0 // (float)
+0079: 3@ += frame_delta_time * 0.0 // (float)
+007A: $VAR29 += frame_delta_time * $VAR29 // (float)
+007B: 25@ += frame_delta_time * 9@ // (float)
+007C: 0@ += frame_delta_time * $VAR1 // (float)
+007D: $VAR17 += frame_delta_time * 8@ // (float)
+007E: $VAR16 -= frame_delta_time * 0.0 // (float)
+007F: 19@ -= frame_delta_time * 0.0 // (float)
+0080: $VAR2 -= frame_delta_time * $VAR13 // (float)
+0081: 24@ -= frame_delta_time * 20@ // (float)
+0082: 12@ -= frame_delta_time * $VAR11 // (float)
+0083: $VAR2 -= frame_delta_time * 0@ // (float)
+0084: $VAR1 = $VAR4 // (int)
+0085: 28@ = 28@ // (int)
+0086: $VAR16 = $VAR15 // (float)
+0087: 2@ = 22@ // (float)
+0088: $VAR27 = 2@ // (float)
+0089: 26@ = $VAR5 // (float)
+008A: $VAR20 = 19@ // (int)
+008B: 4@ = $VAR24 // (int)
+008C: $VAR19 = float $VAR28 to_integer
+008D: $VAR2 = integer $VAR1 to_float
+008E: 4@ = float $VAR7 to_integer
+008F: 25@ = integer $VAR6 to_float
+0090: $VAR21 = float 18@ to_integer
+0091: $VAR7 = integer 17@ to_float
+0092: 16@ = float 12@ to_integer
+0093: 12@ = integer 16@ to_float
+0094: make $VAR1 absolute_integer
+0095: make 2@ absolute_integer
+0096: make $VAR3 absolute_float
+0097: make 15@ absolute_float
+0098: 28@ = random_float_in_ranges_0.0_to_1.0
+0099: $VAR21 = random_int_in_ranges_0_to_0
+009A: 26@ = create_actor_type 0 model #MODEL at 0.0 0.0 0.0
+009B: destroy_actor 27@
+00A0: store_actor $VAR29 position_to 18@ 24@ 23@
+00A1: put_actor $VAR23 at 0.0 0.0 0.0
+00A3:   actor $VAR15 sphere 0 in_rectangle_cornerA 0.0 0.0 cornerB 0.0 0.0
+00A4:   actor $VAR10 sphere 0 in_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+00A5: 16@ = create_car #MODEL at 0.0 0.0 0.0
+00A6: destroy_car 13@
+00A7: car 23@ drive_to 0@ 3@ 24@
+00A8: set_car 4@ to_psycho_driver
+00A9: set_car 19@ to_normal_driver
+00AA: store_car 0@ position_to 18@ 24@ 23@
+00AB: put_car 1@ at 0.0 0.0 0.0
+00AD: set_car 17@ max_speed_to 0.0
+00AE: set_car 23@ traffic_behaviour_to 0
+00AF: set_car 8@ driver_behaviour_to 0
+00B0:   car 19@ sphere 0 in_rectangle_cornerA 0.0 0.0 cornerB 0.0 0.0
+00B1:   car 10@ sphere 0 in_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+00BA: show_text_styled GXT "Long String" time 0 style 0 // Beefy Baron
+00BB: show_text_lowpriority GXT 'SHORT' time 0 flag 0 // ~s~This vehicle is not required for export.
+00BC: show_text_highpriority GXT 'SHORT' time 0 flag 0 // ~s~Come back between 9:00 and 17:00.
+00BE: text_clear_all
+00BF: $VAR8 = current_time_hours, $VAR5 = current_time_minutes
+00C0: set_current_time 0 0
+00C1: 14@ = get_minutes_left_to_time_hours 14@ time_minutes 19@
+00C2:   sphere_onscreen 4@ 22@ 22@ radius 0.0
+00D6: if
+00D7: start_new_script @LABEL // without extra params
+00D8: mission_cleanup
+00D9: 22@ = actor $VAR23 car // add to mission cleanup
+00DB:   actor $VAR7 in_car 21@
+00DD:   actor $VAR3 driving_car_with_model #MODEL
+00DF:   actor $VAR27 driving
+00E1:   player 0 pressed_key 0
+00E2: 24@ = get_player 0 key 0 state
+00EC:   actor 4@ sphere 0 near_point 0.0 0.0 radius 0.0 0.0
+00ED:   actor 28@ sphere 0 near_point 0.0 0.0 radius 0.0 0.0 on_foot
+00EE:   actor 9@ sphere 0 near_point 0.0 0.0 radius 0.0 0.0 in_car
+00EF:   actor 6@ sphere 0 near_point 0.0 0.0 radius 0.0 0.0 stopped
+00F0:   actor 27@ sphere 0 near_point 0.0 0.0 radius 0.0 0.0 stopped_on_foot
+00F1:   actor 27@ sphere 0 near_point 0.0 0.0 radius 0.0 0.0 stopped_in_car
+00F2:   actor 24@ sphere 0 near_actor 9@ radius 0.0 0.0
+00F3:   actor 11@ sphere 0 near_actor 21@ radius 0.0 0.0 on_foot
+00F4:   actor 18@ sphere 0 near_actor 12@ radius 0.0 0.0 in_car
+00FE:   actor 18@ sphere 0 in_sphere 0.0 0.0 0.0 radius 0.0 0.0 0.0
+00FF:   actor 11@ sphere 0 in_sphere 0.0 0.0 0.0 radius 0.0 0.0 0.0 on_foot
+0100:   actor 22@ sphere 0 in_sphere 0.0 0.0 0.0 radius 0.0 0.0 0.0 in_car
+0101:   actor 15@ sphere 0 in_sphere 0.0 0.0 0.0 radius 0.0 0.0 0.0 stopped
+0102:   actor 5@ sphere 0 in_sphere 0.0 0.0 0.0 radius 0.0 0.0 0.0 stopped_on_foot
+0103:   actor 5@ sphere 0 in_sphere 0.0 0.0 0.0 radius 0.0 0.0 0.0 stopped_in_car
+0104:   actor 6@ sphere 0 near_actor 18@ radius 0.0 0.0 0.0
+0105:   actor 10@ sphere 0 near_actor 5@ radius 0.0 0.0 0.0 on_foot
+0106:   actor 12@ sphere 0 near_actor 28@ radius 0.0 0.0 0.0 in_car
+0107: 24@ = create_object #MODEL at 0.0 0.0 0.0
+0108: destroy_object $VAR12
+0109: player $VAR29 money += 0
+010A:   player $VAR10 money > 4@
+010B: 23@ = player $VAR2 money
+010C: NOP
+010D: set_player $VAR23 wanted_level_to 0
+010E: set_player $VAR28 minimum_wanted_level_to 0
+010F:   player $VAR29 wanted_level > 0
+0110: clear_player $VAR13 wanted_level
+0111: set_wasted_busted_check 0
+0112:   wasted_or_busted // mission only
+0114: set_actor $VAR24 weapon 0 add_ammo 0
+0117:   player $VAR13 wasted
+0118:   actor 13@ dead
+0119:   car 27@ wrecked
+0122:   player $VAR28 pressing_horn
+0129: 25@ = create_actor_type 0 model #MODEL in_car 5@ driverseat
+0137:   car 4@ model == #MODEL
+014B: $VAR0 = init_car_generator #MODEL color 0 -1 force_spawn 0 alarm 0 door_lock 0 min_delay 0 max_delay 0 at 0.0 0.0 0.0 angle 0.0
+014C: set_parked_car_generator $VAR0 cars_to_generate_to 0
+014E: start_timer_at $VAR3 count_in_direction 0 // global_variable
+014F: stop_timer $VAR9
+0151: remove_status_text $VAR26
+0154:   actor $VAR12 in_zone 'SHORT' // Easter Basin
+0158: camera_on_car 9@ mode 0 switchstyle 0
+0159: camera_on_ped 28@ mode 0 switchstyle 0
+015A: restore_camera
+015B: shake_player_controller 0 time 0 intensity 0
+015D: set_gamespeed 0.0
+015F: set_camera_position 0.0 0.0 0.0 rotation 0.0 0.0 0.0
+0160: set_camera_point_at 0.0 0.0 0.0 switchstyle 0
+0161: 21@ = create_marker_above_car 6@ unused 0 visibility 0
+0162: NOP
+0164: disable_marker $VAR12
+0165: set_marker 9@ color_to 0
+0167: 23@ = create_marker_at 9@ 13@ 27@ color 0 flag 0
+0168: set_marker 14@ size 0
+0169: set_fade_color_RGB 0 0 0
+016A: fade 0 time 0
+016B:   fading
+016C: restart_if_wasted_at 0.0 0.0 0.0 angle 0.0 town_number 0
+016D: restart_if_busted_at 0.0 0.0 0.0 angle 0.0 town_number 0
+016E: override_next_restart at 0.0 0.0 0.0 angle 0.0
+016F: create_particle 0 rotation_factor 0.0 size 0.0 intensity 0 flags 0 0 0 at 7@ 12@ 21@
+0172: $VAR8 = actor 21@ Z_angle
+0173: set_actor $VAR2 Z_angle_to 0.0
+0174: $VAR21 = car $VAR11 Z_angle
+0175: set_car 12@ Z_angle_to 0.0
+0176: 29@ = object 0@ Z_angle
+0177: set_object 24@ Z_angle_to 0.0
+0179:   actor $VAR26 colliding_with_object 26@
+017B: set_actor $VAR21 weapon 0 ammo_to 0
+0180: set_on_mission_flag_to $VAR4 // Note: your missions have to use the variable defined here
+0184:   actor 3@ health > 0
+0185:   car 11@ health > 0
+0186: 0@ = create_marker_above_car 15@
+0187: 18@ = create_marker_above_actor 20@
+0188: 16@ = create_marker_above_object 19@
+018A: 15@ = create_checkpoint_at 18@ 21@ 2@
+018B: set_marker $VAR24 radar_mode 0
+018C: play_sound 0 at 0.0 0.0 0.0
+018D: NOP 2@ 0 0.0 0.0 0.0
+018E: stop_sound 17@
+018F:   is_car_stuck_on_roof 26@
+0190: add_car 23@ to_upsidedown_check // 0 max
+0191: remove_car 29@ from_upsidedown_check
+01A1:   actor $VAR10 sphere 0 in_rectangle_cornerA 0.0 0.0 cornerB 24@ 16@ on_foot
+01A2:   actor $VAR24 sphere 0 in_rectangle_cornerA 3@ 1@ cornerB 14@ 13@ in_car
+01A3:   actor $VAR27 sphere 0 in_rectangle_cornerA 0.0 0.0 cornerB 0.0 0.0
+01A4:   actor 12@ sphere 0 in_rectangle_cornerA 0.0 0.0 cornerB 0.0 0.0 stopped_on_foot
+01A5:   actor $VAR2 sphere 0 in_rectangle_cornerA 0@ 19@ cornerB 29@ 9@ stopped_in_car
+01A6:   actor $VAR7 sphere 0 in_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0 on_foot
+01A7:   actor $VAR29 sphere 0 in_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0 in_car
+01A8:   actor $VAR4 sphere 0 in_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0 stopped
+01A9:   actor $VAR18 sphere 0 in_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0 stopped_on_foot
+01AA:   actor $VAR3 sphere 0 in_cube_cornerA 23@ 27@ 9@ cornerB 3@ 16@ 11@ stopped_in_car
+01AB:   car 19@ sphere 0 in_rectangle_cornerA 2@ 24@ cornerB 19@ 2@ stopped
+01AC:   car 10@ sphere 0 in_cube_cornerA 0.0 19@ 0.0 cornerB 0.0 23@ 0.0 stopped
+01AD:   car 17@ sphere 0 near_point 5@ 1@ radius 0.0 0.0
+01AE:   car 18@ sphere 0 near_point 0.0 0.0 radius 0.0 0.0 stopped
+01AF:   car 11@ sphere 0 in_sphere 29@ 4@ 3@ radius 0.0 0.0 0.0
+01B0:   car 21@ sphere 0 in_sphere 0.0 0.0 0.0 radius 0.0 0.0 0.0 stopped
+01B2: give_actor 2@ weapon 0 ammo 0 // Load the weapon model before using this
+01B4: set_player $VAR25 can_move 0
+01B5: force_weather 0
+01B6: set_weather 0
+01B7: release_weather
+01B9: set_actor 18@ armed_weapon_to 0
+01BB: store_object 11@ position_to 0@ 1@ 2@
+01BC: put_object 6@ at 0.0 0.0 0.0
+01BD: $VAR20 = current_time_in_ms
+01C0: $VAR1 = player $VAR19 wanted_level
+01C1:   car $VAR3 stopped
+01C2: remove_references_to_actor 28@ // Like turning an actor into a random pedestrian
+01C3: remove_references_to_car $VAR17
+01C4: remove_references_to_object 6@ // This object will now disappear when the player looks away
+01C5: remove_actor_from_mission_cleanup_list 28@
+01C7: remove_object_from_mission_cleanup_list 21@
+01C8: 9@ = create_actor_type 0 model #MODEL in_car 21@ passenger_seat 0
+01E3: show_text_1number_styled GXT "Long String" number $VAR16 time 0 style 0 // NEW HIGH SCORE!!~n~~w~~1~
+01E4: show_text_1number_lowpriority GXT 'SHORT' number $VAR26 time 0 flag 0 // INSANE STUNT BONUS: $~1~
+01E5: show_text_1number_highpriority GXT 'SHORT' number 28@ time 0 flag 0 // ~s~You need $~1~ to compete.
+01E7: remove_forbidden_for_cars_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+01E8: create_forbidden_for_cars_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+01E9: 18@ = car 3@ num_passengers
+01EA: 21@ = car 21@ max_passengers
+01EB: set_traffic_density_multiplier_to 0.0
+01EC: make_car 11@ very_heavy 0
+01F0: set_max_wanted_level_to 0
+01F3:   car $VAR13 in_air
+01F4:   car 27@ flipped
+01F5: 20@ = get_player_actor $VAR20
+01F6: cancel_override_restart
+01F7: set_player $VAR28 ignored_by_cops 0
+01F9: init_rampage_gxt 'SHORT' weapon 0 time_limit 0 targets 0 target_models #MODEL #MODEL #MODEL #MODEL completed_text 0
+01FA: 13@ = rampage_status
+01FB: 29@ = square_root 23@
+0202:   actor $VAR4 near_car 11@ radius 0.0 0.0 sphere 0
+0203:   actor $VAR29 near_car 4@ radius 0.0 0.0 flag 0 on_foot
+0204:   actor 19@ near_car 25@ radius 0.0 0.0 sphere 0 in_car
+0205:   actor $VAR5 near_car 0@ radius 0.0 0.0 0.0 flag 0
+0206:   actor $VAR11 near_car 21@ radius 0.0 0.0 0.0 flag 0 on_foot
+0207:   actor $VAR7 near_car 17@ radius 0.0 0.0 0.0 flag 0 in_car
+0208: 9@ = random_float_in_ranges 0.0 0.0
+0209: 27@ = random_int_in_ranges 0 0
+020A: set_car 0@ door_status_to 0
+020B: explode_car 14@
+020C: create_explosion_with_radius 0 at 17@ 22@ 27@
+020D:   car $VAR22 flipped
+0213: 12@ = create_pickup #MODEL type 0 at 0.0 0.0 0.0
+0214:   pickup $VAR20 picked_up
+0215: destroy_pickup $VAR16
+0216: enable_taxi 28@ light 0
+0217: show_text_styled GXT "Long String" time 0 style 0 // versionB
+021B: set_garage 'SHORT' to_accept_only_car $VAR14
+0221: set_player $VAR11 apply_brakes_to_car 0
+0223: set_actor 20@ health_to 0
+0224: set_car 6@ health_to 0
+0226: $VAR23 = actor 27@ health
+0227: 15@ = car 28@ health
+0229: set_car $VAR22 primary_color_to 0 secondary_color_to 0
+022A: remove_forbidden_for_peds_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+022B: create_forbidden_for_peds_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+0235: NOP 0 #MODEL #MODEL
+0236: NOP 0 #MODEL
+0237: set_gang 0 weapons_to 0 29 0
+023B:   actor 23@ colliding_with_object 12@
+023C: load_special_actor 'SHORT' as 0 // models 2900
+023D:   special_actor 0 loaded
+0241:   player $VAR3 in_remote_mode
+0244: set_cutscene_pos 27@ 18@ 24@
+0245: set_actor $VAR6 walk_style_to "Long String"
+0247: load_model $VAR26
+0248:   model 16@ available
+0249: release_model $VAR28
+024F: create_corona_with_radius 0.0 type 0 lensflares 0 with_color 0 0 0 at $VAR23 $VAR7 $VAR18
+0253: save_current_time
+0254: restore_current_time
+0256:   player $VAR18 defined
+0293: 7@ = get_controller_mode
+0294: set_car 16@ sprayable 0
+0296: unload_special_actor 0
+0297: reset_player $VAR23 destroyed_model_counters
+0298: get_player $VAR0 destroyed_model #MODEL quantity_to $VAR8
+0299: activate_garage 'SHORT'
+029B: 12@ = init_object #MODEL at 0.0 0.0 0.0
+02A0:   actor $VAR20 stopped
+02A3: enable_widescreen 0
+02A4: NOP
+02A5: NOP
+02A7: 28@ = create_icon_marker_and_sphere $VAR15 at $VAR7 $VAR29 $VAR13
+02A8: 4@ = create_marker $VAR0 at $VAR25 $VAR28 $VAR11
+02A9: set_actor 3@ immune_to_nonplayer 0
+02AA: set_car 11@ immune_to_nonplayer 0
+02AB: set_actor 0@ immunities BP 0 FP 0 EP 0 CP 0 MP 0
+02AC: set_car 6@ immunities BP 0 FP 0 EP 0 CP 0 MP 0
+02B9: deactivate_garage 'SHORT'
+02BF:   car 0@ sunk
+02C0: store_to 21@ 17@ 19@ ped_path_coords_closest_to 0@ 2@ 24@
+02C1: store_to 12@ 2@ 6@ car_path_coords_closest_to 23@ 7@ 26@
+02C2: car 8@ drive_to 0.0 0.0 0.0
+02CA:   car 19@ bounding_sphere_visible
+02CB:   actor $VAR2 bounding_sphere_visible
+02CC:   object 19@ bounding_sphere_visible
+02CE: 28@ = ground_z_at 14@ 27@ 1@
+02CF: 9@ = create_fire_at 0.0 0.0 0.0 propagation 0 size 0
+02D0:   fire 20@ extinguished
+02D1: remove_fire 13@
+02D3: boat 9@ sail_to 26@ 12@ 0.0
+02D4: car 28@ turn_off_engine
+02D6:   actor $VAR13 fires_weapon 0 in_rectangle_cornerA 0.0 0.0 cornerB 0.0 0.0
+02D8:   actor $VAR26 current_weapon == 0
+02DB: set_boat 28@ speed_to 0.0
+02DD: 2@ = get_random_ped_in_zone 'SHORT' with_pedtype_civilian 0 gang 0 criminal/prostitute 0
+02E0:   actor $VAR15 firing_weapon
+02E1: 18@ = create_cash_pickup 0 at 0.0 0.0 0.0 permanence_flag 0
+02E2: set_actor 4@ weapon_accuracy_to 0
+02E3: 16@ = car 14@ forward_speed
+02E4: load_cutscene_data 'SHORT'
+02E5: NOP
+02E7: start_cutscene
+02E8: $VAR28 = cutscenetime
+02E9:   cutscene_reached_end
+02EA: end_cutscene
+02EB: restore_camera_with_jumpcut
+02ED: set_total_hidden_packages_to 0
+02EE:   projectile_in_cube_cornerA 1@ 26@ 20@ cornerB 12@ 18@ 26@
+02F2:   actor 26@ model == #MODEL
+02F6: 12@ = sine 0.0 // (float)
+02F7: 10@ = cosine 0.0 // (float)
+02F8: 10@ = get_car 6@ Z_angle_sine
+02F9: 3@ = get_car 14@ Z_angle_cosine
+02FA: set_garage 'SHORT' type 0
+02FD: show_text_2numbers_lowpriority GXT 'SHORT' numbers $VAR1 $VAR17 time 0 flag 0 // ~b~1 Pointer!~s~ Distance ~1~.~1~m
+02FF: show_text_3numbers GXT 'SHORT' numbers $VAR15 $VAR19 $VAR27 time 0 flag 0 // TWO WHEELS DOUBLE BONUS: $ ~1~ Distance: ~1~ feet Time: ~1~ seconds
+0302: show_text_4numbers GXT "Long String" numbers $VAR5 $VAR27 $VAR26 $VAR3 time 0 flag 0
+0303: show_text_4numbers_highpriority GXT 'SHORT' numbers 28@ 8@ 24@ 6@ time 0 flag 0 // ~s~You set a new best time - ~1~m ~1~s. The quarry missions have now been completed in ~1~m ~1~s.
+0308: show_text_6numbers GXT 'SHORT' numbers $VAR29 $VAR26 $VAR25 $VAR11 $VAR4 $VAR25 time 0 flag 0 // Distance: ~1~.~1~m Height: ~1~.~1~m Flips: ~1~ Rotation: ~1~|
+030C: progress_made += 0
+030D: set_max_progress 0
+0317: increment_mission_attempts
+0318: set_latest_mission_passed 'SHORT' // Big Smoke
+031A: remove_all_fires
+031D:   actor $VAR2 hit_by_weapon 0
+031E:   car 29@ hit_by_weapon 0
+0321: AS_actor $VAR29 die_headshotted
+0323: enable_boat 24@ anchor 0
+0325: 7@ = create_fire_at 18@ car
+0326: 22@ = create_fire_at 13@ actor
+0327: $VAR16 = get_random_car_with_model 0 in_rectangle_cornerA $VAR13 $VAR6 cornerB $VAR11 $VAR26
+032A: set_behind_camera_mode_to 0
+032B: 27@ = create_weapon_pickup #MODEL group 0 ammo 0 at 0.0 0.0 0.0
+0330: set_player $VAR20 infinite_run 0
+0331: set_player $VAR13 fast_reload 0
+0332: set_actor 25@ bleeding 0
+0335: enable_free_respray 0
+0337: set_actor 16@ visibility 0
+0338: set_car 20@ visibility 0
+0339:   anything_in_cube_cornerA 1@ 21@ 15@ cornerB 14@ 5@ 11@ solid 0 car 0 actor 0 object 0 particle 0
+033E: set_draw_text_position 0.0 0.0 GXT 'SHORT' // Push
+033F: set_text_draw_letter_size 0.0 0.0
+0340: set_text_draw_RGBA 0 180 0 0
+0341: set_text_draw_align_justify 0
+0342: set_text_draw_centered 0
+0343: set_text_draw_linewidth 0.0
+0344: set_text_draw_linewidth 0.0 for_centered_text
+0345: enable_text_draw_background 0
+0348: enable_text_draw_proportional 0
+0349: set_text_draw_font 0
+034D: rotate_object $VAR5 from_angle 0.0 to_angle 0.0 flag 0
+034E: move_object 27@ to 18@ 4@ 16@ speed 1@ 18@ 16@ collision_check 0
+034F: destroy_actor_with_fade 26@
+0350: set_actor 1@ maintain_position_when_attacked 0
+0356:   explosion_type 0 in_cube_cornerA 24@ 24@ 9@ cornerB 26@ 8@ 18@
+035C: place_object $VAR8 relative_to_car $VAR11 with_offset 0.0 0.0 0.0
+035D: set_object $VAR27 targetable 0
+035F: actor 23@ armour += 0
+0360: open_garage 'SHORT'
+0361: close_garage 'SHORT'
+0362: remove_actor $VAR22 from_car_and_place_at 0.0 0.0 0.0
+0363: create_object_at 0.0 0.0 0.0 radius 0.0 model #MODEL visibility 0
+0364:   actor 6@ spotted_actor $VAR28
+0366:   object $VAR16 damaged
+036A: put_actor 23@ in_car 20@
+036D: show_text_2numbers_styled GXT "Long String" numbers $VAR16 3@ time 0 style 0 // ~1~ IN A ROW bonus! $~1~
+0373: set_camera_directly_behind_player
+0376: 23@ = create_random_actor_at 0.0 0.0 0.0
+0381: throw_object 29@ velocity_in_direction 22@ 2@ 23@
+0382: set_object 6@ collision_detection 0
+0384: show_text_1string GXT 19@s string 16@s time 0 0
+038A:   any_car_in_cube_cornerA 3@ 22@ 9@ cornerB 0.0 0.0 0.0
+038B: load_requested_models
+038C: object 22@ scatter 0.0 0.0 0.0
+038D: draw_texture 0 position $VAR27 $VAR11 size 22@ 19@ RGBA 0 128 0 0
+038E: draw_box_position 0.0 0.0 size 0.0 0.0 RGBA 0 0 0 0
+038F: load_texture "Long String" as 0 // Load dictionary with 0 first
+0390: load_txd_dictionary 'SHORT'
+0391: release_textures
+0392: make_object 4@ moveable 0
+0393: set_actor 25@ perform_animation "Long String" at 23@ times_normal_rate
+0394: play_music 0
+0395: clear_area 0 at 0.0 0.0 0.0 radius 0.0
+0396: pause_timer 0
+0397: enable_car 0@ siren 0
+039C: set_car 5@ watertight 0
+039E: set_actor 28@ locked 0 while_in_car
+039F: set_car 12@ race_to 1@ 5@
+03A1: show_sphere_at 0.0 0.0 0.0 radius 0.0
+03A2: set_car 20@ action 0
+03A3:   actor 11@ male
+03A4: script_name 'SHORT'
+03A7: save_int_to_debug_file $VAR19
+03A8: save_float_to_debug_file 13@
+03A9: save_newline_to_debug_file
+03AA: NOP 7@ 3@ $VAR23 // play_suspect_last_seen_at
+03AB: set_car 12@ strong 0
+03AD: NOP 0 // set_rubbish
+03AF: enable_streaming 0
+03B0:   garage 'SHORT' door_open
+03B1:   garage 'SHORT' door_closed
+03B6: replace_model_at 0.0 0.0 0.0 radius 0.0 from #MODEL to #MODEL
+03B7: process_cutscene_only 0
+03BA: clear_cars_from_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+03BC: 16@ = create_sphere_at 0.0 0.0 0.0 radius 0.0
+03BD: destroy_sphere 23@
+03BF: set_player $VAR12 ignored_by_everyone 0
+03C0: $VAR14 = actor $VAR7 car
+03C3: set_timer_to $VAR13 type 0 GXT 'SHORT' // global_variable // Time
+03C4: set_status_text $VAR4 type 0 GXT 'SHORT' // global_variable // Score ~1~
+03C5: create_random_car_for_carpark 0.0 0.0 0.0 z_angle 0.0
+03C7: set_sensitivity_to_crime 0.0
+03C8: set_camera_directly_before_player
+03C9:   car 9@ damaged
+03CA:   object $VAR26 exists
+03CB: set_rendering_origin_at 0.0 0.0 0.0
+03CC: enable_car 2@ stuck_check_distance_to 0.0 time_to 0
+03CD: disable_car 9@ stuck_check
+03CE:   car 14@ stuck
+03CF: load_wav 0 as 0
+03D0:   wav 4@ loaded
+03D1: play_wav 0
+03D2:   wav 25@ ended
+03D3: get_route_nearest_for $VAR18 $VAR12 $VAR23 store_to $VAR27 $VAR13 $VAR4 Z_angle_to $VAR2
+03D5: remove_text 'SHORT' // Press ~k~~TOGGLE_SUBMISSIONS~ to toggle taxi missions on or off.
+03D6: remove_styled_text "Long String" // Boxville
+03D7: set_wav 0 location 0.0 0.0 0.0
+03D8: show_save_screen
+03D9:   save_done
+03DC: 11@ = create_marker_above_pickup 0@
+03DE: set_pedestrians_density_multiplier_to 0.0
+03E0: draw_text_behind_textures 0
+03E3: set_texture_to_be_drawn_antialiased 0
+03E4: set_text_draw_align_right 0
+03E5: show_text_box 'SHORT' // Respect can be earned be passing certain missions, killing rival gangs members, gaining territory and tagging.
+03E6: remove_text_box
+03E7: flash_hud_component 0
+03EB: clear_small_messages_only
+03ED: set_car 10@ disable_flipped_explosion_when_empty 0
+03EE:   player $VAR9 controllable
+03EF: player $VAR20 make_safe
+03F0: enable_text_draw 0
+03F3: get_car $VAR9 primary_color_to 18@ secondary_color_to 9@
+03F4: set_all_cars_apply_damage_rules 0
+03F5: set_car 28@ apply_damage_rules 0
+03FD: set_player $VAR17 handling_responsiveness 20@
+03FE: set_actor 5@ money 0
+0400: store_coords_to 5@ 13@ 14@ from_object 13@ with_offset 0.0 0.0 0.0
+0407: store_coords_to 10@ 24@ 18@ from_car 11@ with_offset 0.0 0.0 0.0
+040C:   is_german_game
+040D: unload_wav 20@
+0414: set_player $VAR12 free_treatment_once 0
+0417: start_mission 0 // Initial 0
+0418: set_object 26@ draw_last 0
+041A: 11@ = actor $VAR20 weapon 0 ammo
+041D: set_camera_near_clip 0.0
+041E: set_radio_station 0
+0423: set_car 21@ improved_handling_to 0.0 // (float)
+0424:   is_system_metric
+0425: 3@ = meters 29@ to_feet
+0428: set_car 0@ avoid_level_transitions 0
+042B: clear_peds_from_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+042C: set_total_missions_to 0
+042D: $VAR10 = metric $VAR17 to_imperial
+042E: downdate_integer_stat 0 to 15@ // same as 0
+0430: put_actor 4@ into_car $VAR8 passenger_seat 0
+0431:   car $VAR5 passenger_seat_free 0
+0432: 10@ = get_actor_handle_from_car $VAR28 passenger_seat 0
+0433: set_actor 27@ criminal_flag 0
+0434: show_credits
+0435: end_credits
+0436:   credits_ended
+043C: disable_sounds_after_fade 0
+0441: 9@ = car $VAR28 model
+0445:   are_car_cheats_used
+0446: set_actor 16@ dismemberment_possible 0
+0448:   actor $VAR19 in_car $VAR26
+0449:   actor $VAR11 in_a_car
+044B:   actor $VAR13 on_foot
+044D: NOP
+0453: set_object $VAR18 XY_rotation 0.0 0.0 angle $VAR16
+0454: useless_store_debug_camera_position_to $VAR8 $VAR19 $VAR10
+0457:   player $VAR19 aiming_at_actor 6@
+0458:   player $VAR15 aiming_at_object $VAR13
+0459: end_script_named 'SHORT'
+045A: draw_text_1number 0.0 0.0 GXT 'SHORT' number 9@ // ALL RACES WON!~n~~w~$~1~
+045B: draw_text_2numbers 0.0 0.0 GXT 'SHORT' numbers $VAR10 $VAR28 // ~1~:~1~
+045C: abort_mission
+0460: set_camera_transverse_delay 0.0 time 0
+0463: useless_store_debug_camera_target_point_to $VAR24 $VAR1 $VAR3
+0464: put_actor 5@ into_turret_on_car 23@ at_car_offset 13@ 26@ 21@ position 0 shooting_angle_limit 0.0 with_weapon 0
+0465: remove_actor $VAR14 from_turret_mode
+0466: unknown_car 14@ flag 0
+0467: clear_actor $VAR20 last_weapon_damage
+0468: clear_car 23@ last_weapon_damage
+046C: 8@ = car 1@ driver
+046D: 8@ = actor 13@ members_in_group
+046E: put_player $VAR10 in_RC_mode_at 22@ 1@ 1@ angle 0.0 RC_model #MODEL
+0470: 13@ = actor $VAR29 current_weapon
+0471:   actor $VAR17 near_object_in_rectangle $VAR0 radius 0.0 0.0 sphere 0
+0472:   actor $VAR0 near_object_in_rectangle 25@ radius 0.0 0.0 sphere 0 on_foot
+0473:   actor 17@ near_object_in_rectangle 0@ radius 0.0 0.0 sphere 0 in_car
+0474:   actor $VAR20 near_object_in_cube 1@ radius 0.0 0.0 0.0 sphere 0
+0475:   actor $VAR13 near_object_in_cube 15@ radius 0.0 0.0 0.0 sphere 0 on_foot
+0476:   actor $VAR10 near_object_in_cube 1@ radius 0.0 0.0 0.0 sphere 0 in_car
+0477: set_car 26@ action 0 time 0
+047A:   actor $VAR24 driving_bike
+0480:   actor 0@ looking_at_death_of_actor_pedtype 0
+0484: 1@ = player $VAR19 RC_car
+0485:  return_true
+0488:   model #MODEL exists // versionA
+0489: set_actor $VAR17 muted 0
+048A: set_RC_car_detonation 0 // or opcode 04D0
+048B: set_car 15@ route_seed $VAR14
+048C:   pickup_at 0.0 0.0 0.0 available_to_be_picked_up
+048F: actor $VAR8 remove_weapons
+0491:   actor $VAR19 has_weapon 0
+0494: get_joystick 0 data_to $VAR29 $VAR24 $VAR28 $VAR7
+0495:   car 13@ burning
+0496:   car 6@ deflated_tyre 0
+04A2: set_heli 27@ fly_to 10@ 29@ 29@ altitude_between 0.0 and 8@
+04A3:   $VAR20 == 0 // $ == constant
+04A4:   21@ == 0 // @ == constant
+04A5: get_dead_actor_pickup_coords 5@ store_to $VAR0 $VAR16 $VAR27
+04A6: 14@ = create_asset_money_pickup_at 0.0 0.0 0.0 money 0 $VAR25
+04A7:   actor $VAR7 driving_boat
+04A9:   actor 20@ driving_heli
+04AB:   actor 6@ driving_plane
+04AD:   actor $VAR24 in_water
+04AE: $VAR8 = 0 // $ = constant
+04AF: 15@ = 0 // @ = constant
+04B0:   $VAR6 > 0 // $ > constant
+04B1:   2@ > 0.0 // @ > constant
+04B2:   0 > $VAR5 // constant > $
+04B3:   0 > 13@ // constant > @
+04B4:   $VAR24 >= 0.0 // $ >= constant
+04B5:   23@ >= 0 // @ >= constant
+04B6:   0.0 >= $VAR26 // constant >= $
+04B7:   0 >= 7@ // constant >= @
+04B8: get_weapon_data_from_actor $VAR9 slot 0 weapon 0@ ammo 15@ model 29@
+04B9: unknown_get_at 8@ 28@ 13@ height 0.0 radius 0.0 store_to 15@ 22@ 12@ 21@ 16@ 12@ 28@
+04BA: set_car 4@ speed_to 0.0
+04BB: select_interior 0
+04BD: set_car 22@ is_part_of_convoy 0
+04C0: create_roadblock_in_area_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0 type 0
+04C1: remove_references_to_roadblocks
+04C4: store_coords_to $VAR26 $VAR16 $VAR6 from_actor 28@ with_offset 0.0 0.0 0.0
+04C5:   actor 14@ photographed
+04C8:   actor $VAR2 driving_flying_vehicle
+04CE: 6@ = create_icon_marker_without_sphere 0 at 0.0 0.0 0.0
+04D0: force_heli 16@ looking_angle_to 0.0
+04D1: reset_heli 14@ looking_angle
+04D2: set_plane 12@ fly_autopilot_around_point 8@ 24@ 24@ altitude_between 0.0 and 23@
+04D3: get_nearest_car_path_coords_from $VAR18 $VAR26 $VAR8 type 0 store_to 2@ 22@ 7@
+04D5: create_corona_at $VAR6 $VAR29 $VAR22 radius 23@ type 0 flare 0 RGB 0 255 0
+04D6: enable_RC_car_detonation 0
+04D7: set_actor $VAR21 locked 0
+04D8: set_actor 28@ drowns_in_water 0
+04D9: object 9@ set_scripted_collision_check 0
+04DA:   has_object 29@ collided
+04DB: exit_RC_mode // on foot version
+04DD: $VAR21 = actor $VAR0 armour
+04DF: set_heli 5@ lean_and_thrust_limiter 0
+04E0: car 21@ abandon_path_radius 0
+04E1: open_and_freeze_car_trunk 28@
+04E2: NOP $VAR15 0
+04E3: set_player $VAR5 mood 0 time 0
+04E4: refresh_game_renderer_at 0.0 0.0
+04E5:   object 7@ near_point 29@ 0@ radius 0.0 0.0 sphere 0
+04E6:   object 14@ near_point 0@ 23@ 7@ radius 0.0 0.0 0.0 flag 0
+04E7:   object 25@ in_water
+04E9:   object 25@ in_rectangle_cornerA 0.0 0.0 cornerB 0.0 0.0 sphere 0
+04EA:   object 1@ in_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0 flag 0
+04EB: AS_actor 4@ crouch 0
+04ED: load_animation  "Long String"
+04EE:   animation "Long String" loaded
+04EF: release_animation "Long String"
+04F0:   is_actor_waiting_for_world_collision $VAR13
+04F1:   is_car_waiting_for_world_collision $VAR2
+04F4: put_actor 15@ into_turret_on_object 3@ offset_from_object_origin 0.0 0.0 0.0 orientation 0 both_side_angle_limit 0.0 lock_weapon 0
+04F7: status_text $VAR17 type 0 line 0 GXT 'SHORT' // global_variable // Score
+04F8: define_police_trigger_type 0 if_player_with_wanted_level_in_rectangle 0.0 0.0 0.0 0.0 spawn_policeA_at 0.0 0.0 headed_towards 0.0 0.0 spawn_policeB_at 0.0 0.0 headed_towards 0.0 0.0
+04F9: set_sky_color 0 fade 0
+04FA: reset_sky_colors_with_fade 0
+04FC: store_stunt_data $VAR6 two_wheels: $VAR3 $VAR5 wheelie: $VAR5 $VAR22 stoppie: $VAR21 $VAR3
+04FE: car 23@ deflate_tyre 0
+0500:   player $VAR6 skin == "Long String" on_bodypart 0
+0501: set_player $VAR3 driveby_mode 0
+0503: 26@ = create_actor_type 0 model #MODEL at 0.0 0.0 0.0 on_rope
+0506: set_car_model #MODEL next_variation 0 4 // first param is useless
+0508: car 17@ close_all_doors
+0509: 22@ = distance_between_XY $VAR16 $VAR3 and_XY 24@ 17@
+050A: 27@ = distance_between_XYZ $VAR11 $VAR17 $VAR10 and_XYZ 15@ 23@ 13@
+050E: set_object 4@ no_collision_with_car 26@
+050F: 15@ = get_max_wanted_level
+0512: show_permanent_text_box 'SHORT' // If your health reaches zero, you will pass out and you will be treated at the local medical center.
+0513: show_text_box_1number 'SHORT' number 20@ // ~k~~VEHICLE_ENTER_EXIT~ Use Slot Machine $~1~
+0517: 15@ = create_unavailable_asset_pickup 'SHORT' at $VAR27 $VAR29 $VAR7 // You cannot buy this property yet.
+0518: 12@ = create_available_asset_pickup 'SHORT' at $VAR16 $VAR22 $VAR14 price $VAR1 // Press ~k~~PED_ANSWER_PHONE~ to buy this property.
+0519: set_car 9@ locked 0
+051A:   actor 26@ damaged_by_actor $VAR22
+051B:   actor 5@ damaged_by_car 15@
+051C:   car 19@ damaged_by_actor $VAR4
+051D:   car 7@ damaged_by_car 20@
+051E: 15@ = get_current_radio_station
+0526: set_actor 4@ stay_in_car_when_jacked  0
+052C: set_player $VAR10 drunk_visuals 0
+053E: 27@ = get_random_car_with_model 0 in_rectangle_cornerA 2@ 9@ cornerB 15@ 14@
+053F: set_car 21@ tyres_vulnerability 0
+0541: car 20@ enable_guns_sound
+0547:   actor 14@ colliding_with_car $VAR23
+054A: set_actor $VAR28 can_be_shot_in_a_car 0
+054C: use_GXT_table 'SHORT'
+054E: clear_actor 7@ damage
+054F: clear_car 8@ damage
+0550: keep_object 3@ in_memory 0
+0555: remove_weapon 0 from_actor 23@
+055D: make_player $VAR17 fireproof 0
+055E: set_player $VAR3 max_health += 0
+055F: set_player $VAR3 max_armour += 0
+0560: 29@ = create_random_actor_in_car 2@
+0561: 1@ = create_passenger_in_car 18@ seat 0
+0563: give_player $VAR23 ammo 0
+0564: heli 22@ simulate_crash_landing
+0565: create_soundless_explosion_at $VAR11 $VAR16 $VAR22 type 0
+0566: link_object $VAR10 to_interior 0
+0568: set_actor 25@ untargetable 0
+056A:   cutscene_skipped
+056C:   actor $VAR12 driving_police_car
+056D:   actor 6@ defined
+056E:   car 4@ defined
+0570: 13@ = create_asset_radar_marker_with_icon 0 at $VAR11 $VAR4 $VAR26
+0572: enable_taxi_nitros 0
+0574: set_car 18@ keep_position 0
+0575: set_actor 16@ pinned_position 0
+057E: set_radar_grey 0
+0581: enable_radar 0
+0582: downdate_integer_stat 15@ to 4@ // same as 042E
+0583:   player $VAR5 in_zone 'SHORT'
+0587: enable_car 25@ validate_position 0
+0588: disable_actor 3@ validate_position 0
+058A: create_gun_flash_from 0.0 0.0 0.0 to $VAR27 $VAR9 $VAR16
+058C: $VAR26 = percentage_completed
+0594: unknown_car 24@ flag 0
+0595: mission_complete
+0597:   actor $VAR12 crouching
+059A:  return_false
+059C: enable_status_text $VAR8 flashing 0 // global_variable
+059D: shuffle_card_decks 0
+059E: get_card_to 17@
+059F: get_object 11@ velocity_in_direction 0.0 0.0 0.0
+05A0:   is_unused_camera_world_viewer_being_used
+05A1: set_object 11@ rotation_velocity_about_an_axis 0.0 0.0 0.0 through_center_of_body
+05A2: set_object 23@ rotation_velocity_about_an_axis 0.0 0.0 0.0 through_center_of_mass
+05A3:   object 22@ stopped
+05A4: 19@ = get_angle_between_vectors_origin_to 28@ 2@ and_origin_to 0.0 0.0
+05A5:   is_area_center 12@ 6@ scale 0.0 0.0 overlaping_area_center 26@ 21@ scale 18@ 2@
+05A6: get_object 10@ rotation_velocity_about_an_axis_X 6@ axis_Y 0@ axis_Z 22@ through_center_of_body
+05A7: set_object 17@ velocity_in_direction_X 7@ direction_Y 6@ direction_Z 0.0
+05A8: 6@ = get_object 20@ speed
+05A9: s$VAR27 = 'SHORT' // s$ // Sunday
+05AA: 19@s = s$VAR28 // @LABEL = 'SHORT'
+05AD:   $VAR14 == 15@s // s$ == 'SHORT'
+05AE:   7@ == 10@s // @LABEL == 'SHORT'
+05B0:   unknown_calculate 8@ 21@ 3@ 6@ 26@ 2@ 24@ 28@ store_to 8@ 12@ // IF and SET
+05B6: save_string_to_debug_file "Long String"
+05B9: AS_actor 0 stay_idle 0 ms
+05BA: AS_actor 8@ move_mouth 0 ms
+05BB: AS_actor 0 fall_down 0 time_on_ground 0
+05BC: AS_actor 0 jump 0
+05BD: AS_actor 15@ tired 0 ms
+05BE: AS_actor 4@ die
+05BF: AS_actor 26@ look_at_actor $VAR6 0 ms
+05C0: AS_actor 6@ look_at_car 19@ 0 ms
+05C1: AS_actor 0 speak_from_audio_table 0
+05C2: AS_actor 27@ show_the_finger
+05C3: AS_actor 14@ hands_cower
+05C4: AS_actor $VAR5 hands_up 0 ms
+05C5: AS_actor 17@ cower 0 ms
+05C7: AS_actor 0 use_atm
+05C8: AS_actor 0 look_around
+05C9: AS_actor 0 on_guard 0 ms
+05CA: AS_actor $VAR9 enter_car 4@ passenger_seat 0 time 0
+05CB: AS_actor $VAR19 enter_car 0@ as_driver 0 ms
+05CD: AS_actor 0 exit_car 13@
+05CF: AS_actor 22@ exit_car 3@ in_direction 0.0 0.0 0.0
+05D1: AS_actor 10@ drive_car 8@ to 8@ 16@ 20@ speed 0.0 0 model #MODEL 0
+05D2: AS_actor 5@ run_to_and_hijack_car 1@ max_search_radius 0.0 traffic_behavior 0
+05D3: AS_actor $VAR18 goto_point 0.0 0.0 0.0 mode 0 time 0 ms // versionA
+05D4: AS_actor 0 rotate_angle 0.0
+05D6: clear_scmpath
+05D7: add_point_to_scmpath 0.0 0.0 0.0
+05D8: AS_assign_scmpath to_actor $VAR13 flags 0 0
+05D9: AS_actor 13@ run_to_actor $VAR0 timelimit 0 stop_within_radius 0.0
+05DA: AS_actor 2@ run_away_in_panic_from 0.0 0.0 0.0 away_radius 0.0 timelimit 0
+05DB: AS_actor 0 flee_from_actor $VAR4 from_origin_radius 0.0 timelimit 0
+05DC: AS_actor 3@ run_away_from_point 0.0 0.0 0.0 stop_at_radius 0.0 timelimit 0
+05DD: AS_actor $VAR16 flee_from_actor $VAR25 from_origin_radius 0.0 timelimit 0
+05DE: AS_actor 13@ walk_around_ped_path
+05E2: AS_actor 16@ kill_actor 8@
+05E5: NOP
+05E9: NOP 12@ 0
+05EB: assign_car 19@ to_path 0
+05EC: release_car 7@ from_path
+05ED: freeze_car 16@ while_on_path
+05EE: unfreeze_car 2@ while_on_path
+05F1: set_car 25@ follow_car 23@ keep_9o_clock
+05F2: set_car 15@ follow_car 9@ keep_3o_clock
+05F3: set_car 24@ follow_car 11@ keep_6o_clock
+05F4: set_car 21@ follow_car 14@ keep_12o_clock
+05F5: AS_actor 0@ goto_point_using_paths 0.0 0.0 0.0 mode 0 time 0
+05F6:   actor $VAR17 in_rectangle_ll_corner_at 0.0 0.0 lr_corner_at 0.0 0.0 angle 0.0 sphere 0
+05F7:   actor $VAR6 in_rectangle_ll_corner_at 0.0 0.0 lr_corner_at 0.0 0.0 angle 0.0 sphere 0 on_foot
+05F8:   actor $VAR20 in_rectangle_ll_corner_at 0@ 29@ lr_corner_at 13@ 3@ angle 0.0 sphere 0 in_car
+05F9:   actor $VAR5 in_rectangle_ll_corner_at 2@ 1@ lr_corner_at 17@ 1@ angle 0.0 flag 0 stopped
+05FA:   actor $VAR18 in_rectangle_ll_corner_at 4@ 9@ lr_corner_at 17@ 21@ angle 0.0 sphere 0 stopped_on_foot
+05FB:   actor $VAR25 in_rectangle_ll_corner_at 0@ 15@ lr_corner_at 5@ 20@ height 11@ flag 0 stopped_in_car
+05FC:   actor $VAR1 in_cube_fll_corner_at 0.0 0.0 0.0 fur_corner_at 0.0 0.0 0.0 angle 0.0 sphere 0
+05FD:   actor $VAR2 in_cube_fll_corner_at 0.0 0.0 0.0 fur_corner_at 0.0 0.0 0.0 angle 0.0 sphere 0 on_foot
+05FE:   actor $VAR26 in_cube_fll_corner_at 8@ 7@ 4@ fur_corner_at 11@ 13@ 1@ depth 0.0 flag 0 in_car
+05FF:   actor 19@ in_cube_fll_corner_at 4@ 14@ 19@ fur_corner_at 11@ 2@ 8@ depth 0.0 flag 0 stopped
+0600:   actor 1@ in_cube_fll_corner_at 9@ 20@ 16@ fur_corner_at 10@ 26@ 8@ depth 0.0 flag 0 stopped_on_foot
+0601:   actor 17@ in_cube_fll_corner_at 9@ 24@ 26@ fur_corner_at 2@ 15@ 23@ depth 0.0 flag 0 stopped_in_car
+0602:   actor $VAR27 driving_taxi
+0603: AS_actor 25@ goto_point_any_means 0.0 0.0 0.0 mode 0 use_car 0
+0604: $VAR18 = get_Z_angle_for_point $VAR3 $VAR7 
+0605: actor 0 perform_animation "Long String" IFP "Long String" framedelta 0.0 loop 0 lockX 0 lockY 0 lockF 0 time 0
+0606: create_forbidden_for_scripted_cars_cornerA 0.0 0.0 cornerB 0.0 0.0
+0607: remove_forbidden_for_scripted_cars
+060A: 14@ = create_decision_maker_type 0 // decisionallowedm_.ped files
+060B: set_actor 15@ decision_maker_to 0
+060D: draw_text_shadow 0 rgba 0 0 0 0
+060E:   car 1@ assigned_to_path
+060F: set_actor 15@ melee_accuracy_to 0.0
+0611:   actor 24@ performing_animation "Long String"
+0612: set_actor 10@ animation "Long String" paused 0
+0613: 24@ = actor 11@ animation "Long String" time
+0614: set_actor 20@ animation "Long String" progress_to 4@ // 0.0 to 0.0
+0615: define_AS_pack_begin 13@
+0616: define_AS_pack_end 2@
+0618: assign_actor 18@ to_AS_pack 12@
+0619: enable_actor 10@ collision_detection 0
+061A: 25@ = get_actor $VAR8 animation "Long String" total_time
+061B: remove_references_to_AS_pack 10@
+061D: 14@ = create_AS_origin_at 0.0 0.0 0.0 Z_angle 0.0 unknown_angle 0.0 AS_pack 21@
+061E: remove_references_to_AS_origin 4@
+0621: 24@ = create_actor_type 0 model #MODEL at_AS_origin 12@ task 0
+0622: AS_actor $VAR11 bail_car 23@
+0623: add 0 to_integer_stat 0
+0624: add 0.0 to_float_stat 0
+0625: decrease_integer_stat 0 by 0
+0626: decrease_float_stat 0 by 0.0
+0627: update_integer_stat 0 to $VAR21
+0628: update_float_stat_to 9@ stat_id 0
+0629: change_integer_stat 0 to 0
+062A: change_float_stat 0 to 0.0
+062E: 5@ = get_actor 0@ task 0 status // ret 0 if not found
+062F: 7@ = create_group_type 0
+0630: put_actor 18@ in_group 24@ as_leader
+0631: put_actor $VAR26 in_group $VAR3
+0632: release_group $VAR12
+0633: AS_actor 18@ exit_car
+0634: AS_actor 15@ attack_using_weapon_actor 7@ flags 0 perform_actions_after_time 0 chance_of_action 0
+0635: AS_actor 0 aim_at_actor $VAR11 0 ms
+0637: AS_actor 0 goto 0.0 0.0 0.0 mode 0 turn_radius 0.0 stop_radius 0.0 look_at_actor $VAR0
+0638: AS_actor 4@ stay_put 0
+0639: AS_actor 0 rotate_to_actor 5@
+0642:   actor 20@ at_AS_origin 10@
+0643: set_AS_pack 29@ loop 0
+0646: 3@ = unknown_get_actor $VAR6 task_1560_status // similar to 062E
+0647: AS_actor 7@ clear_look_task
+0648: unknown_actor 2@ task_set 0.0 // float
+064B: 13@ = create_particle "Long String" at 0@ 19@ 23@ type 0
+064C: make_particle 7@ visible
+064E: stop_particle 22@
+064F: remove_references_to_particle 9@
+0650: destroy_particle 28@
+0652: $VAR3 = integer_stat 0
+0653: $VAR16 = float_stat 0
+0654: make_object 16@ fireproof 0
+0655: AS_actor 17@ look_at_object 13@ 0 ms
+0656: get_angle 29@ absolute_degrees_to 20@
+0657: car 13@ open_door 0
+065B: store_pickup 5@ position_to $VAR0 $VAR15 $VAR15
+065C: release_decision_maker $VAR17
+065D: NOP $VAR9 "Long String"
+065E: NOP $VAR13 "Long String"
+0661: NOP "Long String"
+0662: printstring "Long String"
+0663: printint "Long String" $VAR24
+0664: printfloat "Long String" $VAR19
+0665: 9@ = get_actor 9@ model
+0667: AS_actor 0 aim_at 0.0 0.0 0.0 0 ms
+0668: AS_actor 24@ rotate_and_shoot_at 0.0 0.0 0.0 0 ms
+0669: 6@ = attach_particle "Long String" to_actor $VAR29 with_offset 1@ 8@ 23@ type 0
+066A: 7@ = attach_particle "Long String" to_actor 22@ with_offset 0.0 0.0 0.0 rotation 15@ 0@ 14@ type 0
+066B: 29@ = attach_particle "Long String" to_car 5@ with_offset 0.0 0.0 0.0 type 0
+066C: 25@ = attach_particle "Long String" to_car 10@ with_offset 0.0 0.0 0.0 rotation 0.0 0.0 0.0 type 0
+066D: 18@ = attach_particle "Long String" to_object 26@ with_offset 0.0 0.0 0.0 type 0
+066E: 12@ = create_particle "Long String" attached_to_object 16@ with_offset 0.0 0.0 0.0 rotation 0.0 0.0 0.0 flag 0
+0672: AS_actor 0 attack_car 1@
+0673: AS_actor 14@ dive_to_offset 0.0 0.0 time_on_ground 0 ms
+0674: set_car_model $VAR28 numberplate "Long String"
+0676: AS_actor 0 in_car 11@ move_from_passengerseat_to_driverseat
+0677: AS_actor 0 chat_with_actor 23@ lead_speaker_flag 0 unknown_flag 0
+0679: put_camera_on_car 3@ with_offset 0.0 0.0 $VAR22 rotation 0.0 0.0 1@ tilt 0.0 switchstyle 0
+067A: put_camera_on_car 0@ with_offset 0.0 0.0 0.0 point_to_car 21@ tilt 0.0 switchstyle 0
+067B: put_camera_on_car $VAR14 with_offset 0.0 0.0 0.0 point_to_actor $VAR27 tilt 0.0 0
+067C: put_camera_on_actor $VAR18 offset 0.0 0.0 0.0 rotation 0.0 0.0 0.0 tilt 0.0 switchstyle 0
+067E: put_camera_on_actor 2@ offset 0.0 0.0 0.0 target_actor 16@ tilt 0.0 switchstyle 0
+067F: set_car 4@ lights 0
+0680: unknown_assign_AS_origin 21@ to_actors_pedtype 0
+0681: attach_object 1@ to_car 2@ with_offset 0.0 0.0 0.0 rotation 0.0 0.0 0.0
+0682: detach_object 28@ 0.0 0.0 0.0 collision_detection 0
+0683: attach_car 22@ to_car 21@ with_offset 0.0 0.0 0.0 rotation 0.0 0.0 0.0
+0684: detach_car 22@ 0.0 0.0 0.0 collision_detection 0
+0685:   object 14@ attached
+0686:   car 29@ attached
+0687: clear_actor $VAR23 task
+0688: AS_actor 0 unknown_toggle_ped_threat_scanner 0 0 0
+0689: set_car 2@ remove_door 0 removed_door_visible 0
+068A: set_car $VAR17 repair_door 0
+068B: set_car 27@ all_disembark
+068C:   is_player_autoaiming $VAR12
+068D: get_camera_position_to $VAR2 $VAR4 $VAR17
+068E: get_camera_target_point_to $VAR8 $VAR8 $VAR15
+0697: set_car 11@ remove_component 0 visible_effect_flag 0
+0698: set_car 23@ repair_componentB 0
+0699: set_car 3@ repair_tyre 0
+069A: attach_object 10@ to_object 0@ with_offset 0.0 0.0 0.0 rotation 0.0 0.0 0.0
+069B: attach_object 13@ to_actor 29@ with_offset 0.0 0.0 0.0 rotation 0.0 0.0 0.0
+06A2: get_car 10@ velocity_in_direction_XYZ $VAR13 $VAR6 $VAR27
+06A3: 3@ = get_car 10@ mass
+06A5: AS_actor 27@ jump_forward stay_on_ground 0 ms and_stands_back
+06A7: put_actor $VAR23 into_turret_on_car 2@ at_car_offset 0.0 0.0 0.0 position 0 shooting_angle 0.0 0.0 with_weapon 0
+06A8: AS_actor 0 run_to_and_look_at_actor $VAR24 timelimit 0 approach_distance 0.0 approach_angle 0.0
+06A9: AS_actor 0 look_at_point $VAR1 $VAR23 $VAR9 0 ms
+06AA:   NOP_false 15@
+06AB: set_actor 26@ all_weapons_hidden 0
+06AC: $VAR1 = actor $VAR0 movement_speed
+06AD: set_group $VAR15 group_decision_maker_to 1@
+06AE: 0@ = create_group_decision_maker_type 0 // decisionallowedmission.grp
+06AF: set_player $VAR21 sprint_mode 0
+06B0: AS_actor 10@ sit_down 0 ms
+06B1: 13@ = create_searchlight_at 0.0 0.0 0.0 radius 0.0 target 0.0 0.0 0.0 radius 0.0
+06B2: destroy_searchlight 18@
+06B3:   searchlight 25@ active
+06B4: set_searchlight 8@ path_between 0.0 0.0 0.0 and 0.0 0.0 0.0 speed 0.0
+06B5: set_searchlight 9@ travel_to 0.0 0.0 0.0 speed 0.0
+06B6: set_searchlight 7@ follow_actor $VAR13 speed 0.0
+06B7:   searchlight 27@ spotted_actor $VAR10
+06B9:   cutscene_data_loaded
+06BA: AS_actor $VAR1 turn_to_and_look_at 0.0 0.0 0.0
+06BB: set_actor 0 drive_car 2@ speed 0.0 along_SCM_path
+06BC: create_M4_shoot_from 0.0 0.0 0.0 target $VAR5 $VAR15 $VAR4 energy 0
+06BD:   no_obstacles_between 5@ 2@ 24@ and 3@ 16@ 24@ solid 0 car 0 actor 0 object 0 particle 0
+06BE: 6@ = car 7@ y_angle
+06BF: set_searchlight 3@ follow_car 13@ speed 0.0
+06C0:   searchlight 19@ spotted_car 13@
+06C1: 6@ = create_searchlight_on_car 0@ with_offset 0.0 0.0 0.0 radius 0.0 target 0.0 0.0 0.0 radius 0.0
+06C2: AS_actor 0 goto 0.0 0.0 0.0 mode 0 turn_radius 0.0 stop_radius 0.0 actor 6@ with_offset 0.0 0.0 0.0
+06C3: 24@ = get_number_of_fires_within_sphere_at 8@ 13@ 6@ radius 0.0
+06C4: 13@ = create_marker_above_searchlight 0@
+06C5: release_car 24@ from_path
+06C7: AS_actor $VAR12 driver_of_car $VAR21 perform_action 0 timelimit 0
+06C8: enable_riot 0
+06C9: remove_actor $VAR7 from_group
+06CA: attach_searchlight 23@ to_tower 28@ to_housing 29@ to_bulb 6@ with_offset 0.0 0.0 0.0
+06CF: NOP 0
+06D0: enable_emergency_traffic 0
+06D1: v$VAR16 = "Long String" // v$ = string
+06D2: 13@v = "Long String" // @v = string
+06D5: 24@ = create_racing_checkpoint_at $VAR22 $VAR25 $VAR13 point_to $VAR13 $VAR2 $VAR24 type 5@ radius 0.0
+06D6: disable_racing_checkpoint 10@
+06D7: enable_train_traffic 0
+06D8: 10@ = create_train_at 0.0 0.0 0.0 type 0 direction 0
+06D9: destroy_defined_trains
+06DA: reset_train_directions
+06DB: destroy_all_trains
+06DC: set_train 15@ acc 0.0
+06DD: set_train 10@ speed 0.0
+06DE: 4@ = get_train 27@ last_carriage_handle
+06DF: destroy_player $VAR29
+06E0: set_2_player_camera_mode_to 0
+06E1: AS_actor 21@ using_car 3@ target_car 5@ with_order 0 max_speed 0.0 traffic_flag 0
+06E2: AS_actor 12@ run_to_object 25@ timelimit 0 stop_within_radius 0.0
+06E3: AS_actor 0 roll_sideways 0
+06E4: AS_actor 19@ attempt_to_bust_actor $VAR14
+06E5: 2@ = get_car $VAR0 possible_to_built_in_component_pool_index $VAR19 itemID
+06E6: get_itemID $VAR15 destinated_component_slot_to $VAR29
+06E7: 4@ = add_car_component #MODEL to_car 24@
+06E8: car 10@ destroy_component 0
+06E9: load_car_component #MODEL
+06EA:   car_component $VAR18 available
+06EB: release_car_component #MODEL
+06EC: 13@ = get_car $VAR22 number_of_color_indices
+06ED: set_car 16@ paintjob 0
+06EE:   actor 0@ in_group 17@
+06EF:   actor 8@ leading_group 29@
+06F0: set_group $VAR26 distance_limit_to 0.0
+06F1: set_2_player_distance_limit_to 0.0
+06F2: release_2_players_distance_limit
+06F3: set_players_can_target_eachother 0
+06F5: create_coordinate 26@ 24@ 5@ from_fire 13@
+06F8: get_nearest_route_for 26@ 26@ 29@ in_direction 0 store_to 6@ 21@ 6@ Z_angle_to 17@
+06FA: allow_players_to_use_separate_vehicles 0
+06FC:   car 0@ stuck_check_enabled
+06FD: set_car 16@ speed_on_path_to 0.0
+06FF:   any_ped_near_actor 25@ in_range 0.0
+0701: end_scene_skip
+0702: $VAR4 = get_tags_painted_percentage_at 23@ 7@ 2@ 5@
+0703: set_tags_painted_percentage_at 25@ 16@ 9@ 11@ value 0
+0704: car 7@ drive_to $VAR4 $VAR29 $VAR2
+0705: car 23@ assign_to_path 0 and_drive_normal
+0706: advance_car 13@ further_along_path 0.0
+0707: start_scene_skip_to @LABEL
+0708: reset_decision_maker $VAR16 event 0
+0709: set_decision_maker 12@ on_event 0 task 0 respect 0.0 hate 0.0 like 0.0 dislike 0.0 in_car 0 on_foot 0
+070A: AS_actor 0@ attach_to_object 2@ offset 0.0 0.0 0.0 on_bone 0 16 perform_animation "Long String" IFP_file "Long String" time 0
+070B: set_actor 4@ onbone_attached_object_operation 0
+070C: explode_car_without_radius_damage 14@
+070D: rebuild_player $VAR17
+070E: hydra 8@ attack_player_car $VAR5 radius 0.0
+070F: plane 18@ fly_direction 0.0 altitude_between 0.0 and 0.0
+0710: plane 23@ follow_actor $VAR4 follow_car 0 radius 0.0
+0713: actor 25@ driveby_actor 0 car 0 point 0.0 0.0 0.0 radius 0.0 0 1 firing_rate 0
+0714: unknown_car 5@ flag 0
+0715: put_player $VAR29 in_RC_mode_in_car 29@ // on foot version
+0716:   object_model #MODEL in_object_group_at 0.0 0.0 0.0 radius 0.0 destroyed 0 0
+0717: assign_actor 21@ to_dialogue_mode
+0719: enable_dialogue_mode
+071A:   actor 13@ current_dialogue_text == 4@s
+071E: 24@ = get_object 0@ health
+071F: set_object 10@ health_to 0
+0723: break_object $VAR5 intensity 0
+0724: heli 11@ follow_and_attack_player $VAR15 radius 0.0
+0726: heli 16@ follow_actor $VAR5 follow_car 0 radius 0.0
+0727: set_heli 3@ behavior_to_police_heli_and_follow_actor $VAR6 follow_car 0 radius 0.0
+0729: AS_actor $VAR19 hold_cellphone 0
+072A: put_actor $VAR13 into_car $VAR27 driverseat
+072B: put_actor $VAR21 into_car 26@ passengerseat 0
+072C: generate_police_bikes 0
+072D: is_flamethrower_fired_in_angled_area_2d 22@ 15@ to 15@ 1@ angle 0.0 sphere 0
+072E: is_flamethrower_fired_in_angled_area_3d 26@ 17@ 16@ to 2@ 23@ 29@ angle 0.0 sphere 0
+072F: enable_car 17@ stuck_check_distance 0.0 time 0 and_restore_if stuck 0 flipped 0 unk_place_on_road_properly 0 to_path 0 // extended 03CC
+0730: car 1@ damage_door 0
+0731: set_car 25@ y_angle_to 22@
+0732: random_car_generator_disable_model #MODEL
+0733: random_car_generator_enable_model #MODEL
+0734: reset_random_car_generator_models
+0735:   is_keyboard_key_pressed 0
+0736:   is_keyboard_key_just_pressed 0
+0737:   actor $VAR0 lifting_object 8@
+073B: unknown_car 27@ flag 0
+073C: car 3@ damage_componentB 0
+073E: 11@ = get_car_in_sphere 0.0 0.0 0.0 radius 0.0 model #MODEL
+073F: 15@ = get_actor_in_sphere 8@ 12@ 13@ radius 0.0 with_pedtype_civilian 0 gang 0 criminal/prostitute 0
+0741:   actor $VAR29 busted
+0742: set_plane 1@ unknown_trajectory 0.0
+0743: heli 25@ fly_to 0.0 0.0 0.0 altitude 0.0 0.0
+0745: set_hydra 2@ thrust_to_horizontal
+0746: set_acquaintance 0 of_actors_pedtype 0 to_actors_pedtype 0
+0747: clear_acquaintance 0 of_actors_pedtype 7@ to_actors_pedtype 0 // see ped.dat
+0749: reset_group_decision_maker 3@ event 0
+074A: set_group_decision_maker 22@ on_event 0 taskID 0 respect 0.0 hate 0.0 like 0.0 dislike 0.0 in_car 0 on_foot 0 // see *.ped files
+074B: draw_texture 0 position 5@ 14@ scale 26@ 19@ angle $VAR6 color_RGBA 0 220 0 29@
+074C: AS_actor 0 goto_AS_origin 20@
+074D: AS_actor 0 turns_to_and_look_at_actor 16@ timelimit 0
+074E: unknown_set_actor_threat_scanner_flags 14@ radius 0.0 peds_to_scan 0
+074F:   actor 18@ ped_event == 0
+0750: set_object $VAR6 visibility 0
+0751: AS_actor 6@ flee_from_actor $VAR16 run_distance 0.0 time 0 change_course 0 unknown 0 5000 away_radius 0.0
+0752: NOP 16@
+0754: define_new_animation_path
+0755: add_animation_path_3D_coord 0.0 0.0 0.0 animation "Long String" IFP_file "Long String"
+075A: set_object 8@ animation "Long String" IFP "Long String" rate 0.0 lockF 0 loop 0 // IF AND SET
+075B: zoom_radar 0
+075C:   marker 5@ enabled
+075D: load_shopping_data_SHOPS_subsection "Long String" // "Long String"
+075E: load_shopping_data_PRICES_subsection $VAR6 // "Long String"
+075F: store_shopping_data_entries_number_to $VAR2
+0760: store_shopping_data_index $VAR24 textureCRC_to $VAR22
+0761: get_shopping_item_with_textureCRC $VAR12 price_to $VAR6
+0762: AS_actor 29@ dies
+0763: add_car_reference 27@ // mission only
+0767: set_zone 'SHORT' popcycle_group_for_peds_and_cars_to 0 // Market Station
+076A: set_zone 'SHORT' dealer_density_to 0
+076B: get_zone 21@s dealer_density_to 1@
+076C: set_zone 'SHORT' gang 0 density_to 0
+076D: get_zone 'SHORT' gang 0 density_to 19@
+076F:   text_priority_displayed
+0770: set_actor 11@ target_priority 0
+0771: set_model_numplate #MODEL town_texture 0
+0772: AS_actor 0 run_to_car 27@ 0 ms stop_at_distance 0.0
+0776: create_objects_in_object_group "Long String"
+0777: delete_objects_in_object_group "Long String"
+0778: recreate_objects_in_object_group "Long String"
+077A: set_actor 17@ acquaintance 0 to_actors_pedtype 0 // see ped.dat
+077B: clear_actor $VAR18 acquaintance 0 to_actors_pedtype 0 // see ped.dat
+077C: clear_actor $VAR27 acquaintance 0 to_all_pedtypes // see ped.dat
+077D: $VAR10 = car 28@ x_angle
+077E: get_active_interior_to $VAR15
+0780: heli 2@ hover_above actor $VAR16 car 0 altitude 0.0 0.0
+0781: get_weapon_with_ID $VAR29 model_to $VAR18
+0782: get_weapon_with_ID $VAR16 weapon_group_to $VAR18
+0783: $VAR18 = get_shopping_item_with_textureCRC $VAR2 flag 0
+0784: set_player $VAR22 textureCRC 0 modelCRC 0 bodypart 0
+0786: 18@ = get_number_of_fires_within_cube_cornerA 24@ 4@ 26@ cornerB 22@ 6@ 16@
+0788: enable_heli 25@ magnet 0
+0789: set_heli 1@ release_stuff_from_magnet
+078A: 15@ = get_train 8@ carriage 0 handle
+078B: 25@ = get_heli 16@ attached_car_handle actor_handle_to 27@ object_handle_to 7@
+078C: get_shopping_item_with_textureCRC $VAR0 nametag_to s$VAR19 // 8-byte string
+078F: AS_actor 0 climb 0
+0790: charge_money_for_shopping_item_with_textureCRC $VAR15
+0792: disembark_instantly_actor $VAR19
+0793: save_player_clothes
+0794: restore_player_clothes
+0796: get_crane_magnet $VAR1 magnet_lane_length_to $VAR18 // float
+0797: set_crane_magnet $VAR5 magnet_lane_length_to 0.0 // float
+0798: get_crane_magnet $VAR26 attached_car_handle_to 16@ attached_actor_handle_to 11@ attached_object_handle_to 3@
+0799: set_crane_magnet $VAR12 release_stuff_from_magnet
+079D: unknown_set_game_controller_to_steer_object_MagnoCrane_03 // originally SF docks magnocrane
+079E: unknown_set_game_controller_to_steer_object_TWRCRANE_M_02 // originally SF site ballcrane
+079F: unknown_set_game_controller_to_steer_no_crane_objects
+07A0: unknown_actor 28@ unknown_assigned_to_AS 22@ unknown_set 0 unknown_set 0
+07A1: set_walk_speed 0
+07A3: AS_actor $VAR0 run_to_and_follow_actor $VAR10 wait_radius_between 0.0 and 0.0
+07A4: get_actor 4@ task_1560_flags_store_to 11@ 23@
+07A5: AS_actor 0 attack_actor $VAR22 time 0
+07A6: get_nearest_tag_location_near_point 0.0 0.0 0.0 store_to 7@ 20@ 26@
+07A7: put_jetpack_on_actor $VAR1
+07A8: enable_area69_sam 0
+07A9: 12@ = get_searchlight_on_actor 3@ // IF and SET
+07AB:   car 19@ has_attached_trailer 12@
+07AC: detach_trailer 4@ from_cab 20@
+07AF: $VAR21 = player $VAR18 group
+07B0: get_active_shop_name_to s$VAR1 // s$
+07B1: unknown_get_dance_track_data 0 store_to 5@ 1@ 1@
+07B3: set_group 15@ give_command 0
+07B4: set_player $VAR20 gang_recruitment_enabled 0
+07BB: set_heli 18@ horizontal_thrust_power 0
+07BC: set_actor 0 decision_maker_to 19@ // AS_pack_version
+07BD: destroy_train 13@
+07BE: remove_references_to_train 10@
+07BF: set_marker 21@ tracking_blip 0
+07C0: load_path 0
+07C1:   path 0 available
+07C3: get_object 1@ axis_angle_relation_to 5@ 7@ 2@ 22@
+07C4: set_object 22@ axis_angle_relation_to 7@ 12@ 28@ 20@
+07C5: get_car 19@ axis_angle_relation_to 20@ 18@ 11@ 6@
+07C6: set_car 22@ axis_angle_relation_to 0.0 0.0 0.0 0.0
+07C7: put_train 5@ at 0.0 0.0 0.0
+07C9: AS_actor 0 walk_to_object 12@ then_lift_and_hold_in_hands
+07CB: set_actor $VAR23 supporting_fire 0
+07CC: set_player $VAR26 button_15 0
+07CD: AS_actor 24@ walk_to 0.0 0.0 0.0 stop_with_angle 0.0 within_radius 0.0
+07D0: $VAR5 = weekday
+07D3: 'SHORT' = init_external_script_named_handle 0 (BURG_BRAINS)
+07D5: set_car 10@ velocity_in_direction_XYZ 5@ 19@ 0.0 rotation_velocitiesXY 0.0 0.0 unk 0.0
+07D6:   29@ == $VAR22 // @ == $ (int)
+07D7:   3@ == $VAR10 // @ == $ (float)
+07DA: set_car 12@ rotation_velocity_XYZ 0.0 0.0 0.0 through_center_of_body
+07DB: set_car 11@ rotation_velocity_XYZ 0.0 0.0 0.0 through_center_of_mass
+07DD: set_actor 2@ attack_rate 0 // previously known as temper_to
+07DE:   model 28@ exists // versionB
+07DF: unknown_rectangle_cornerA 0.0 0.0 cornerB 0.0 0.0
+07E0: set_marker $VAR1 type_to 0
+07E1: AS_actor $VAR4 swim_to 3@ 11@ 5@
+07E4: get_model 21@ dimensions_cornerA_to $VAR25 $VAR22 $VAR24 dimensions_cornerB_to 9@ 6@ 28@
+07E5: copy_decision_maker 0 to $VAR22
+07E6: copy_group_decision_maker 0 to 5@
+07E7: AS_assign_scmpath_to_actor 0 in_car 2@ speed 0.0 flags 0 0 0
+07E8:   acquaintance 0 of_actors_type 7@ to_actors_type 0 set
+07EE: car 27@ enable_tyre_marks 0
+07EF: 28@ = get_town_number_from_point 8@ 7@ 22@
+07F0:   in_sphere 0.0 0.0 0.0 radius 0.0 damaged_object_with_model #MODEL
+07F1:   player $VAR6 performing_wheelie
+07F2:   player $VAR0 performing_stoppie
+07F3: move_racing_checkpoint 28@ to 1@ 14@ 29@
+07F5: car 6@ control_hydraulics $VAR24 $VAR23 $VAR7 $VAR2
+07F6: get_group 13@ number_of_leaders_to 12@ number_of_members_to 16@
+07F7: set_object $VAR8 destructible 0
+07F8: car 5@ follow_car 18@ radius 0.0
+07F9: set_game_controller_to_steer_object_QUARRY_CRANEARM // originally DS quarry magnocrane
+07FA: set_game_controller_to_steer_object_TWRCRANE_M_02 // originally LV site magnocrane
+07FB: set_interior 'SHORT' access 0 // Ganton Gym
+07FC: text_draw_box_position_XY 0.0 0.0 GXT_reference 'SHORT' value 24@ flag 0 // Finish Time:
+07FD:   group 13@ alive
+07FE: set_actor 7@ fighting_style_to 0 moves 0
+07FF: set_car 20@ hydraulics 0
+0800:   in_two_players_mode
+0801: get_camera_zoom_factor_to 0.0 // float
+0803:   car 23@ have_hydraulics
+0804: AS_actor 5@ walk_to 0.0 0.0 0.0 angle 0.0 radius 0.0 animation "Long String" IFP_file "Long String" rate 0.0 LA 0 LX 0 LY 0 LF 0 LT 0
+0806: 28@ = get_player $VAR18 kills_from_last_checkpoint
+080A: get_object 2@ spoot 0 store_to 16@ 6@ 18@
+080E: 6@ = get_actor 15@ ped_event
+0810: store_random_parkplace_in_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0 position_to $VAR16 $VAR1 $VAR2
+0811: $VAR16 = actor $VAR25 used_car
+0812: AS_actor 0 perform_animation "Long String" IFP "Long String" framedelta 0.0 loopA 0 lockX 0 lockY 0 lockF 0 time 0 // versionB
+0814: define_unique_jump_start 0.0 0.0 0.0 radius 0.0 0.0 0.0 land 0.0 0.0 0.0 radius 0.0 0.0 0.0 camera 0.0 0.0 0.0 reward 0
+0815: put_object 23@ at 10@ 17@ 29@ and_keep_rotation
+0816: set_actor 3@ dont_chase_victim 0
+0817: assign_actor 24@ to_animation_path_with_walk_mode 0 route_mode 0
+0818:  actor $VAR14 in_air
+0819: 15@ = actor $VAR12 distance_from_ground
+081A: set_actor $VAR28 weapon_skill_to 0
+081C: draw_text_outline 0 RGBA 0 0 0 0
+081D: set_car $VAR8 engine_broken 0
+081E:  model 11@ boat
+081F:  model 8@ plane
+0820:   model 26@ heli
+0822: enable_camera_bumper_view 0
+0823: AS_actor $VAR15 greet_actor 12@ 0.0 0
+0825: set_helicopter 4@ instant_rotor_start
+0826: enable_hud 0
+0827: assign_object $VAR15 to_lod_object $VAR12
+0828: set_max_fire_generations 0
+0829: set_actor 1@ perform_animation "Long String" IFP_file "Long String" rate 0.0 time 0 and_dies
+082A: set_player $VAR28 able_to_use_crouch_button 0
+0830: create_pool_table_collision_cornerA 0@ 24@ $VAR13 cornerB 10@ 28@ $VAR27
+0833:   object 14@ photographed
+0834: set_player_head_temporary_turn_rotation_Z 0.0 rotation_Y 0.0
+0835: get_month_day_to $VAR14 get_month_to $VAR0
+0836: set_object 9@ animation "Long String" at 0.0 times_normal_rate
+0837:   object 6@ animation == "Long String"
+0839: 24@ = get_object 24@ animation "Long String" progress
+083A: set_object 6@ animation "Long String" progress_to 18@
+083C: set_actor $VAR3 velocity_in_direction_XYZ 0.0 0.0 0.0
+083D: get_actor $VAR20 velocity_in_direction_XYZ $VAR25 $VAR28 $VAR20
+083E: set_actor $VAR19 rotation 0.0 0.0 16@ while_in_air
+083F: 19@ = get_car 20@ vertical_deviation
+0840: link_car 18@ to_interior 28@
+0841: flying_vehicle 17@ use_secondary_gun 0
+0842: 17@ = player $VAR24 town_number
+0843: get_zone_at 23@ 29@ 13@ nameA_to s$VAR23 // 8-byte string
+0844:   string s$VAR13 empty // s$
+0845:   string 13@s empty // @LABEL
+0846:   string v$VAR4 empty // v$
+0847:   string 9@v empty // @LABEL
+084D: unknown_flag_house_occupants 0
+084E: flying_vehicle 2@ use_primary_gun 0
+0850: AS_actor 3@ follow_actor $VAR15
+0851: set_actor $VAR0 decrease_health_by 0 affect_armour 0
+0852: set_car $VAR14 damages_visible 0
+0853: unknown_heli 18@ flag 0
+0855: 25@ = get_actor 0 noise_level_at 17@ 3@ 25@
+0856: set_actor 5@ enable_crouch 0
+0858: set_player $VAR13 scan_horizon_to_angle 0.0 rotation_speed 0.0
+0859: AS_actor 11@ walk_alongisde_actor $VAR14
+085A: spawn_emergency_vehicle_model #MODEL on_street_nearest_to 0.0 0.0 0.0
+085B: AS_actor 0 set_kinda_stay_in_same_place 0
+085E: assign_car 8@ to_looped_path 0
+0860: link_actor $VAR21 to_interior 0
+0861:   unknown_player $VAR22 scanning_horizon // param is useless
+0864: set_interior_at 0.0 0.0 radius 0.0 access 0
+0866: 28@ = get_object_in_sphere 1@ 0@ 17@ radius 0.0
+0867:   unknown_in_burglary_interior 0
+086A: NOP
+0871: init_jump_table $VAR27 total_jumps 0 default_jump 0 @LABEL jumps 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL
+0872: jump_table_jumps 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL 0 @LABEL
+0873: release_path 0
+0874: set_zone 'SHORT' popcycle_group_for_peds_to 0
+0875: set_object 5@ immune_to_nonplayer 0
+0876: unknown_cube_cornera 0.0 0.0 0.0 cornerB 0.0 0.0 0.0 flag 0 flag 0
+0878: set_car $VAR12 dirt_level 0.0
+0879: enable_gang_wars 0
+087A:   gang_war_in_progress
+087B: set_player $VAR10 clothes_texture "Long String" model "Long String" body_part 0
+087C: release_shopping_data
+087D: assign_group $VAR18 to_AS_pack 19@
+087E: set_actor 24@ weapon_droppable 0
+087F: set_actor 20@ never_leave_group 0
+0881: set_player $VAR1 able_to_shoot_weapons 0
+0883: attach_particle 14@ to_actor $VAR2 mode 0
+0884: 'SHORT' = init_external_script_named_handle 0 (DANCER)
+0887: set_actor $VAR20 turret_mode_orientation 0 both_side_angle_limit 0.0
+0888: 4@ = create_marker_above_actor 18@ // versionB
+0889: store_actor 3@ center_of_body_position_to $VAR1 $VAR19 $VAR24
+088A: set_actor 21@ perform_animation "Long String" IFP "Long String" 0.0 loopA 0 lockX 0 lockY 0 lockF 0 time 0 disable_force 0 disable_lockZ 0
+088B: set_car 27@ form_drag_multiplier_to 0.0
+088C: put_car 22@ at $VAR6 14@ $VAR4 // versionB
+088D: set_objects_in_sphere 0.0 0.0 0.0 radius 0.0 with_model #MODEL collision_detection 0
+088E: set_next_day
+0890: enable_sound_when_timer $VAR16 reach 0 seconds // global_variable
+0893: put_trailer 13@ on_cab 24@
+0897:   car 13@ collided_with_object 1@
+0898: set_cranes_controls_enable_UP 0 enable_DOWN 0 enable_RELEASE 0
+089B:   unknown_is_actor_in_dialogue_mode 21@
+089C: unknown_actor 10@ unknown_check 0
+089E: 8@ = get_actor_that_buys_drugs_in_sphere 18@ 9@ 26@ radius 0.0
+089F: 27@ = get_actor 15@ pedtype
+08A0: actor 3@ in_radius 0.0 near_model #MODEL with_offset 0.0 0.0 0.0 end_script_named "Long String" // IF and SET
+08A2: set_hydra 27@ attack_with_rockets_car_of_player $VAR21 radius 0.0
+08A3: update_respect_while_on_mission 0
+08A4: set_car 10@ extra_parts_angle_to 1@
+08A5: set_car 3@ attractive_to_magnet 0
+08A6: set_car 4@ door 0 rotation_to 0.0
+08A7:   car 2@ componentB 0 opened_or_not_present
+08A8: set_markers_to_long_distance 0
+08A9: load_external_script 0 (CARMOD1)
+08AB:   external_script 0 (CARMOD1) loaded
+08AC: hide_gang_zones_on_map 0
+08AD: link_actor $VAR15 to_enex_marker_at 0.0 0.0 radius 0.0
+08AF: set_actor $VAR12 max_health_to 0
+08B1: enable_night_vision 0
+08B2: enable_thermal_vision 0
+08B3: set_gang_zone 'SHORT' as_only_one_available_for_gangwars
+08B4:   test $VAR27 bit 0
+08B5:   test $VAR1 bit $VAR11
+08B6:   test $VAR23 bit 2@
+08B7:   test 8@ bit 0
+08B8:   test $VAR25 bit 0
+08B9:   test 14@ bit 13@
+08BA: set $VAR5 bit 0
+08BB: set $VAR10 bit $VAR29
+08BC: set $VAR16 bit 28@
+08BD: set 10@ bit 0
+08BE: set $VAR3 bit 0
+08BF: set 4@ bit 7@
+08C0: clear $VAR11 bit 0
+08C1: clear $VAR5 bit $VAR22
+08C2: clear $VAR14 bit 9@
+08C3: clear 27@ bit 0
+08C4: clear $VAR2 bit 0
+08C5: clear 20@ bit 4@
+08C6: set_actor 15@ stay_on_bike 0
+08C7: put_actor $VAR10 at 0.0 0.0 0.0 dont_warp_gang
+08C8: set_shopping_item_with_textureCRC $VAR21 price_to 0
+08C9: reset_shopping_item $VAR12 price
+08CA: reset_zones_info
+08CB: explode_car 21@ shake 0 effect 0 sound 0
+08D0:   should_skip_cutscene
+08D1: store_cutscene_pos_to 2@ 8@ 5@
+08D2: object 23@ scale_model 0.0
+08D3: get_present_zone_popcycle_group_for_peds_and_cars_to 19@
+08D4: 9@ = create_panel_with_title 'SHORT' position 0.0 0.0 width 0.0 columns 0 interactive 0 background 0 alignment 0
+08D6: set_panel 23@ column 0 alignment 0
+08D7: $VAR24 = panel $VAR2 active_row
+08D8: $VAR12 = panel $VAR15 selected_row
+08D9: set_panel 20@ row 4@ enable 0
+08DA: remove_panel $VAR16
+08DB: set_panel $VAR14 column 0 header 'SHORT' data 'SHORT' 'SHORT' 'SHORT' 'SHORT' 'SHORT' 'SHORT' 'SHORT' 'SHORT' 'SHORT' 'SHORT' 'SHORT' 'SHORT' // Sunday // Monday // Tuesday // Wednesday // Thursday // Friday // Saturday
+08DC: create_interior_marker $VAR3 at 0.0 0.0 radius 0.0
+08DD: lose_stuff_after_wasted 0
+08DE: lose_stuff_after_busted 0
+08DF: override_restart_if_wasted_at 0.0 0.0 0.0 within_radius 0.0 angle 0.0
+08E0: override_restart_if_busted_at 0.0 0.0 0.0 within_radius 0.0 angle 0.0
+08E1: $VAR8 = total_tags_sprayed
+08E2: $VAR26 = territories_controlled_percentage
+08E3:   object 12@ sphere 0 in_rectangle_ll_corner_at 8@ 23@ lr_corner_at 25@ 17@ radius 0.0
+08E5: 22@ = get_actor_in_sphere 15@ 3@ 14@ radius 0.0
+08E6: set_plane 20@ landing_gear 0
+08E7: disable_entrance_markers 0
+08E8: assign_external_script_handle 'SHORT' to_model #MODEL
+08E9: set_object 19@ liftable 0
+08EA: enable_gangs_spawn 0
+08EB: create_sparks_at 0.0 0.0 0.0 velocity_direction 0.0 0.0 0.0 density 0
+08EC: $VAR9 = car $VAR6 class
+08ED: remove_actor 10@ from_dialogue_mode
+08EE: set_panel $VAR26 column 0 row 9@ text_1number GXT 'SHORT' number $VAR1 // $~1~
+08EF: set_panel 3@ column 0 row 15@ text_2numbers GXT 'SHORT' numbers 1@ 6@ // ~1~:0~1~
+08F0: set_cutscene_model 'SHORT' texture 'SHORT' // 8-byte strings
+08F1: get_zone_at 1@ 9@ 4@ nameB_to s$VAR9 // 8-byte string
+08F2: set_car 26@ targettable_by_heatseeker 0
+08F3: set_car $VAR24 contains_goodies 0
+08F4: set_max_group_members 0
+08F5: save_player_group
+08F6: restore_player_group
+08F7: get_player $VAR28 bodypart 0 textureCRC_to $VAR6 modelCRC_to $VAR16
+08F8: display_stat_update_box 0
+08F9:   v$VAR20 == v$VAR12
+08FB: set_checkpoint 28@ type_to 0
+08FD: enable_heat_visuals 0
+08FE:   text_box_displayed
+08FF:   object 12@ received_damage_type 0
+0900: clear_object 10@ last_weapon_damage
+0901: enable_player $VAR7 jump_key 0
+0904: get_interface 0 color_RGBA_to $VAR16 $VAR21 $VAR27 $VAR14
+0905: set_door 12@ lock 0
+0906: set_object 14@ mass_to 0.0 // float
+0907: 1@ = get_object 9@ mass // float
+0908: set_object 17@ turn_mass_to 16@ // float
+0909: 23@ = get_object 20@ turn_mass // float
+090C: highlight_inactive_gang_zone "Long String" as_available_for_gangwars
+090D: highlight_all_inactive_gang_zones_as_available_for_gangwars
+090E: set_panel $VAR17 active_row $VAR11
+090F: end_external_script 0 (CARMOD1)
+0910: release_external_script 0
+0912: set_text_priority 0 leftmargin 0 maxwidth 0
+0913: run_external_script 0 (CARMOD1)
+0914: NOP 0
+0915: sync_weather_with_time_and_location_instantly
+0916: set_object 25@ attractive_to_magnet 0
+0917: audio_zone "Long String" enable_sound 0
+0918: set_car 12@ engine_operation 0
+0919: enable_car 18@ parking_lights 0
+091A: NOP v$VAR27
+091B: NOP
+091C: 18@ = get_actor_in_sphere $VAR15 $VAR2 $VAR16 radius 0.0 model #MODEL external_script_named "Long String"
+091D: remove_forbidden_for_boats_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+091E: create_forbidden_for_boats_cube_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+091F: get_plane 20@ landing_gear_status_to 11@
+0920: point_camera 0.0 0.0 0.0 transverse_to 0.0 0.0 0.0 time 0 smooth_transition 0
+0922: set_camera_zoom_from 0.0 to 0.0 timelimit 0 smooth_transition 0
+0923: enable_air_traffic 0
+0924: enable_screen_darkness 0 with_value 0
+0925: restore_camera_to_user_defined
+0926: $VAR6 = external_script_status 0 (CARMOD1)
+0928: init_external_script_trigger 0 (DEALER) with_actor_model #MODEL priority 0
+0929: init_external_script_trigger 0 (SLOT_MACHINE) with_object_model #MODEL priority 0 radius 0.0 type 0
+092B: 15@ = group $VAR25 member 14@
+092E: 28@ = get_water_height_at 19@ 0@ ignore_waves 0
+092F: lock_camera_target_point 0
+0930: lock_camera_position 0
+0931: lock_camera_zoom 0
+0933:   camera_position_manipulated
+0934:   camera_target_point_manipulated
+0936: set_camera 0.0 0.0 0.0 position_to 0.0 0.0 0.0 time 0 smooth_transition 0
+0937: text_draw_box_cornerA 14@ 27@ cornerB 12@ 2@ GXT_reference 'SHORT' style 0
+0939: attach_car 2@ to_object 24@ with_offset 0.0 0.0 0.0 rotation 0.0 0.0 0.0
+093A: set_paynspray 'SHORT' type_to_girlfriend 0
+093B: set_actor $VAR9 upper_body_damage_anims_only 0
+093D: lock_camera_on_cinematic_view 0
+093E: NOP $VAR22 0.0
+0940: set_group 18@ enters_leaders_vehicle 0
+0941: unknown_searchlight 9@ flag 0
+0942:   item_with_textureCRC $VAR10 is_clothing
+0944: manipulate_weapon_camera $VAR2
+0945: 15@ = get_player $VAR24 max_armour
+0946: set_actor 16@ actions_uninterupted_by_weapon_fire 0
+0947: actor $VAR3 speak_from_audio_table 0 store_spoken_phrase_id_to $VAR6
+0948: create_explosion_at $VAR22 $VAR22 $VAR20 type 0 camera_shake 0.0
+0949: link_wav 28@ to_actor 21@
+094A: set_money_pickup $VAR29 cash_to $VAR7
+094B: v$VAR14 = get_active_interior_name_from_actor $VAR2 // 16-byte string
+094C: 1@ = get_actor $VAR17 currently_used_EnEx_3D_coord_to 13@ 0@ 16@ number
+094D:  actor $VAR18 mutally_active
+094E: set_actor 14@ mute_pain_audio 0
+094F: enable_actor 28@  pain_audio
+0950: set_trip_skip 0.0 0.0 0.0 angle 0.0
+0951: disable_trip_skip
+0952: load_soundtrack 0
+0953: 13@ = get_soundtrack_status
+0954: start_playing_loaded_soundtrack
+0955: end_playing_loaded_soundtrack
+0956: get_respect_to $VAR16
+0957: set_car 14@ provides_cover_from_gunfire 0
+0958: 0@ = create_photo_at 0.0 0.0 0.0
+0959: 3@ = create_horseshoe_at 0.0 0.0 0.0
+095A: 19@ = create_oyster_at 0.0 0.0 0.0
+095B:  is_object_moveable 3@
+095C: create_smoke_at 0@ 27@ 26@ velocity 25@ 1@ 29@ RGBA 13@ 1@ 29@ 8@ size 28@ last_factor 21@
+095D:   actor $VAR24 stuck_under_car
+095E: set_car 8@ door 0 unlatch 0 angle 0.0
+095F: 3@ = get_car 13@ door 0 angle
+0960: enable_player $VAR21 stats_box 0
+0961: set_actor 2@ keep_tasks_after_cleanup 0
+0964: $VAR24 = create_square_color_panel 'SHORT' position 0.0 0.0 width 0.0 columns 0 interactive 0 background 0 alignment 0 // Colors
+0965:   actor $VAR3 swimming
+0966: 23@ = get_actor $VAR14 swimming_status
+0967: actor 19@ move_mouth 0 ms
+0968: actor 19@ stop_mouth
+0969:   car $VAR7 is_big
+096A: enable_flying_helis 0
+096B: set_present_mod_apply
+096C: set_present_mod_remove
+096D: 2@ = get_car 7@ component_on_slot 0 model
+096E:   car $VAR2 lowrider
+096F:   car $VAR1 street_racing_car
+0970: teleport_in_override_restart // 016Eh
+0971: sync_water
+0972: put_actor $VAR1 at 0.0 0.0 0.0 no_offset
+0973:   fire 16@ exists
+0974: emulated_wasted_busted // +12 hours and clear weapons
+0975:   car $VAR2 emergency_vehicle
+0976: destroy_particle 11@ // mission version
+0977:   player_in_radius_of_object 5@ external_script_trigger
+0978: copy_decision_maker 0 to $VAR4
+097A: play_audio_at $VAR3 $VAR27 $VAR26 event 0
+097B: play_audio_at_object 7@ event 0
+097C: attach_wav 0 to_object 4@
+097D: 26@ = get_car $VAR2 number_of_possible_paintjobs
+0980: extinguish_all_fires_at 0.0 0.0 0.0 radius 0.0
+0981:   train $VAR19 wrecked
+0982: set_actor 0@ stay_in_car_when_dead 0
+0983: unknown_disable_gang_wars 0
+0984: 10@ = object 22@ model
+0985: set_objects_in_sphere 0.0 0.0 0.0 radius 0.0 with_model 0 solid 0 for_actor 24@
+0986: remove_references_to_all_fires
+0987: 0@ = get_car $VAR11 blocking
+0988: 4@ = get_car $VAR4 paintjob
+0989: set_text_boxes_width 0
+098A: set_gunshot_sense_range_for_riot2 0.0
+098B: v$VAR24 = v$VAR11 + v$VAR10 // all string variables
+098C: v$VAR28 = v$VAR6 + v$VAR24 // all string variables
+098D: 28@ = get_car 27@ extra_parts_angle
+098E: set_interior 'SHORT' bitmask 0 flag 0 // Pizza Stack
+0991: set_soundtrack_paused 0
+0992: set_player $VAR14 weapons_scrollable 0
+0994: unknown_create_escape_at 0.0 0.0 0.0
+0995: unknown_remove_escapes
+0996: set_racing_checkpoint 27@ Z_angle_to 21@
+0997: set_total_respect_points_to 0
+0998: add_respect 0
+099A: set_car 28@ collision_detection 0
+099B: unknown_enable_car 21@ collision_on_path
+099C: jiggle_camera type 0 timelimit 0.0 intensity 0.0
+099D:   night_vision_enabled
+099E: enable_police_patrols 0
+099F: AS_actor 0 ignore_weapon_range 0
+09A0: actor $VAR10 attach_object 27@ with_offset 0.0 0.0 0.0 on_bone 0 16 perform_animation "Long String" IFP_file "Long String" time 0
+09A1: set_actor $VAR16 onbone_attached_objectB_operation 0
+09A2: destroy_object_with_fade 8@
+09A3: show_siterocket_on_bumper_camera 0
+09A4: set_dialogue_classB_question_GXT 'SHORT' answer_Y_GXT 'SHORT' answer_N_GXT 'SHORT' question_WAV 0 answer_Y_WAV 0 answer_N_WAV 0 // You want some stuff? // Take it easy man. // Fuck you man!
+09A6: enable_interior_radar_blips 0
+09A7: set_actor 5@ drugged_up 0
+09A8:   actor 2@ headshoted
+09A9: get_string "Long String" CRC32_to $VAR18 // 16-byte strings
+09AA: set_dialogue_classB_end_GXT 'SHORT' WAV 0 // Take it easy man.
+09AB: set_passengers_in_car $VAR9 speak_from_audio_table 0
+09AC: disable_map_icons 0
+09AD: set_vehicle_camera_mode 0
+09AE:   actor $VAR9 driving_train
+09AF: set_trip_skip_after_mission 0.0 0.0 0.0 angle 0.0
+09B0: set_car 13@ accessible_for_player_using_controller 0
+09B2: get_random_available_car_unk 0 model_to 17@ class_to 11@
+09B3: 29@ = get_car $VAR9 door_status
+09B4: set_object_property_at 0.0 0.0 radius 0.0 bitmask 0 flag 0
+09B5: set_actor $VAR26 signal_after_kill 0
+09B6: set_actor 27@ wanted_by_police 0
+09B7: set_zone "Long String" disable_footcops 0
+09B8: create_blood_gush_at $VAR18 $VAR18 $VAR29 with_offset 25@ 28@ 24@ density 0 on_actor $VAR25
+09B9: show_entered_car_name 0
+09BA: show_entered_zone_name 0
+09BB:   car 25@ has_visible_damage_on_component 0
+09BC: put_actor $VAR13 at $VAR2 $VAR26 $VAR8 no_offset_and_dont_warp_gang
+09BD: allow_other_scripts_to_display_text_boxes 0
+09BE:   are_text_boxes_locked_to_any_script
+09BF: set_random_traffic_spawn_to_model #MODEL // Load the vehicle model before using this
+09C0: 26@ = get_random_car_in_area 28@ 0@ 8@ 27@ 0.0 with_actors 0
+09C1: add_next_text_to_brief_history 0
+09C2: cancel_rampage
+09C3:   police_car_in_rectangle_cornerA 0.0 0.0 0.0 cornerB 0.0 0.0 0.0
+09C4: set_car 5@ gas_tank_explosion_enabled 0
+09C5:   unknown_actor 14@
+09C7: change_player $VAR10 model_to #MODEL
+09C8:   menu_subtitles_switched_on
+09C9: disembark_actor $VAR6 from_car 12@ and_freeze_actor_position
+09CA: set_object $VAR14 immunities BP 0 FP 0 EP 0 CP 0 MP 0
+09CB:   vehicle $VAR2 colliding_with_vehicle 4@
+09CC:   object 2@ model_is #MODEL
+09CF: set_train 21@ stop_at_stations 0
+09D0:   car $VAR7 on_wheels
+09D1:   pickup 19@ created
+09D2: set_cops_chase_criminals 0
+09D4: suspend_wanted_level
+09D5: 11@ = unknown_get_actor 13@ unknown 0 flags 0 0 0 // extended 0
+09D6: unknown_set_actor 25@ sound $VAR26 flags 0 1 0
+09D7: set_player $VAR11 force_interior_lighting 0
+09D8: NOP 0
+09D9: detonate_all_satchel_charges
+09DA:   cash_pickup_at 16@ 9@ 20@
+09DB: set_panel 0@ column 0 width 0
+09DD: unknown_player_group 0
+09DE:   actor $VAR3 entering_car
+09E0: trip_skip 0.0 0.0 0.0 angle 0.0 when_in_car 12@
+09E1: 26@ = get_car_model $VAR6 price
+09E2: $VAR27 = parked_car_generator_w_numberplate #MODEL colors 0 -1 force_spawn 0 alarm 0 door_lock 0 min_delay 0 max_delay 0 plate "Long String" at 0.0 0.0 0.0 angle 0.0
+09E3:   train $VAR29 traveling_clockwise
+09E4: enable_aircraftcarrier_sam 0
+09E5: create_flash_light_at 11@ 6@ 0@ RGB_mask 0 255 0 radius 0.0
+09E6: set_burglary_houses_accessible 0
+09E7:   player $VAR7 not_frozen
+09E8: $VAR9 = actor $VAR21 active_interior
+09E9: car 27@ add_single_nitro
+09EB: remove_player_goggles $VAR20 use_anim 0
+09EC: set_garages_leave_camera_alone 0
+09ED:   actor 25@ is_within_field_of_view_actor $VAR19
+09EE: set_status_text_stay_on_screen 0
+09EF: set_behind_camera_autoposition_mode_for_car_model #MODEL distance 0.0 altitude_multiplier 0.0 angle_X 0.0
+09F0: restore_behind_camera_autoposition_mode_for_all_car_models
+09F1: play_audio_at_actor $VAR13 event 0
+09F2:   decision_maker 11@ exists
+09F4: set_actor $VAR1 ignore_height_difference_following_nodes 0
+09F5: disable_player_mutal_activities 0
+09F6: set_actor $VAR1 get_out_of_upside_down_car 0
+09F7: play_audio_at_car $VAR27 event 0
+09F8: give_player2_weapons_of_player0
+09FA:   is_menu_closed
+09FB: $VAR14 = current_language
+09FC:   anything_entered_objects_position 5@
+09FD: get_gxt_string 'SHORT' width_to 6@ // ~k~~PED_SPRINT~ Select
+09FE: reset_hydraulics_on_car 2@
+09FF: set_restart_closest_to $VAR0 $VAR10 $VAR24
+0A01:   model 27@ car
+0A02: set_searchlight 21@ lights_through_obstacles 0
+0A03:   unknown_gang_war_in_progress
+0A06:   train $VAR29 next_station_unlocked
+0A07: put_train $VAR25 at_next_station
+0A08: get_gxt_string_1number 'SHORT' number 18@ width_to 14@ // ~1~,
+0A09: set_actor 3@ muted 0 // versionB
+0A0A: unknown_object 18@ flag 0
+0A0B: set_rendering_origin_at_3D_coord 0.0 0.0 0.0 angle 0.0
+0A0C:   player $VAR16 on_jetpack
+0A0E: disable_text_with_style 0
+0A0F:   new_language_set
+0A10: increase_integer_stat 0 by 0
+0A11: set_car 12@ tertiary_color_to 22@ quaternary_color_to 21@
+0A12: get_car 27@ tertiary_color_to 20@ quaternary_color_to 18@
+0A13: unknown_sync_player_camera
+0A14: disable_respray_garages 0
+0A15:   is_car_affected_by_cheats 25@
+0A16: link_wav 0 to_car 28@
+0A17: set_parked_car_generator $VAR15 to_player_owned 0
+0A18: set_dialogue_classA_question_GXT 24@s answer_yes_GXT 17@s answer_no_GXT 0@s question_WAV 5@ answer_yes_WAV 27@ answer_no_WAV 14@
+0A19: display_zone_text "Long String" // Saint Mark's
+0A1A: actor 15@ perform_walk_animation "Long String" IFP "Long String" framedelta 0.0 loopA 0 lockX 0 lockY 0 lockF 0 -1 ms // versionC
+0A1B:   actor 4@ colliding_with_actor $VAR17
+0A1C: set_helicopter 21@ play_engine_sounds 0
+0A1D: AS_actor 2@ rotate_to_and_look_at_actor $VAR4
+0A1E: dump_screen 0
+0A1F: increase_float_stat 0 by 16@
+0A20: disable_player $VAR14 group_control_back 0
+0A21: set_car 1@ not_affected_by_cheats 0
+0A22: set_car_color_to_panel_color_panelID $VAR13 car $VAR5 colorslot 0 active_row $VAR9
+0A23: set_panel $VAR21 row $VAR12 shopping_item_bought 0
+0A24: enable_military_zones_wanted_level 0
+0A25: set_camera_on_players_X_angle 0.0 Z_angle 0.0
+0A26: set_radio_to_favorite_station
+0A27: set_actor 14@ death_pickups_persist 0
+0A28: set_actor $VAR7 swimming_speed_to 0.0
+0A29:   player $VAR3 climbing
+0A2A:   text_box 'SHORT' displayed // ~h~Gambling Skill~w~ - Gambler level reached. Your maximum wager has increased to $VAR24,000. You can now borrow up to $VAR18,000 from the casino.
+0A2B:   widescreen_option_enabled
+0A2C: hide_priority_text_while_fading 0
+0A2D: hide_styled_text_while_fading 0 // works with 00BA
+0A2E: AS_actor 5@ go_to 27@ 27@ 29@ mode 0 time 0 stop_radius 0.0  following_paths
+0A2F: show_first_person_view 0
+0A30: repair_car 19@
+0A31: set_player $VAR23 group_to_follow_never 0
+0A32:  actor 12@ on_turret_of_car
+0A33: 11@ = get_car_ped_is_attached_to 13@
+0A35: trip_skip 0.0 0.0 0.0 angle 0.0 when_in_car 9@ finished_by_script
+0A36:  trip_skip_finished_by_script_is_ready_to_fade_in
+0A37: disable_vehicle_lights 0
+0A39: 16@ = get_vehicle_camera_mode
+0A3A:   player $VAR24 last_model_shot #MODEL
+0A3B: clear_player $VAR11 last_model_shot
+0A3C: set_dialogue_classA_end_GXT 22@s WAV 19@
+0A3D: enable_prostitutes_pay_you 0
+0A3E: 3@ = unknown_get_actor_in_sphere $VAR9 $VAR23 $VAR9 radius 0.0 0.0 0.0
+0A3F: set_unused_flag 0
+0A40: 0@ = create_entrance_marker_at 0.0 0.0 0.0 color 0
+0A41: destroy_entrance_marker $VAR6
+0A43: get_rid_of_player_prostitute
+0A44: override_text_block 0
+0A45: set_rail_tracks_friction_to 0.0
+0A46: set_external_scripts_triggers_type 0 enabled 0
+0A47: set_dialogue_mode_enabled_without_GXT
+0A48: enable_menu_access_in_widescreen_mode 0
+0A4A: store_joystick_X_offset_to 16@ Y_offset_to 29@
+0A4B:   controls_set_to_joystick
+0A4C:   mouse_not_inverted_vertically
+0A4E: increment_useless_flag
+0A8C: write_memory 0xC0BC15 size 0 value 0 virtual_protect 0
+0A8D: $VAR18 = read_memory 2@ size 0 virtual_protect 0
+0A8E: 19@ = 26@ + 10@ // int
+0A8F: $VAR7 = 10@ - 0 // int
+0A90: $VAR13 = 0 * 0@ // int
+0A91: $VAR0 = 0 / 0 // int
+0A92: stream_custom_script "Long String"
+0A93: terminate_this_custom_script
+0A94: load_and_launch_custom_mission "Long String"
+0A95: save_this_custom_script
+0A96: $VAR19 = ped $VAR18 struct
+0A97: $VAR10 = vehicle $VAR9 struct
+0A98: $VAR26 = object 2@ struct
+0A99: set_current_directory 0
+0A9A: $VAR22 = open_file "Long String" mode 0x72 // IF and SET
+0A9B: close_file $VAR24
+0A9C: 3@ = file $VAR7 size
+0A9D: read_file $VAR12 size 0 to $VAR19
+0A9E: write_file $VAR10 size 0 from 13@
+0A9F: 23@ = get_this_script_struct
+0AA0: gosub_if_false @LABEL
+0AA1: return_if_false
+0AA2: $VAR16 = load_dynamic_library "Long String" // IF and SET
+0AA3: free_dynamic_library $VAR1
+0AA4: $VAR22 = get_dynamic_library_procedure "Long String" library $VAR14 // IF and SET
+0AA5: call_function $VAR8 num_params 0 pop 0 $VAR6
+0AA6: call_method $VAR9 struct $VAR6 num_params 0 pop 0
+0AA7: call_function_return 0x569660 num_params 0 pop 0 $VAR11 $VAR18 $VAR14
+0AA8: call_method_return 0x4048E0 struct 0xB74494 num_params 0 pop 0 $VAR9 28@
+0AA9:   is_game_version_original
+0AAA: 7@ = get_script_struct_named 'SHORT'
+0AAB:   does_file_exist "Long String"
+0AAC: $VAR0 = load_audio_stream "Long String"
+0AAD: set_audio_stream $VAR16 state 0
+0AAE: remove_audio_stream $VAR20
+0AAF: 20@ = get_audiostream_length $VAR21
+0AB0:   is_key_pressed 0x0
+0AB1: cleo_call @LABEL 0 10 $VAR4
+0AB2: cleo_return 0 16@
+0AB3: cleo_shared_var 0 = 0
+0AB4: 27@ = cleo_shared_var 0
+0AB5: store_char $VAR3 closest_vehicle_to 13@ closest_ped_to 26@
+0AB6: get_target_blip_coords_to 22@ 1@ 7@ // IF and SET
+0AB7: 4@ = get_car $VAR23 number_of_gears
+0AB8: 29@ = get_car $VAR7 current_gear
+0AB9: 18@ = get_audio_stream $VAR11
+0ABA: terminate_all_custom_scripts_with_this_name 'SHORT'
+0ABB: 2@ = audio_stream $VAR13 volume
+0ABC: set_audio_stream $VAR19 volume 2@
+0ABD:   car 13@ siren_on
+0ABE:   car 18@ engine_on
+0ABF: set_car 9@ engine_state_to 0
+0AC0: audio_stream $VAR2 looped 0
+0AC1: $VAR9 = load_audio_stream_with_3d_support "Long String" // IF and SET
+0AC2: set_3d_audio_stream $VAR26 at_coords 17@ 21@ 3@
+0AC3: link_3d_audio_stream $VAR11 to_object $VAR24
+0AC4: link_3d_audio_stream $VAR15 to_actor $VAR12
+0AC5: link_3d_audio_stream $VAR29 to_car $VAR18
+0AC6: 16@ = label @LABEL pointer
+0AC7: 19@ = var 16@ pointer
+0AC8: 11@ = allocate_memory_size 0
+0AC9: free_allocated_memory 2@
+0ACA: show_text_box 14@v
+0ACB: show_styled_text 7@v time 0 style 0
+0ACC: show_text_lowpriority 0x969110 time 0
+0ACD: show_text_highpriority 0x969110 time 0
+0ACE: show_formatted_text_box "Long String" 0x0ACE
+0ACF: show_formatted_styled_text "Long String" time 0 style 0 0x0ACF
+0AD0: show_formatted_text_lowpriority "Long String" time 0 0x0AD0
+0AD1: show_formatted_text_highpriority "Long String" time 0 0x0AD0
+0AD2: $VAR26 = player $VAR29 targeted_actor // IF and SET
+0AD3: 13@v = string_format "Long String" 0 2 0
+0AD4: 13@ = scan_string 14@v format "Long String" 6@ 6@ 29@ // IF and SET
+0AD5: file $VAR15 seek 0x10 from_origin 0 //IF and SET
+0AD6:   is_end_of_file_reached $VAR25
+0AD7: read_string_from_file $VAR19 to 20@v size 0 // IF and SET
+0AD8: write_string_to_file $VAR19 from 24@v //IF and SET
+0AD9: write_formatted_text "Long String" in_file $VAR10 0 0 0 0
+0ADA: 19@ = scan_file $VAR12 format "Long String" 19@ 25@ 2@ 11@ //IF and SET
+0ADB: 9@v = vehicle_model #MODEL name
+0ADC:   test_cheat "Long String"
+0ADD: spawn_car_with_model #MODEL like_a_cheat
+0ADE: 4@ = text_label_string 27@v
+0ADF: add_text_label "Long String" text "Long String"
+0AE0: remove_text_label "Long String"
+0AE1: $VAR8 = random_char_near_point 2@ 20@ 20@ in_radius 0.0 find_next 0 pass_deads 0
+0AE2: $VAR28 = random_vehicle_near_point 22@ 26@ 3@ in_radius 0.0 find_next 0 pass_wrecked 0
+0AE3: $VAR5 = random_object_near_point 14@ 23@ 14@ in_radius 0.0 find_next 0 //IF and SET
+0AE4:   does_directory_exist "Long String"
+0AE5: create_directory "Long String" //IF and SET
+0AE6: 24@ = find_first_file "Long String" get_filename_to 27@v // IF and SET
+0AE7: 25@v = find_next_file 28@ // IF and SET
+0AE8: find_close 9@
+0AE9: pop_float 5@
+0AEA: $VAR15 = ped_struct $VAR4 handle
+0AEB: $VAR14 = vehicle_struct $VAR29 handle
+0AEC: $VAR9 = object_struct $VAR24 handle
+0AED: 19@v = float 6@ to_string_format "Long String"
+0AEE: 15@ = 0.0 pow 0.0 //all floats
+0AEF: 22@ = log 0.0 base 0.0 //all floats
+0AF0: 13@ = read_int_from_ini_file "Long String" section "Long String" key "Long String"
+0AF1: write_int 0 to_ini_file "Long String" section "Long String" key "Long String"
+0AF2: 3@ = read_float_from_ini_file "Long String" section "Long String" key "Long String"
+0AF3: write_float 0.0 to_ini_file "Long String" section "Long String" key "Long String"
+0AF4: 27@v = read_string_from_ini_file "Long String" section "Long String" key "Long String"
+0AF5: write_string "Long String" to_ini_file "Long String" section "Long String" key "Long String"
+0B00: delete_file "Long String" // IF and SET
+0B01: delete_directory "Long String" include_subdirs 0
+0B02: move_file "Long String" to "Long String" //IF and SET
+0B03: move_directory "Long String" to "Long String" //IF and SET
+0B04: copy_file "Long String" to "Long String" //IF and SET
+0B05: copy_directory "Long String" to "Long String" //IF and SET
+0B10: 29@ = 27@ AND 0xFF
+0B11: 29@ = 24@ OR 0x0
+0B12: 13@ = 3@ XOR 0
+0B13: 17@ = NOT 25@
+0B14: 20@ = 12@ MOD 0
+0B15: 25@ = 4@ SHR 0
+0B16: 28@ = 11@ SHL 0
+0B17: 5@ &= 23@
+0B18: 25@ |= 0@
+0B19: 12@ ^= 4@
+0B1A: ~ 8@
+0B1B: 10@ %= 16@
+0B1C: 5@ >>= 5@
+0B1D: 5@ <<= 21@
+0B20: read_clipboard_data 2@ size 5@ 
+0B21: write_clipboard_data 15@ size 3@
+0D00: matrix 25@ = matrix 25@ * matrix 7@
+0D01: rotate_matrix 14@ on_axis 0.0 0.0 0.0 angle 0.0 combine_op 0
+0D02: 29@ = matrix 10@ x_angle 
+0D03: 21@ = matrix 3@ y_angle 
+0D04: 10@ = matrix 3@ z_angle 
+0D05: set_matrix 9@ position 0.0 0.0 0.0 
+0D06: get_matrix 1@ position_to 9@ 14@ 1@ 
+0D07: get_coords 2@ 14@ 4@ offsets_relative_to_matrix 21@ store_to 23@ 19@ 18@ 
+0D08: set_matrix 17@ rotation 0.0 5@ 0.0 
+0D09: copy_matrix 14@ to 27@ 
+0D0A: store_coords_to 10@ 15@ 27@ from_matrix 5@ with_offsets 0.0 0.0 0.0 
+0D0B: 25@ = get_actor $VAR29 bone 6 matrix // IF and SET 
+0D0C: 12@ = get_car 22@ component "Long String" matrix // IF and SET 
+0D0D: 8@ = get_car 12@ component "Long String" // IF and SET 
+0D0E: set_car 25@ component "Long String" state STATE_DAM // IF and SET 
+0D0F: set_car 15@ alpha 0 // IF and SET 
+0D10: set_actor $VAR5 alpha 0 // IF and SET 
+0D11: set_object 19@ alpha 0 // IF and SET 
+0D12: set_car 19@ component "Long String" alpha 0 // IF and SET 
+0D13: set_matrix 10@ x_angle 0.0 
+0D14: set_matrix 5@ y_angle 0.0 
+0D15: set_matrix 11@ z_angle 0.0
+0D16: set_matrix 24@ rotation_from_quat 27@
+0D17: 27@ = matrix 7@ to_quat
+0D18: rotate_quat 15@ axis_vector 0.0 0.0 0.0 angle 0.0 flag 0
+0D19: get_normalized_quat 3@ to_quat 8@
+0D1A: quat 16@ = quat 8@ * quat 17@
+0D1B: get_entity 26@ type_to 24@ class_to 9@
+0D1C: get_inversed_quat 3@ to_quat 29@
+0D1D: matrix_slerp 25@ 18@ 0@ 0.0
+0D1E: quat_slerp 15@ 19@ 25@ 0.0
+0D20: 2@ = component 0@ next_component
+0D21: 10@v = component 2@ name
+0D22: 5@ = component 19@ ltm
+0D23: 7@ = component 13@ modelling_matrix
+0D24: set_quat 9@ elements 0.0 0.0 0.0 0.0
+0D25: set_matrix 24@ elements 0.0 0.0 0.0 0 0.0 0.0 0.0 0 0.0 0.0 0.0 0 0.0 0.0 0.0 0
+0D26: set_vector 4@ elements 0.0 0.0 0.0
+0D27: copy_memory_from 20@ to 27@ size 0
+0D28: get_vector 3@ elements_to 12@ 17@ 0@
+0D29: get_quat 6@ elements_to 22@ 6@ 8@ 3@
+0D2A: 17@ = get_car 14@ number_of_collided_entites
+0D2B: 16@ = get_actor 4@ number_of_collided_entites
+0D2C: 23@ = get_object 6@ number_of_collided_entites
+0D2D: get_local_time_year_to 5@ month_to 28@ day_of_week_to 15@ day_to 22@ hour_to 21@ minute_to 6@ second_to 27@ milliseconds_to 29@
+0D2E: set_script 28@ var 0 to 0.0
+0D2F: 28@ = get_script 10@ var 0
+0D30: 0@ = actor $VAR7 bone 0 // IF and SET 
+0D31: 16@ = bone 6@ offset_vector_pointer
+0D32: 13@ = bone 26@ quat_pointer
+0D33: set_car 14@ door 0 window_state OPENED
+0D34: store_car 12@ collided_entities_to 1@ 8@ 0 -1 0 0
+0D35: store_actor 5@ collided_entities_to 2@ 28@ 0 -1 0 0
+0D36: store_object 15@ collided_entities_to 11@ 24@ 0 -1 0 0
+0D37: struct 29@ param 0 = 0.0
+0D38: 14@ = struct 3@ param 0
+0D39: 10@ = actor 28@ max_health
+0D3A: get_collision_between_poitns 6@ 12@ 4@ and 9@ 24@ 25@ flags 0 1 0 1 0 1 0 1 ignore_entity 0 store_point_to 21@ 24@ 26@ entity_to 0@ colpoint_data_to STD_COLPOINT_DATA // IF and SET
+0D3B: get_colpoint_data 0 normal_XYZ_to 26@ 10@ 16@
+0D3C: 16@ = get_colpoint_data 0 surface
+0D3D: 4@ = get_colpoint_data 0 lighting
+0D3E: 11@ = get_colpoint_data 0 depth
+0D3F: find_intersection_between_circles_xyr1 0.0 0.0 0.0 and_xyr2 0.0 0.0 0.0 store_point1_to 11@ 4@ point2_to 19@ 10@ // IF and SET 
+0D40: draw_2d_shape_type PRIMTYPETRIFAN texture 10@ numVerts 0 pVerts 22@ vertexAlpha 0 srcBlend 0 dstBlend 0 priority 0 // IF and SET 
+0D41: set_vertices 12@ vertex 0 xyz 0.0 0.0 0.0 rhw 0.0 RGBA 0 255 0 255 uv 0.0 0.0 screenX false screenY true
+0D42: load_txd "Long String" from "Long String" // IF and SET 
+0D43: 4@ = txd "Long String" id
+0D44: 2@ = find_texture "Long String" in_dictionary "Long String" // IF and SET
+0D45: rotate_2d_vertices_shape 17@ num_verts 0 aroundXY 17@ 6@ angle 0.0
+0D46: 13@ = find_texture "Long String" in_dictionary 8@ // IF and SET
+0D47: 2@ = model #MODEL txd_id // IF and SET 
+0D48: 3@ = model 22@ crc32_key // IF and SET 
+0D49: 7@ = compare_strings "Long String" "Long String" // IF and SET
+0D4A: concatenate_strings 18@ "Long String"
+0D4B: 8@ = locate_substring 4@ "Long String" // IF and SET
+0D4C: 1@ = string "Long String" length
+0D4D: copy_string "Long String" to 15@
+0D4E: 17@ = struct 4@ offset 0x4C4 size 0
+0D4F: struct 15@ offset 0x4C4 size 0 = 0
+0D50: draw_shadow_type TYPE_LIGHT position 6@ 15@ 10@ width 5@ height 29@ rotation 13@ distance 17@ texture 24@ intensity 0 RGB 0 255 0 shadow_data 0
+0D51: draw_permanent_shadow_type TYPE_LIGHT position 19@ 5@ 6@ width 8@ height 23@ rotation 12@ distance 19@ texture 16@ intensity 0 RGB 0 255 0 time 0
+0D52: draw_light_type LIGHT_DIRECTIONAL position 8@ 21@ 0@ direction 11@ 19@ 16@ radius 0.0 RGBA 0 0 0 affect_entity 0
+0D53: draw_corona_with_texture CORONASTAR color 0 255 0 255 on_entity 0 at 29@ 15@ 27@ size 0.0
+0D54: draw_corona_with_extra_params_texture CORONASTAR color 0 255 0 255 on_entity 0 at 5@ 5@ 24@ size 0.0 far_clip 0.0 near_clip 0.0 flare 0 enable_reflection 0 check_obstacles 0 flash_while_fading 0 fade_speed 0.0 only_from_below 0
+0D55: get_sun_colors_core_to 20@ 7@ 1@ glow_to 16@ 21@ 19@
+0D56: get_sun_screen_coords_XY_to 16@ 13@
+0D57: get_sun_position_to 10@ 20@ 5@ // IF and SET
+0D58: get_sun_size_core_to 22@ glow_to 9@
+0D59: 1@ = current_weather
+0D5A: get_trafficlights_type_NS_current_color_to 25@ type_WE_current_color_to 10@
+0D5B: draw_spotlight_from 7@ 2@ 6@ to 23@ 11@ 29@ base_radius 0.0 target_radius 0.0 enable_shadow 0 shadow_intensity 0.0 flag1 0 flag2 0
+0D5C: 26@ = get_car 10@ light HEAD_LIGHT_LEFT damage_state
+0D5D: set_car 16@ light HEAD_LIGHT_LEFT damage_state 0
+0D5E: get_vehicle 11@ class_to 27@ subclass_to 19@
+0D5F: get_vehicle 6@ dummy_element DUMMY_TAILIGHTS position WORLD to 21@ 2@ 10@ invert_x false // IF and SET 
+0D60: create_projectile_type PROJECTILE_MISSILE launched_from_entity 8@ origin 26@ 7@ 6@ target 24@ 18@ 20@ target_entity 0 force 0.0 // IF and SET
+0D61: 17@ = load_texture_bmp_from "Long String" with_mask "Long String" // IF and SET
+0D64: 23@ = load_texture_png_from "Long String" // IF and SET
+0D65: print "Long String" at 0.0 0.0 scale 0.0 0.0 style FONT_GOTHIC
+0D66: print "Long String" at 0.0 0.0 scale 0.0 0.0 style FONT_GOTHIC prop TRUE align ALIGN_LEFT wrap 0.0 justify FALSE color 0 255 0 255 outline 0 shadow 0 dropColor 0 0 0 0 background FALSE backColor 0 0 0 0
+0D72: get_sfx_volume_to 28@ radio_volume_to NULL type TYPE_FLOAT
+0D73: get_screen_width_to 19@ height_to 15@ type TYPE_FLOAT
+0D74: 12@ = component 28@ parent_component
+0D75: 25@ = component 28@ num_objects
+0D76: 16@ = component 25@ object 0
+0D77: object_atomic 24@ hide 0
+0D78: 8@ = get_object 22@ atomic_flag 18@
+0D79: set_object 14@ atomic_flag 19@ state 7@
+0D7A: 17@ = get_object 18@ num_materials // IF and SET
+0D7B: 13@ = get_object 8@ material 0 texture // IF and SET
+0D7C: 17@ = load_texture_dds_from "Long String" // IF and SET
+0D7D: clean_loaded_texture 22@
+0D7E: draw_sprite_with_texture 26@ at_cornerA 0.0 0.0 cornerB 0.0 0.0 color 0 255 0 255 angle 0.0
+0D7F: draw_gradient_sprite_with_texture 24@ at_cornerA 0.0 0.0 cornerB 0.0 0.0 colors 0 255 0 255  0 255 0 255  0 255 0 255  0 255 0 255 angle 0.0
+0E00: 3@ = get_car_alarm 25@ mode
+0E01: create_object_no_save 24@ at 20@ 27@ 22@ offset 12@ ground 24@ to 13@
+0E02: set_car_generator 18@ no_save
+0E03: 14@ = perlin_noise 3@
+0E04: 21@ = get_next_weather
+0E05: set_next_weather 23@
+0E06: 0@ = get_rain_intensity
+0E07: set_rain_intensity 5@
+0E08: is_car_script_controlled 27@
+0E09: mark_car_as_needed 19@
+0E0A: is_char_script_controlled 8@
+0E0B: mark_char_as_needed 24@
+0E0C: is_object_script_controlled 11@
+0E0D: mark_object_as_needed 13@
+0E0E: get_current_resolution_to 16@ 2@
+0E0F: get_fixed_xy_aspect_ratio 12@ 27@ to 17@ 3@
+0E10: is_mouse_wheel_up
+0E11: is_mouse_wheel_down
+0E12: 25@ = get_vehicle 4@ subclass
+0E13: 6@ = get_entity 27@ type
+0E14: init_extended_char_vars 25@ id 22@ new_vars 2@
+0E15: set_extended_char_var 4@ id 16@ var 6@ value 12@
+0E16: get_extended_char_var 12@ id 5@ var 1@ to 9@
+0E17: init_extended_car_vars 26@ id 25@ new_vars 7@
+0E18: set_extended_car_var 8@ id 18@ var 6@ value 6@
+0E19: get_extended_car_var 5@ id 4@ var 9@ to 29@
+0E1A: init_extended_object_vars 9@ id 13@ new_vars 28@
+0E1B: set_extended_object_var 25@ id 17@ var 21@ value 24@
+0E1C: get_extended_object_var 15@ id 9@ var 26@ to 16@
+0E1D: is_on_mission
+0E1E: draw_texture_plus 2@ event 4@ pos 17@ 8@ size 2@ 10@ angle 17@ depth 26@ fix_aspect_ratio 12@ maskTrisCount 1@ maskTrisArray 2@ rgba 20@ 6@ 13@ 17@
+0E1F: ease 12@ mode 26@ way 25@ to 8@
+0E20: is_on_samp
+0E21: 16@ = get_audio_sfx_volume
+0E22: 25@ = get_audio_radio_volume
+0E23: 20@ = get_mouse_sensibility
+0E24: fix_char 23@ ground 25@ brightness 0@ and_fade_in 6@
+0E25: is_on_cutscene
+0E26: is_weapon 12@ fire_type 5@
+0E27: 25@ = get_angle_from_two_coords 12@ 24@ and 5@ 6@
+0E28: write_struct 17@ offset 19@ size 21@ value 18@
+0E29: 14@ = perlin_noise 23@ frequency 6@ amplitude 10@ lacunarity 19@ persistence 9@
+0E2A: 24@ = create_cleo_blip 11@ position 7@ 26@ is_short 25@ RGBA 20@ 11@ 19@ 26@
+0E2B: remove_cleo_blip 0@
+0E2C: 14@ = get_current_save_slot
+0E2D: is_game_first_start
+0E2E: 5@ = create_render_object 22@ at_char 25@ on_bone 2@ offset 1@ 27@ 2@ rotation 3@ 2@ 28@ 
+0E2F: delete_render_object 2@
+0E30: set_render_object_auto_hide 16@ dead 14@ weapon 12@ car 28@
+0E31: set_render_object 2@ visible 24@
+0E32: set_char_coordinates_simple 0@ coord 28@ 8@ 19@
+0E33: 7@ = get_pickup_this_coord 16@ 29@ 29@ only_available 27@
+0E34: 17@ = get_pickup 3@ model 
+0E35: set_render_object 6@ position 26@ 7@ 19@
+0E36: set_render_object 6@ rotation 15@ 9@ 8@
+0E37: set_render_object 6@ scale 20@ 2@ 19@
+0E38: 11@ = get_pickup_pointer 9@
+0E39: 22@ = get_pickup_type 2@
+0E3A: set_render_object 26@ distortion 25@ 5@ 1@ 24@
+0E3B: 14@ = get_audiostream_internal 14@
+0E3C: 20@ = get_texture_from_sprite 20@
+0E3D: is_key_just_pressed 3@
+0E3E: is_button_just_pressed 2@ button 3@
+0E3F: convert_3d_to_screen_2d 16@ 10@ 18@ checkNearClip 15@ checkFarClip 4@ store_2d_to 7@ 10@ size_to 13@ 17@
+0E40: 13@ = get_current_hour
+0E41: 22@ = get_current_minute
+0E42: is_char 13@ doing_task_id 18@
+0E43: 1@ = get_char 4@ task_pointer_by_id 7@
+0E44: 14@ = get_char 28@ kill_target_char
+0E45: frame_mod 6@
+0E46: is_char 22@ using_gun
+0E47: is_char 41@ fighting
+0E48: is_char 13@ fallen_on_ground
+0E49: is_char 21@ entering_any_car
+0E4A: is_char 19@ exiting_any_car
+0E4B: is_char_playing_any_script_animation 14@ include_anims 3@
+0E4C: is_char_doing_any_important_task 0@ include_anims 20@
+0E4D: random_percent 21@
+0E4E: display_onscreen_timer_local 13@ direction 27@
+0E4F: display_onscreen_timer_with_string_local 15@ direction 6@ GXT 27@
+0E50: display_onscreen_counter_local 0@ direction 0@
+0E51: display_onscreen_counter_with_string_local 24@ direction 7@ GXT 26@
+0E52: display_two_onscreen_counters_local 21@ max_value 24@
+0E53: display_two_onscreen_counters_with_string_local 28@ max_value 10@ GXT 21@
+0E54: clear_onscreen_timer_local 21@
+0E55: clear_onscreen_counter_local 29@
+0E56: set_onscreen_counter_flash_when_first_displayed_local 17@ flash 1@
+0E57: set_timer_beep_countdown_time_local 27@ secs 9@
+0E58: set_onscreen_counter_colour_local 1@ color 22@
+0E59: 15@ = get_trailer_from_car 3@
+0E5A: 6@ = get_car_from_trailer 19@
+0E5B: get_car_dummy_coord 5@ dummy 2@ world_coords 0@ invert_x 23@ store_to 8@ 3@ 8@ // same as NewOpcodes but this is adapted to VehFuncs
+0E5C: 16@ = get_player_health_percent 0@
+0E5D: is_cheat_active 0@
+0E5E: change_player_money 15@ mode 25@ value 17@
+0E5F: car_horn 24@
+0E60: set_camera_control 29@ 12@
+0E61: set_car_alarm 4@ mode 23@
+0E62: print 21@ event 26@ at 18@ 16@ scale 24@ 21@ fixAR 13@ style 17@
+0E63: print 5@ event 14@ at 4@ 20@ scale 20@ 21@ fixAR 19@ style 0@ prop 1@ align 5@ wrap 4@ justify 21@ color 24@ 18@ 12@ 28@ outline 29@ shadow 27@ dropColor 14@ 4@ 2@ 21@ background 18@ backColor 2@ 12@ 26@ 11@
+0E64: 28@ = get_camera_mode
+0E65: 4@ = get_car_collision_intensity 24@
+0E66: get_car_collision_coordinates 27@ store_to 7@ 25@ 26@
+0E67: is_aim_button_pressed 19@
+0E68: set_player_control_pad 6@ 17@
+0E69: set_player_control_pad_movement 1@ 26@
+0E6A: make_nop 25@ size 4@
+0E6B: 24@ = get_colpoint_lighting 18@ from_night 3@
+0E6C: 25@ = get_day_night_balance
+0E6D: 25@ = get_underwaterness
+0E6E: is_select_menu_just_pressed
+0E6F: stream_custom_script_from_label 11@
+0E70: 9@ = get_last_created_custom_script
+0E71: 19@ = get_object_centre_of_mass_to_base_of_model 21@
+0E72: 24@ = create_list 28@
+0E73: delete_list 26@
+0E74: list_add 12@ value 23@
+0E75: list_remove_value 1@ value 9@
+0E76: list_remove_index 28@ index 4@
+0E77: get_list_size 7@ size 4@
+0E78: 20@ = get_list_value_by_index 4@ index 22@
+0E79: reset_list 14@
+0E7A: 3@ = get_list_string_value_by_index 22@ index 26@
+0E7B: list_add_string 26@ value 18@
+0E7C: list_remove_string_value 21@ value 8@
+0E7D: list_remove_index 6@ start 25@ end 6@
+0E7E: reverse_list 1@
+0E7F: 26@ = get_model_type 7@
+0E80: is_string_equal 11@ 8@ max_size 13@ case_sensitive 10@ ignore_charactere 10@
+0E81: is_string_comment 9@
+0E82: does_car_have_part_node 10@ 10@
+0E83: 17@ = get_current_char_weaponinfo 9@
+0E84: 8@ = get_weaponinfo 13@ skill 16@
+0E85: 20@ = get_weaponinfo_models 18@ 2@
+0E86: 3@ = get_weaponinfo_flags 20@
+0E87: 14@ = get_weaponinfo_animgroup 27@
+0E88: 8@ = get_weaponinfo_total_clip 4@
+0E89: 17@ = get_weaponinfo_fire_type 6@
+0E8A: 11@ = get_weaponinfo_slot 9@
+0E8B: 7@ = get_char_weapon_state 11@
+0E8C: 10@ = get_char_weapon_clip 19@
+0E8D: is_any_fire_button_pressed 3@
+0E8E: 8@ = get_char_collision_surface 20@
+0E8F: 5@ = get_char_collision_lighting 5@
+0E90: 26@ = get_car_collision_surface 11@
+0E91: 20@ = get_car_collision_lighting 17@
+0E92: is_char 6@ really_in_air
+0E93: is_car 4@ really_in_air
+0E94: is_object 1@ really_in_air
+0E95: simulate_object_damage 3@ damage 13@ type 14@
+0E96: clear_char_primary_tasks 26@
+0E97: clear_char_secondary_tasks 15@
+0E98: request_priority_model 0@
+0E99: load_all_priority_models_now
+0E9A: load_special_character_for_id 20@ name 3@
+0E9B: unload_special_character_from_id 27@
+0E9C: get_model_by_name 19@ store_id 2@
+0E9D: get_model_available_by_name 22@
+0E9E: 2@ = get_model_doesnt_exist_in_range 11@ to 29@
+0E9F: remove_all_unused_models
+0EA0: set_actor_second_player 10@ enable_camera 1@ separate_cars 25@
+0EA1: disable_second_player_restore_camera 18@
+0EA2: fix_two_players_separated_cars 20@
+0EA3: remove_model_if_unused 11@
+0EA4: is_char 3@ on_fire
+0EA5: 8@ = get_closest_cop_near_char 14@ radius 28@ alive 12@ in_car 13@ on_foot 1@ seen_in_front 1@
+0EA6: 1@ = get_closest_cop_near_char 12@ 25@ 3@ radius 6@ alive 14@ in_car 28@ on_foot 7@
+0EA7: get_any_char_no_save_recursive 25@ progress_to 19@ char_to 11@
+0EA8: get_any_car_no_save_recursive 26@ progress_to 3@ car_to 26@
+0EA9: get_any_object_no_save_recursive 18@ progress_to 15@ object_to 9@
+0EAA: set_char_arrested 8@
+0EAB: 15@ = get_char_pedstate 26@
+0EAC: get_char_proofs 2@ bullet 16@ fire 1@ explosion 19@ collision 2@ melee 9@
+0EAD: get_car_proofs 4@ bullet 11@ fire 20@ explosion 21@ collision 3@ melee 22@
+0EAE: get_object_proofs 10@ bullet 17@ fire 22@ explosion 29@ collision 18@ melee 20@
+0EAF: is_char_weapon_visible_set 12@
+0EB0: 17@ = get_forced_weather
+0EB1: 19@ = get_char_stat_id 19@
+0EB2: store_coords_to 0.0 0.0 0.0 from_camera_with_offset 0.0 0.0 0.0
+0EB2: get_offset_from_camera_in_world_coords 3@ 12@ 20@ store_to 9@ 2@ 15@
+0EB3: convert_direction_to_quat 9@ dir 3@ 17@ 15@
+0EB4: set_car_coordinates_simple 22@ position 29@ 1@ 16@
+0EB5: get_char_damage_last_frame 14@ damager 10@ type 7@ part 6@ intensity 25@
+0EB6: get_car_weapon_damage_last_frame 6@ char 3@ type 5@ intensity 29@
+0EB7: is_on_scripted_cutscene
+0EB8: is_radar_visible
+0EB9: is_hud_visible
+0EBA: get_model_ped_type_and_stat 2@ store_to 15@ 11@
+0EBB: pass_time 24@
+0EBC: 9@ = generate_random_int_in_range_with_seed 5@ min 28@ max 7@
+0EBD: 17@ = generate_random_float_in_range_with_seed 21@ min 20@ max 3@
+0EBE: locate_camera_distance_to_coordinates 21@ 15@ 28@ radius 27@
+0EBF: 28@ = get_fx_system_pointer 26@
+0EC0: add_fx_system_particle 8@ coord 4@ 21@ 16@ vel 24@ 27@ 7@ size 2@ brightness 4@ rgba 27@ 10@ 15@ 10@ lastFactor 3@
+0EC1: is_fx_system_available_with_name 13@
+0EC2: set_string_upper 10@
+0EC3: set_string_lower 12@
+0EC4: 12@ = string_find 25@ 27@ 11@
+0EC5: cut_string_at 4@ 1@
+0EC6: is_string_character_at 20@ 6@ 5@
+0EC7: 3@ = get_fade_alpha
+0EC8: 6@ = get_char_random_seed 28@
+0EC9: 1@ = get_car_random_seed 11@
+0ECA: 12@ = get_object_random_seed 16@
+0ECB: 25@ = get_char_move_state 17@
+0ECC: dont_delete_char 25@ until_time 25@
+0ECD: dont_delete_car 7@ until_time 13@
+0ECE: 14@ = get_time_char_is_dead 16@
+0ECF: 10@ = get_time_car_is_dead 1@
+0ED0: return_script_event
+0ED1: set_script_event_save_confirmation 1@ label 22@ var_slot 19@
+0ED2: set_script_event_char_delete 1@ label 18@ var_char 6@
+0ED3: set_script_event_char_create 7@ label 2@ var_char 17@
+0ED4: set_script_event_car_delete 23@ label 4@ var_car 18@
+0ED5: set_script_event_car_create 22@ label 14@ var_car 19@
+0ED6: set_script_event_object_delete 14@ label 24@ var_object 2@
+0ED7: set_script_event_object_create 27@ label 20@ var_object 4@
+0ED8: set_script_event_on_menu 26@ label 7@ var_just_paused 5@
+0ED9: set_char_ignore_damage_anims 12@ 6@
+0EDA: set_script_event_char_process 6@ label 2@ var_char 22@
+0EDB: set_script_event_car_process 23@ label 3@ var_car 24@
+0EDC: set_script_event_object_process 18@ label 24@ var_object 6@
+0EDD: set_script_event_building_process 26@ label 25@ var_building 20@
+0EDE: set_script_event_char_damage 17@ label 13@ var_char 22@
+0EDF: set_script_event_car_weapon_damage 6@ label 0@ var_car 7@
+0EE0: set_script_event_bullet_impact 20@ label 4@ args var_owner 4@ var_victim 13@ var_weapon 5@ var_colpoint 15@
+0EE1: get_colpoint_coordinates 9@ store_to 11@ 3@ 17@
+0EE2: read_struct_offset_multi 19@ offset 27@ total 11@ size 28@
+0EE3: write_struct_offset_multi 19@ offset 24@ count 11@ size 4@
+0EE4: locate_char_distance_to_char 21@ char 19@ radius 27@
+0EE5: locate_char_distance_to_car 0@ car 16@ radius 13@
+0EE6: locate_char_distance_to_object 13@ object 29@ radius 12@
+0EE7: locate_car_distance_to_object 24@ object 25@ radius 7@
+0EE8: locate_car_distance_to_car 2@ car 16@ radius 2@
+0EE9: locate_object_distance_to_object 13@ object 12@ radius 2@
+0EEA: locate_char_distance_to_coordinates 7@ pos 5@ 23@ 17@ radius 18@
+0EEB: locate_car_distance_to_coordinates 6@ pos 17@ 9@ 16@ radius 21@
+0EEC: locate_object_distance_to_coordinates 24@ pos 27@ 14@ 10@ radius 19@
+0EED: locate_object_distance_to_coordinates 8@ pos 26@ 19@ 26@ radius 15@
+0EEE: get_entity_coordinates 13@ store_to 20@ 3@ 4@
+0EEF: 0@ = get_entity_heading 10@
+0EF0: get_coord_from_angled_distance 4@ 8@ angle 10@ dist 20@ store_to 18@ 26@
+0EF1: 11@ = perlin_noise_fractal_2d 28@ 11@ frequency 2@ amplitude 9@ lacunarity 22@ persistence 13@
+0EF2: 9@ = perlin_noise_fractal_3d 16@ 15@ 21@ frequency 22@ amplitude 28@ lacunarity 29@ persistence 14@
+0EF3: 22@ = lerp 28@ 20@ 8@
+0EF4: 21@ = clamp_float 1@ min 11@ max 24@
+0EF5: car 15@ is_owned_by_player
+0EF6: set_car 16@ owned_by_player 29@
+0EF7: 24@ = clamp_int 24@ min 15@ max 22@
+0EF8: 16@ = get_model_info 2@
+0EF9: 8@ = get_car_animgroup 16@
+0EFA: 21@ = get_char_fear 9@
+0EFB: is_car_double_convertible 15@
+0EFC: 6@ = get_car_value 7@
+0EFD: get_car_pedals 4@ gas_to 1@ break_to 10@
+0EFE: 3@ = get_loaded_library 21@
+0EFF: get_char_simplest_active_task 15@ id_to 24@ pointer_to 15@
+0F01: imgui_begin label 1@v shown (bool) 2@ flags (int) 3@ mouse visible (int) 4@ 
+0F02: imgui_end 
+0F03: imgui_checkbox label 1@v imguitypeflags 2@ var (int) 3@ 
+0F04: imgui_button label 1@v width (float) 2@ height (float) 3@ 
+0F05: imgui_calc_text_height text 1@v hide after ## (bool) 2@ warp width (float) 3@ imguitypeflags 4@ pointer/var (float) 5@ 
+0F06: imgui_calc_text_width text 1@v hide after ## (bool) 2@ warp width (float) 3@ imguitypeflags 4@ pointer/var (float) 5@ 
+0F07: imgui_set_next_window_pos pos x (float) 1@ pos y (float) 2@ imguicond 3@ 
+0F08: imgui_set_window_pos pos x (float) 1@ pos y (float) 2@ imguicond 3@ 
+0F09: imgui_get_font_size var (float) 1@ 
+0F0A: imgui_set_next_window_size width (float) 1@ height (float) 2@ imguicond 3@ 
+0F0B: imgui_set_window_size width (float) 1@ height (float) 2@ imguicond 3@ 
+0F0C: imgui_show_demo_window 
+0F0D: imgui_show_style_editor 
+0F0E: imgui_text text 1@v 
+0F0F: imgui_text_wrapped text 1@v 
+0F10: imgui_text_disabled text 1@v 
+0F11: imgui_text_colored text 1@v red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ 
+0F12: imgui_columns count (int) 1@ border (int) 2@ 
+0F13: imgui_next_column 
+0F14: imgui_spacing 
+0F15: imgui_dummy padding x (float) 1@ padding y (float) 2@ 
+0F16: imgui_sameline 
+0F17: imgui_slider_int label 1@v imguitypeflags 2@ var 3@ min (int) 4@ max (int) 5@ imguisliderflags 6@ imguislidercount 7@ 
+0F18: imgui_slider_float label 1@v imguitypeflags 2@ var 3@ min (float) 4@ max (float) 5@ imguisliderflags 6@ imguislidercount 7@ 
+0F19: imgui_color_edit label 1@v imguitypeflags 2@ var 3@ imguicoloreditflags 4@ imguicoloreditalpha 5@ 
+0F1A: imgui_color_picker label 1@v imguitypeflags 2@ var 3@ imguicoloreditflags 4@ imguicoloreditalpha 5@ 
+0F1B: imgui_begin_child label 1@v width (float) 2@ height (float) 3@ border (int) 4@ imguiwindowflags 5@ 
+0F1C: imgui_end_child 
+0F1D: imgui_input_int label 1@v imguitypeflags 2@ var 3@ imguiinputtextflags 4@ imguiinputcount 5@ 
+0F1E: imgui_input_float label 1@v imguitypeflags 2@ var 3@ imguiinputtextflags 4@ imguiinputcount 5@ 
+0F1F: imgui_input_text label 1@v hint 2@v var (char) 3@v buffer size (int) 4@ imguiinputtextflags 5@ 
+0F20: imgui_input_text_multiline label 1@v var (char) 2@v buffer size (int) 3@ width (float) 4@ height (float) 5@ imguiinputtextflags 6@ 
+0F25: imgui_separator 
+0F26: imgui_get_cleo_imgui_version var (float) 1@ 
+0F27: imgui_get_version var (float) 1@ 
+0F28: imgui_get_framerate var (int) 1@ 
+0F29: imgui_color_button label (float) 1@v red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ imguicoloreditflags 6@ width (float) 7@ height (float) 8@ 
+0F2A: imgui_bullet 
+0F2B: imgui_bullet_text label 1@v 
+0F2C: imgui_newline 
+0F2D: imgui_set_tooltip label 1@v 
+0F2E: imgui_color_tooltip label 1@v red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ imguicoloreditflags 6@ 
+0F2F: imgui_is_item_hovered indentifier 1@v imguihoveredflags 2@ 
+0F30: imgui_is_item_focused indentifier 1@v 
+0F31: imgui_is_item_activated indentifier 1@v 
+0F32: imgui_is_item_deactivated indentifier 1@v 
+0F33: imgui_is_item_active indentifier 1@v 
+0F34: imgui_is_item_clicked indentifier 1@v imguimousebutton 2@ 
+0F35: imgui_is_window_hovered indentifier 1@v imguihoveredflags 2@ 
+0F36: imgui_is_window_focused indentifier 1@v imguihoveredflags 2@ 
+0F37: imgui_radio_button label 1@v imguitypeflags 2@ pointer/var (int) 3@ number (int) 4@ 
+0F38: imgui_collasping_header label 1@v imguitreenodeflags 2@ 
+0F39: imgui_progress_bar label 1@v fraction (float) 2@ width (float) 3@ height (float) 4@ 
+0F3A: imgui_get_window_posy imguitypeflags 1@ pointer/var (float) 2@ 
+0F3B: imgui_get_window_posx imguitypeflags 1@ pointer/var (float) 2@ 
+0F3C: imgui_get_window_width imguitypeflags 1@ pointer/var (float) 2@ 
+0F3D: imgui_get_window_height imguitypeflags 1@ pointer/var (float) 2@ 
+0F3E: imgui_selectable label 1@v check mark (int) 2@ imguiselectableflags 3@ width (float) 4@ height (float) 5@ 
+0F40: imgui_load_texture path 1@v var (int) 2@ 
+0F41: imgui_image indentifier 1@v var (int) 2@ width (float) 3@ height (float) 4@ 
+0F42: imgui_image_ex indentifier 1@v var (int) 2@ width (float) 3@ height (float) 4@ uv x (float) 5@ uv0 y (float) 6@ uv x (float) 7@ uv0 y (float) 8@ red (float) 9@ green (float) 10@ blue (float) 11@ alpha (float) 12@ border red (float) 13@ border green (float) 14@ border blue (float) 15@ border alpha (float) 16@ 
+0F43: imgui_image_button indentifier 1@v var (int) 2@ width (float) 3@ height (float) 4@ 
+0F44: imgui_image_button_ex indentifier 1@v var (int) 2@ width (float) 3@ height (float) 4@ uv0 x (float) 5@ uv0 y (float) 6@ uv1 x (float) 7@ uv1 y (float) 8@ red (float) 9@ green (float) 10@ blue (float) 11@ alpha (float) 12@ border red (float) 13@ border green (float) 14@ border blue (float) 15@ border alpha (float) 16@ 
+0F45: imgui_get_game_path pointer (char) 1@ 
+0F46: imgui_invisible_button label 1@v width (float) 2@ height (float) 3@ imguibuttonflags 4@ 
+0F47: imgui_drawlist_add_circle center x (float) 1@ center y (float) 2@ radius (float) 3@ color (int) 4@ segment (int) 5@ thickness (int) 6@ 
+0F48: imgui_drawlist_add_circle_filled center x (float) 1@ center y (float) 2@ radius (float) 3@ color (int) 4@ segment (int) 5@ 
+0F49: imgui_drawlist_add_rect min x (float) 1@ min y (float) 2@ max x (float) 3@ max y (float) 4@ color (int) 5@ rounding (int) 6@ corners (int) 7@ thickness (int) 8@ 
+0F4A: imgui_drawlist_add_rect_filled min x (float) 1@ min y (float) 2@ max x (float) 3@ max y (float) 4@ color (int) 5@ rounding (int) 6@ corners (int) 7@ 
+0F4B: imgui_drawlist_add_rect_filled_multicolor min x (float) 1@ min y (float) 2@ max x (float) 3@ max y (float) 4@ color up left (int) 5@ color up right (int) 6@ color down left (int) 7@ color down right (int) 8@ 
+0F4C: imgui_drawlist_add_text text 1@v pos x (float) 2@ pos y (float) 3@ radius (float) 4@ color (int) 5@ 
+0F4D: imgui_drawlist_add_triangle point1 x (float) 1@ point1 y (float) 2@ point2 x (float) 3@ point2 y (float) 4@ point3 x (float) 5@ point3 y (float) 6@ color (int) 7@ thickness (int) 8@ 
+0F4E: imgui_drawlist_add_triangle_filled point1 x (float) 1@ point1 y (float) 2@ point2 x (float) 3@ point2 y (float) 4@ point3 x (float) 5@ point3 y (float) 6@ color (int) 7@ 
+0F4F: imgui_begin_main_menu_bar 
+0F50: imgui_end_main_menu_bar 
+0F51: imgui_menu_item label 1@v 
+0F52: imgui_style_colors_classic 
+0F53: imgui_style_colors_dark 
+0F54: imgui_style_colors_default 
+0F55: imgui_style_colors_light 
+0F57: imgui_get_style imguistyleoffsets 1@ var (float) 2@ 
+0F58: imgui_set_style imguistyleoffsets 1@ value (float) 2@ 
+0F59: imgui_set_style_int imguistyleoffsets 1@ value (int) 2@ 
+0F5A: imgui_get_color imguicoloroffsets 1@ red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ 
+0F5B: imgui_set_color imguicoloroffsets 1@ red (float) 2@ green (float) 3@ blue (float) 4@ alpha (float) 5@ 
+0F5C: imgui_push_item_width width (float) 1@ 
+0F5D: imgui_pop_item_width 
+0F5E: imgui_push_item_flag imguiitemflags 1@ enabled (int) 2@ 
+0F5F: imgui_pop_item_flag 
+0F60: imgui_get_window_content_region_width imguitypeflags 1@ pointer/var (float) 2@ 
+0F61: imgui_get_frame_height imguitypeflags 1@ pointer/var (float) 2@ 
+0F62: imgui_get_frame_height_with_spacing var (float) 1@ 
+0F63: imgui_get_style_int imguistyleoffsets 1@ var (int) 2@
+0242=2,arm_car_with_bomb %1d% %2d%
+0A4F=0,   NOP_false
+0A50=0,increment_useless_flag
+0a51=1,  is_widget_pressed %1d%
+0a52=1,  is_widget_released %1d%
+0a53=1,  is_widget_doubletapped %1d%
+0a54=1,  is_widget_swiped %1d%
+0A55=1,  is_widget_swiped_left %1d%
+0A56=1,  is_widget_swiped_right %1d%
+0a57=2,  do_mission_skip_get_current_mission_page %1d% get_current_skip_to_mission_number %2d%
+0a58=1,  skip_to_mission_num %1d%
+0a59=1,  skip_to_mission_page %1d%
+0a5A=2,get_widget %1d% value_to %2d% ; float
+0A5B=3,get_widget %1d% value2_to %2d% %3d% ; float
+0A5C=3,display_missions_text_position %1d% %2d% GXT %3g%
+0A5D=5,get_widget %1d% position_to %2d% %3d% scale_to %4d% %5d%
+0A5E=2,set_widget %1d% value %2d% ; float
+0A5F=3,set_widget %1d% slider_range %2d% %3d% ; float
+0a60=2,widget %1d% add_flag %2d%
+0a61=2,widget %1d% remove_flag %2d%
+0a62=2,widget %1d% add_button_flag %2d%
+0a63=2,widget %1d% remove_button_flag %2d%
+0a64=0,  is_touch_enabled
+0a65=0,  skip_intro_cutscene
+0a66=1,write_log %1k% ; 128-byte null-terminated string
+0a67=4,write_log_int %1d% %2d% %3d% %4k% ; 128-byte null-terminated string
+0a68=4,write_log_float %1d% %2d% %3d% %4k% ; 128-byte null-terminated string
+0a69=1,create_shop_widget_menu %1g%
+0a6a=2,add_shop_widget_menu_item %1g% price %2d%
+0a6b=1,delete_widget %1d%
+0a6c=2,set_widget %1d% equipped_item %2d%
+0a6d=2,print_help_forever_conditional %1g% hid_type %2d%
+0a6e=2,set_widget %1d% texture %2k%  ; 128-byte null-terminated string
+0a6f=1,checkpoint_save %1d%
+0a70=4,display_text_clamped_position %1d% %2d% GXT %3g% scale %4d% ;text_draw  
+0a71=5,display_text_clamped_position %1d% %2d% GXT %3g% with_number %4d% scale %5d% ;text_draw
+0A72=0,auto_save_checkpoint
+0a73=4,set_widget %1d% value3 %2d% %3d% %4d% ; float
+0a74=1,  is_checkpoint_resuming %1d% ; IsGameResuming //bool
+0a75=2,  set_active_square_color_panel %1d% find_car_colour %2d%
+0a76=1,  hid_implements %1d%
+0a77=1,checkpoint_save_oddjob %1d%
+0A78=2,print_help_forever_conditional_touch %1g% hid_type %2d%
+0A79=2,print_help_forever_conditional_hid %1g% hid_type %2d%
+0A7A=2,print_help_forever_conditional_touch_classic %1g% hid_type %2d%
+0A7B=2,print_help_forever_conditional_touch_adapted %1g% hid_type %2d%
+0A7C=2,print_help_forever_conditional_hid_joypad %1g% hid_type %2d%
+0A7D=2,print_help_forever_conditional_hid_keyboard %1g% hid_type %2d%
+0A7E=2,print_help_forever_conditional_touch_analog %1g% hid_type %2d%
+0A7F=2,print_help_forever_conditional_touch_digital %1g% hid_type %2d%
+0A80=2,print_help_forever_conditional_touch_flick %1g% hid_type %2d%
+0A81=2,print_help_conditional %1g% hid_type %2d%
+0A82=2,print_help_conditional_touch %1g% hid_type %2d%
+0A83=2,print_help_conditional_hid %1g% hid_type %2d%
+0A84=2,print_help_conditional_touch_classic %1g% hid_type %2d%
+0A85=2,print_help_conditional_touch_adapted %1g% hid_type %2d%
+0A86=2,print_help_conditional_hid_joypad %1g% hid_type %2d%
+0A87=2,print_help_conditional_hid_keyboard %1g% hid_type %2d%
+0A88=2,print_help_conditional_touch_analog %1g% hid_type %2d%
+0a89=3,set_widget %1d% value2 %2d% %3d% ; float 
+0a8a=8,set_widget %1d% info %2d% %3d% %4d% %5d% %6d% %7d% %8g%
+0a8b=7,set_widget %1d% info2 %2d% %3d% %4d% %5d% %6g% %7g%
+0a8c=0,load_all_requested_models ; No time to pause. load faster than 038B
+0a8d=1,  is_hid_released %1d%
+0A8E=1,NOP %1d%
+0A8F=0,set_player_weapon_lock_on_target
+0A90=1,  is_hid_pressed %1d%
+0A96=2,%2d% = ped %1d% struct
+0A97=2,%2d% = vehicle %1d% struct
+0A98=2,%2d% = object %1d% struct
+0B8E=3,%3d% = %1d% + %2d%
+0B8F=3,%3d% = %1d% - %2d%
+0B90=3,%3d% = %1d% * %2d%
+0B91=3,%3d% = %1d% / %2d%
+0DD0=2,%1d% = get_label_addr %2p%
+0DD1=2,%1d% = get_func_addr_by_cstr_name %2d%
+0DD2=1,context_call_func %1d% ; deprecated, use 0DDE instead
+0DD3=2,context_set_reg %1d% value %2d% ; deprecated, use 0DDE instead
+0DD4=2,%1d% = context_get_reg %2d% ; deprecated, use 0DDE instead
+0DD5=1,%1d% = get_platform
+0DD6=1,%1d% = get_game_version
+0DD7=1,%1d% = get_image_base
+0DD8=4,%1d% = read_mem_addr %2d% size %3d% add_ib %4d%
+0DD9=5,write_mem_addr %1d% value %2d% size %3d% add_ib %4d% protect %5d%
+0DDA=3,%1d% = get_pattern_addr_cstr %2d% index %3d%
+0DDB=3,get_game_ver_ex name_hash %1d% ver_hash %2d% ver_code %3d%
+0DDC=2,set_mutex_var %1d% to %2d%
+0DDD=2,%1d% = get_mutex_var %2d%
+0DDE=-1, call_func %1d% add_ib %2d%
+0DE0=3,%1d% = get_touch_point_state %2d% mintime %3d%
+0DE1=5,%1d% = get_touch_slide_state from %2d% to %3d% mintime %4d% maxtime %5d%
+0DE2=1,%1d% = get_menu_button_state
+0DE3=2,%1d% = get_menu_button_pressed mintime %2d%
+0DE4=2,%1d% = psp_get_control_state %2d%
+0DE5=3,%1d% = psp_get_control_pressed %2d% mintime %3d%
+0DF2=2,create_menu %1d% items %2d% 
+0DF3=0,delete_menu
+0DF4=2,%1d% = get_menu_touched_item_index maxtime %2d%
+0DF5=1,set_menu_active_item_index %1d%
+0DF6=1,%1d% = get_menu_active_item_index
+1000=-1, opcode_func

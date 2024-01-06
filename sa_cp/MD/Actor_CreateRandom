@@ -1,0 +1,6 @@
+:CreateRandomActor
+    Actor.GetPositionAndOffset(x, y, z, $PLAYER_ACTOR, 0.0, 0.0, -1.0)
+    a = Actor.getAngle($PLAYER_ACTOR)
+    c = Actor.CreateRandom(x, y, z)
+    Actor.setAngle(c) = a
+ret 0

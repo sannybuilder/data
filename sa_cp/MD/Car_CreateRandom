@@ -1,0 +1,5 @@
+:CreateRandomCar
+    Actor.getPosition(x, y, z, $PLAYER_ACTOR, 0.0, 0.0, -1.0)
+    a = Actor.getAngle($PLAYER_ACTOR)
+    c = Car.CreateRandom(x, y, z, a)
+ret 0
