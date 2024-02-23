@@ -14,7 +14,7 @@ end // var
 00C0: set_current_time_hours_to 8 minutes_to 0 
 04E4: unknown_refresh_game_renderer_at 2488.56 -1666.84 
 03CB: set_rendering_origin_at 2488.56 -1666.84 13.38 
-0053: $PLAYER_CHAR = create_player #NULL at 2488.56 -1666.84 13.38 
+0053: $PLAYER_CHAR = create_player 0 at 2488.56 -1666.84 13.38 
 01F5: $PLAYER_ACTOR = create_player_actor $PLAYER_CHAR 
 07AF: $PLAYER_GROUP = player $PLAYER_CHAR group 
 0373: set_camera_directly_behind_player 

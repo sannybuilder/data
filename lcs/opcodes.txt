@@ -649,7 +649,7 @@
 042D: set_car_avoid_level_transitions $2725 to 1
 0430: clear_area_of_chars 917.0 -246.0 -90.0 to 967.0 -216.0 90.0
 0431: set_total_number_of_missions 111
-0432: convert_metres_to_feet_int 10@ 10@ store_to ,%2d%
+0432: convert_metres_to_feet_int 10@ 10@ store_to %2d%
 0435: warp_char_into_car_as_passenger $2926 car 4@ seat 0
 0436:   is_car_passenger_seat_free 1@ seat 6@
 0437: get_char_in_car_passenger_seat 0@ seat 5@ store_to 3@

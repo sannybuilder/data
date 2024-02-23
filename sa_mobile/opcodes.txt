@@ -628,7 +628,7 @@
 04F1:   is_car_waiting_for_world_collision $136 
 04F4: put_actor 45@ into_turret_on_object 60@ offset_from_object_origin 2.85 -0.7 5.9 orientation 0 both_side_angle_limit 360.0 lock_weapon 0 
 04F7: status_text $3311 type 0 line 1 GXT 'BB_18' // global_variable  // Score
-04F8: define_police_trigger_type 3 if_player_with_wanted_level_in_rectangle 2435.2 -1741.0 2454.9 -1723.4 spawn_policeA_at 2481.0 -1707.0 headed_towards 2480.0 -1732.0 2481.0 -1707.0 headed_towards 2480.0 -1732.0 
+04F8: define_police_trigger_type 3 if_player_with_wanted_level_in_rectangle 2435.2 -1741.0 2454.9 -1723.4 spawn_policeA_at 2481.0 -1707.0 headed_towards 2480.0 -1732.0 spawn_policeB_at 2481.0 -1707.0 headed_towards 2480.0 -1732.0 
 04F9: set_sky_color 1 fade 0 
 04FA: reset_sky_colors_with_fade 0 
 04FC: store_player_stunt_data $PLAYER_CHAR two_wheels: $1343 $1347 wheelie: $1350 $1354 stoppie: $1357 $1361 
@@ -729,7 +729,7 @@
 05CB: AS_actor $PLAYER_ACTOR enter_car 49@ as_driver 10000 ms 
 05CD: AS_actor -1 exit_car 23@ 
 05CF: AS_actor 110@ exit_car 81@ in_direction 2316.4 -1519.2 24.3 
-05D1: AS_actor 157@ drive_car 156@ to 160@ 161@ 162@ speed 15.0 0 model #NULL 0 
+05D1: AS_actor 157@ drive_car 156@ to 160@ 161@ 162@ speed 15.0 0 model 0 0 
 05D2: AS_actor 58@ run_to_and_hijack_car 59@ max_search_radius 20.0 traffic_behavior 2 
 05D3: AS_actor $PLAYER_ACTOR goto_point 681.8004 -474.1063 15.5363 mode 4 time 3000 ms // versionA 
 05D4: AS_actor -1 rotate_angle 77.0 
@@ -1209,7 +1209,7 @@
 089C: unknown_actor 0@ unknown_check 1 
 089E: get_actor_that_buys_drugs_in_sphere 3@ 4@ 5@ radius 5.0 handle_as 11@ 
 089F: get_actor 42@(44@,2i) pedtype_to 526@ 
-08A0: actor 0@ in_radius 100.0 near_model #NULL with_offset 0.0 0.0 0.0 end_script_named "PCUSTOM" // IF and SET 
+08A0: actor 0@ in_radius 100.0 near_model 0 with_offset 0.0 0.0 0.0 end_script_named "PCUSTOM" // IF and SET 
 08A2: set_hydra 154@(56@,3i) attack_with_rockets_car_of_player $PLAYER_CHAR radius 30.0 
 08A3: update_respect_while_on_mission 1 
 08A4: set_car 98@ extra_parts_angle_to 54@ 
@@ -1826,7 +1826,8 @@
 0DD1: 0@ = get_func_addr_by_cstr_name 0@ // android 
 0DD2: context_call_func 0@ // android 
 0DD3: context_set_reg 0 value 1@ // android 
-0DD4: 10@ = context_get_reg 0 // android 
+0DD4: 10@ = context_get_reg 0 // android
+0DD5: 0@ = get_platform // android
 0DD6: 0@ = get_game_version // android 
 0DD7: 0@ = get_image_base // android 
 0DD8: 6@ = read_mem_addr 0x00123456 size 4 add_ib 1 // android 

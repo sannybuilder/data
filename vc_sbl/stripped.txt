@@ -1,0 +1,54 @@
+// DEFINE OBJECTS 0 // optional
+DEFINE MISSIONS 0
+//DEFINE MISSION {ID} 0 AT {LABEL} @mission
+
+var
+    $player1: Player
+    $scplayer: Char
+end
+
+//-------------MAIN---------------
+script_name 'MAIN'
+Camera.DoFade(0, Fade.Out)
+Game.SetMaxWantedLevel(6)
+set_deatharrest_state 0
+Clock.SetTimeOfDay(12, 0)
+Streaming.RequestCollision(468.7745, -1298.623)
+Streaming.LoadScene(468.7745, -1298.623, 11.0712)
+$player1 = Player.Create(0, 468.7745, -1298.623, 11.0712)
+$scplayer = $player1.GetChar
+Weather.ForceNow(WeatherType.Sunny)
+
+wait 0
+declare_mission_flag $ONMISSION
+
+// set player model
+if
+    not $scplayer.IsDead
+then
+    $scplayer.Undress('PLAYER')
+    Streaming.LoadAllModelsNow
+    $scplayer.Dress
+end
+
+Camera.DoFade(1000, Fade.In)
+
+if 
+    $player1.IsPlaying
+then
+    Streaming.SetAreaVisible(Interior.MainMap)
+    $player1.SetControl(True)
+    Weather.Release
+end
+
+// put your start_new_script commands here
+// start_new_script @
+
+while true
+    wait 250 ms
+end
+
+
+// put your scripts here
+
+

@@ -33,7 +33,7 @@
 004E: terminate_this_script
 004F: start_new_script @NONAME_4
 0051: return
-0053: $PLAYER_CHAR = create_player #NULL at 811.875 -939.9375 35.75
+0053: $PLAYER_CHAR = create_player 0 at 811.875 -939.9375 35.75
 0054: store_player $PLAYER_CHAR position_to $PLAYER1_A_X $PLAYER1_A_Y $PLAYER1_A_Z
 0055: put_player $PLAYER_CHAR at 888.5625 -308.375 -100.0
 0056:   player $PLAYER_CHAR 0 -230.0 255.0 -210.0 275.0

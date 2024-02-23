@@ -494,7 +494,7 @@
 0294: set_car_avoid_level_transitions 2@ to 1
 0295: clear_area_of_chars 4@ 5@ 6@ to 7@ 8@ 9@
 0296: set_total_number_of_missions 29
-0297: convert_metres_to_feet_int 12@ 12@ store_to ,%2d%
+0297: convert_metres_to_feet_int 12@ 12@ store_to %2d%
 0298: warp_char_into_car_as_passenger $PLAYER_CHAR car 2@ seat -1
 0299:   is_car_passenger_seat_free 0@ seat 0
 029A: get_char_in_car_passenger_seat 0@ seat 3@ store_to 1@

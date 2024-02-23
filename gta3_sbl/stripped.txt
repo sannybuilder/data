@@ -1,0 +1,45 @@
+DEFINE OBJECTS 3
+DEFINE OBJECT (noname)                
+DEFINE OBJECT INDHELIX_BARRIER         // Object number -1
+DEFINE OBJECT LOD_LAND014              // Object number -2
+
+DEFINE MISSIONS 0
+//DEFINE MISSION {ID} 0 AT {LABEL} @mission
+
+var
+    $player1: Player
+    $scplayer: Char
+end
+
+//-------------MAIN---------------
+script_name 'MAIN'
+Game.SetMaxWantedLevel(6)
+set_deatharrest_state 0
+Clock.SetTimeOfDay(12, 0)
+Streaming.LoadCollision(0)
+$player1 = Player.Create(0, 811.875, -939.875, 35.75)
+Player.SetHeading($player1, 180.0)
+$scplayer = Player.GetChar($player1)
+Camera.SetBehindPlayer
+World.SetVisibilityOfClosestObjectOfType(1027.25, -933.6875, 15.0, 50.0, #INDHELIX_BARRIER, False)
+World.SwapNearestBuildingModel(1027.25, -933.6875, 15.0, 50.0, #INDHELIX_BARRIER, #LOD_LAND014)
+Weather.ForceNow(WeatherType.Sunny)
+Stat.SetCommercialPassed
+
+// set player model
+Char.Undress($scplayer, 'PLAYER')
+Char.Dress($scplayer)
+
+Camera.DoFade(1000, Fade.In)
+Player.SetControl($player1, True)
+Weather.Release
+
+// put your start_new_script commands here
+// start_new_script @
+
+while true
+    wait 250 ms
+end
+
+
+// put your scripts here

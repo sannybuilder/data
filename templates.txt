@@ -72,3 +72,13 @@ hex=HEX..END construct
 =hex
 = |
 =end // hex
+
+switch=SWITCH..CASE..END construct
+=switch |
+=	case
+=
+=	case
+=
+=	default
+=
+=end // switch

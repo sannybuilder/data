@@ -14,7 +14,7 @@ set_wb_check_to 0
 00C0: set_current_time 12 0
 04E4: unknown_refresh_game_renderer_at 468.7745 -1298.6228
 Camera.SetAtPos(468.7745, -1298.6228, 11.0712)
-$PLAYER_CHAR = Player.Create(#NULL, 468.7745, -1298.6228, 11.0712)
+$PLAYER_CHAR = Player.Create(0, 468.7745, -1298.6228, 11.0712)
 $PLAYER_ACTOR = Actor.EmulateFromPlayer($PLAYER_CHAR)
 set_weather 0
 wait 0 ms

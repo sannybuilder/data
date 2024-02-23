@@ -1,21 +1,21 @@
 cleo=CLEO script
 ={$CLEO .csa}
-=0000:
+=nop
 =
 =|
 =
-=004E: terminate_this_script
+=terminate_this_script
 
 load=model request and load
-=0247: load_model #| 
+=request_model #|
 =
-=while 8248:   not model # available
-= wait 0
+=while not has_model_loaded #
+=  wait 0
 =end
 
-def=Check if player is defined
-=if 
-=  0256:   player $PLAYER_CHAR defined
+def=Check if player is playing
+=if
+=  is_player_playing 0
 =then
-=  
+=
 =end
