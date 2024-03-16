@@ -127,13 +127,6 @@ enum BodyPart
 	SpecialCostume
 end
 
-enum AudioStreamState
-	Stop=0
-	Play=1
-	Pause=2
-	Resume=3
-end
-
 enum FileMode
 	ReadText="rt"
 	WriteText="wt"
@@ -2579,5 +2572,18 @@ enum SeatIndex
 	FrontRight=0
 	RearLeft=1
 	RearRight=2
+end
+
+enum AudioStreamAction
+	Stop=0
+	Play=1
+	Pause=2
+	Resume=3
+end
+
+enum AudioStreamState
+	Stopped=-1
+	Playing=1
+	Paused=2
 end
 
