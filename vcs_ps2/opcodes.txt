@@ -46,10 +46,10 @@
 002E: 6@ *= 3@ // (float vars)
 002F: 4@ /= 2@ // (int vars)
 0030: 6@ /= 3@ // (float vars)
-0031: $3409 += frame_delta_time * 10.0
-0032: 7@ += frame_delta_time * 10@
-0033: $3409 -= frame_delta_time * 10.0
-0034: 2@ -= frame_delta_time * 3@
+0031: $3409 +=@ 10.0
+0032: 7@ +=@ 10@
+0033: $3409 -=@ 10.0
+0034: 2@ -=@ 3@
 0035: $_262 = 0@ // (int vars)
 0036: $678 = $_174 // (float vars)
 0037: $1450(0@,14) = 1@ // (string vars)

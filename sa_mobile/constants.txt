@@ -4,3 +4,7 @@ true=1
 TIMERA=40@
 TIMERB=41@
 end
+var
+TIMERA: int
+TIMERB: int
+end

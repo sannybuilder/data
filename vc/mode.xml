@@ -1,0 +1,19 @@
+<mode id="vc" title="GTA VC" game="vc" type="default">
+    <data>@sb:\data\vc\</data>
+    <opcodes>@sb:\data\vc\VCSCM.ini</opcodes>
+    <opcodes>@sb:\data\vc\VCSCM.CLEO.ini</opcodes>
+    <opcodes>@sb:\data\vc\VCSCM*.ini</opcodes>
+    <classes>@sb:\data\vc\classes.db</classes>
+    <variables>@sb:\data\vc\CustomVariables.ini</variables>
+    <keywords>@sb:\data\vc\keywords.txt</keywords>
+    <missions>@sb:\data\vc\missions.txt</missions>
+    <enums>@sb:\data\vc\enums.txt</enums>
+    <constants>@sb:\data\vc\constants.txt</constants>
+    <templates type="default">@sb:\data\vc\templates.txt</templates>
+    <templates type="custom">@sb:\data\vc\templates.custom.txt</templates>
+    <text format="vc">@game:\text\american.gxt</text>
+    <ide>@game:\data\default.ide</ide>
+    <library>@sb:\data\vc\vc.json</library>
+    <copy-directory type="scm">@game:\data</copy-directory>
+    <copy-directory type="cleo">@game:\CLEO</copy-directory>
+</mode>

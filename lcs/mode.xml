@@ -1,0 +1,14 @@
+<mode id="lcs" title="GTA LCS" game="lcs" type="default">
+    <data>@sb:\data\lcs\</data>
+    <opcodes>@sb:\data\lcs\LCSSCM.ini</opcodes>
+    <classes>@sb:\data\lcs\classes.db</classes>
+    <variables>@sb:\data\lcs\CustomVariables.ini</variables>
+    <missions>@sb:\data\lcs\missions.txt</missions>
+    <constants>@sb:\data\lcs\constants.txt</constants>
+    <templates type="default">@sb:\data\lcs\templates.txt</templates>
+    <templates type="custom">@sb:\data\lcs\templates.custom.txt</templates>
+    <text format="vc">@sb:\data\lcs\english.gxt</text>
+    <ide>@sb:\data\lcs\default.ide</ide>
+    <keywords>@sb:\data\lcs\keywords.txt</keywords>
+    <library>@sb:\data\lcs\lcs.json</library>
+</mode>
