@@ -1,0 +1,23 @@
+:getScreenXY{ 
+	Parameters:   
+		Passed:     
+			0@ - full screen X     
+			1@ - full screen Y   
+		Result:     
+			0@ - screen X     
+			1@ - screen Y 
+		Example:   
+			0AB1: call_scm_func @getScreenXY 2 coords_XY 512.0 384.0 store_to 1@ 2@
+	}
+
+	0A8D: 2@ = read_memory 0xC17044 size 4 virtual_protect 0 // full screen X
+	0A8D: 3@ = read_memory 0x859520 size 4 virtual_protect 0 // screen X scale    
+	0093: 2@ = integer 2@ to_float
+	006B: 2@ *= 3@ 
+	0073: 0@ /= 2@ 
+	0A8D: 5@ = read_memory 0xC17048 size 4 virtual_protect 0 // full screen Y
+	0A8D: 6@ = read_memory 0x859524 size 4 virtual_protect 0 // screen Y scale
+	0093: 5@ = integer 5@ to_float
+	006B: 5@ *= 6@ 
+	0073: 1@ /= 5@
+0AB2: ret 2 0@ 1@

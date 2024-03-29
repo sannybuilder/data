@@ -1,0 +1,48 @@
+:get3DCoordsFromScreenXY{ 
+	Parameters:   
+		Passed:     
+			0@ - screen X     
+			1@ - screen Y     
+			2@ - distance   
+		Result:     
+			9@ - camera X     
+			10@ - camera Y     
+			11@ - camera Z     
+			18@ - position X     
+			19@ - position Y     
+			20@ - position Z 
+		Example:   
+			0AB1: call_scm_func @get3DCoordsFromScreenXY 3 coords_XY 320.0 224.0 distance 1.0 store_camera_to 1@ 2@ 3@ point_to 4@ 5@ 6@
+	}
+
+	0A8D: 3@ = read_memory 0x8D5038 size 4 virtual_protect 0 // field of view
+	3@ *= 0.5 
+	02F6: 4@ = sine 3@ 
+	02F7: 5@ = cosine 3@ 
+	0073: 4@ /= 5@ // tangent line
+	0A8D: 6@ = read_memory 0x865394 size 4 virtual_protect 0 // half screen X scale
+	006B: 6@ *= 0@
+	6@ -= 1.0 
+	0097: make 6@ absolute_float
+	006B: 6@ *= 4@ 
+	0A8D: 7@ = read_memory 0x865398 size 4 virtual_protect 0 // half screen Y scale
+	006B: 7@ *= 1@
+	7@ -= 1.0 
+	0097: make 7@ absolute_float
+	006B: 7@ *= 4@ 
+	0A8D: 8@ = read_memory 0xC3EFA4 size 4 virtual_protect 0 // screen aspect ratio
+	0073: 7@ /= 8@ 
+	0087: 9@ = 6@ 
+	0087: 10@ = 2@ 
+	0087: 11@ = 7@ 
+	0AB1: call_scm_func @getLocalVarOffset 1 var 9 store_to 12@ 
+	0A8D: 13@ = read_memory 0xB6F03C size 4 virtual_protect 0 // camera matrix
+	0AA5: call 0x59C890 num_params 3 pop 3 pOffsets 12@ pMatrix 13@ pPoint 12@ // CPlaceable__transformPoint
+	006B: 6@ *= 2@ 
+	006B: 7@ *= 2@ 
+	0087: 14@ = 6@ 
+	0087: 15@ = 2@ 
+	0087: 16@ = 7@ 
+	0AB1: call_scm_func @getLocalVarOffset 1 var 14 store_to 17@ 
+	0AA5: call 0x59C890 num_params 3 pop 3 pOffsets 17@ pMatrix 13@ pPoint 17@ // CPlaceable__transformPoint
+0AB2: ret 6 9@ 10@ 11@ 14@ 15@ 16@
