@@ -1019,9 +1019,22 @@ enum PlayerMood
 end
 
 enum EntryexitsFlag
+	Rubbish=1
+	Oldstyle=2
+	Linked=4
+	Shop=8
+	Shopexit=16
+	CarWarp=32
+	BikeWarp=64
+	Mirror=128
 	WarpGroup=256
 	NoWarp=512
+	RandomOpentime=1024
+	DontWarpPed=2048
+	Burglary=4096
+	InUse=8192
 	Enabled=16384
+	Temporary=32768
 end
 
 enum DefaultTaskAllocator
@@ -1046,6 +1059,7 @@ enum KeyCode
 	Return=13
 	Shift=16
 	Ctrl=17
+	Alt=18
 	Pause=19
 	Capital=20
 	Kana=21
@@ -2585,5 +2599,189 @@ enum AudioStreamState
 	Stopped=-1
 	Playing=1
 	Paused=2
+end
+
+enum AudioStreamType
+	None
+	Sfx
+	Music
+end
+
+enum DriveMode
+	Normal=0
+	Accurate=1
+	Straightline=2
+	Racing=3
+end
+
+enum ComponentStates
+	Disable
+	Ok
+	Dam
+end
+
+enum PrimitiveTypes
+	Naprimtype
+	Linelist
+	Polyline
+	Trilist
+	Tristrip
+	Trifan
+	Pointlist
+end
+
+enum ShapePriority
+	UnderHud
+	OverRadar
+	OverHud
+end
+
+enum BlendValues
+	Zero
+	One
+	Srccolor
+	Invsrccolor
+	Srcalpha
+	Invsrcalpha
+	Destalpha
+	Invdestalpha
+	Destcolor
+	Invdestcolor
+	Srcalphasat
+	Bothsrcalpha
+	Bothinvsrcalpha
+	Blendfactor
+	Invblendfactor
+	Srccolor2
+	Invsrccolor2
+end
+
+enum VehicleDoors
+	Rf
+	Rr
+	Lf
+	Lr
+end
+
+enum EntityTypes
+	Nothing
+	Building
+	Vehicle
+	Ped
+	Object
+	Dummy
+	Notinpools
+end
+
+enum EntityClasses
+	Entity
+	Building
+	Treadable
+	Dummy
+	Dummy86C198
+	Physical
+	Object
+	Hand
+	Projectile
+	CutsceneObject
+	Ped
+	CivilianPed
+	CopPed
+	EmergencyPed
+	PlayerPed
+	Vehicle
+	Automobile
+	Heli
+	Mtruck
+	Plane
+	Quad
+	Trailer
+	Bike
+	Bmx
+	Boat
+	Train
+end
+
+enum VehicleClasses
+	Automobile
+	Mtruck
+	Quad
+	Heli
+	Plane
+	Boat
+	Train
+	Fheli
+	Fplane
+	Bike
+	Bmx
+	Trailer
+end
+
+enum LightTypesCar
+	HeadLightLeft
+	HeadLightRight
+	RearLightRight
+	RearLightLeft
+end
+
+enum LightTypes
+	Default
+	Directional
+	Dark
+	Global
+end
+
+enum ShadowTypes
+	Shadow
+	Light
+end
+
+enum ShadowTextures
+	Car
+	Ped
+	Explosion
+	Heli
+	Headlight
+	Bloodpool
+	Headlight1
+	Bike
+	Rcbaron
+	Lamp
+end
+
+enum TrafficLightColors
+	Green
+	Yellow
+	Red
+end
+
+enum PositionTypes
+	Local
+	Global
+	World
+end
+
+enum ProjectileTypes
+	Grenade
+	Teargas
+	Molotov
+	Rocket
+	RocketHs
+	FreefallBomb
+	RocketFlare
+end
+
+enum CarColors
+	Default
+	Primary
+	Secondary
+	Tertiary
+	Quaternary
+	AllColors
+end
+
+enum ParamTypes
+	Int
+	Float
 end
 

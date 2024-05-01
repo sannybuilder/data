@@ -82,3 +82,8 @@ switch=SWITCH..CASE..END construct
 =	default
 =
 =end // switch
+
+fn=function
+=function |
+=
+=end
