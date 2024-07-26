@@ -1,5 +1,4 @@
-
-ifthen=IF..THEN statement
+if=IF..THEN statement
 =if
 =	|
 =then
@@ -83,7 +82,7 @@ switch=SWITCH..CASE..END construct
 =
 =end // switch
 
-fn=function
+function=function
 =function |
 =
 =end

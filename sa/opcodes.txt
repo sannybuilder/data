@@ -1905,7 +1905,7 @@
 0DD5: 0@ = get_platform // PC
 0E00: get_car_alarm 1@ mode_to 2@
 0E01: create_object_no_save 1@ at 2@ 3@ 4@ offset 5@ ground 6@ to 7@
-0E02: set_car_generator 1@ no_save
+0E02: set_car_generator_no_save 1@
 0E03: perlin_noise 1@ store_to 2@
 0E04: get_next_weather_to 1@
 0E05: set_next_weather_to 1@
@@ -2140,7 +2140,7 @@
 0EEA: locate_char_distance_to_coordinates 1@ pos 2@ 3@ 4@ radius 5@
 0EEB: locate_car_distance_to_coordinates 1@ pos 2@ 3@ 4@ radius 5@
 0EEC: locate_object_distance_to_coordinates 1@ pos 2@ 3@ 4@ radius 5@
-0EED: locate_object_distance_to_coordinates 1@ pos 2@ 3@ 4@ radius 5@
+0EED: locate_entity_distance_to_entity 1@ entityB 2@ radius 3@
 0EEE: get_entity_coordinates 1@ store_to 2@ 3@ 4@
 0EEF: get_entity_heading 1@ store_to 2@
 0EF0: get_coord_from_angled_distance 1@ 2@ angle 3@ dist 4@ store_to 5@ 6@
@@ -2154,11 +2154,35 @@
 0EF8: get_model_info 1@ store_to 2@
 0EF9: get_car_animgroup 1@ store_to 2@
 0EFA: get_char_fear 1@ store_to 2@
-0EFB: is_car_double_convertible 1@
+0EFB: is_car_convertible 1@
 0EFC: get_car_value 1@ store_to 2@
 0EFD: get_car_pedals 1@ gas_to 2@ break_to 3@
 0EFE: get_loaded_library 1@ store_to 2@
 0EFF: get_char_simplest_active_task 1@ id_to 2@ pointer_to 3@
+0F00: load_special_model_dff 1@v txd 2@v store_to 3@
+0F01: remove_special_model 1@
+0F02: create_render_object_to_char_bone_from_special 1@ special_model 2@ bone 3@ offset 4@ 5@ 6@ rotation 7@ 8@ 9@ scale 10@ 11@ 12@ store_to 13@
+0F03: create_render_object_to_object 1@ model 2@ offset 3@ 4@ 5@ rotation 6@ 7@ 8@ store_to 9@
+0F04: create_render_object_to_object_from_special 1@ special_model 2@ offset 3@ 4@ 5@ rotation 6@ 7@ 8@ store_to 9@
+0F05: get_special_model_data 1@ clump_to 2@ atomic_to 3@ txd_index_to 4@
+0F06: replace_list_value_by_index 1@ index 2@ value 3@
+0F07: replace_list_string_value_by_index 1@ index 2@ value 3@
+0F08: insert_list_value_by_index 1@ index 2@ value 3@
+0F09: insert_list_string_value_by_index 1@ index 2@ value 3@
+0F0A: return_times 1@
+0F0B: set_script_event_before_game_process 1@ label @label
+0F0C: set_script_event_after_game_process 1@ label @label
+0F0D: set_matrix_look_direction 1@ origin 2@ 3@ 4@ dir 5@ 6@ 7@
+0F0E: get_third_person_camera_target 1@ from 2@ 3@ 4@ start_to 5@ 6@ 7@ end_to 8@ 9@ 10@
+0F0F: get_distance_multiplier 1@ 2@
+0F10: get_active_camera_rotation 1@ 2@ 3@
+0F11: get_closest_water_distance 1@ 2@
+0F12: get_camera_struct 1@ 2@
+0F13: get_time_not_touching_pad 1@ store_to 2@
+0F14: get_camera_rotation_input_values 1@ 2@
+0F15: set_camera_rotation_input_values 1@ 2@
+0F16: set_on_mission 1@
+0F17: get_model_name_pointer 1@ to 2@v
 2000: 0@v = resolve_filepath path "filename.s"
 2001: 0@v = get_script_filename script_struct -1 full_path false
 2002: cleo_return_with true
