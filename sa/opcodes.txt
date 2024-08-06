@@ -70,7 +70,7 @@
 0050: gosub @SUB_FADE_500MS
 0051: return
 0052: NOP 98@ 100@ $TEMPVAR_FLOAT_3 99@ 100@ $TEMPVAR_FLOAT_3
-0053: $PLAYER_CHAR = create_player #NULL at 2488.562 -1666.865 12.8757
+0053: $PLAYER_CHAR = create_player 0 at 2488.562 -1666.865 12.8757
 0058: $1924 += $1929 // (int)
 0059: $1316 += $1317 // (float)
 005A: 3@ += 1@  // (int)
@@ -163,6 +163,8 @@
 00C0: set_current_time 8 0
 00C1: 3@ = get_minutes_left_to_time_hours 5@ time_minutes 6@
 00C2:   sphere_onscreen 159@ 160@ 161@ radius 5.0
+00C3: debug_on
+00C4: debug_off
 00D6: if
 00D7: start_new_script @NONAME_1 // without extra params
 00D8: mission_cleanup
@@ -776,7 +778,7 @@
 05CB: AS_actor $PLAYER_ACTOR enter_car 41@ as_driver 10000 ms
 05CD: AS_actor -1 exit_car 22@
 05CF: AS_actor 102@ exit_car 73@ in_direction 2316.4 -1519.2 24.3
-05D1: AS_actor 149@ drive_car 148@ to 152@ 153@ 154@ speed 15.0 0 model #NULL 0
+05D1: AS_actor 149@ drive_car 148@ to 152@ 153@ 154@ speed 15.0 0 model 0 0
 05D2: AS_actor 50@ run_to_and_hijack_car 51@ max_search_radius 20.0 traffic_behavior 2
 05D3: AS_actor $PLAYER_ACTOR goto_point 681.8004 -474.1063 15.5363 mode 4 time 3000 ms // versionA
 05D4: AS_actor -1 rotate_angle 77.0
@@ -1283,7 +1285,7 @@
 089C: unknown_actor 0@ unknown_check 1
 089E: get_actor_that_buys_drugs_in_sphere 3@ 4@ 5@ radius 5.0 handle_as 11@
 089F: get_actor 35@(37@,2i) pedtype_to 519@
-08A0: actor 0@ in_radius 100.0 near_model #NULL with_offset 0.0 0.0 0.0 end_script_named "PCUSTOM" // IF and SET
+08A0: actor 0@ in_radius 100.0 near_model 0 with_offset 0.0 0.0 0.0 end_script_named "PCUSTOM" // IF and SET
 08A2: set_hydra 146@(48@,3i) attack_with_rockets_car_of_player $PLAYER_CHAR radius 30.0
 08A3: update_respect_while_on_mission 1
 08A4: set_car 90@ extra_parts_angle_to 46@
@@ -1783,6 +1785,7 @@
 0B1B: 0@ %= 1@
 0B1C: 0@ >>= 1@
 0B1D: 0@ <<= 1@
+0B1E: sign_extend 0@ size 1
 0B20: read_clipboard_data 0@ size 1@ 
 0B21: write_clipboard_data 0@ size 1@
 0D00: matrix 0@ = matrix 0@ * matrix 1@
@@ -1899,9 +1902,10 @@
 0D7D: clean_loaded_texture 0@
 0D7E: draw_sprite_with_texture 0@ at_cornerA 100.0 100.0 cornerB 300.0 300.0 color 255 255 255 255 angle 0.0
 0D7F: draw_gradient_sprite_with_texture 0@ at_cornerA 100.0 100.0 cornerB 300.0 300.0 colors 255 255 255 255  255 255 255 255  255 255 255 255  255 255 255 255 angle 0.0
+0DD5: 0@ = get_platform // PC
 0E00: get_car_alarm 1@ mode_to 2@
 0E01: create_object_no_save 1@ at 2@ 3@ 4@ offset 5@ ground 6@ to 7@
-0E02: set_car_generator 1@ no_save
+0E02: set_car_generator_no_save 1@
 0E03: perlin_noise 1@ store_to 2@
 0E04: get_next_weather_to 1@
 0E05: set_next_weather_to 1@
@@ -2136,7 +2140,7 @@
 0EEA: locate_char_distance_to_coordinates 1@ pos 2@ 3@ 4@ radius 5@
 0EEB: locate_car_distance_to_coordinates 1@ pos 2@ 3@ 4@ radius 5@
 0EEC: locate_object_distance_to_coordinates 1@ pos 2@ 3@ 4@ radius 5@
-0EED: locate_object_distance_to_coordinates 1@ pos 2@ 3@ 4@ radius 5@
+0EED: locate_entity_distance_to_entity 1@ entityB 2@ radius 3@
 0EEE: get_entity_coordinates 1@ store_to 2@ 3@ 4@
 0EEF: get_entity_heading 1@ store_to 2@
 0EF0: get_coord_from_angled_distance 1@ 2@ angle 3@ dist 4@ store_to 5@ 6@
@@ -2150,8 +2154,39 @@
 0EF8: get_model_info 1@ store_to 2@
 0EF9: get_car_animgroup 1@ store_to 2@
 0EFA: get_char_fear 1@ store_to 2@
-0EFB: is_car_double_convertible 1@
+0EFB: is_car_convertible 1@
 0EFC: get_car_value 1@ store_to 2@
 0EFD: get_car_pedals 1@ gas_to 2@ break_to 3@
 0EFE: get_loaded_library 1@ store_to 2@
 0EFF: get_char_simplest_active_task 1@ id_to 2@ pointer_to 3@
+0F00: load_special_model_dff 1@v txd 2@v store_to 3@
+0F01: remove_special_model 1@
+0F02: create_render_object_to_char_bone_from_special 1@ special_model 2@ bone 3@ offset 4@ 5@ 6@ rotation 7@ 8@ 9@ scale 10@ 11@ 12@ store_to 13@
+0F03: create_render_object_to_object 1@ model 2@ offset 3@ 4@ 5@ rotation 6@ 7@ 8@ store_to 9@
+0F04: create_render_object_to_object_from_special 1@ special_model 2@ offset 3@ 4@ 5@ rotation 6@ 7@ 8@ store_to 9@
+0F05: get_special_model_data 1@ clump_to 2@ atomic_to 3@ txd_index_to 4@
+0F06: replace_list_value_by_index 1@ index 2@ value 3@
+0F07: replace_list_string_value_by_index 1@ index 2@ value 3@
+0F08: insert_list_value_by_index 1@ index 2@ value 3@
+0F09: insert_list_string_value_by_index 1@ index 2@ value 3@
+0F0A: return_times 1@
+0F0B: set_script_event_before_game_process 1@ label @label
+0F0C: set_script_event_after_game_process 1@ label @label
+0F0D: set_matrix_look_direction 1@ origin 2@ 3@ 4@ dir 5@ 6@ 7@
+0F0E: get_third_person_camera_target 1@ from 2@ 3@ 4@ start_to 5@ 6@ 7@ end_to 8@ 9@ 10@
+0F0F: get_distance_multiplier 1@ 2@
+0F10: get_active_camera_rotation 1@ 2@ 3@
+0F11: get_closest_water_distance 1@ 2@
+0F12: get_camera_struct 1@ 2@
+0F13: get_time_not_touching_pad 1@ store_to 2@
+0F14: get_camera_rotation_input_values 1@ 2@
+0F15: set_camera_rotation_input_values 1@ 2@
+0F16: set_on_mission 1@
+0F17: get_model_name_pointer 1@ to 2@v
+2000: 0@v = resolve_filepath path "filename.s"
+2001: 0@v = get_script_filename script_struct -1 full_path false
+2002: cleo_return_with true
+2003: cleo_return_fail
+2100: breakpoint "Time is: %d" TIMERA
+2101: trace "~g~Time: %d" TIMERA
+2102: log_to_file "myLog.txt" timestamp true text "In game time is %d" TIMERA

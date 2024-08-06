@@ -12,7 +12,7 @@ DEFINE MISSIONS 0
 0111: set_wasted_busted_check_to 0 
 00C0: set_current_time 12 0 
 03F7: load_island_data 0 
-0053: $PLAYER_CHAR = create_player #NULL at 811.875 -939.9374 35.75 
+0053: $PLAYER_CHAR = create_player 0 at 811.875 -939.9374 35.75 
 0171: set_player $PLAYER_CHAR z_angle_to 180.0 
 01F5: $PLAYER_ACTOR = create_emulated_actor_from_player $PLAYER_CHAR 
 0373: set_camera_directly_behind_player 

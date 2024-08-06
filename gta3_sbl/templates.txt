@@ -1,0 +1,57 @@
+cleo=CLEO script
+={$CLEO .cs}
+=nop
+=
+=|
+=
+=terminate_this_custom_script
+
+load=model request and load
+=request_model #|
+=
+=while not has_model_loaded #
+=  wait 0
+=end
+
+def=Check if player is playing
+=if
+=  is_player_playing 0
+=then
+=
+=end
+
+scm=Multifile template (GTA III)
+=DEFINE MISSIONS 0
+=//DEFINE MISSION {ID} 0 AT {LABEL} @
+=
+=|
+=
+=while true
+=  wait 250
+=end
+
+holdbtn=Hold ingame button template
+=if // Insert the number of the ingame button to hold below
+=	is_button_pressed 0 |
+=then
+=	if // Insert the intended milliseconds threshold below
+=		timera > 
+=	then
+=		
+=	end
+=else
+=	timera = 0
+=end // if
+
+holdkbd=Hold keyboard button template
+=if // Insert the number of the keyboard button to hold below
+=	is_key_pressed |
+=then
+=	if // Insert the intended milliseconds threshold below
+=		timera > 
+=	then
+=		
+=	end
+=else
+=	timera = 0
+=end // if

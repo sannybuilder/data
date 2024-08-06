@@ -1,5 +1,4 @@
-
-ifthen=IF..THEN statement
+if=IF..THEN statement
 =if
 =	|
 =then
@@ -72,3 +71,18 @@ hex=HEX..END construct
 =hex
 = |
 =end // hex
+
+switch=SWITCH..CASE..END construct
+=switch |
+=	case
+=
+=	case
+=
+=	default
+=
+=end // switch
+
+function=function
+=function |
+=
+=end

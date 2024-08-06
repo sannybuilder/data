@@ -46,7 +46,7 @@
 004F: start_new_script @O4X4_1
 0050: gosub @HELP_2883
 0051: return
-0053: $PLAYER_CHAR = create_player #NULL at 83.0 -849.8 9.3
+0053: $PLAYER_CHAR = create_player 0 at 83.0 -849.8 9.3
 0054: store_player $PLAYER_CHAR position_to $899 $900 $901
 0055: put_player $PLAYER_CHAR at 220.3 -1275.5 11.0
 0056:   player $PLAYER_CHAR 0 -1682.24 -179.9125 -1600.448 -150.8878
