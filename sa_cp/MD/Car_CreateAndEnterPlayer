@@ -1,0 +1,22 @@
+:CreateAndEnterCar
+    var
+        0@: Model
+        1@: Car
+        $PLAYER_ACTOR: Actor
+    end
+    if and
+        $PLAYER_ACTOR.isDefined()
+        not $PLAYER_ACTOR.isSwimming()
+        not $PLAYER_ACTOR.isDriving()
+    then    
+        $PLAYER_ACTOR.getPosition(x, y, z)
+        w = Actor.getAngle($PLAYER_ACTOR)
+        0@.Load()
+        Model.Requested()
+        1@.Create(0@, x, y, z)
+        1@.setAngle(w)
+        $PLAYER_ACTOR.setPositionInCarDriver(1@)
+        1@.DestroyReferences(1@)
+        0@.Destroy()
+    end
+ret 0

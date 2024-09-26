@@ -1,0 +1,52 @@
+:Actor_IsDrivingModels
+    {
+        Param:
+            0@ : Actor
+            1@ - 30@ : Models
+        Examp:
+            0AB1: call_cleo_func @Actor_IsDrivingModels param 2 $PLAYER_ACTOR #JESTER
+            0AB1: call_cleo_func @Actor_IsDrivingModels param 3 $PLAYER_ACTOR #URANUS #JESTER
+            0AB1: call_cleo_func @Actor_IsDrivingModels param 4 $PLAYER_ACTOR #BMX #URANUS #JESTER
+            0AB1: call_cleo_func @Actor_IsDrivingModels param 5 $PLAYER_ACTOR #NRG500 #BMX #URANUS #JESTER
+            0AB1: call_cleo_func @Actor_IsDrivingModels param 6 $PLAYER_ACTOR #MONSTERA #NRG500 #BMX #URANUS #JESTER
+            0AB1: call_cleo_func @Actor_IsDrivingModels param 7 $PLAYER_ACTOR #PONY #MONSTERA #NRG500 #BMX #URANUS #JESTER
+    }
+    if or
+        00DD: 0@ == 1@
+        00DD: 0@ == 2@
+        00DD: 0@ == 3@
+        00DD: 0@ == 4@
+        00DD: 0@ == 5@
+        00DD: 0@ == 6@
+        00DD: 0@ == 7@
+        00DD: 0@ == 8@
+    then
+        0485: rTrue
+    else
+        if or
+            00DD: 0@ == 17@
+            00DD: 0@ == 18@
+            00DD: 0@ == 19@
+            00DD: 0@ == 20@
+            00DD: 0@ == 21@
+            00DD: 0@ == 22@
+            00DD: 0@ == 23@
+            00DD: 0@ == 24@
+        then 
+            0485: rTrue
+        else
+            if or
+                00DD: 0@ == 25@
+                00DD: 0@ == 26@
+                00DD: 0@ == 27@
+                00DD: 0@ == 28@
+                00DD: 0@ == 29@
+                00DD: 0@ == 30@
+            then
+                0485: rTrue
+            else
+                059A: rFalse
+            end
+        end
+    end
+ret 0
