@@ -1,0 +1,3 @@
+<mode extends="sa_sbl" id="sa_ssc_sbl" title="GTA SA (v1.0 - Somersault)" game="sa">
+    <compiler>@sb:\lib\ssc.dll</compiler>
+</mode>
