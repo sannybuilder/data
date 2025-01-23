@@ -11,6 +11,7 @@
 7 = Editor::LanguageService
 ; 8 = Smart -- renamed
 8 = Editor::SemanticConstHighlighting
+9 = Editor::AllowMultipleOpenFileCopies
 ; 11 = Engine::ShowProgress -- renamed
 11 = Editor::ShowProgress
 ; 12 = Engine::ShowReport -- renamed
@@ -38,6 +39,8 @@
 16 = Compiler::CheckConditions
 17 = Compiler::CheckLocalVariables
 21 = Compiler::AddExtraInfo
+45 = Compiler::StrictIfValidation
+46 = Decompiler:UseIfAndOr
 
 ;----------------------
 ; Formatting/Aliases
