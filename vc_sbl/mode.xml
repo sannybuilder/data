@@ -16,7 +16,6 @@
     <!-- ide -->
     <templates type="default">@sb:\data\vc_sbl\templates.txt</templates>
     <templates type="custom">@sb:\data\vc_sbl\templates.custom.txt</templates>
-    <examples>@sb:\data\vc_sbl\opcodes.txt</examples>
 
     <!-- compiling -->
     <copy-directory type="scm">@game:\data</copy-directory>

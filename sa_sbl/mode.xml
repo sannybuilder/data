@@ -26,7 +26,6 @@
     <text format="sa">@game:\text\american.gxt</text>
 
     <!-- ide -->
-    <examples>@sb:\data\sa_sbl\opcodes.txt</examples>
     <templates type="default">@sb:\data\sa_sbl\templates.txt</templates>
     <templates type="custom">@sb:\data\sa_sbl\templates.custom.txt</templates>
 
