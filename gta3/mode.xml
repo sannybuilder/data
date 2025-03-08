@@ -11,7 +11,7 @@
     <templates type="custom">@sb:\data\gta3\templates.custom.txt</templates>
     <text format="gta3">@game:\text\american.gxt</text>
     <ide>@game:\data\default.ide</ide>
-    <library>@sb:\data\gta3\gta3.json</library>
+    <library>@sb:\data\gta3_sbl\gta3.json</library>
     <copy-directory type="scm">@game:\data</copy-directory>
     <copy-directory type="cleo">@game:\CLEO</copy-directory>
 </mode>

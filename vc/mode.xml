@@ -13,7 +13,7 @@
     <templates type="custom">@sb:\data\vc\templates.custom.txt</templates>
     <text format="vc">@game:\text\american.gxt</text>
     <ide>@game:\data\default.ide</ide>
-    <library>@sb:\data\vc\vc.json</library>
+    <library>@sb:\data\vc_sbl\vc.json</library>
     <copy-directory type="scm">@game:\data</copy-directory>
     <copy-directory type="cleo">@game:\CLEO</copy-directory>
 </mode>

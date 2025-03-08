@@ -439,6 +439,9 @@ enum BlipColor
 	Cyan=6
 	Threat=7
 	Destination=8
+	BlueFix=337234175
+	PurpleFix=-939472641
+	CyanFix=13172735
 end
 
 enum ScriptBrainAttachType
@@ -1577,9 +1580,9 @@ enum Cheats
 end
 
 enum Align
-	center
-	left
-	right
+	Center
+	Left
+	Right
 end
 
 enum ModelInfoType
@@ -2569,7 +2572,7 @@ enum Platform
 	PSP
 	IOS
 	FOS
-	XBOX
+	XBox
 	PS2
 	PS3
 	Mac
@@ -2598,13 +2601,6 @@ enum CarLights
 	ForceOn=2
 end
 
-enum SeatIndex
-	TandemRear=0
-	FrontRight=0
-	RearLeft=1
-	RearRight=2
-end
-
 enum AudioStreamAction
 	Stop=0
 	Play=1
@@ -2622,6 +2618,7 @@ enum AudioStreamType
 	None
 	Sfx
 	Music
+	UserInterface
 end
 
 enum DriveMode
@@ -2635,22 +2632,6 @@ enum ComponentStates
 	Disable
 	Ok
 	Dam
-end
-
-enum PrimitiveTypes
-	Naprimtype
-	Linelist
-	Polyline
-	Trilist
-	Tristrip
-	Trifan
-	Pointlist
-end
-
-enum ShapePriority
-	UnderHud
-	OverRadar
-	OverHud
 end
 
 enum BlendValues
@@ -2788,15 +2769,6 @@ enum ProjectileTypes
 	RocketFlare
 end
 
-enum CarColors
-	Default
-	Primary
-	Secondary
-	Tertiary
-	Quaternary
-	AllColors
-end
-
 enum ParamTypes
 	Int
 	Float
@@ -2808,6 +2780,7 @@ enum DecisionMakerType
 	Tough
 	Weak
 	Steal
+	Mission
 end
 
 enum DriveByType
@@ -3148,5 +3121,909 @@ enum CheckpointType
 	TorusUpDown=7
 	TorusDown=8
 	Num=9
+end
+
+enum WheelId
+	FrontLeft
+	RearLeft
+	FrontRight
+	RearRight
+	Any
+	BikeFront=0
+	BikeRear=1
+end
+
+enum SpeechId
+	NoSpeech=0
+	AbuseGangBallas=1
+	AbuseGangLsv=2
+	AbuseGangVla=3
+	AbuseGangFamilies=4
+	AbuseTriad=5
+	AbuseMafia=6
+	AbuseRifa=7
+	AbuseDaNang=8
+	AcceptDateCall=9
+	AcceptDateRequest=10
+	AfterSex=11
+	Apology=12
+	Arrest=13
+	ArrestCrim=14
+	Arrested=15
+	AttackByPlayerLike=16
+	AttackGangBallas=17
+	AttackGangLsv=18
+	AttackGangVla=19
+	AttackPlayer=20
+	BarChat=21
+	Blocked=22
+	BoozeReceive=23
+	BoozeRequest=24
+	BumBackOff=25
+	BumBackOff2=26
+	BumLatch=27
+	Bump=28
+	CarCrash=29
+	CarDrivebyBurnRubber=30
+	CarDrivebyTooFast=31
+	CarFast=32
+	CarFire=33
+	CarFlipped=34
+	CarGetIn=35
+	CarHitPed=36
+	CarJump=37
+	CarPolicePursuit=38
+	CarSlow=39
+	CarWaitForMe=40
+	CarSingalong=41
+	CbChat=42
+	ChaseFoot=43
+	Chased=44
+	Chat=45
+	CoffeeAccept=46
+	CoffeeDecline=47
+	ConvDislCar=48
+	ConvDislClothes=49
+	ConvDislHair=50
+	ConvDislPhys=51
+	ConvDislShoes=52
+	ConvDislSmell=53
+	ConvDislTattoo=54
+	ConvDislWeather=55
+	ConvIgnored=56
+	ConvLikeCar=57
+	ConvLikeClothes=58
+	ConvLikeHair=59
+	ConvLikePhys=60
+	ConvLikeShoes=61
+	ConvLikeSmell=62
+	ConvLikeTattoo=63
+	ConvLikeWeather=64
+	CoverMe=65
+	CrashBike=66
+	CrashCar=67
+	CrashGeneric=68
+	CriminalPlead=69
+	DanceImprHigh=70
+	DanceImprLow=71
+	DanceImprMed=72
+	DanceImprNot=73
+	Dodge=74
+	DrugAggressiveHigh=75
+	DrugAggressiveLow=76
+	DrugDealerDislike=77
+	DrugDealerHate=78
+	DrugReasonableHigh=79
+	DrugReasonableLow=80
+	DruggedChat=81
+	DruggedIgnore=82
+	DrugsBuy=83
+	DrugsSell=84
+	Duck=85
+	EyeingPed=86
+	EyeingPedThreat=87
+	EyeingPlayer=88
+	Fight=89
+	FollowArrive=90
+	FollowConstant=91
+	FollowReply=92
+	GambBjHit=93
+	GambBjLose=94
+	GambBjStay=95
+	GambBjWin=96
+	GambBjStick=97
+	GambBjDouble=98
+	GambBjSplit=99
+	GambCasinoWin=100
+	GambCasinoLose=101
+	GambCongrats=102
+	GambRoulChat=103
+	GambSlotWin=104
+	GangFull=105
+	GangbangNo=106
+	GangbangYes=107
+	GenericHiMale=108
+	GenericHiFemale=109
+	GenericInsultMale=110
+	GenericInsultFemale=111
+	GivingHead=112
+	GoodCitizen=113
+	GunCool=114
+	GunRun=115
+	HavingSex=116
+	JackedCar=117
+	JackedGeneric=118
+	JackedOnStreet=119
+	JackingBike=120
+	JackingCarFem=121
+	JackingCarMale=122
+	JackingGeneric=123
+	JoinGangNo=124
+	JoinGangYes=125
+	JoinMeAsk=126
+	JoinMeRejected=127
+	LikeCarReply=128
+	LikeClothesReply=129
+	LikeDismissFemale=130
+	LikeDismissMale=131
+	LikeDismissReply=132
+	LikeHairReply=133
+	LikeNegativeFemale=134
+	LikeNegativeMale=135
+	LikePhysReply=136
+	LikeShoesReply=137
+	LikeSmellReply=138
+	LikeTattooReply=139
+	MeetGfriendAgainMaybe=140
+	MeetGfriendAgainNo=141
+	MeetGfriendAgainYes=142
+	MoveIn=143
+	Mugged=144
+	Mugging=145
+	OrderAttackMany=146
+	OrderAttackSingle=147
+	OrderDisbandMany=148
+	OrderDisbandOne=149
+	OrderFollowFarMany=150
+	OrderFollowFarOne=151
+	OrderFollowNearMany=152
+	OrderFollowNearOne=153
+	OrderFollowVnearMany=154
+	OrderFollowVnearOne=155
+	OrderKeepUpMany=156
+	OrderKeepUpOne=157
+	OrderWaitMany=158
+	OrderWaitOne=159
+	PconvAgreeBad=160
+	PconvAgreeGood=161
+	PconvAnsNo=162
+	PconvDismiss=163
+	PconvGreetFem=164
+	PconvGreetMale=165
+	PconvPartFem=166
+	PconvPartMale=167
+	PconvQuestion=168
+	PconvStateBad=169
+	PconvStateGood=170
+	PickupCash=171
+	PoliceBoat=172
+	PoliceHelicopter=173
+	PoliceOverboard=174
+	PullGun=175
+	Rope=176
+	RunFromFight=177
+	Saved=178
+	Search=179
+	Shocked=180
+	Shoot=181
+	ShootBallas=182
+	ShootGeneric=183
+	ShootLsv=184
+	ShootVla=185
+	ShootFamilies=186
+	ShopBrowse=187
+	ShopBuy=188
+	ShopSell=189
+	ShopLeave=190
+	Solicit=191
+	SolicitGenNo=192
+	SolicitGenYes=193
+	SolicitProNo=194
+	SolicitProYes=195
+	SolicitThanks=196
+	SolicitUnreasonable=197
+	Solo=198
+	SpliffReceive=199
+	SpliffRequest=200
+	StealthAlertSound=201
+	StealthAlertSight=202
+	StealthAlertGeneric=203
+	StealthDefSighting=204
+	StealthNothingThere=205
+	Surrounded=206
+	TakeTurfLasColinas=207
+	TakeTurfLosFlores=208
+	TakeTurfEastBeach=209
+	TakeTurfEastLs=210
+	TakeTurfJefferson=211
+	TakeTurfGlenPark=212
+	TakeTurfIdlewood=213
+	TakeTurfGanton=214
+	TakeTurfLittleMexico=215
+	TakeTurfWillowfield=216
+	TakeTurfPlayaDelSeville=217
+	TakeTurfTemple=218
+	Target=219
+	TaxiBail=220
+	TaxiHail=221
+	TaxiHitPed=222
+	TaxiStart=223
+	TaxiSuccess=224
+	TaxiTip=225
+	Trapped=226
+	ValetBad=227
+	ValetGood=228
+	ValetParkCar=229
+	Van=230
+	Victim=231
+	WeatherDislReply=232
+	WeatherLikeReply=233
+	WhereYouFromNeg=234
+	WhereYouFromPos=235
+	Spanked=236
+	Spanking=237
+	GreetingGfriend=238
+	PartingGfriend=239
+	UhHuh=240
+	ClearAttachedPeds=241
+	AgreeToDoDriveby=242
+	AgreeToLetDrive=243
+	MichelleTakeCar=244
+	AcceptSex=245
+	DeclineSex=246
+	GiveNumberYes=247
+	GiveNumberNo=248
+	WhereYouFrom=249
+	Gangbang=250
+	WhereYouFromPosReply=251
+	DriveThroughTaunt=252
+	AttackCar=253
+	TipCar=254
+	ChaseCar=255
+	EnemyGangWasted=256
+	PlayerWasted=257
+	Chase=258
+	GfriendReqDateDesperate=259
+	GfriendReqDateNormal=260
+	GfriendReqMealDesperate=261
+	GfriendReqMealNormal=262
+	GfriendReqDriveDesperate=263
+	GfriendReqDriveNormal=264
+	GfriendReqDanceDesperate=265
+	GfriendReqDanceNormal=266
+	GfriendReqSexDesperate=267
+	GfriendReqSexNormal=268
+	GfriendBored1=269
+	GfriendBored2=270
+	GfriendStory=271
+	GfriendLikeMealDest=272
+	GfriendLikeClubDest=273
+	GfriendOfferDance=274
+	GfriendEnjoyedMealHigh=275
+	GfriendEnjoyedEventLow=276
+	GfriendEnjoyedClubHigh=277
+	GfriendTakeHomeHappy=278
+	GfriendTakeHomeAngry=279
+	GfriendCoffee=280
+	GfriendMoan=281
+	GfriendHead=282
+	GfriendClimaxHigh=283
+	GfriendClimaxLow=284
+	GfriendSexGood=285
+	GfriendSexBad=286
+	GfriendMeetAgain=287
+	GfriendJealous=288
+	GfriendJealousReply=289
+	GfriendGoodbyeHappy=290
+	GfriendGoodbyeAngry=291
+	GfriendLeftBehind=292
+	GfriendHello=293
+	GfriendGoodbye=294
+	GfriendPickupLocation=295
+	GfriendParkUp=296
+	GfriendParkLocationHate=297
+	GfriendGiftLike=298
+	GfriendChangeRadioFave=299
+	GfriendChangeRadioBack=300
+	GfriendDoADriveby=301
+	GfriendStartAFight=302
+	GfriendRejectDate=303
+	GfriendRequestToDriveCar=304
+	GfriendDropPlayerDriveAway=305
+	GfriendDislikeCurrentZone=306
+	GfriendLikeCurrentZone=307
+	GfriendHitByPlayerWarning=308
+	GfriendDumpPlayerLive=309
+	GfriendDumpPlayerPhone=310
+	GfriendSexAppealTooLow=311
+	GfriendPhysiqueCritique=312
+	GfriendIntro=313
+	GfriendNegResponse=314
+	GfriendPosResponse=315
+	BoxingCheer=316
+	BoughtEnough=317
+	GiveProduct=318
+	NoMoney=319
+	PlayerSick=320
+	RemoveTattoo=321
+	ShopClosed=322
+	ShowChangingroom=323
+	ShopChat=324
+	TakeASeat=325
+	ThanksForCustom=326
+	WelcomeToShop=327
+	WhatWant=328
+	PhotoCarl=329
+	PhotoCheese=330
+	Singing=331
+	StomachRumble=332
+	Breathing=333
+	PainStart=334
+	PainCough335
+	PainDeathDrown=336
+	PainDeathHigh=337
+	PainDeathLow=338
+	PainHigh=339
+	PainLow=340
+	PainOnFire=341
+	PainPanic=342
+	PainSprayed=343
+	PainCjBoxing=344
+	PainCjGrunt=345
+	PainCjPantIn=346
+	PainCjPantOut=347
+	PainCjPuke=348
+	PainCjStrain=349
+	PainCjStrainExhale=350
+	PainCjSwimGasp=351
+	PainCjDrowning=352
+	PainCjHighFall=353
+	PainEnd=354
+	End=355
+end
+
+enum CarDoorState
+	Intact
+	SwingingFree
+	Bashed
+	BashedAndSwingingFree
+	Missing
+end
+
+enum SeatId
+	FrontRight
+	RearLeft
+	RearRight
+	Passenger4
+	Passenger5
+	Passenger6
+	Passenger7
+	Passenger8
+	BikeRear=0
+end
+
+enum SetPieceType
+	None
+	TwoCopCarsInAlley
+	CarBlockingPlayerFromSide
+	CarRammingPlayerFromSide
+	CreateCopperOnFoot
+	CreateTwoCoppersOnFoot
+	TwoCarsBlockingPlayerFromSide
+	TwoCarsRammingPlayerFromSide
+end
+
+enum CoordAppearance
+	Normal=0
+	Friend=1
+	Enemy=2
+end
+
+enum Event
+	None=-1
+	VehicleCollision=1
+	PedCollisionWithPed=2
+	PedCollisionWithPlayer=3
+	PlayerCollisionWithPed=4
+	ObjectCollision=5
+	BuildingCollision=6
+	DraggedOutCar=7
+	KnockOffBike=8
+	Damage=9
+	Death=10
+	DeadPed=11
+	PotentialGetRunOver=12
+	PotentialWalkIntoPed=13
+	VehicleHitAndRun=14
+	ShotFired=15
+	CopCarBeingStolen=16
+	PedEnteredMyVehicle=17
+	Revive=18
+	ChatPartner=19
+	SexyPed=20
+	SexyVehicle=21
+	PedToChase=25
+	PedToFlee=26
+	Attractor=27
+	VehicleToSteal=28
+	VehicleThreat=30
+	GunAimedAt=31
+	ScriptCommand=32
+	InAir=33
+	VehicleDied=35
+	AcquaintancePedHate=36
+	AcquaintancePedDislike=37
+	AcquaintancePedLike=38
+	AcquaintancePedRespect=39
+	VehicleDamageWeapon=41
+	Special=42
+	GotKnockedOverByCar=43
+	PotentialWalkIntoObject=44
+	CarUpsideDown=45
+	PotentialWalkIntoFire=46
+	GroupEvent=47
+	ScriptedAttractor=48
+	ShotFiredWhizzedBy=49
+	LowAngerAtPlayer=50
+	HighAngerAtPlayer=51
+	HealthReallyLow=52
+	HealthLow=53
+	LeaderEnteredCarAsDriver=54
+	LeaderExitedCarAsDriver=55
+	PotentialWalkIntoVehicle=56
+	LeaderQuitEnteringCarAsDriver=57
+	OnFire=58
+	FireNearby=59
+	PotentialWalkIntoBuilding=60
+	SoundLoud=61
+	SoundQuiet=62
+	AcquaintancePedHateBadlyLit=63
+	WaterCannon=64
+	SeenPanickedPed=65
+	InWater=66
+	AreaCodes=67
+	PlayerWantedLevel=69
+	CreatePartnerTask=70
+	PlayerCommandToGroup=71
+	SeenCop=72
+	VehicleDamageCollision=73
+	OnEscalator=74
+	Danger=75
+	PlayerCommandToGroupGather=76
+	LeaderEntryExit=77
+	VehicleOnFire=79
+	InteriorUseInfo=81
+	SignalAtPed=88
+	PassObject=89
+	NewGangMember=90
+	LeanOnVehicle=92
+	StuckInAir=93
+	DontJoinGroup=94
+end
+
+enum DecisionMakerCharTemplate
+	Gang=65536
+	Cop=65537
+	RandomNorm=65538
+	RandomTough=65539
+	RandomWeak=65540
+	Fireman=65541
+	Empty=65542
+	Indoors=65543
+end
+
+enum DecisionMakerGroupTemplate
+	Random=65544
+	Random2=65545
+end
+
+enum ZoneType
+	Business
+	Desert
+	Entertainment
+	Countryside
+	ResidentialRich
+	ResidentialAverage
+	ResidentialPoor
+	Gangland
+	Beach
+	Shopping
+	Park
+	Industry
+	EntertainmentBusy
+	ShoppingBusy
+	ShoppingPosh
+	ResidentialRichSecluded
+	Airport
+	GolfClub
+	OutOfTownFactory
+	AirportRunway
+end
+
+enum RaceSet
+	Other=0
+	Black=1
+	White=2
+	BlackWhite=3
+	Oriental=4
+	BlackOriental=5
+	OrientalWhite=6
+	BlackOrientalWhite=7
+	Hispanic=8
+	BlackHispanic=9
+	HispanicWhite=10
+	BlackHispanicWhite=11
+	HispanicOriental=12
+	BlackHispanicOriental=13
+	HispanicOrientalWhite=14
+	BlackHispanicOrientalWhite=15
+end
+
+enum FightMoves
+	ClearAll
+	Unknown1
+	Unknown2
+	Unknown3
+	Unknown4
+	Unknown5
+	All
+end
+
+enum Facing
+	Forward
+	Left
+	Back
+	Right
+end
+
+enum CarPlateDesign
+	SanFierro
+	LasVenturas
+	LosSantos
+end
+
+enum DecisionMakerGroupType
+	MissionNorm
+end
+
+enum Level
+	Generic=0
+	LosAngeles=1
+	SanFrancisco=2
+	LasVegas=3
+end
+
+enum SampGameState
+	None
+	WaitConnect
+	AwaitJoin
+	Connected
+	Restarting
+	Disconnected
+end
+
+enum SampRpc
+	ScrSetPlayerName=11
+	ScrSetPlayerPos
+	ScrSetPlayerPosFindZ
+	ScrSetPlayerHealth
+	ScrTogglePlayerControllable
+	ScrPlaySound
+	ScrSetPlayerWorldBounds
+	ScrGivePlayerMoney
+	ScrSetPlayerFacingAngle
+	ScrResetPlayerMoney
+	ScrResetPlayerWeapons
+	ScrGivePlayerWeapon
+	ClickPlayer
+	ScrSetCarParamsEx
+	ClientJoin
+	EnterCar
+	EnterEditObject
+	ScrCancelEdit
+	ScrSetPlayerTime
+	ScrToggleClock
+	ScriptCash
+	ScrWorldPlayerAdd
+	ScrSetPlayerShopName
+	ScrSetPlayerSkillLevel
+	ScrSetPlayerDrunkLevel
+	ScrCreate3DTextLabel
+	ScrDisableCheckpoint
+	ScrSetRaceCheckpoint
+	ScrDisableRaceCheckpoint
+	ScrGameModeRestart
+	ScrPlayAudioStream
+	ScrStopAudioStream
+	ScrRemoveBuildingForPlayer
+	ScrCreateObject
+	ScrSetObjectPos
+	ScrSetObjectRot
+	ScrDestroyObject
+	ServerCommand=50
+	Spawn=52
+	Death
+	NpcJoin
+	ScrDeathMessage
+	ScrSetPlayerMapIcon
+	ScrRemoveCarComponent
+	ScrUpdate3DTextLabel
+	ScrChatBubble
+	ScrSomeUpdate
+	ScrShowDialog
+	DialogResponse
+	ScrDestroyPickup
+	ScrLinkCarToInterior=65
+	ScrSetPlayerArmour
+	ScrSetPlayerArmedWeapon
+	ScrSetSpawnInfo
+	ScrSetPlayerTeam
+	ScrPutPlayerInCar
+	ScrRemovePlayerFromCar
+	ScrSetPlayerColor
+	ScrDisplayGameText
+	ScrForceClassSelection
+	ScrAttachObjectToPlayer
+	ScrInitMenu
+	ScrShowMenu
+	ScrHideMenu
+	ScrCreateExplosion
+	ScrShowPlayerNametagForPlayer
+	ScrAttachCameraToObject
+	ScrInterpolateCamera
+	ClickTextDraw
+	ScrSetObjectMaterial
+	ScrGangZoneStopFlash
+	ScrApplyAnimation
+	ScrClearAnimations
+	ScrSetPlayerSpecialAction
+	ScrSetPlayerFightingStyle
+	ScrSetPlayerVelocity
+	ScrSetCarVelocity
+	ScrClientMessage=93
+	ScrSetWorldTime
+	ScrCreatePickup
+	ScmEvent
+	WeaponPickupDestroy
+	ScrMoveObject=99
+	Chat=101
+	SrvNetStats
+	ClientCheck
+	ScrEnableStuntBonusForPlayer
+	ScrTextDrawSetString
+	DamageCar
+	ScrSetCheckpoint
+	ScrGangZoneCreate
+	ScrPlayCrimeReport=112
+	ScrSetPlayerAttachedObject
+	GiveTakeDamage=115
+	EditAttachedObject
+	EditObject
+	SetInteriorId
+	MapMarker
+	ScrGangZoneDestroy
+	ScrGangZoneFlash
+	ScrStopObject
+	ScrSetNumberPlate
+	ScrTogglePlayerSpectating
+	ScrPlayerSpectatePlayer=126
+	ScrPlayerSpectateCar
+	RequestClass
+	RequestSpawn
+	PickedUpPickup=131
+	MenuSelect
+	ScrSetPlayerWantedLevel
+	ScrShowTextDraw
+	ScrTextDrawHideForPlayer
+	CarDestroyed
+	ScrServerJoin
+	ScrServerQuit
+	ScrInitGame
+	MenuQuit
+	ScrRemovePlayerMapIcon=144
+	ScrSetPlayerAmmo
+	ScrSetGravity
+	ScrSetCarHealth
+	ScrAttachTrailerToCar
+	ScrDetachTrailerFromCar
+	ScrSetWeather=152
+	ScrSetPlayerSkin
+	ExitCar
+	UpdateScoresPingsIps
+	ScrSetPlayerInterior
+	ScrSetPlayerCameraPos
+	ScrSetPlayerCameraLookAt
+	ScrSetCarPos
+	ScrSetCarZAngle
+	ScrSetCarParamsForPlayer
+	ScrSetCameraBehindPlayer
+	ScrWorldPlayerRemove
+	ScrWorldCarAdd
+	ScrWorldCarRemove
+	ScrWorldPlayerDeath
+end
+
+enum SampPacket
+	InternalPing=6
+	Ping
+	PingOpenConnections
+	ConnectedPong
+	RequestStaticData
+	ConnectionRequest
+	AuthKey
+	BroadcastPings=14
+	SecuredConnectionResponse
+	SecuredConnectionConfirmation
+	RpcMapping
+	SetRandomNumberSeed=19
+	Rpc
+	RpcReply
+	DetectLostConnections=23
+	OpenConnectionRequest
+	OpenConnectionReply
+	ConnectionCookie
+	RsaPublicKeyMismatch=28
+	ConnectionAttemptFailed
+	NewIncomingConnection
+	NoFreeIncomingConnections1
+	NoFreeIncomingConnections2
+	ConnectionLost
+	ConnectionRequestAccepted
+	InitializeEncryption
+	ConnectionBanned
+	InvalidPassword
+	ModifiedPacket
+	Pong
+	Timestamp
+	ReceivedStaticData
+	RemoteDisconnectionNotification
+	RemoteConnectionLost
+	RemoteNewIncomingConnection
+	RemoteExistingConnection
+	RemoteStaticData
+	AdvertiseSystem=56
+	DriverSync=200
+	RconCommand
+	RconResponse
+	AimSync
+	WeaponsUpdate
+	StatsUpdate
+	BulletSync
+	OnFootSync
+	MarkerSync
+	UnoccupiedVehicleSync
+	TrailerSync
+	PassengerSync
+	SpectatorSync
+end
+
+enum SampBitStreamDataType
+	Byte
+	Bool
+	Short
+	Int
+	Float
+	Array
+	BitStream
+end
+
+enum SampPriority
+	System
+	High
+	Medium
+	Low
+end
+
+enum SampReliability
+	Unreliable=6
+	UnreliableSequenced
+	Reliable
+	ReliableOrdered
+	ReliableSequenced
+end
+
+enum SampSendRateType
+	Onfoot=1
+	Incar
+	Aims
+end
+
+enum SampTextStyles
+	FcrNone=0
+	FcrBold=1
+	FcrItalics=2
+	FcrBorder=4
+	FcrShadow=8
+	FcrUnderline=16
+	FcrStrikeout=32
+end
+
+enum SampScmEvent
+	Paintjob=1
+	Upgrade
+	Color
+	ModShopEnterExit
+end
+
+enum SampSpecialAction
+	None
+	Duck
+	UseJetPack
+	EnterVehicle
+	ExitVehicle
+	Dance1
+	Dance2
+	Dance3
+	Dance4
+	HandsUp=10
+	UseCellphone
+	Sitting
+	StopUseCellphone
+	DrinkBeer=20
+	SmokeCiggy
+	DrinkWine
+	DrinkSprunk
+	Cuffed
+	Carry
+	Urinate=68
+end
+
+enum SampDialogStyle
+	Msgbox
+	Input
+	List
+	Password
+	Tablist
+	TablistHeaders
+end
+
+enum SampRakNetHookParam
+	Bitstream
+	Packetid
+	Priority
+	Reliability
+	Orderingchannel
+	Shifttimestamp
+end
+
+enum SampD3DPrimitiveType
+	PointList=1
+	LineList
+	LineStrip
+	TriangleList
+	TriangleStrip
+	TriangleFan
+end
+
+enum SampDisconnectReason
+	TimeoutOrCrashed
+	Quit
+	KickedOrBanned
+end
+
+enum DataTypeSize
+	Byte=1
+	Bool=1
+	Short=2
+	Int=4
+	Float=4
+end
+
+enum SampCursorMode
+	Disabled
+	LockkeysNocursor
+	LockCamAndControl
+	LockCam
+	LockCamNoCursor
 end
 

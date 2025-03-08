@@ -1,0 +1,7 @@
+<mode extends="sa_sbl" id="sa_sbl_sf" title="GTA SA (v1.0 - SAMPFUNCS)" game="sa">
+    <library>@sb:\data\sa_sbl\sa.json</library>
+    <library>@sb:\data\sa_sbl_sf\sf.fix.json</library>
+    <classes>@sb:\data\sa_sbl\classes.db</classes>
+    <classes>@sb:\data\sa_sbl_sf\sf.fix.db</classes>
+    <cleo-default-extensions>@sb:\data\sa_sbl_sf\default_extensions.txt</cleo-default-extensions>
+</mode>

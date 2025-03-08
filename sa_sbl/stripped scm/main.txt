@@ -36,8 +36,8 @@ $player1.SetControl(True)
 Camera.DoFade(0, Fade.In)
 Streaming.SetAreaVisible(0)
 Stat.SetInt(181, 4)
-Restart.AddHospital(2027.77, -1420.52, 15.99, 137.0, Town.LS)
-Restart.AddPolice(1550.68, -1675.49, 14.51, 90.0, Town.LS)
+Restart.AddHospital(2027.77, -1420.52, 15.99, 137.0, 0)
+Restart.AddPolice(1550.68, -1675.49, 14.51, 90.0, 0)
 declare_mission_flag $ONMISSION
 $mission_trigger_wait_time = 250
 Text.ClearHelp
