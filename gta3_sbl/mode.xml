@@ -1,10 +1,11 @@
 <mode id="gta3_sbl" title="GTA III (SBL)" game="gta3" type="default">
     <data>@sb:\data\gta3_sbl\</data>
         <!-- main files -->
-    <library>@sb:\data\gta3_sbl\gta3.json</library>
-    <classes>@sb:\data\gta3_sbl\classes.db</classes>
+    <library autoupdate="yes">@sb:\data\gta3_sbl\gta3.json</library>
+    <classes autoupdate="yes">@sb:\data\gta3_sbl\classes.db</classes>
+    <enums autoupdate="yes">@sb:\data\gta3_sbl\enums.txt</enums>
+
     <constants>@sb:\data\gta3_sbl\constants.txt</constants>
-    <enums>@sb:\data\gta3_sbl\enums.txt</enums>
     <ide>@game:\data\default.ide</ide>
     <keywords>@sb:\data\gta3_sbl\keywords.txt</keywords>
 
@@ -16,7 +17,6 @@
     <!-- ide -->
     <templates type="default">@sb:\data\gta3_sbl\templates.txt</templates>
     <templates type="custom">@sb:\data\gta3_sbl\templates.custom.txt</templates>
-    <examples>@sb:\data\gta3_sbl\opcodes.txt</examples>
     
     <!-- compiling -->
     <copy-directory type="scm">@game:\data</copy-directory>

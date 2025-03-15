@@ -10,13 +10,15 @@
     <data>@sb:\data\sa_sbl\</data>
     
     <!-- main files -->
-    <library>@sb:\data\sa_sbl\sa.json</library>
-    <classes>@sb:\data\sa_sbl\classes.db</classes>
-    <enums>@sb:\data\sa_sbl\enums.txt</enums>
+    <library autoupdate="yes">@sb:\data\sa_sbl\sa.json</library>
+    <classes autoupdate="yes">@sb:\data\sa_sbl\classes.db</classes>
+    <classes>@sb:\data\sa_sbl\clipboard.fix.db</classes>
+    <enums autoupdate="yes">@sb:\data\sa_sbl\enums.txt</enums>
     <constants>@sb:\data\sa_sbl\constants.txt</constants>
     <ide base="@game:\">@game:\data\default.dat</ide>
     <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
     <keywords>@sb:\data\sa_sbl\keywords.txt</keywords>
+    <cleo-default-extensions>@sb:\data\cleo5_extensions.sbf</cleo-default-extensions>
 
     <!-- decompiling -->
     <variables>@sb:\data\sa_sbl\CustomVariables.ini</variables>
@@ -26,7 +28,6 @@
     <text format="sa">@game:\text\american.gxt</text>
 
     <!-- ide -->
-    <examples>@sb:\data\sa_sbl\opcodes.txt</examples>
     <templates type="default">@sb:\data\sa_sbl\templates.txt</templates>
     <templates type="custom">@sb:\data\sa_sbl\templates.custom.txt</templates>
 

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "last_update": 1740627016058,
+    "version": "0.1",
+    "url": "https://library.sannybuilder.com/#/sa"
+  },
+  "extensions": [
+    {
+      "name": "SAMPFUNCS",
+      "commands": [
+        {
+          "input": [
+            {
+              "name": "id",
+              "type": "int"
+            }
+          ],
+          "output": [
+            {
+              "name": "handle",
+              "type": "Char",
+              "source": "var_any"
+            }
+          ],
+          "id": "0B20",
+          "name": "SAMP_GET_PLAYER_CHAR_BY_ID",
+          "num_params": 2,
+          "short_desc": "Returns the character handle using the Player ID. Returns -1 if the player is not in the stream zone"
+        },
+        {
+          "id": "0B21",
+          "name": "SAMP_IS_CHAT_OPEN",
+          "num_params": 0,
+          "short_desc": "Checks if the chat box is open/visible",
+          "attrs": {
+            "is_condition": true
+          }
+        }
+      ]
+    }
+  ],
+  "classes": []
+}
