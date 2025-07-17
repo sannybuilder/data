@@ -41,6 +41,7 @@
 21 = Compiler::AddExtraInfo
 45 = Compiler::StrictIfValidation
 46 = Decompiler:UseIfAndOr
+47 = Decompiler::Syntax
 
 ;----------------------
 ; Formatting/Aliases
