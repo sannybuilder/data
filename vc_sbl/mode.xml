@@ -7,6 +7,7 @@
 
     <constants>@sb:\data\vc_sbl\constants.txt</constants>
     <ide>@game:\data\default.ide</ide>
+    <ide base="@game:\">@game:\data\gta_vc.dat</ide>
     <keywords>@sb:\data\vc_sbl\keywords.txt</keywords>
 
     <!-- decompiling -->

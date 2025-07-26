@@ -27,7 +27,7 @@
     <templates type="custom">@sb:\data\sa\templates.custom.txt</templates>
     <text format="sa">@game:\text\american.gxt</text>
     <ide base="@game:\">@game:\data\default.dat</ide>
-    <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
+    <ide base="@game:\">@game:\data\gta.dat</ide>
     <library>@sb:\data\sa_sbl\sa.json</library>
     <copy-directory type="scm">@game:\data\script</copy-directory>
     <copy-directory type="cleo">@game:\CLEO</copy-directory>

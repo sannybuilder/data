@@ -16,7 +16,7 @@
     <enums autoupdate="yes">@sb:\data\sa_sbl\enums.txt</enums>
     <constants>@sb:\data\sa_sbl\constants.txt</constants>
     <ide base="@game:\">@game:\data\default.dat</ide>
-    <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
+    <ide base="@game:\">@game:\data\gta.dat</ide>
     <keywords>@sb:\data\sa_sbl\keywords.txt</keywords>
     <cleo-default-extensions>@sb:\data\cleo5_extensions.sbf</cleo-default-extensions>
 
