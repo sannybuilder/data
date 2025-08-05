@@ -1,0 +1,3 @@
+<mode extends="lcs" id="lcs_mobile" title="GTA LCS (Mobile)" game="lcs">
+    <variables>@sb:\data\lcs_mobile\CustomVariables.ini</variables>
+</mode>

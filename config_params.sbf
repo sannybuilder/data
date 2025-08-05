@@ -41,6 +41,9 @@
 21 = Compiler::AddExtraInfo
 45 = Compiler::StrictIfValidation
 46 = Decompiler:UseIfAndOr
+47 = Decompiler::Syntax
+48 = Compiler::StringCase
+49 = Decompiler::NameFormat
 
 ;----------------------
 ; Formatting/Aliases

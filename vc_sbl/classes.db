@@ -1144,10 +1144,10 @@ $END
 $Memory
 $BEGIN
 Allocate,0AC8,1,0,("size%i" "address%i")
-CallFunction,0AA5,0,0,("address%i" "numParams%i" "pop%i" "funcParams: arguments")
-CallFunctionReturn,0AA7,0,0,("address%i" "numParams%i" "pop%i" "funcParams: arguments" "funcRet: any")
-CallMethod,0AA6,0,0,("address%i" "struct%i" "numParams%i" "pop%i" "funcParams: arguments")
-CallMethodReturn,0AA8,0,0,("address%i" "struct%i" "numParams%i" "pop%i" "funcParams: arguments" "funcRet: any")
+CallFunction,0AA5,0,0,("address%i" "numArgs%i" "pop%i" "args: arguments")
+CallFunctionReturn,0AA7,0,0,("address%i" "numArgs%i" "pop%i" "args: arguments" "funcRet: any")
+CallMethod,0AA6,0,0,("address%i" "struct%i" "numArgs%i" "pop%i" "args: arguments")
+CallMethodReturn,0AA8,0,0,("address%i" "struct%i" "numArgs%i" "pop%i" "args: arguments" "funcRet: any")
 Free,0AC9,0,0,("address%i")
 GetLabelPointer,0AC6,0,0,(": label" "address%i")
 GetObjectPointer,0A98,0,0,("object: Object" "address%i")
@@ -1212,7 +1212,7 @@ SetHeading,0177,0,0,("self: Object" "heading%f")
 SetRecordsCollisions,04D9,0,0,("self: Object" "state%b")
 SetRotation,0453,0,0,("self: Object" "x%f" "y%f" "z%f")
 SetVelocity,0381,0,0,("self: Object" "xSpeed%f" "ySpeed%f" "zSpeed%f")
-Slide,034E,1,0,("self: Object" "fromX%f" "fromY%f" "fromZ%f" "xSpeed%f" "ySpeed%f" "zSpeed%f" "collisionCheck%b")
+Slide,034E,1,0,("self: Object" "posX%f" "posY%f" "posZ%f" "speedX%f" "speedY%f" "speedZ%f" "collisionCheck%b")
 SortOutCollisionWithCar,050E,0,0,("self: Object" "handle: Car")
 $END
 
@@ -1576,7 +1576,7 @@ SetProportional,0348,0,0,("state%b")
 SetRightJustify,03E4,0,0,("state%b")
 SetScale,033F,0,0,("widthScale%f" "heightScale%f")
 SetWrapX,0343,0,0,("width%f")
-StringFormat,0AD3,0,0,("buffer%i" "format%s" "args: arguments")
+StringFormat,0AD3,0,0,("result%s" "format%s" "args: arguments")
 UseCommands,03F0,0,0,("state%b")
 $END
 
