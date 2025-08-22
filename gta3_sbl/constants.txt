@@ -1,10 +1,13 @@
 const
-false=0
-true=1
-TIMERA=16@
-TIMERB=17@
+    false = 0
+    true = 1
 end
-var
-TIMERA: int
-TIMERB: int
-end
+
+const TIMERA = 16@
+var TIMERA: int
+
+const TIMERB = 17@
+var TIMERB: int
+
+var $player1: Player
+var $scplayer: Char
