@@ -1,0 +1,21 @@
+<mode id="sa_cp" title="GTA SA Cross-Platform" game="sa" type="default">
+    <data>@sb:\data\sa_cp\</data>
+    <opcodes>@sb:\data\sa_cp\SASCM.ini</opcodes>
+    <classes>@sb:\data\sa_cp\classes.db</classes>
+    <enums>@sb:\data\sa_cp\enums.txt</enums>
+    <variables>@sb:\data\sa_cp\CustomVariables.ini</variables>
+    <keywords>@sb:\data\sa_cp\keywords.txt</keywords>
+    <labels>@sb:\data\sa_cp\CustomLabels.ini</labels>
+    <arrays>@sb:\data\sa_cp\CustomArrays.ini</arrays>
+    <missions>@sb:\data\sa_cp\missions.txt</missions>
+    <constants>@sb:\data\sa_cp\constants.txt</constants>
+    <examples>@sb:\data\sa_cp\opcodes.txt</examples>
+    <templates type="default">@sb:\data\sa_cp\templates.txt</templates>
+    <templates type="custom">@sb:\data\sa_cp\templates.custom.txt</templates>
+    <text format="sa">@game:\text\american.gxt</text>
+    <ide base="@game:\">@game:\data\default.dat</ide>
+    <ide>@game:\data\maps\veh_mods\veh_mods.ide</ide>
+    <library>@sb:\data\sa_cp\sa.json</library>
+    <copy-directory type="scm">@game:\data\script</copy-directory>
+    <copy-directory type="cleo">@game:\CLEO</copy-directory>
+</mode>

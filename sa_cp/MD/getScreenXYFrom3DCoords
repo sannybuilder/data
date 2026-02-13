@@ -1,0 +1,20 @@
+:getScreenXYFrom3DCoords{ 
+	Parameters:   
+		Passed:     
+			0@ - position X     
+			1@ - position Y     
+			2@ - position Z   
+		Result:     
+			3@ - screen X     
+			4@ - screen Y 
+		Example:   
+			0AB1: call_scm_func @getScreenXYFrom3DCoords 3 coords_XYZ 2488.562 -1666.865 12.8757 store_to 1@ 2@
+	}
+
+	0AB1: call_scm_func @getLocalVarOffset 1 var 0 store_to 7@ 
+	0AB1: call_scm_func @getLocalVarOffset 1 var 3 store_to 8@ 
+	0AB1: call_scm_func @getLocalVarOffset 1 var 5 store_to 9@ 
+	0AB1: call_scm_func @getLocalVarOffset 1 var 6 store_to 10@ 
+	0AA5: call 0x70CE30 num_params 6 pop 6 bFarClip 0 bNearClip 0 pMultY 10@ pMultX 9@ pScreen 8@ pCoords 7@ 
+	0AB1: call_scm_func @getScreenXY 2 coords_XY 3@ 4@ store_to 3@ 4@
+0AB2: ret 2 3@ 4@
