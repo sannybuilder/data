@@ -7,6 +7,7 @@
 
     <constants>@sb:\data\gta3_sbl\constants.txt</constants>
     <ide>@game:\data\default.ide</ide>
+    <ide base="@game:\">@game:\data\gta3.dat</ide>
     <keywords>@sb:\data\gta3_sbl\keywords.txt</keywords>
 
     <!-- decompiling -->
