@@ -1826,15 +1826,23 @@
 0DD1: 0@ = get_func_addr_by_cstr_name 0@ // android 
 0DD2: context_call_func 0@ // android 
 0DD3: context_set_reg 0 value 1@ // android 
-0DD4: 10@ = context_get_reg 0 // android
+0DD4: 10@ = context_get_reg 0 // android 
 0DD5: 0@ = get_platform // android
 0DD6: 0@ = get_game_version // android 
 0DD7: 0@ = get_image_base // android 
 0DD8: 6@ = read_mem_addr 0x00123456 size 4 add_ib 1 // android 
-0DD9: write_mem_addr 0x00123456 value 6@ size 4 add_ib 1 protect 0 // android 
+0DD9: write_mem_addr 0x00123456 value 6@ size 4 add_ib 1 protect 0 // android
+0DDA: 2@ = get_pattern_addr_cstr 2@ index 1 // android
+0DDB: get_game_ver_ex name_hash 0@ ver_hash 1@ ver_code 2@ // android
 0DDC: set_mutex_var 0 to 1 // android 
-0DDD: 0@ = get_mutex_var 0 // android 
+0DDD: 0@ = get_mutex_var 0 // android
+0DDE: call_func 1@ add_ib 0 'i' 0 'f' 0@ // android
 0DE0: 10@ = get_touch_point_state 7 mintime 1000 // android 
 0DE1: 10@ = get_touch_slide_state from 4 to 6 mintime 300 maxtime 1000 // android 
 0DE2: 0@ = get_menu_button_state // read opcode info before using // android 
 0DE3: 1@ = get_menu_button_pressed mintime 500 // read opcode info before using // android
+0DF2: create_menu 0@ items 30 // android
+0DF3: delete_menu // android
+0DF4: 10@ = get_menu_touched_item_index maxtime 1000 // android
+0DF5: set_menu_active_item_index 11@ // android
+0DF6: 12@ = get_menu_active_item_index // android
